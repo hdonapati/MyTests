@@ -87,8 +87,8 @@
             "test":"{data.eVar23} | {data.eVar24}",
             "movieId":"{context.movieId}",
             "segmentId" : "{data.segmentId}", 
-            "segmentTitle" : "{data.segmentTitle},
-            "segmentChannel" : "{data.segmentChannel}
+            "segmentTitle" : "{data.segmentTitle}",
+            "segmentChannel" : "{data.segmentChannel}"
          },
          "qoeData":{
             "media.qoe.timeToStart":"{data.timeToStart}"
