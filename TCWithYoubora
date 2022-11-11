@@ -138,7 +138,6 @@
             "bufferDuration": "{data.bufferElapsed}",
             "seekDuration": "{data.seekElapsed}",
             "playrate": "{data.playrate}",
-            "seekDuration": "{data.seekElapsed}",
             "adPlayhead": "{data.adPlayhead}",
             "adPauseDuration": "{data.adPauseTimeElapsed}"
         },
