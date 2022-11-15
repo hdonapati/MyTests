@@ -239,19 +239,19 @@
                 "liveSegmentId3Owner": "com.cbsi.live.sg",
                 "segmentTrackingMediaIdKeyName": "gracenotemediaid",
                 "segmentTrackingMediaNameKeyName": "gracenotemedianame",
-                "segmentTrackingChannelKeyName": "gracenotechannel",
+                "segmentTrackingChannelKeyName": "gracenotechannel"
             },
             "serverInfo": {
                 "apiServer": "https://cbs-stage.hb-api.omtrdc.net",
                 "sessionEndPoint": "/api/v1/sessions",
-                "eventEndPoint": "/events",
+                "eventEndPoint": "/events"
             },
             "accountInfo": {
                 "analytics.trackingServer": "om.cbsi.com",
                 "analytics.reportSuite": "cbsicbsiall-dev",
                 "analytics.enableSSL": "false",
                 "visitor.marketingCloudOrgId": "10D31225525FF5790A490D4D@AdobeOrg",
-                "visitor.marketingCloudUserId": "{context.visitorId}",
+                "visitor.marketingCloudUserId": "{context.visitorId}"
             },
             "mediaInfo": {
                 "media.id": "{data.customAppProps.liveAssetIdForHB} || {data.mediaIdForTracking}",
@@ -262,7 +262,7 @@
                 "media.channel": "CBS All Access",
                 "media.network": "CBS All Access",
                 "media.sdkVersion": "{data.playerVersion}",
-                "media.resume": "{context.hasSessionResumed} || false",
+                "media.resume": "{context.hasSessionResumed} || false"
             },
             "adBreakInfo": {
                 "media.ad.podFriendlyName": "{data.adModel.adTitle} || n/a",
@@ -290,14 +290,14 @@
                 "liveStreamSegmentCount": "{data.liveStreamSegmentCount}",
                 "gracenotemediaid": "{data.customAppProps.gracenotemediaid}",
                 "gracenotemedianame": "{data.customAppProps.gracenotemedianame}",
-                "gracenotechannel": "{data.customAppProps.gracenotechannel}",
+                "gracenotechannel": "{data.customAppProps.gracenotechannel}"
             },
             "qoeData": {
                 "media.qoe.bitrate": "{context.inbuilt.bitrate}"
             },
             "errorData": {
                 "media.qoe.errorID": "{data.cvpErrorCode}",
-                "media.qoe.errorSource": "player",
+                "media.qoe.errorSource": "player"
             },
             "playerStates": {
                 "timeShifted": "true",
@@ -330,7 +330,7 @@
             "trackerCommands": {
                 "sendUndefined": "true",
                 "id3Prefix": "www.nielsen.com",
-                "isDtvr": "{context.isDTVR}",
+                "isDtvr": "{context.isDTVR}"
             },
             "serverInfo": {},
             "sessionInfo": {
@@ -338,12 +338,12 @@
                 "appname": "{context.appName}",
                 "appversion": "{context.appVersion}",
                 "sfcode": "{context.sfCode}",
-                "nol_devDebug": "INFO",
+                "nol_devDebug": "INFO"
             },
             "dtvrInfo": {
                 "adModel": "1",
                 "dataSrc": "id3",
-                "adloadtype": "1",
+                "adloadtype": "1"
             },
             "dcrInfo": {
                 "dataSrc": "cms",
@@ -358,15 +358,15 @@
                 "crossId1": "{context.inbuilt.crossId1}",
                 "crossId2": "CBS",
                 "adloadtype": "2",
-                "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}",
+                "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
             },
             "adInfo": {
                 "type": "{context.inbuilt.adType}",
-                "assetid": "{data.adModel.adID}",
+                "assetid": "{data.adModel.adID}"
             },
             "dataType": {
                 "sendUndefined": "boolean",
-                "isDtvr": "boolean",
+                "isDtvr": "boolean"
             }
         }
     },
@@ -404,7 +404,7 @@
         "enabled": true,
         "params": {
             "trackerCommands": {
-                "sendUndefined": "false",
+                "sendUndefined": "false"
             },
             "sessionInfo": {
                 "publisherId": "3005086"
@@ -429,7 +429,7 @@
                 "ns_st_ddt": "*null",
                 "ns_st_tdt": "{context.airDateString}",
                 "ns_st_ti": "{context.TMSSeriesID}",
-                "ns_ap_an": "Skinner Testing App",
+                "ns_ap_an": "Skinner Testing App"
             },
             "dataType": {
                 "sendUndefined": "boolean",
@@ -441,11 +441,11 @@
         "enabled": true,
         "params": {
             "trackerCommands": {
-                "sendUndefined": "false",
+                "sendUndefined": "false"
             },
             "sessionInfo": {
                 "customerKey": "87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
-                "gatewayUrl": "{context.isDev} ? cbscom-test.testonly.conviva.com : cws.conviva.com",
+                "gatewayUrl": "{context.isDev} ? cbscom-test.testonly.conviva.com : cws.conviva.com"
             },
             "contentInfo": {
                 "Conviva.assetName": "{data.contentVideoTitle}",
@@ -487,7 +487,6 @@
                 "Conviva.viewerId": "{data.userId}",
 
                 "Conviva.assetName": "{data.adModel.adTitle} || DAI Ad",
-                "Conviva.streamType": "{data.isLive} ? 1 : 0",
                 "Conviva.duration": "{data.adModel.adDuration}",
 
                 "c3.ad.technology": "{data.customAppProps.adTechnology}",
@@ -502,7 +501,7 @@
                 "c3.ad.sessionStartEvent": "{context.inbuilt.currentAdSessionStartEvent}",
                 "c3.ad.position": "{context.inbuilt.adPositionString}",
                 "c3.ad.mediaFileApiFramework": "NA",
-                "c3.ad.isSlate": "false",
+                "c3.ad.isSlate": "false"
 
             },
             "dataType": {
@@ -510,7 +509,7 @@
                 "Conviva.duration": "int",
                 "Conviva.offline_playback": "int",
                 "Conviva.streamType": "int",
-                "Conviva.encodedFrameRate": "int",
+                "Conviva.encodedFrameRate": "int"
             }
         }
     },
