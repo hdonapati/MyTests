@@ -17,7 +17,7 @@
                 "accountCode": "plutotvdev"
             },
             "authInfo": {
-                "pluginVersion": "1.1.1-AVplayer-Roku",
+                "pluginVersion": "6.5.29-RokuVideo",
                 "outputformat": "json"
             },
             "session_start": {
