@@ -50,7 +50,7 @@
             "start": {
                 "mediaResource": "{context.mediaResource}",
                 "live": "{data.isLive} ? true : false",
-                "pluginVersion": "6.5.13-AVPlayer-iOS",
+                "pluginVersion": "6.5.29-RokuVideo",
                 "title": "{data.contentVideoTitle}",
                 "mediaDuration": "{context.inbuilt.duration}",
                 "player": "{data.playerName}",
@@ -116,7 +116,7 @@
                 "errorMetadata": "{data.errorName}",
                 "msg": "{data.errorMessage}",
                 "title": "{data.isLive} ? {data.liveVideoTitle} : {data.videoTitle}",
-                "pluginVersion": "6.5.13-AVPlayer-iOS",
+                "pluginVersion": "6.5.29-RokuVideo",
                 "mediaDuration": "{data.duration}",
                 "player": "{data.playerName}"
             },
