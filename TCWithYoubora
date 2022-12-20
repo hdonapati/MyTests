@@ -32,6 +32,7 @@
                 "deviceInfo": "{context.deviceInfo}",
                 "connectionType": "{context.connectionType}",
                 "libVersion": "{context.libVersion}"
+                "obfuscateIp": true
             },
             "session_stop": {
                 "metrics": "{context.metrics}"
@@ -97,7 +98,7 @@
                 "appReleaseVersion": "",
                 "referer": "",
                 "streamingProtocol": "",
-                "obfuscateIp": "",
+                "obfuscateIp": true,
                 "p2pStreaming": "",
                 "p2pEnabled": "",
                 "nodeHost": "",
@@ -224,7 +225,8 @@
             "dataType": {
                 "debugLogging": "boolean",
                 "sendUndefined": "boolean",
-                "sessionInterval": "int"
+                "sessionInterval": "int",
+                "obfuscateIp": "boolean"
             }
         }
     },
