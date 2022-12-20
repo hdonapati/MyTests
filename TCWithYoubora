@@ -31,8 +31,8 @@
                 "language": "{context.language}",
                 "deviceInfo": "{context.deviceInfo}",
                 "connectionType": "{context.connectionType}",
-                "libVersion": "{context.libVersion}"
-                "obfuscateIp": true
+                "libVersion": "{context.libVersion}",
+                "obfuscateIp": false
             },
             "session_stop": {
                 "metrics": "{context.metrics}"
