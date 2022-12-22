@@ -532,20 +532,6 @@
                 "joinDuration": "{data.joinDuration}",
                 "playhead": "{data.contentPlayHead}"
             },
-            "bufferUnderrun": {
-                "bufferDuration": "{data.bufferElapsed}",
-                "playhead": "{data.contentPlayHead}"
-            },
-            "pause": {
-                "playhead": "{data.contentPlayHead}"
-            },
-            "seek": {
-                "seekDuration": "{data.seekElapsed}",
-                "playhead": "{data.contentPlayHead}"
-            },
-            "stop": {
-                "bitrate": "{data.bitrate}"
-            },
             "ping": {
                 "bitrate": "{data.bitrate}",
                 "playhead": "{data.contentPlayHead}",
@@ -558,19 +544,34 @@
                 "adPlayhead": "{data.adPlayhead}",
                 "adPauseDuration": "{data.adPauseTimeElapsed}"
             },
+            "bufferUnderrun": {
+                "bufferDuration": "{data.bufferElapsed}",
+                "playhead": "{data.contentPlayHead}"
+            },
+            "pause": {
+                "playhead": "{data.contentPlayHead}"
+            },
             "resume": {
                 "pauseDuration": "{data.pauseElapsed}",
                 "playhead": "{data.contentPlayHead}"
             },
+            "seek": {
+                "seekDuration": "{data.seekElapsed}",
+                "playhead": "{data.contentPlayHead}"
+            },
+            "stop": {
+                "bitrate": "{data.bitrate}"
+            },
             "error": {
                 "live": "{data.isLive} ? true : false",
                 "errorCode": "{data.errorCode}",
-                "errorMetadata": "{data.errorName}",
+                "errorMetadata": "{data.errorMetaData}",
                 "msg": "{data.errorMessage}",
                 "title": "{data.isLive} ? {context.liveVideoTitle} : {data.mediaTitle}",
                 "pluginVersion": "6.5.29-RokuVideo",
                 "mediaDuration": "{data.mediaDuration}",
-                "player": "{data.playerName}"
+                "player": "{data.playerName}",
+                "pingTime": "{data.pingTime}"
             },
             "adManifest": {
                 "givenBreaks": "{data.adBreakCount}",
@@ -606,7 +607,7 @@
                 "param8": "{context.param8}",
                 "param9": "{context.param9}",
                 "param10": "{context.param10}"
-            },    
+            },
             "adBufferEvent": {
                 "adNumber": "{data.currentAdIndex}"
             },
@@ -625,7 +626,6 @@
                 "breakNumber": "{data.adPodPosition}",
                 "adNumber": "{data.currentAdIndex}"
             },
-            "adBuffer": {},
             "adClick": {
                 "breakNumber": "{data.adPodPosition}",
                 "adNumber": "{data.currentAdIndex}",
