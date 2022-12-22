@@ -420,7 +420,8 @@
         "enabled": true,
         "params": {
             "trackerCommands": {
-                "sendUndefined": false
+                "sendUndefined": false,
+                "avoidThroughPutError": true
             },
             "serverInfo": {
                 "authUrl": "https://a-fds.youborafds01.com/data",
@@ -469,7 +470,6 @@
             },
             "start": {
                 "mediaResource": "{context.mediaResource}",
-                "pingTime": "{data.pingTime}",
                 "live": "{data.isLive} ? true : false",
                 "pluginVersion": "6.5.29-RokuVideo",
                 "title": "{data.mediaTitle}",
@@ -606,9 +606,7 @@
                 "param8": "{context.param8}",
                 "param9": "{context.param9}",
                 "param10": "{context.param10}"
-            },
-
-            
+            },    
             "adBufferEvent": {
                 "adNumber": "{data.currentAdIndex}"
             },
@@ -675,6 +673,7 @@
             "dataType": {
                 "debugLogging": "boolean",
                 "sendUndefined": "boolean",
+                "avoidThroughPutError": "boolean",
                 "sessionInterval": "int"
             }
         }
