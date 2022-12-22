@@ -571,7 +571,8 @@
                 "pluginVersion": "6.5.29-RokuVideo",
                 "mediaDuration": "{data.mediaDuration}",
                 "player": "{data.playerName}",
-                "pingTime": "{data.pingTime}"
+                "pingTime": "{data.pingTime}",
+                "resource": "{context.mediaResource}"
             },
             "adManifest": {
                 "givenBreaks": "{data.adBreakCount}",
