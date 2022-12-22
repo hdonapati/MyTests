@@ -530,25 +530,25 @@
             },
             "joinTime": {
                 "joinDuration": "{data.joinDuration}",
-                "playhead": "{data.playheadMs}"
+                "playhead": "{data.contentPlayHead}"
             },
             "bufferUnderrun": {
                 "bufferDuration": "{data.bufferElapsed}",
-                "playhead": "{data.playheadMs}"
+                "playhead": "{data.contentPlayHead}"
             },
             "pause": {
-                "playhead": "{data.playheadMs}"
+                "playhead": "{data.contentPlayHead}"
             },
             "seek": {
                 "seekDuration": "{data.seekElapsed}",
-                "playhead": "{data.playheadMs}"
+                "playhead": "{data.contentPlayHead}"
             },
             "stop": {
                 "bitrate": "{data.bitrate}"
             },
             "ping": {
                 "bitrate": "{data.bitrate}",
-                "playhead": "{data.playheadMs}",
+                "playhead": "{data.contentPlayHead}",
                 "pingTime": "{data.pingTime}",
                 "diffTime": "{data.pingDiffTime}",
                 "pauseDuration": "{data.pauseElapsed}",
@@ -560,7 +560,7 @@
             },
             "resume": {
                 "pauseDuration": "{data.pauseElapsed}",
-                "playhead": "{data.playheadMs}"
+                "playhead": "{data.contentPlayHead}"
             },
             "error": {
                 "live": "{data.isLive} ? true : false",
@@ -637,7 +637,7 @@
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.currentAdIndex}",
                 "breakNumber": "{data.adPodPosition}",
-                "playhead": "{data.playheadMs}",
+                "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
             "adError": {
