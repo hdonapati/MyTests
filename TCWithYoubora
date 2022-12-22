@@ -528,7 +528,7 @@
                 "libVersion": ""
             },
             "joinTime": {
-                "joinDuration": "{data.firstFrameElapsed}",
+                "joinDuration": "{data.joinDuration}",
                 "playhead": "{data.playheadMs}"
             },
             "bufferUnderrun": {
