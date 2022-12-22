@@ -416,7 +416,7 @@
             }
         }
     },
-    "Youbora": {
+     "Youbora": {
         "enabled": true,
         "params": {
             "trackerCommands": {
@@ -579,16 +579,18 @@
                 "expectedBreaks": "{data.adBreakCount}"
             },
             "adBreakStart": {
-                "breakNumber": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
+                "breakNumber": "{data.adBreakIndex}",
                 "givenAds": "{data.adCount}",
                 "expectedAds": "{data.adCount}"
             },
             "adBreakStop": {
-                "breakNumber": "{data.adBreakType}"
+                "position": "{data.adBreakType}",
+                "breakNumber": "{data.adBreakIndex}"
             },
             "adStart": {
-                "breakNumber": "{data.adBreakType}",
-                "adNumber": "{data.currentAdIndex}",
+                "position": "{data.adBreakType}",
+                "adNumber": "{data.adIndex}",
                 "adResource": "{data.adUrl}",
                 "adCampaign": "{context.adCampaign}",
                 "audio": "{context.audio}",
@@ -609,39 +611,47 @@
                 "param9": "{context.param9}",
                 "param10": "{context.param10}"
             },
-            "adBufferEvent": {
-                "adNumber": "{data.currentAdIndex}"
-            },
             "adJoin": {
-                "adNumber": "{data.currentAdIndex}"
+                "adNumber": "{data.adIndex}"
             },
             "adQuartile": {
-                "breakNumber": "{data.adPodPosition}",
-                "adNumber": "{data.currentAdIndex}"
+                "position": "{data.adBreakType}",
+                "breakNumber": "{data.adBreakIndex}",
+                "adNumber": "{data.adIndex}"
             },
             "adPause": {
-                "breakNumber": "{data.adPodPosition}",
-                "adNumber": "{data.adPositionInPod}"
-            },
-            "adResume": {
-                "breakNumber": "{data.adPodPosition}",
-                "adNumber": "{data.currentAdIndex}"
-            },
-            "adClick": {
-                "breakNumber": "{data.adPodPosition}",
-                "adNumber": "{data.currentAdIndex}",
-                "adUrl": "{data.adUrl}"
-            },
-            "adStop": {
                 "position": "{data.adBreakType}",
-                "adNumber": "{data.currentAdIndex}",
-                "breakNumber": "{data.adPodPosition}",
+                "adNumber": "{data.adPositionInPod}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
+            "adResume": {
+                "position": "{data.adBreakType}",
+                "adNumber": "{data.adPositionInPod}",
+                "playhead": "{data.contentPlayHead}",
+                "adPlayhead": "{data.adPlayhead}"
+            },
+            "adClick": {
+                "breakNumber": "{data.adBreakIndex}",
+                "adNumber": "{data.adIndex}",
+                "adUrl": "{data.adUrl}"
+            },
+            "adBufferEvent": {
+                "position": "{data.adBreakType}",
+                "adNumber": "{data.adPositionInPod}",
+                "playhead": "{data.contentPlayHead}",
+                "adPlayhead": "{data.adPlayhead}"
+            },
+            "adStop": {
+                "position": "{data.adBreakType}",
+                "adNumber": "{data.adIndex}",
+                "playhead": "{data.contentPlayHead}",
+                "adPlayhead": "{data.adPlayhead}",
+                "adTotalDuration": "{data.adDuration}"
+            },
             "adError": {
                 "position": "{data.adBreakType}",
-                "adNumber": "{data.currentAdIndex}",
+                "adNumber": "{data.adIndex}",
                 "errorCode": "{data.errorCode}",
                 "player": "{data.playerName}",
                 "msg": "{data.errorMessage}",
