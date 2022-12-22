@@ -469,6 +469,7 @@
             },
             "start": {
                 "mediaResource": "{context.mediaResource}",
+                "pingTime": "{data.pingTime}",
                 "live": "{data.isLive} ? true : false",
                 "pluginVersion": "6.5.29-RokuVideo",
                 "title": "{data.mediaTitle}",
