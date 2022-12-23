@@ -621,13 +621,13 @@
             },
             "adPause": {
                 "position": "{data.adBreakType}",
-                "adNumber": "{data.adPositionInPod}",
+                "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
             "adResume": {
                 "position": "{data.adBreakType}",
-                "adNumber": "{data.adPositionInPod}",
+                "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
@@ -638,7 +638,7 @@
             },
             "adBufferEvent": {
                 "position": "{data.adBreakType}",
-                "adNumber": "{data.adPositionInPod}",
+                "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
