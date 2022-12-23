@@ -416,7 +416,7 @@
             }
         }
     },
-    "Youbora": {
+     "Youbora": {
         "enabled": true,
         "params": {
             "trackerCommands": {
@@ -579,17 +579,17 @@
                 "expectedBreaks": "{data.adBreakCount}"
             },
             "adBreakStart": {
-                "breakPosition": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
                 "breakNumber": "{data.adBreakIndex}",
                 "givenAds": "{data.adCount}",
                 "expectedAds": "{data.adCount}"
             },
             "adBreakStop": {
-                "breakPosition": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
                 "breakNumber": "{data.adBreakIndex}"
             },
             "adStart": {
-                "breakPosition": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "adResource": "{data.adUrl}",
                 "adCampaign": "{context.adCampaign}",
@@ -615,18 +615,18 @@
                 "adNumber": "{data.adIndex}"
             },
             "adQuartile": {
-                "breakPosition": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
                 "breakNumber": "{data.adBreakIndex}",
                 "adNumber": "{data.adIndex}"
             },
             "adPause": {
-                "breakPosition": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
                 "adNumber": "{data.adPositionInPod}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
             "adResume": {
-                "breakPosition": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
                 "adNumber": "{data.adPositionInPod}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
@@ -637,20 +637,20 @@
                 "adUrl": "{data.adUrl}"
             },
             "adBufferEvent": {
-                "breakPosition": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
                 "adNumber": "{data.adPositionInPod}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
             "adStop": {
-                "breakPosition": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}",
                 "adTotalDuration": "{data.adDuration}"
             },
             "adError": {
-                "breakPosition": "{data.adBreakType}",
+                "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "errorCode": "{data.errorCode}",
                 "player": "{data.playerName}",
