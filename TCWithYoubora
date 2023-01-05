@@ -479,7 +479,7 @@
                 "resource": "{data.mediaUrl}",
                 "deviceUUID": "",
                 "username": "",
-                "playrate": "1",
+                "playrate": "0",
                 "userType": "",
                 "transactionCode": "",
                 "parsedResource": "",
@@ -612,7 +612,10 @@
                 "param10": "{context.param10}"
             },
             "adJoin": {
-                "adNumber": "{data.adIndex}"
+                "position": "{data.adBreakType}",
+                "adNumber": "{data.adIndex}",
+                "playhead": "{data.contentPlayHead}",
+                "adPlayhead": 0
             },
             "adQuartile": {
                 "position": "{data.adBreakType}",
