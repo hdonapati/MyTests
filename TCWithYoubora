@@ -592,6 +592,8 @@
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "adResource": "{data.adUrl}",
+                "adDuration": "{data.adDuration}",
+                "playhead": "{data.contentPlayHead}",
                 "adCampaign": "{context.adCampaign}",
                 "audio": "{context.audio}",
                 "fullscreen": "{context.isFullscreen}",
@@ -649,8 +651,7 @@
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
-                "adPlayhead": "{data.adPlayhead}",
-                "adTotalDuration": "{data.adDuration}"
+                "adPlayhead": "{data.adPlayhead}"
             },
             "adError": {
                 "position": "{data.adBreakType}",
