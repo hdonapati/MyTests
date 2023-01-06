@@ -420,8 +420,7 @@
         "enabled": true,
         "params": {
             "trackerCommands": {
-                "sendUndefined": false,
-                "avoidThroughPutError": true
+                "sendUndefined": false
             },
             "serverInfo": {
                 "authUrl": "https://a-fds.youborafds01.com/data",
