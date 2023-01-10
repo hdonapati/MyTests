@@ -431,6 +431,7 @@
                 "sessionRootKey": "c",
                 "domainKey": "h",
                 "pingKey": "pt",
+                "sessionTimeout": 270,
                 "sessionInterval": "45"
             },
             "accountInfo": {
