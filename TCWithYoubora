@@ -420,6 +420,7 @@
         "enabled": true,
         "params": {
             "trackerCommands": {
+                "debugLogging": true,
                 "sendUndefined": false
             },
             "serverInfo": {
@@ -695,8 +696,8 @@
             "dataType": {
                 "debugLogging": "boolean",
                 "sendUndefined": "boolean",
-                "avoidThroughPutError": "boolean",
-                "sessionInterval": "int"
+                "sessionInterval": "int",
+                "sessionTimeout": int
             }
         }
     }
