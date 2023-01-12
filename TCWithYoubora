@@ -697,7 +697,7 @@
                 "debugLogging": "boolean",
                 "sendUndefined": "boolean",
                 "sessionInterval": "int",
-                "sessionTimeout": int
+                "sessionTimeout": "int"
             }
         }
     }
