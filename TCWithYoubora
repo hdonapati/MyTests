@@ -579,16 +579,17 @@
                 "expectedBreaks": "{data.adBreakCount}"
             },
             "adBreakStart": {
-                "position": "{data.adBreakType}",
                 "breakNumber": "{data.adBreakIndex}",
+                "position": "{data.adBreakType}",
                 "givenAds": "{data.adCount}",
                 "expectedAds": "{data.adCount}"
             },
             "adBreakStop": {
-                "position": "{data.adBreakType}",
-                "breakNumber": "{data.adBreakIndex}"
+                "breakNumber": "{data.adBreakIndex}",
+                "position": "{data.adBreakType}"
             },
             "adStart": {
+                "breakNumber": "{data.adBreakIndex}",
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "adResource": "{data.adUrl}",
@@ -614,23 +615,26 @@
                 "param10": "{context.param10}"
             },
             "adJoin": {
+                "breakNumber": "{data.adBreakIndex}",
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": 0
             },
             "adQuartile": {
-                "position": "{data.adBreakType}",
                 "breakNumber": "{data.adBreakIndex}",
+                "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}"
             },
             "adPause": {
+                "breakNumber": "{data.adBreakIndex}",
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
             "adResume": {
+                "breakNumber": "{data.adBreakIndex}",
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
@@ -642,18 +646,21 @@
                 "adUrl": "{data.adUrl}"
             },
             "adBufferEvent": {
+                "breakNumber": "{data.adBreakIndex}",
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
             "adStop": {
+                "breakNumber": "{data.adBreakIndex}",
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "playhead": "{data.contentPlayHead}",
                 "adPlayhead": "{data.adPlayhead}"
             },
             "adError": {
+                "breakNumber": "{data.adBreakIndex}",
                 "position": "{data.adBreakType}",
                 "adNumber": "{data.adIndex}",
                 "errorCode": "{data.errorCode}",
