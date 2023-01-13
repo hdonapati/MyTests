@@ -571,6 +571,7 @@
                 "title": "{data.isLive} ? {context.liveVideoTitle} : {data.mediaTitle}",
                 "pluginVersion": "6.5.29-RokuVideo",
                 "mediaDuration": "{data.mediaDuration}",
+                "playhead": "{data.contentPlayHead}",
                 "player": "{data.playerName}",
                 "pingTime": "{data.pingTime}",
                 "resource": "{context.mediaResource}"
