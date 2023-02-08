@@ -421,6 +421,7 @@
         "params": {
             "trackerCommands": {
                 "debugLogging": true,
+                "delayedStart": true,
                 "sendUndefined": false
             },
             "serverInfo": {
