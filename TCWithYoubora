@@ -697,6 +697,7 @@
             },
             "dataType": {
                 "debugLogging": "boolean",
+                "delayedStart": "boolean",
                 "sendUndefined": "boolean",
                 "sessionInterval": "int",
                 "sessionTimeout": "int"
