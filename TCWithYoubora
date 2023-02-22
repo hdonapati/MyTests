@@ -417,7 +417,7 @@
         }
     },
      "Youbora": {
-        "enabled": {context.enableYoubora},
+        "enabled": "{context.enableYoubora}",
         "params": {
             "trackerCommands": {
                 "debugLogging": true,
