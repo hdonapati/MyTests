@@ -220,7 +220,7 @@
                 "deviceModel": "{context.deviceModel}",
                 "operatingSystemName": "Android",
                 "operatingSystemVersion": "{context.osVersion}"
-            }
+            },
             "dataType":{
                 "c3.ad.sequence": "string",
                 "media.ad.podIndex": "string"
