@@ -420,7 +420,7 @@
         "enabled": "{context.enableYoubora}",
         "params": {
             "trackerCommands": {
-                "debugLogging": "{localStorage.Youbora.debugLogging}",
+                "debugLogging": "true",
                 "delayedStart": true,
                 "sendUndefined": false
             },
