@@ -417,10 +417,10 @@
         }
     },
      "Youbora": {
-        "enabled": "true",
+        "enabled": "{context.enableYoubora}",
         "params": {
             "trackerCommands": {
-                "debugLogging": "true",
+                "debugLogging": "{localStorage.Youbora.debugLogging}",
                 "delayedStart": true,
                 "sendUndefined": false
             },
