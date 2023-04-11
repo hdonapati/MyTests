@@ -103,10 +103,6 @@
         "adExit": true,
         "adHoliday": false,
         "contentUrl": "https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd",
-        "drmHeaders": {
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3Mzk2LCJleHAiOjE2Nzk5NzE3OTYsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6Ijc1NjAyNTE2LTU0M2EtNDU3Yy1iOTgxLTkxZTJhMDMyMGMxZSJ9.XRBShZT2z7AUFXO8wNI-zyzxs4DYEv9k0QMhtUiqMaA"
-        },
-        "drmLicenseUrl": "",
         "dvr": false,
         "live": false,
         "partnerId": "cbs",
