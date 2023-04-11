@@ -2,52 +2,48 @@
     "URL | Live+DVR": {
         "adExit": true,
         "adHoliday": false,
-        "contentUrl": "https://dai.google.com/linear/dash/event/J2kFFtzCSxyRJgeg5YzupA/manifest.mpd",
         "dvr": true,
         "live": true,
         "partnerId": "cbs",
         "provider": "URL",
         "title": "Multiple RCO - Ad + Direct URL - Live (DVR)",
-        "videoId": "0000"
+        "contentUrl": "https://dai.google.com/linear/dash/event/J2kFFtzCSxyRJgeg5YzupA/manifest.mpd"
     },
     "URL | VoD | VTT Thumbs": {
         "adExit": true,
         "adHoliday": false,
-        "closedCaptionUrl": "https://cbsnews3.cbsistatic.com/hub/i/captions/GX8bakErI5LjHACcLpmwEF_kYGUOVC40.adb_xml",
-        "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/02/15/2003334211945/906291_hls/master.m3u8",
         "dvr": false,
         "live": false,
         "partnerId": "cbs",
         "provider": "URL",
-        "thumbnailUrl": "https://news.play.cbsi.video/h/1.1cv0ssAys3rO8nlNqNDgILjpQCQaOvK3c0r8hJTnlfEz44sYLtm9KqyZR5Xpo0aA4c2zCxaInC8Pvi4hIyMQcLDiPkYwN5x62HKGlo742W8epdSfOjm7cflm4zYoq5ujmH8E0IbE7Bp1NQCikyBKODMMPaNBm21sE0tWTu2BZuuceoZdQSIM83EynkYBlkZMZBYKsbacs/thumbs.vtt",
         "title": "Direct URL - VoD (VTT Thumbs/Side CC)",
-        "videoId": "0000"
+        "thumbnailUrl": "https://news.play.cbsi.video/h/1.1cv0ssAys3rO8nlNqNDgILjpQCQaOvK3c0r8hJTnlfEz44sYLtm9KqyZR5Xpo0aA4c2zCxaInC8Pvi4hIyMQcLDiPkYwN5x62HKGlo742W8epdSfOjm7cflm4zYoq5ujmH8E0IbE7Bp1NQCikyBKODMMPaNBm21sE0tWTu2BZuuceoZdQSIM83EynkYBlkZMZBYKsbacs/thumbs.vtt",
+        "closedCaptionUrl": "https://cbsnews3.cbsistatic.com/hub/i/captions/GX8bakErI5LjHACcLpmwEF_kYGUOVC40.adb_xml",
+        "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/02/15/2003334211945/906291_hls/master.m3u8"
     },
     "URL | VoD | DRM": {
         "adExit": true,
         "adHoliday": false,
-        "contentUrl": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/11/24/1977487939697/1049782_cenc_dash/stream_fn.mpd",
-        "drmLicenseUrl": "https://cbsi.stage.ott.irdeto.com/playready/rightsmanager.asmx?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=QDCM1GiNKkuh4ogPODKr5FBLyjW8tv6T&ls_session=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiJ9.eyJhaWQiOiJjYnNpIiwiZW50IjpbeyJiaWQiOiJBbGxBY2Nlc3NNYWluIiwiZXBpZCI6OX1dLCJleHAiOjE2NTI0NzM3MDYsImlhdCI6MTY1MjMwMDkwNiwiaXNzIjoiY2JzIiwianRpIjoiYzQyMTlmOWUtMjZhMy00YTQ4LWEwNjgtOTY2ZWYxZjUwYjc3Iiwic3ViIjoiVVNfMTUwMDA1NjE5In0.xo0lmkBN0viHrCDEtV1Y1tPAoa69XWbl4RISrS8yg3U",
         "drmType": "playready",
         "dvr": false,
         "live": false,
         "partnerId": "cbs",
         "provider": "URL",
         "title": "Direct URL - VoD (DRM)",
-        "videoId": "0000"
+        "contentUrl": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2021/11/24/1977487939697/1049782_cenc_dash/stream_fn.mpd",
+        "drmLicenseUrl": "https://cbsi.stage.ott.irdeto.com/playready/rightsmanager.asmx?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=QDCM1GiNKkuh4ogPODKr5FBLyjW8tv6T&ls_session=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiJ9.eyJhaWQiOiJjYnNpIiwiZW50IjpbeyJiaWQiOiJBbGxBY2Nlc3NNYWluIiwiZXBpZCI6OX1dLCJleHAiOjE2NTI0NzM3MDYsImlhdCI6MTY1MjMwMDkwNiwiaXNzIjoiY2JzIiwianRpIjoiYzQyMTlmOWUtMjZhMy00YTQ4LWEwNjgtOTY2ZWYxZjUwYjc3Iiwic3ViIjoiVVNfMTUwMDA1NjE5In0.xo0lmkBN0viHrCDEtV1Y1tPAoa69XWbl4RISrS8yg3U"
     },
     "RAF | VoD | VTT Thumbs": {
         "adExit": true,
         "adHoliday": false,
-        "adUrl": "https://7f077.v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_ctv_roku_vod&asnw=520311&caid=Qh650aFubj9aURvIzPX2BFNYMXFX5GI_&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_NoVPAID&pvrn=ROKU_ADS_CACHE_BUSTER&resp=vmap1%2Bvast4&ssnw=520311&vprn=ROKU_ADS_CACHE_BUSTER;_fw_h_referer=CBS%20News%205.12.10&_fw_app_bundle=CBS%20News%205.12.10&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&description_url=https%3A%2F%2Fwww.cbsnews.com&vguid=c2f29f22-0f06-45eb-9ae3-ece200e53e3d&sz=640x480&_fw_vcid2=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_hh_ramp_id=UNMATCHED&fms_ifa=6e9b98f8-2e05-5a15-83c6-c974aba06e2c&fms_ramp_id=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_vcid2type=liveramp&",
-        "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625/873333_hls/master.m3u8",
         "dvr": false,
         "live": false,
         "partnerId": "cbs",
         "provider": "RAF",
-        "thumbnailUrl": "https://news.play.cbsi.video/h/1.LWdas2uVWKafMzKr3fhkvf74th6VUX6NnqNJtBteI3oB8WLyNvwnWyw3UmmW41boCwUnS1L6nMsaK1ZcKA2p16EHChfbxSaYJqrBmECpwjxspzTpeybMHyFq4TMyXbOZvNTE7xCPfXN4vkIvxgdLetHlTrFWKq88nO6KsdefZCQK1FAkHbtYk5M6u5C18jZI7aS/thumbs.vtt",
         "title": "RAF - VoD (VTT Thumbs)",
-        "videoId": "0000"
+        "thumbnailUrl": "https://news.play.cbsi.video/h/1.LWdas2uVWKafMzKr3fhkvf74th6VUX6NnqNJtBteI3oB8WLyNvwnWyw3UmmW41boCwUnS1L6nMsaK1ZcKA2p16EHChfbxSaYJqrBmECpwjxspzTpeybMHyFq4TMyXbOZvNTE7xCPfXN4vkIvxgdLetHlTrFWKq88nO6KsdefZCQK1FAkHbtYk5M6u5C18jZI7aS/thumbs.vtt",
+        "adUrl": "https://7f077.v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_ctv_roku_vod&asnw=520311&caid=Qh650aFubj9aURvIzPX2BFNYMXFX5GI_&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_NoVPAID&pvrn=ROKU_ADS_CACHE_BUSTER&resp=vmap1%2Bvast4&ssnw=520311&vprn=ROKU_ADS_CACHE_BUSTER;_fw_h_referer=CBS%20News%205.12.10&_fw_app_bundle=CBS%20News%205.12.10&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&description_url=https%3A%2F%2Fwww.cbsnews.com&vguid=c2f29f22-0f06-45eb-9ae3-ece200e53e3d&sz=640x480&_fw_vcid2=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_hh_ramp_id=UNMATCHED&fms_ifa=6e9b98f8-2e05-5a15-83c6-c974aba06e2c&fms_ramp_id=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_vcid2type=liveramp&",
+        "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625/873333_hls/master.m3u8"
     },
     "DAI | VoD | DRM": {
         "adExit": true,
@@ -55,31 +51,29 @@
         "daiId": "bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn",
         "daiKey": "7j3n273bfj7jcnvf22d713a51f",
         "daiSourceId": "2497752",
-        "drmHeaders": {
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3MjY0LCJleHAiOjE2Nzk5NzE2NjQsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6ImIzNDQxNmVmLWQ3MjQtNDk4ZS04ZDc4LTI3NzlhYzI2ZWYyYSJ9.cW4gagOxPfqBAUQT9l236f_qzNLvVggZeHCsnOGEzyg"
-        },
-        "drmLicenseUrl": "https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn",
         "drmType": "widevine",
         "dvr": false,
         "live": false,
         "partnerId": "cbs",
         "provider": "DAI",
         "title": "DAI - VoD (DRM)",
-        "videoId": "0000"
+        "drmHeaders": {
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3MjY0LCJleHAiOjE2Nzk5NzE2NjQsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6ImIzNDQxNmVmLWQ3MjQtNDk4ZS04ZDc4LTI3NzlhYzI2ZWYyYSJ9.cW4gagOxPfqBAUQT9l236f_qzNLvVggZeHCsnOGEzyg"
+        },
+        "drmLicenseUrl": "https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn"
     },
     "DAI | Live": {
         "adExit": true,
         "adHoliday": false,
         "daiId": "McTka5bBSYS5B06bQrtoHw",
-        "drmHeaders": {
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3MzA1LCJleHAiOjE2Nzk5NzE3MDUsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6ImU2Y2VmZTkzLThjZWUtNDJjZC05MzYyLTY1MWI0MmQxNzM0OSJ9.wDaDS1EfdjLw16duW9rWKXc0NwO8bba5_U9GCcPr2DY"
-        },
         "dvr": true,
         "live": true,
         "partnerId": "cbs",
         "provider": "DAI",
         "title": "DAI - Live",
-        "videoId": "0000"
+        "drmHeaders": {
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3MzA1LCJleHAiOjE2Nzk5NzE3MDUsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6ImU2Y2VmZTkzLThjZWUtNDJjZC05MzYyLTY1MWI0MmQxNzM0OSJ9.wDaDS1EfdjLw16duW9rWKXc0NwO8bba5_U9GCcPr2DY"
+        }
     },
     "DAI | VoD | DRM | DASH Thumbs | W/Promo": {
         "adExit": true,
@@ -87,42 +81,25 @@
         "daiId": "IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh",
         "daiKey": "7j3n273bfj7jcnvf22d713a51f",
         "daiSourceId": "2497752",
-        "drmHeaders": {
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3MzQwLCJleHAiOjE2Nzk5NzE3NDAsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6IjIyNjA2NGY5LTI4MTYtNGMwNS05NjA4LTZlNjE4YmJlZTA5MiJ9.ZqsjRtlZwZWm5UPrscbcUp-H2_y4zPui0puJCF8EVdk"
-        },
-        "drmLicenseUrl": "https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh",
         "drmType": "widevine",
         "dvr": false,
         "live": false,
         "partnerId": "cbs",
         "provider": "DAI",
         "title": "DAI - VoD (DRM) (DASH Thumbs) w/Promo",
-        "videoId": "0000"
+        "drmHeaders": {
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3MzQwLCJleHAiOjE2Nzk5NzE3NDAsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6IjIyNjA2NGY5LTI4MTYtNGMwNS05NjA4LTZlNjE4YmJlZTA5MiJ9.ZqsjRtlZwZWm5UPrscbcUp-H2_y4zPui0puJCF8EVdk"
+        },
+        "drmLicenseUrl": "https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh"
     },
     "URL | VoD | Multi-Lang CC": {
         "adExit": true,
         "adHoliday": false,
-        "contentUrl": "https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd",
         "dvr": false,
         "live": false,
         "partnerId": "cbs",
         "provider": "URL",
         "title": "Direct URL - VoD (Multi-Lang CC)",
-        "videoId": "0000"
-    },
-    "URL | Live | DRM": {
-        "adExit": true,
-        "adHoliday": false,
-        "drmHeaders": {
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3NDQ5LCJleHAiOjE2Nzk5NzE4NDksImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6IjdhMjUyMTBiLTM1NTUtNDkzYi1iMjI2LTBhZjBhNThmYTQ4NSJ9.5hVmaw0SBDdQF8ZQ0CZ78Z_wcifgLZQ1VBIV3BqZ1RQ"
-        },
-        "drmLicenseUrl": "https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=https%3A%2F%2Flineup.cbsivideo.com%2Fplayout%2F8877a7d5-b094-4ac8-bc72-75a5fed68e5b%2Fmaster.m3u8",
-        "drmType": "widevine",
-        "dvr": false,
-        "live": false,
-        "partnerId": "cbs",
-        "provider": "URL",
-        "title": "Direct URL - Live (DRM)",
-        "videoId": "0000"
+        "contentUrl": "https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2022/07/19/2053464643928/11474_cenc_fmp4_dash/stream.mpd"
     }
 }
