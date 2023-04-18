@@ -471,6 +471,12 @@
                 "nodeType": "",
                 "contentLanguage": "en"
             },
+            "init": {
+                "pluginVersion": "6.5.29-RokuVideo",
+                "playerVersion": "{data.playerVersion}",
+                "live": "{data.isLive} ? true : false",
+                "outputformat": "json"
+            },
             "start": {
                 "mediaResource": "{context.mediaResource}",
                 "live": "{data.isLive} ? true : false",
