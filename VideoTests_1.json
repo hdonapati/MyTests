@@ -67,8 +67,7 @@
         "live": true,
         "partnerId": "cbs",
         "provider": "DAI",
-        "title": "DAI - Live",
-        "fetchLicense": true
+        "title": "DAI - Live"
     },
     "DAI | VoD | DRM | DASH Thumbs | W/Promo": {
         "adExit": true,
