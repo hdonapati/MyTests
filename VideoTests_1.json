@@ -88,9 +88,8 @@
         "provider": "DAI",
         "title": "DAI - VoD (DRM) (DASH Thumbs) w/Promo",
         "drmHeaders": {
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3MzQwLCJleHAiOjE2Nzk5NzE3NDAsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6IjIyNjA2NGY5LTI4MTYtNGMwNS05NjA4LTZlNjE4YmJlZTA5MiJ9.ZqsjRtlZwZWm5UPrscbcUp-H2_y4zPui0puJCF8EVdk"
-        },
-        "drmLicenseUrl": "https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh"
+          
+        }
     },
     "URL | VoD | Multi-Lang CC": {
         "adExit": true,
