@@ -57,10 +57,7 @@
         "partnerId": "cbs",
         "provider": "DAI",
         "title": "DAI - VoD (DRM)",
-        "drmHeaders": {
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3MjY0LCJleHAiOjE2Nzk5NzE2NjQsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6ImIzNDQxNmVmLWQ3MjQtNDk4ZS04ZDc4LTI3NzlhYzI2ZWYyYSJ9.cW4gagOxPfqBAUQT9l236f_qzNLvVggZeHCsnOGEzyg"
-        },
-        "drmLicenseUrl": "https://cbsi.live.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn"
+        "fetchLicense": true
     },
     "DAI | Live": {
         "adExit": true,
@@ -71,9 +68,7 @@
         "partnerId": "cbs",
         "provider": "DAI",
         "title": "DAI - Live",
-        "drmHeaders": {
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzQyOTc4NF9VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNjc5OTU3MzA1LCJleHAiOjE2Nzk5NzE3MDUsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6ImU2Y2VmZTkzLThjZWUtNDJjZC05MzYyLTY1MWI0MmQxNzM0OSJ9.wDaDS1EfdjLw16duW9rWKXc0NwO8bba5_U9GCcPr2DY"
-        }
+        "fetchLicense": true
     },
     "DAI | VoD | DRM | DASH Thumbs | W/Promo": {
         "adExit": true,
@@ -87,9 +82,7 @@
         "partnerId": "cbs",
         "provider": "DAI",
         "title": "DAI - VoD (DRM) (DASH Thumbs) w/Promo",
-        "drmHeaders": {
-          
-        }
+        "fetchLicense": true
     },
     "URL | VoD | Multi-Lang CC": {
         "adExit": true,
