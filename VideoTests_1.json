@@ -63,7 +63,7 @@
         "adExit": true,
         "adHoliday": false,
         "daiId": "McTka5bBSYS5B06bQrtoHw",
-        "dvr": true,
+        "dvr": false,
         "live": true,
         "partnerId": "cbs",
         "provider": "DAI",
