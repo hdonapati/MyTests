@@ -74,14 +74,14 @@
     "URL | VoD": {
         "title": "URL VoD",
         "provider": "URL",
-        "URL": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "contentUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
         "dvr": false,
         "live": false
     },
     "URL | VoD with Resume": {
         "title": "URL VoD with Resume",
         "provider": "URL",
-        "URL": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "contentUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
         "dvr": false,
         "live": false,
         "resumePosition": 10000
@@ -89,7 +89,7 @@
     "URL VOD MP4 with Side Captions": {
         "title": "URL VOD MP4",
         "provider": "URL",
-        "URL": "https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
+        "contentUrl": "https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
         "dvr": false,
         "live": false,
         "closedCaptionUrl": "https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt",
@@ -98,7 +98,7 @@
     "URL VoD with Multiple Captions": {
         "title": "URL VoD with Multiple Captions",
         "provider": "URL",
-        "URL": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD"
     }
 }
