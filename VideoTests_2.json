@@ -74,26 +74,17 @@
     "URL | VoD": {
         "title": "URL VoD",
         "provider": "URL",
-        "contentUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "contentUrl": "https://www.paramount.com/sites/g/files/dxjhpe226/files/ViacomCBSDotCom/HomePage/Videos/popular.mp4",
         "dvr": false,
         "live": false
     },
     "URL | VoD with Resume": {
         "title": "URL VoD with Resume",
         "provider": "URL",
-        "contentUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "contentUrl": "https://www.paramount.com/sites/g/files/dxjhpe226/files/ViacomCBSDotCom/HomePage/Videos/popular.mp4",
         "dvr": false,
         "live": false,
-        "resumePosition": 10000
-    },
-    "URL VOD MP4 with Side Captions": {
-        "title": "URL VOD MP4",
-        "provider": "URL",
-        "contentUrl": "https://tears-of-steel-subtitles.s3.amazonaws.com/tos.mp4",
-        "dvr": false,
-        "live": false,
-        "closedCaptionUrl": "https://tears-of-steel-subtitles.s3.amazonaws.com/tears-en.vtt",
-        "captionsLanguage": "en"
+        "resumePosition": 3
     },
     "URL VoD with Multiple Captions": {
         "title": "URL VoD with Multiple Captions",
