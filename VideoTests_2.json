@@ -6,7 +6,7 @@
         "live": true,
         "partnerId": "cbs",
         "provider": "URL",
-        "title": "Multiple RCO - Ad + Direct URL - Live (DVR)",
+        "title": "URL - Live+DVR",
         "contentUrl": "https://dai.google.com/linear/dash/event/J2kFFtzCSxyRJgeg5YzupA/manifest.mpd"
     },
     "URL | VoD | VTT Thumbs": {
@@ -16,7 +16,7 @@
         "live": false,
         "partnerId": "cbs",
         "provider": "URL",
-        "title": "Direct URL - VoD (VTT Thumbs/Side CC)",
+        "title": "URL - VoD (VTT Thumbs/Side CC)",
         "thumbnailUrl": "https://news.play.cbsi.video/h/1.1cv0ssAys3rO8nlNqNDgILjpQCQaOvK3c0r8hJTnlfEz44sYLtm9KqyZR5Xpo0aA4c2zCxaInC8Pvi4hIyMQcLDiPkYwN5x62HKGlo742W8epdSfOjm7cflm4zYoq5ujmH8E0IbE7Bp1NQCikyBKODMMPaNBm21sE0tWTu2BZuuceoZdQSIM83EynkYBlkZMZBYKsbacs/thumbs.vtt",
         "closedCaptionUrl": "https://cbsnews3.cbsistatic.com/hub/i/captions/GX8bakErI5LjHACcLpmwEF_kYGUOVC40.adb_xml",
         "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/02/15/2003334211945/906291_hls/master.m3u8"
@@ -71,14 +71,14 @@
         "title": "DAI - VoD (DRM) (DASH Thumbs) w/Promo",
         "fetchLicense": true
     },
-    "URL VoD with Resume": {
+    "URL | VoD | with Resume": {
         "title": "URL VoD with Resume",
         "provider": "URL",
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD",
         "resumePosition": 25
     },
-    "URL VoD with Multiple Captions": {
+    "URL | VoD | with Multiple Captions": {
         "title": "URL VoD with Multiple Captions",
         "provider": "URL",
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
