@@ -71,15 +71,30 @@
         "title": "DAI - VoD (DRM) (DASH Thumbs) w/Promo",
         "fetchLicense": true
     },
+    "DAI | VoD | DRM | DASH Thumbs | W/Promo | w/Resume": {
+        "adExit": true,
+        "adHoliday": false,
+        "daiId": "IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "title": "DAI - VoD with Promo & Resume",
+        "resumePosition": 280,
+        "fetchLicense": true
+    },
     "URL | VoD | with Resume": {
-        "title": "URL VoD with Resume",
+        "title": "URL - VoD with Resume",
         "provider": "URL",
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD",
         "resumePosition": 25
     },
     "URL | VoD | with Multiple Captions": {
-        "title": "URL VoD with Multiple Captions",
+        "title": "URL - VoD ",
         "provider": "URL",
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD"
