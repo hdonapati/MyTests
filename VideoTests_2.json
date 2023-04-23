@@ -86,6 +86,21 @@
         "resumePosition": 280,
         "fetchLicense": true
     },
+    "DAI | VoD | DRM | DASH Thumbs | w/Resume into Ad": {
+        "adExit": true,
+        "adHoliday": false,
+        "daiId": "IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "title": "DAI - VoD with Resume into Ad",
+        "resumePosition": 278,
+        "fetchLicense": true
+    },
     "URL | VoD | with Resume": {
         "title": "URL - VoD with Resume",
         "provider": "URL",
