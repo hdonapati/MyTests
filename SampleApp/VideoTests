@@ -1,0 +1,117 @@
+{
+    "URL | Live+DVR": {
+        "adExit": true,
+        "adHoliday": false,
+        "dvr": true,
+        "live": true,
+        "partnerId": "cbs",
+        "provider": "URL",
+        "title": "URL - Live+DVR",
+        "contentUrl": "https://dai.google.com/linear/dash/event/J2kFFtzCSxyRJgeg5YzupA/manifest.mpd"
+    },
+    "URL | VoD | VTT Thumbs": {
+        "adExit": true,
+        "adHoliday": false,
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "URL",
+        "title": "URL - VoD (VTT Thumbs/Side CC)",
+        "thumbnailUrl": "https://news.play.cbsi.video/h/1.1cv0ssAys3rO8nlNqNDgILjpQCQaOvK3c0r8hJTnlfEz44sYLtm9KqyZR5Xpo0aA4c2zCxaInC8Pvi4hIyMQcLDiPkYwN5x62HKGlo742W8epdSfOjm7cflm4zYoq5ujmH8E0IbE7Bp1NQCikyBKODMMPaNBm21sE0tWTu2BZuuceoZdQSIM83EynkYBlkZMZBYKsbacs/thumbs.vtt",
+        "closedCaptionUrl": "https://cbsnews3.cbsistatic.com/hub/i/captions/GX8bakErI5LjHACcLpmwEF_kYGUOVC40.adb_xml",
+        "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/02/15/2003334211945/906291_hls/master.m3u8"
+    },
+    "RAF | VoD | VTT Thumbs": {
+        "adExit": true,
+        "adHoliday": false,
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "RAF",
+        "title": "RAF - VoD (VTT Thumbs)",
+        "thumbnailUrl": "https://news.play.cbsi.video/h/1.LWdas2uVWKafMzKr3fhkvf74th6VUX6NnqNJtBteI3oB8WLyNvwnWyw3UmmW41boCwUnS1L6nMsaK1ZcKA2p16EHChfbxSaYJqrBmECpwjxspzTpeybMHyFq4TMyXbOZvNTE7xCPfXN4vkIvxgdLetHlTrFWKq88nO6KsdefZCQK1FAkHbtYk5M6u5C18jZI7aS/thumbs.vtt",
+        "adUrl": "https://7f077.v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_ctv_roku_vod&asnw=520311&caid=Qh650aFubj9aURvIzPX2BFNYMXFX5GI_&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_NoVPAID&pvrn=ROKU_ADS_CACHE_BUSTER&resp=vmap1%2Bvast4&ssnw=520311&vprn=ROKU_ADS_CACHE_BUSTER;_fw_h_referer=CBS%20News%205.12.10&_fw_app_bundle=CBS%20News%205.12.10&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&description_url=https%3A%2F%2Fwww.cbsnews.com&vguid=c2f29f22-0f06-45eb-9ae3-ece200e53e3d&sz=640x480&_fw_vcid2=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_hh_ramp_id=UNMATCHED&fms_ifa=6e9b98f8-2e05-5a15-83c6-c974aba06e2c&fms_ramp_id=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_vcid2type=liveramp&",
+        "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625/873333_hls/master.m3u8"
+    },
+    "DAI | VoD | DRM": {
+        "adExit": true,
+        "adHoliday": false,
+        "daiId": "bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "title": "DAI - VoD (DRM)",
+        "fetchLicense": true
+    },
+    "DAI | Live": {
+        "adExit": true,
+        "adHoliday": false,
+        "daiId": "McTka5bBSYS5B06bQrtoHw",
+        "dvr": false,
+        "live": true,
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "title": "DAI - Live"
+    },
+    "DAI | VoD | DRM | DASH Thumbs | W/Promo": {
+        "adExit": true,
+        "adHoliday": false,
+        "daiId": "IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "title": "DAI - VoD (DRM) (DASH Thumbs) w/Promo",
+        "fetchLicense": true
+    },
+    "DAI | VoD | DRM | DASH Thumbs | W/Promo | w/Resume": {
+        "adExit": true,
+        "adHoliday": false,
+        "daiId": "IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "title": "DAI - VoD with Promo & Resume",
+        "resumePosition": 280,
+        "fetchLicense": true
+    },
+    "DAI | VoD | DRM | DASH Thumbs | w/Resume into Ad": {
+        "adExit": true,
+        "adHoliday": false,
+        "daiId": "IBh_dK9gIOWikgPDwJcDb1a28frNw0Mh",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "title": "DAI - VoD with Resume into Ad",
+        "resumePosition": 278,
+        "fetchLicense": true
+    },
+    "URL | VoD | with Resume": {
+        "title": "URL - VoD with Resume",
+        "provider": "URL",
+        "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "type": "VOD",
+        "resumePosition": 25
+    },
+    "URL | VoD | with Multiple Captions": {
+        "title": "URL - VoD ",
+        "provider": "URL",
+        "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "type": "VOD"
+    }
+}
