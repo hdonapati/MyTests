@@ -475,6 +475,10 @@
                 "pluginVersion": "6.5.29-RokuVideo",
                 "playerVersion": "{data.playerVersion}",
                 "live": "{data.isLive} ? true : false",
+                "mediaResource": "{context.mediaResource}",
+                "title": "{data.mediaTitle}",
+                "deviceInfo": "{context.deviceInfo}",
+                "deviceUUID": "{context.deviceUUID}",
                 "outputformat": "json"
             },
             "start": {
@@ -486,7 +490,7 @@
                 "player": "{data.playerName}",
                 "playerVersion": "{data.playerVersion}",
                 "resource": "{data.mediaUrl}",
-                "deviceUUID": "",
+                "deviceUUID": "{context.deviceUUID}",
                 "username": "",
                 "playrate": "0",
                 "userType": "",
