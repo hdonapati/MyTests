@@ -213,7 +213,8 @@
                 "streamId": "{data.adStitcher} ? {data.streamId} : {context.emptyValue}",
                 "testBucket": "none",
                 "winDimension": "{data.screenSize}",
-                "Tealium":"{config.tealiumVersion}"
+                "Tealium":"{config.tealiumVersion}",
+                "TSLibrary": "{data.trackingModuleVersion}"
             },
             "metadataInterface": {
                 "deviceCategory": "OTT",
