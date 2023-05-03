@@ -1,13 +1,19 @@
 {
     "URL | Live+DVR": {
-        "adExit": true,
-        "adHoliday": false,
         "dvr": true,
         "live": true,
         "partnerId": "cbs",
         "provider": "URL",
-        "title": "URL - Live+DVR",
+        "title": "URL - Live+DVR 0",
         "contentUrl": "https://dai.google.com/linear/dash/event/J2kFFtzCSxyRJgeg5YzupA/manifest.mpd"
+    },
+    "URL | Live+DVR 1": {
+        "dvr": true,
+        "live": true,
+        "partnerId": "cbs",
+        "provider": "URL",
+        "title": "URL - Live+DVR 1",
+        "contentUrl": "https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd"
     },
     "URL | VoD | VTT Thumbs": {
         "adExit": true,
