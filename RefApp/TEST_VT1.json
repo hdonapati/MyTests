@@ -1,19 +1,27 @@
 {
-    "URL | Live+DVR": {
+    "URL | Live+DVR DASH 0": {
         "dvr": true,
         "live": true,
         "partnerId": "cbs",
         "provider": "URL",
-        "title": "URL - Live+DVR 0",
+        "title": "URL - Live+DVR DASH 0",
         "contentUrl": "https://dai.google.com/linear/dash/event/J2kFFtzCSxyRJgeg5YzupA/manifest.mpd"
     },
-    "URL | Live+DVR 1": {
+    "URL | Live+DVR DASH 1": {
         "dvr": true,
         "live": true,
         "partnerId": "cbs",
         "provider": "URL",
-        "title": "URL - Live+DVR 1",
+        "title": "URL - Live+DVR DASH 1",
         "contentUrl": "https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/d9486a190ad9460aa6b0e38669a3b973/manifest.mpd"
+    },
+    "URL | Live+DVR HLS 0": {
+        "dvr": true,
+        "live": true,
+        "partnerId": "cbs",
+        "provider": "URL",
+        "title": "URL - Live+DVR HLS 0",
+        "contentUrl": "https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/c9cbcac3533d454e8570acb532c28d13/manifest.m3u8"
     },
     "URL | VoD | VTT Thumbs": {
         "adExit": true,
