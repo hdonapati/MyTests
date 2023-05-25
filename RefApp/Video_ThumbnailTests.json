@@ -38,6 +38,6 @@
     "URL | VoD | DASH ":{
         "contentUrl": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_with_multiple_tiled_thumbnails.mpd",
         "provider": "URL",
-        "title": "URL - VoD DASH",
+        "title": "URL - VoD DASH"
     }
 }
