@@ -34,5 +34,10 @@
         "provider": "URL",
         "title": "URL - Live+DVR HLS 0",
         "contentUrl": "https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/c9cbcac3533d454e8570acb532c28d13/manifest.m3u8"
+    },
+    "URL | VoD | DASH ":{
+        "contentUrl": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_with_multiple_tiled_thumbnails.mpd",
+        "provider": "URL",
+        "title": "URL - VoD DASH",
     }
 }
