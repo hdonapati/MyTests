@@ -405,8 +405,7 @@
         "category": "tracking",
         "params": {
             "trackerCommands": {
-                "runInMainThread": true,
-                "urlParamMapper": "channel=[channel]|airingID=[airingID]|breakWithinAiringId=[breakWithinAiringId]|siteSectionId=[site section id]|maxSlotDuration=[maxslotduration]|minSlotDuration=[minslotduration]|cacheBuster=[cachebuster]|breakDuration=[break duration]|"
+                "runInMainThread": true
             },
             "sessionInfo": {
                 "id3Owner": "com.cbsinteractive.sbvast",
@@ -414,7 +413,7 @@
                 "adApp": "cbssports_firetv_app",
                 "adEndError": 2,
                 "podEndError": 5,
-                "adTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520310&caid[vid id]&csid=[site section id]&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAISSAI_CBSi_LIVE&pvrn=&resp=vmap1+vast4&ssnw=520311&mode=live&vdty=VARIABLE&vrdu=[break duration]&vprn=[cachebuster];_fw_coppa=0&_fw_h_referer=&_fw_is_lat=&_fw_hylda=acid=[channel]&aiid=[airingID]&abid=break://[airingID]/[breakWithinAiringId]&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_vcid2=&aamid=&dai_stream_activity_id=&description_url=&sz=640x480;cpsq=1&tpos=0&maxd=[maxslotduration]&mind=[minslotduration]&ptgt=a&slid=&tpcl=midroll"
+                "adTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520310&caid=Ml_8xlr__D9RFI3OY8uXQmUK8c_Dfj2o&csid=vcbs_cbssports_desktop_web_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAISSAI_CBSi_LIVE&pvrn=8787879878998798798&resp=vmap1+vast4&ssnw=520311&mode=live&vdty=VARIABLE&vrdu=150&vprn=[cachebuster];_fw_coppa=0&_fw_h_referer=&_fw_is_lat=&_fw_hylda=acid=[channel]&aiid=[airingID]&abid=break://[airingID]/[breakWithinAiringId]&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_vcid2=&aamid=&dai_stream_activity_id=&description_url=&sz=640x480;cpsq=1&tpos=0&maxd=150&mind=150&ptgt=a&slid=&tpcl=midroll"
             }
         }
     },
