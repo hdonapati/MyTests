@@ -93,7 +93,8 @@
       "params": {
         "serverInfo": {
           "demdexUrl": "dpm.demdex.net/id?d_rtbd=json&d_ver=2&d_orgid=",
-          "marketingCloudOrgId": "10D31225525FF5790A490D4D@AdobeOrg"
+          "marketingCloudOrgId": "10D31225525FF5790A490D4D@AdobeOrg",
+          "aviaAdobeECID": "{localstorage.AdobeECID.AdobeECMCUID}"
         }
       }
     },
