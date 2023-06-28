@@ -113,5 +113,11 @@
         "provider": "URL",
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD"
+    },
+    "CUSTOM | VoD ": {
+        "title": "CUSTOM | VoD",
+        "provider": "CUSTOM",
+        "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "type": "VOD"
     }
 }
