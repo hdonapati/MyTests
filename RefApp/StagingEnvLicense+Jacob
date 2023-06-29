@@ -10,15 +10,26 @@
         "drmLicenseUrl": "https://cbsi.stage.ott.irdeto.com/licenseServer/widevine/v1/cbsi/license",
         "drmHeaders": { "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiJ9.eyJzdWIiOiJVU18xNTAwMDU2MTkiLCJpc3MiOiJjYnMiLCJlbnQiOlt7ImJpZCI6IkFsbEFjY2Vzc01haW4iLCJlcGlkIjo4fV0sImp0aSI6ImM0MjE5ZjllLTI2YTMtNGE0OC1hMDY4LTk2NmVmMWY1MGI3NyIsImV4cCI6MTY2MDQyMzA0NjAwMCwiaWF0IjoxNTY1NzI3MTkxMTE1LCJhaWQiOiJjYnNpIn0.x0pK86BjXrtfg0CkQ3VH8_co6567wNiRBwpgMhSHH1s"}
     },
-    "URL | VoD | DRM:PR | StagingLicense": {
+    "URL | VoD | DRM:PR1 | StagingLicense": {
         "dvr": false,
         "live": false,
         "partnerId": "cbs",
         "provider": "URL",
-        "title": "URL | VoD | DRM:PR | StagingLicense",
+        "title": "URL | VoD | DRM:PR-1 | StagingLicense",
         "contentUrl": "https://prope47cch04.airspace-cdn.cbsivideo.com/out/v1/739a6c021f554b4dba49093f83fffda7/manifest.mpd",
         "drmType": "playready",
         "drmLicenseUrl": "https://cbsi.stage.ott.irdeto.com/licenseServer/playready/v1/cbsi/license",
+        "drmHeaders": { "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiJ9.eyJzdWIiOiJVU18xNTAwMDU2MTkiLCJpc3MiOiJjYnMiLCJlbnQiOlt7ImJpZCI6IkFsbEFjY2Vzc01haW4iLCJlcGlkIjo4fV0sImp0aSI6ImM0MjE5ZjllLTI2YTMtNGE0OC1hMDY4LTk2NmVmMWY1MGI3NyIsImV4cCI6MTY2MDQyMzA0NjAwMCwiaWF0IjoxNTY1NzI3MTkxMTE1LCJhaWQiOiJjYnNpIn0.x0pK86BjXrtfg0CkQ3VH8_co6567wNiRBwpgMhSHH1s"}
+    },
+    "URL | VoD | DRM:PR2 | StagingLicense": {
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "URL",
+        "title": "URL | VoD | DRM:PR-2 | StagingLicense",
+        "contentUrl": "https://prope47cch04.airspace-cdn.cbsivideo.com/out/v1/739a6c021f554b4dba49093f83fffda7/manifest.mpd",
+        "drmType": "playready",
+        "drmLicenseUrl": "https://cbsi.stage.ott.irdeto.com/playready/rightsmanager.asmx",
         "drmHeaders": { "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiJ9.eyJzdWIiOiJVU18xNTAwMDU2MTkiLCJpc3MiOiJjYnMiLCJlbnQiOlt7ImJpZCI6IkFsbEFjY2Vzc01haW4iLCJlcGlkIjo4fV0sImp0aSI6ImM0MjE5ZjllLTI2YTMtNGE0OC1hMDY4LTk2NmVmMWY1MGI3NyIsImV4cCI6MTY2MDQyMzA0NjAwMCwiaWF0IjoxNTY1NzI3MTkxMTE1LCJhaWQiOiJjYnNpIn0.x0pK86BjXrtfg0CkQ3VH8_co6567wNiRBwpgMhSHH1s"}
     }
 }
