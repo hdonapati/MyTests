@@ -1,0 +1,12 @@
+{
+    "URL | VoD | StagingLicense": {
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "URL",
+        "title": "URL | VoD | StagingLicense",
+        "contentUrl": "https://prope47cch04.airspace-cdn.cbsivideo.com/out/v1/739a6c021f554b4dba49093f83fffda7/manifest.mpd",
+        "drmLicenseUrl": "https://cbsi.stage.ott.irdeto.com/widevine/getlicense?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=hlsdash20230131",
+        "drmHeaders": { "Authorization": "Bearer "}
+    }
+}
