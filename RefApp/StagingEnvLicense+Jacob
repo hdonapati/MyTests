@@ -6,8 +6,8 @@
         "provider": "URL",
         "title": "URL | VoD | StagingLicense",
         "contentUrl": "https://prope47cch04.airspace-cdn.cbsivideo.com/out/v1/739a6c021f554b4dba49093f83fffda7/manifest.mpd",
-        "drmType": "playready",
+        "drmType": "widevine",
         "drmLicenseUrl": "https://cbsi.stage.ott.irdeto.com/licenseServer/widevine/v1/cbsi/license",
-        "drmHeaders": { "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZHJfdGVzdGluZyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjEyfV0sImlhdCI6MTY3ODczMjU3NSwiZXhwIjoxNjgxNDEwOTc1LCJpc3MiOiJjYnMiLCJhaWQiOiJjYnNpIiwiaXNlIjp0cnVlLCJqdGkiOiI0YTkwZDI5ZS1mMTNiLTQyZDktODkyZC0xNzdlOTEwNjA1ODgifQ.PNoarzh7camZFKqsruSdNaiHR1OHVZsSUXB4r_LcC5M"}
+        "drmHeaders": { "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiJ9.eyJzdWIiOiJVU18xNTAwMDU2MTkiLCJpc3MiOiJjYnMiLCJlbnQiOlt7ImJpZCI6IkFsbEFjY2Vzc01haW4iLCJlcGlkIjo4fV0sImp0aSI6ImM0MjE5ZjllLTI2YTMtNGE0OC1hMDY4LTk2NmVmMWY1MGI3NyIsImV4cCI6MTY2MDQyMzA0NjAwMCwiaWF0IjoxNTY1NzI3MTkxMTE1LCJhaWQiOiJjYnNpIn0.x0pK86BjXrtfg0CkQ3VH8_co6567wNiRBwpgMhSHH1s"}
     }
 }
