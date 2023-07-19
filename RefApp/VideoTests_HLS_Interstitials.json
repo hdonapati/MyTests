@@ -1,4 +1,8 @@
 {
+    "Mani/Jignesh":{
+        "contentUrl": "https://lambda-ssl.eyevinn.technology/stitch/master.m3u8?payload=eyJ1cmkiOiJodHRwczovL21haXR2LXZvZC5sYWIuZXlldmlubi50ZWNobm9sb2d5L1ZJTk4ubXA0L21hc3Rlci5tM3U4IiwiYnJlYWtzIjpbeyJwb3MiOjAsImR1cmF0aW9uIjoxMDAwMCwidXJsIjoiaHR0cDovL2xhYi5jZG4uZXlldmlubi50ZWNobm9sb2d5L3Byb2JhYmx5LXRoZS1iZXN0LTEwcy5tcDQvbWFuaWZlc3QubTN1OCJ9LHsicG9zIjoyMDAwMCwiZHVyYXRpb24iOjEwMDAwLCJ1cmwiOiJodHRwOi8vbGFiLmNkbi5leWV2aW5uLnRlY2hub2xvZ3kvcHJvYmFibHktdGhlLWJlc3QtMTBzLm1wNC9tYW5pZmVzdC5tM3U4In0seyJwb3MiOjEwMDAwMCwiZHVyYXRpb24iOjEwMDAwLCJ1cmwiOiJodHRwOi8vbGFiLmNkbi5leWV2aW5uLnRlY2hub2xvZ3kvcHJvYmFibHktdGhlLWJlc3QtMTBzLm1wNC9tYW5pZmVzdC5tM3U4In1dfQ==&i=1",
+        "provider": "URL"
+    },
     "Pre-roll":{
         "contentUrl": "https://lambda-ssl.eyevinn.technology/stitch/master.m3u8?payload=ewogICAgICAidXJpIjogImh0dHBzOi8vbWFpdHYtdm9kLmxhYi5leWV2aW5uLnRlY2hub2xvZ3kvVklOTi5tcDQvbWFzdGVyLm0zdTgiLAogICAgICAiYnJlYWtzIjogWwogICAgICAgIHsgInBvcyI6IDAsICJkdXJhdGlvbiI6IDE1MDAwLCAidXJsIjogImh0dHBzOi8vbWFpdHYtdm9kLmxhYi5leWV2aW5uLnRlY2hub2xvZ3kvYWRzL2Fwb3RlYS0xNXMubXA0L21hc3Rlci5tM3U4IiB9CiAgICAgIF0KfQ==&i=1",
         "provider": "URL"
