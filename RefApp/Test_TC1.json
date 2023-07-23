@@ -354,27 +354,42 @@
         }
     },
     "Odin": {
-        "enabled": true,
+	"enabled":true,
 	"category":"app",
-    	"params": {
-		"config": {
-			"namespace":"appTracker",
-			"endPoint":"https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
-			"retryNum": 3,
-			"retryWaitTime": 30,
-			"debugLogging": true,
-			"base64encoding":false,
-			"sessionContext":true,
-			"platformContext":true,
-			"lifecycleAutotracking":true,
-			"screenViewAutotracking":true,
-			"screenContext":true,
-			"applicationContext":true,
-			"expectionAutotracking":true,
-			"installAutotracking":true,
-			"userAnonymisation":false
-		}
-	}
+	"params":{
+	    "config":{
+	         "namespace":"appTracker",
+	         "endPoint":"https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
+	         "retryNum":3,
+	         "retryWaitTime":30,
+	         "debugLogging":true,
+	         "base64encoding":false,
+	         "sessionContext":true,
+	         "platformContext":true,
+	         "lifecycleAutotracking":true,
+	         "screenViewAutotracking":true,
+	         "screenContext":true,
+	         "applicationContext":true,
+	         "expectionAutotracking":true,
+	         "installAutotracking":true,
+	         "userAnonymisation":false
+	      },
+	      "dataType":{
+	         "retryNum":"int",
+	         "retryWaitTime":"int",
+	         "debugLogging":"boolean",
+	         "base64encoding":"boolean",
+	         "sessionContext":"boolean",
+	         "platformContext":"boolean",
+	         "lifecycleAutotracking":"boolean",
+	         "screenViewAutotracking":"boolean",
+	         "screenContext":"boolean",
+	         "applicationContext":"boolean",
+	         "expectionAutotracking":"boolean",
+	         "installAutotracking":"boolean",
+	         "userAnonymisation":"boolean"
+	      }
+	 }
     },
     "Oztam": {
         "enabled": true,
