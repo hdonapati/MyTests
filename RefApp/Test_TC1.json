@@ -366,7 +366,7 @@
 		"sessionContext":true,
 		"platformContext":true,
 		"lifecycleAutotracking":true,
-		"screenViewAutotracking":true.
+		"screenViewAutotracking":true,
 		"screenContext":true,
 		"applicationContext":true,
 		"expectionAutotracking":true,
