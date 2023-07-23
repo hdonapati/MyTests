@@ -353,6 +353,27 @@
             }
         }
     },
+    "Odin": {
+        "enabled": true,
+		"category":"app"
+		"config": {
+			"namespace":"appTracker",
+			"endPoint:"https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
+    		"retryNum": 3,
+    		"retryWaitTime": 30,
+    		"debugLogging": true
+			"base64encoding":false,
+			"sessionContext":true,
+			"platformContext":true,
+			"lifecycleAutotracking":true,
+			"screenViewAutotracking":true.
+			"screenContext":true,
+			"applicationContext":true,
+			"expectionAutotracking":true,
+			"installAutotracking":true,
+			"userAnonymisation":false.
+		}
+    },
     "Oztam": {
         "enabled": true,
         "category": "tracking",
