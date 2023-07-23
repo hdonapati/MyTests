@@ -463,7 +463,7 @@
             },
             "entities": {
                 "cdn": "{data.cdn}",
-                "rendition": "{context.renditionChangeComposed}",
+                "rendition": "{context.renditionChangeComposed} | {data.rendition}",
                 "title": "{data.mediaTitle}",
                 "program": "Program Name",
                 "subtitles": "en,fr",
@@ -507,7 +507,7 @@
                 "codecProfile": "",
                 "containerFormat": "",
                 "contractedResolution": "",
-                "rendition": "",
+                "rendition": "{data.rendition}",
                 "saga": "",
                 "program": "{data.isLive} ? {context.liveVideoTitle} : {data.mediaTitle}",
                 "tvshow": "{context.seriesTitle}",
