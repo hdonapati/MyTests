@@ -109,9 +109,16 @@
         "resumePosition": 25
     },
     "URL | VoD | with Multiple Captions": {
-        "title": "URL - VoD ",
+        "title": "URL - VoD",
         "provider": "URL",
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+        "type": "VOD"
+    },
+     "URL | SuperBowl": {
+        "title": "SuperBowl'23 with ID3 Ads",
+        "provider": "URL",
+        "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
+        "live": true,
         "type": "VOD"
     },
     "CUSTOM | VoD ": {
