@@ -419,12 +419,12 @@
                 "runInMainThread": true
             },
             "sessionInfo": {
-                "id3Owner": "com.cbsinteractive.sbvast",
+                "id3Owner": "com.paramount.vtg",
                 "adPlatform": "ott",
-                "adApp": "cbssports_firetv_app",
+                "adApp": "cbssports_roku_app",
                 "adEndError": 2,
                 "podEndError": 5,
-                "adTemplate": "https://pubads.g.doubleclick.net/gampad/live/ads?correlator=[RANDOM]&iu=/8264/vaw-sports/[PLATFORM]/[APP_VALUE]&env=vp&gdfp_req=1&output=xml_vast3&sz=1x1&description_url=https%3A%2F%2Fwww.cbssports.com&pp=ssai&nofb=1&tfcd=0&npa=0&vpmute=0&vpa=0&vad_format=linear&hl=en&url=https%3A%2F%2Fwww.cbssports.com&vpos=midroll&videoad_start_delay=0&unviewed_position_start=1&cust_params=lineid%3D[ADID]&ad_rule=0&ciu_szs=1x1"
+                "adTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520310&caid=Ml_8xlr__D9RFI3OY8uXQmUK8c_Dfj2o&csid=vcbs_cbssports_desktop_web_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520310&prof=520311%3AGoogleDAISSAI_CBSi_LIVE&pvrn=8787879878998798798&resp=vmap1+vast4&ssnw=520311&mode=live&vdty=VARIABLE&vrdu=150&vprn=[RANDOM];_fw_coppa=0&_fw_h_referer=&_fw_is_lat=&_fw_hylda=acid=CBS&aiid=[airingID]&abid=break://[airingID]/[breakID]&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_vcid2=&aamid=&dai_stream_activity_id=&description_url=&sz=640x480;cpsq=1&tpos=0&maxd=[maxSlotDuration]&mind=[minSlotDuration]&ptgt=a&slid=&tpcl=MIDROLL"
             }
         }
     },
