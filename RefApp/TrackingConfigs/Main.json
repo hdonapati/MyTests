@@ -248,7 +248,7 @@
     	         "tokenExpiryTime":14400
     	      },
     	      "dataType":{
-    	         "tokenExpiryTime":"int",
+    	         "tokenExpiryTime":"int"
     	      }
     	 }
     },
