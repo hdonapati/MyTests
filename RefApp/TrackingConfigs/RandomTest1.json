@@ -213,7 +213,7 @@
                 "streamId": "{data.adStitcher} ? {data.streamId} : {context.emptyValue}",
                 "testBucket": "none",
                 "winDimension": "{data.screenSize}",
-                "Tealium":"{config.tealiumVersion}",
+                "Tealium": "{config.tealiumVersion}",
                 "TSLibrary": "{data.trackingModuleVersion}"
             },
             "metadataInterface": {
@@ -354,42 +354,90 @@
         }
     },
     "Odin": {
-	"enabled":true,
-	"category":"app",
-	"params":{
-	    "config":{
-	         "namespace":"appTracker",
-	         "endPoint":"https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
-	         "retryNum":3,
-	         "retryWaitTime":30,
-	         "debugLogging":true,
-	         "base64encoding":false,
-	         "sessionContext":true,
-	         "platformContext":true,
-	         "lifecycleAutotracking":true,
-	         "screenViewAutotracking":true,
-	         "screenContext":true,
-	         "applicationContext":true,
-	         "expectionAutotracking":true,
-	         "installAutotracking":true,
-	         "userAnonymisation":false
-	      },
-	      "dataType":{
-	         "retryNum":"int",
-	         "retryWaitTime":"int",
-	         "debugLogging":"boolean",
-	         "base64encoding":"boolean",
-	         "sessionContext":"boolean",
-	         "platformContext":"boolean",
-	         "lifecycleAutotracking":"boolean",
-	         "screenViewAutotracking":"boolean",
-	         "screenContext":"boolean",
-	         "applicationContext":"boolean",
-	         "expectionAutotracking":"boolean",
-	         "installAutotracking":"boolean",
-	         "userAnonymisation":"boolean"
-	      }
-	 }
+        "enabled": true,
+        "category": "app",
+        "params": {
+            "config": {
+                "namespace": "appTracker",
+                "endPoint": "https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
+                "retryNum": 3,
+                "retryWaitTime": 30,
+                "debugLogging": true,
+                "base64encoding": false,
+                "sessionContext": true,
+                "platformContext": true,
+                "lifecycleAutotracking": true,
+                "screenViewAutotracking": true,
+                "screenContext": true,
+                "applicationContext": true,
+                "expectionAutotracking": true,
+                "installAutotracking": true,
+                "userAnonymisation": false
+            },
+            "eventRules": [
+                {
+                    "when": "{localStorage.oneTrustEnabled}",
+                    "include": "{commaDelimitedList}"
+                },
+                {
+                    "when": "{eventData.sp.isClientDNT}",
+                    "include": "buttonPress1, buttonPress2"
+                },
+                {
+                    "when": "{eventData.sp.isTrueMe}",
+                    "include": "buttonPress5, buttonPress7, buttonPress2"
+                }
+            ],
+            "dataMappings": [
+                {
+                    "default": {
+                        "schema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
+                        "payload": {
+                            "data": {
+                                "hitID": "{context.hitID}",
+                                "eventOccurredTimestamp": "",
+                                "eventCategory": "",
+                                "eventName": "",
+                                "jsonExtensions": {
+                                    "ver": "{eventData.sp.jsonExtensions.ver}",
+                                    "data": {
+                                        "screenId": "eventData.sp.jsonExtensions.data.screenId"
+                                    }
+                                },
+                                "featureTypeExtension": {
+                                    "ver": "{eventData.sp.featureTypeExtension.ver}",
+                                    "data": {
+                                        "featureTypeId": "{eventData.sp.featureTypeExtension.data.featureTypeId}"
+                                    }
+                                },
+                                "appId": "{eventData.sp.appId}",
+                                "appName": "{eventData.sp.appName}",
+                                "appVersion": "{eventData.sp.appVersion}",
+                                "accountID": "{context.oneTrustEnabled} ? '' : {eventData.sp.accountId}"
+                            }
+                        },
+                        "eventTrackMe": {
+                            "entry": "trackme"
+                        }
+                    }
+                }
+            ],
+            "dataType": {
+                "retryNum": "int",
+                "retryWaitTime": "int",
+                "debugLogging": "boolean",
+                "base64encoding": "boolean",
+                "sessionContext": "boolean",
+                "platformContext": "boolean",
+                "lifecycleAutotracking": "boolean",
+                "screenViewAutotracking": "boolean",
+                "screenContext": "boolean",
+                "applicationContext": "boolean",
+                "expectionAutotracking": "boolean",
+                "installAutotracking": "boolean",
+                "userAnonymisation": "boolean"
+            }
+        }
     },
     "Oztam": {
         "enabled": true,
@@ -456,7 +504,7 @@
             }
         }
     },
-     "Youbora": {
+    "Youbora": {
         "enabled": "{context.enableYoubora} | true",
         "params": {
             "trackerCommands": {
