@@ -387,8 +387,7 @@
             "include":"buttonPress5, buttonPress7, buttonPress2"
          }
       ],
-      "dataMappings":[
-         {
+      "dataMappings":{
             "default":{
                "schema":"iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
                "payload":{
@@ -419,22 +418,6 @@
                   "entry":"trackme"
                }
             }
-         }
-      ],
-      "dataType":{
-         "retryNum":"int",
-         "retryWaitTime":"int",
-         "debugLogging":"boolean",
-         "base64encoding":"boolean",
-         "sessionContext":"boolean",
-         "platformContext":"boolean",
-         "lifecycleAutotracking":"boolean",
-         "screenViewAutotracking":"boolean",
-         "screenContext":"boolean",
-         "applicationContext":"boolean",
-         "expectionAutotracking":"boolean",
-         "installAutotracking":"boolean",
-         "userAnonymisation":"boolean"
       }
    },
    "Oztam":{
