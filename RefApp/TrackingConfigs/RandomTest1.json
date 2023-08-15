@@ -375,15 +375,15 @@
       },
       "eventRules":[
          {
-            "when":"{localStorage.oneTrustEnabled}",
-            "include":"{commaDelimitedList}"
+            "when":"{localStorage.Tracking.oneTrustEnabled}",
+            "include":"{localStorage.Odin.commaDelimitedList}"
          },
          {
             "when":"{eventData.sp.isClientDNT}",
             "include":"buttonPress1, buttonPress2"
          },
          {
-            "when":"{eventData.sp.isTrueMe}",
+            "when":"{context.isRule3Enabled}",
             "include":"buttonPress5, buttonPress7, buttonPress2"
          }
       ],
