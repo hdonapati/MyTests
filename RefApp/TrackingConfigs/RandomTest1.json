@@ -388,36 +388,36 @@
          }
       ],
       "dataMappings":{
-            "default":{
-               "schema":"iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
-               "payload":{
-                  "data":{
-                     "hitID":"{context.hitID}",
-                     "eventOccurredTimestamp":"",
-                     "eventCategory":"",
-                     "eventName":"",
-                     "jsonExtensions":{
-                        "ver":"{eventData.sp.jsonExtensions.ver}",
-                        "data":{
-                           "screenId":"eventData.sp.jsonExtensions.data.screenId"
-                        }
-                     },
-                     "featureTypeExtension":{
-                        "ver":"{eventData.sp.featureTypeExtension.ver}",
-                        "data":{
-                           "featureTypeId":"{eventData.sp.featureTypeExtension.data.featureTypeId}"
-                        }
-                     },
-                     "appId":"{eventData.sp.appId}",
-                     "appName":"{eventData.sp.appName}",
-                     "appVersion":"{eventData.sp.appVersion}",
-                     "accountID":"{context.oneTrustEnabled} ? '' : {eventData.sp.accountId}"
-                  }
-               },
-               "eventTrackMe":{
-                  "entry":"trackme"
+         "default":{
+            "schema":"iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
+            "payload":{
+               "data":{
+                  "hitID":"{context.hitID}",
+                  "eventOccurredTimestamp":"",
+                  "eventCategory":"",
+                  "eventName":"",
+                  "jsonExtensions":{
+                     "ver":"{eventData.sp.jsonExtensions.ver}",
+                     "data":{
+                        "screenId":"eventData.sp.jsonExtensions.data.screenId"
+                     }
+                  },
+                  "featureTypeExtension":{
+                     "ver":"{eventData.sp.featureTypeExtension.ver}",
+                     "data":{
+                        "featureTypeId":"{eventData.sp.featureTypeExtension.data.featureTypeId}"
+                     }
+                  },
+                  "appId":"{eventData.sp.appId}",
+                  "appName":"{eventData.sp.appName}",
+                  "appVersion":"{eventData.sp.appVersion}",
+                  "accountID":"{context.oneTrustEnabled} ? '' : {eventData.sp.accountId}"
                }
             }
+         },
+         "eventTrackMe":{
+            "entry":"trackme"
+         }
       }
    },
    "Oztam":{
