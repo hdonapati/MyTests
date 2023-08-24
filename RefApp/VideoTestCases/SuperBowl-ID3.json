@@ -62,7 +62,7 @@
         "live": true,
         "isSBWL": true
     },
-   "SDR | DRM DASH | 2": {
+   "SDR | AES128 HLS | 2": {
         "title": "SuperBowl | SDR | AES128 HLS 2",
         "provider": "URL",
         "contentUrl": "https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/ff8fa0426a384adb91cf542f465c030b/index.m3u8",
