@@ -119,7 +119,7 @@
         "provider": "URL",
         "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
         "live": true,
-        "type": "VOD"
+        "isSBWL": true
     },
     "CUSTOM | VoD ": {
         "title": "CUSTOM | VoD",
