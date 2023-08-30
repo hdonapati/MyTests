@@ -718,7 +718,7 @@
                 "param1": "{context.userStatus}",
                 "param2": "{context.appName}",
                 "param3": "{context.userCountry}",
-                "param4": "{context.appName} {data.appVersion}",
+                "param4": "{context.appName} {context.appVersion}",
                 "param5": "{context.brand}",
                 "param6": "{context.mediaId}",
                 "param7": "{data.isLive} ? Live : VOD",
