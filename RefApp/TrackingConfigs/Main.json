@@ -494,7 +494,7 @@
                 "title": "{data.mediaTitle}",
                 "program": "Program Name",
                 "subtitles": "en,fr",
-                "language": "en",
+                "language": "{context.language}",
                 "nodeHost": "",
                 "nodeType": "",
                 "contentLanguage": "en"
@@ -502,6 +502,7 @@
             "init": {
                 "pluginVersion": "6.5.29-RokuVideo",
                 "playerVersion": "{data.playerVersion}",
+                "player": "{data.playerName}",
                 "live": "{data.isLive} ? true : false",
                 "mediaResource": "{context.mediaResource}",
                 "title": "{data.mediaTitle}",
@@ -544,7 +545,7 @@
                 "imdbID": "",
                 "gracenoteID": "",
                 "genre": "",
-                "language": "",
+                "language": "{context.language}",
                 "subtitles": "",
                 "cost": "",
                 "price": "",
