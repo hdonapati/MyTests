@@ -37,6 +37,8 @@
             "media.season":"{data.isLive} ? {context.undefined} : {data.seasonNumber}",
             "media.episode":"{data.episodeNumber}",
             "media.showType":"{data.isEpisode} ? 0 : 2",
+            "media.states.name":"{data.mediaStateName}",
+            "media.qoe.bitrate":"{data.observedBitrate}",
             "media.resume":"{data.hasSessionResumed}"
          },
          "adBreakInfo":{
@@ -214,6 +216,14 @@
             "testBucket":"none",
             "winDimension":"{data.screenSize}",
             "Tealium":"{config.tealiumVersion}",
+            "videoCodec": "{data.videoCodec}",
+            "audioCodec": "{data.audioCodec}",
+            "colorSpace": "{data.colorSpace}",
+            "audioChannels": "{data.audioTracksCount}",
+            "audioTrack": "{data.currentAudioTrack}",
+            "captionsEnabled": "{data.captionsEnabled}",
+            "captionsType": "{data.currentCaptionTrack}",
+            "videoQuality": "{data.hit4KUHD} ? 4KUHD : null",
             "TSLibrary":"{data.trackingModuleVersion}"
          },
          "metadataInterface":{
