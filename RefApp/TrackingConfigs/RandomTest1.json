@@ -224,6 +224,7 @@
             "captionsEnabled": "{data.captionsEnabled}",
             "captionsType": "{data.currentCaptionTrack}",
             "videoQuality": "{data.hit4KUHD} ? 4KUHD : null",
+            "audioSwitch": "data.audioSwitched",
             "TSLibrary":"{data.trackingModuleVersion}"
          },
          "metadataInterface":{
