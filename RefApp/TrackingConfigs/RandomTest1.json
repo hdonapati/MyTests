@@ -410,8 +410,14 @@
                   "jsonExtensions":{
                      "ver":"{eventData.sp.jsonExtensions.ver}",
                      "data":{
-                        "screenId":"eventData.sp.jsonExtensions.data.screenId"
-                     }
+                        "screenId":"{eventData.sp.jsonExtensions.data.screenId}"
+                     },
+                     "dataX": [
+                        "{eventData.sp.featureTypeExtension.ver}",
+                        "{context.hitID}",
+                        1,
+                        true
+                     ]
                   },
                   "featureTypeExtension":{
                      "ver":"{eventData.sp.featureTypeExtension.ver}",
