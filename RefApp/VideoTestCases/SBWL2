@@ -13,42 +13,24 @@
         "live": true,
         "isSBWL": true
     },
-  "HDR | DRM-CID1 DASH | 1": {
-        "title": "SuperBowl | HDR | DRM-CID1 DASH 1",
-        "provider": "URL",
-        "contentUrl": "https://c75a7e79204e539d.mediapackage.us-east-1.amazonaws.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
-        "live": true,
-        "contentID": "propeller-sb58-test",
-        "fetchLicense": true,
-        "drmType": "widevine",
-        "isSBWL": true
-    },
-   "HDR | DRM-CID1 DASH | 2": {
-        "title": "SuperBowl | HDR | DRM-CID1 DASH 2",
-        "provider": "URL",
-        "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
-        "live": true,
-        "contentID": "propeller-sb58-test",
-        "fetchLicense": true,
-        "drmType": "widevine",
-        "isSBWL": true
-    },
-  "HDR | DRM-CID2 DASH | 1": {
-        "title": "SuperBowl | HDR | DRM-CID2 DASH 1",
+  "HDR | DRM DASH | 1": {
+        "title": "SuperBowl | HDR | DRM DASH 1",
         "provider": "URL",
         "contentUrl": "https://c75a7e79204e539d.mediapackage.us-east-1.amazonaws.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
         "live": true,
         "contentID": "fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
+        "useStagingForDRMLicense": true,
         "fetchLicense": true,
         "drmType": "widevine",
         "isSBWL": true
     },
-   "HDR | DRM-CID2 DASH | 2": {
-        "title": "SuperBowl | HDR | DRM-CID2 DASH 2",
+   "HDR | DRM DASH | 2": {
+        "title": "SuperBowl | HDR | DRM DASH 2",
         "provider": "URL",
         "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
         "live": true,
         "contentID": "fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
+        "useStagingForDRMLicense": true,
         "fetchLicense": true,
         "drmType": "widevine",
         "isSBWL": true
