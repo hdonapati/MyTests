@@ -34,7 +34,7 @@
         "live": true,
         "contentID": "propeller-sb58-test",
         "fetchLicense": true,
-        "drmType": "WV",
+        "drmType": "widevine",
         "isSBWL": true
     },
    "HDR | DRM DASH | 2": {
@@ -44,7 +44,7 @@
         "live": true,
         "contentID": "propeller-sb58-test",
         "fetchLicense": true,
-        "drmType": "WV",
+        "drmType": "widevine",
         "isSBWL": true
     },
    "SDR | Clear HLS | 1": {
