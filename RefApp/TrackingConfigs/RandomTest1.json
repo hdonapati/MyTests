@@ -223,7 +223,8 @@
             "audioTrack": "{data.currentAudioTrack}",
             "captionsEnabled": "{data.captionsEnabled}",
             "captionsType": "{data.currentCaptionTrack}",
-            "videoQuality": "{data.hit4KUHD} ? 4KUHD : null",
+            "videoQuality": "{data.hit4KUHD}",
+            "liveTimeShifted": "{data.liveTimeShifted}",
             "audioSwitch": "{data.audioSwitched}",
             "TSLibrary":"{data.trackingModuleVersion}"
          },
