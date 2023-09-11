@@ -214,7 +214,7 @@
             "showId":"{context.showSeriesId}",
             "streamId":"{data.adStitcher} ? {data.streamId} : {context.emptyValue}",
             "testBucket":"none",
-            "winDimension":"{data.screenSize}",
+            "winDimension":"{data.playerSize}",
             "Tealium":"{config.tealiumVersion}",
             "videoCodec": "{data.videoCodec}",
             "audioCodec": "{data.audioCodec}",
