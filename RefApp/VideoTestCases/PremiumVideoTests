@@ -1,0 +1,16 @@
+{
+    "Premium Video + URL | HLS | DRM": {
+        "provider": "URL",
+        "type": "VOD",
+        "contentID": "7juDj4xQPZG1xtvD0pDPRQWgv1Vj6xox",
+        "drmType": "widevine",
+        "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/27/2199270467759/2344697_fp_fmp4_hls/master.m3u8"
+    },
+    "Premium Video + URL | DASH | DRM": {
+        "provider": "URL",
+        "type": "VOD",
+        "contentID": "7juDj4xQPZG1xtvD0pDPRQWgv1Vj6xox",
+        "drmType": "widevine",
+        "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/27/2199270467759/2344697_cenc_fmp4_hdr_dash/stream.mpd"
+    }
+}
