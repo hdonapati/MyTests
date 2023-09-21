@@ -195,6 +195,9 @@
          "cdnInfo":{
             "defaultResource":"{data.cdn}"
          },
+         "ebvsInfo": {
+           "Conviva.defaultResource": "ebvsNA"
+         },
          "customTag":{
             "accessType":"{context.userStatus}",
             "app":"{context.appName}",
@@ -223,7 +226,7 @@
             "audioTrack": "{data.currentAudioTrack}",
             "captionsEnabled": "{data.captionsEnabled}",
             "captionsType": "{data.currentCaptionTrack}",
-            "videoQuality": "{data.hit4KUHD}",
+            "videoQuality": "{data.playedUHD}",
             "liveTimeShifted": "{data.liveTimeShifted}",
             "audioSwitch": "{data.audioSwitched}",
             "TSLibrary":"{data.trackingModuleVersion}"
