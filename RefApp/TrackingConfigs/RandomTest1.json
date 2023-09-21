@@ -238,6 +238,13 @@
             "operatingSystemName":"Android",
             "operatingSystemVersion":"{context.osVersion}"
          }
+        "dataType": {
+             "sendUndefined": "boolean",
+             "encodedFrameRate": "int",
+             "duration": "int",
+             "podIndex": "int",
+             "podDuration": "int",
+         }
       }
    },
    "KantarBARB":{
