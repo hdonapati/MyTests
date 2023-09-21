@@ -237,7 +237,7 @@
             "deviceModel":"{context.deviceModel}",
             "operatingSystemName":"Android",
             "operatingSystemVersion":"{context.osVersion}"
-         }
+         },
         "dataType": {
              "sendUndefined": "boolean",
              "encodedFrameRate": "int",
