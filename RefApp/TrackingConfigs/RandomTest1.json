@@ -243,7 +243,7 @@
              "encodedFrameRate": "int",
              "duration": "int",
              "podIndex": "int",
-             "podDuration": "int",
+             "podDuration": "int"
          }
       }
    },
