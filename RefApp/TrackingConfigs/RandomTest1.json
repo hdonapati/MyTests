@@ -142,7 +142,7 @@
             "streamType":"{data.isLive} ? Live : VoD",
             "applicationName":"{context.appName}",
             "duration":"{data.duration}",
-            "defaultResource":"{data.cdn}",
+            "defaultReportingResource":"{data.cdn}",
             "encodedFrameRate":"{data.playbackFrameRate}",
             "viewerId":"{context.userRegId}",
             "streamId":"{data.adStitcher} ? {data.streamId} : {context.emptyValue}"
