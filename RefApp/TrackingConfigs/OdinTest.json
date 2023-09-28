@@ -195,8 +195,8 @@
          "cdnInfo":{
             "defaultResource":"{data.cdn}"
          },
-         "ebvsInfo": {
-           "Conviva.defaultResource": "ebvsNA"
+         "ebvsInfo":{
+            "Conviva.defaultResource":"ebvsNA"
          },
          "customTag":{
             "accessType":"{context.userStatus}",
@@ -219,16 +219,16 @@
             "testBucket":"none",
             "winDimension":"{data.playerSize}",
             "Tealium":"{config.tealiumVersion}",
-            "videoCodec": "{data.videoCodec}",
-            "audioCodec": "{data.audioCodec}",
-            "colorSpace": "{data.colorSpace}",
-            "audioChannels": "{data.audioTracksCount}",
-            "audioTrack": "{data.currentAudioTrack}",
-            "captionsEnabled": "{data.captionsEnabled}",
-            "captionsType": "{data.currentCaptionTrack}",
-            "videoQuality": "{data.playedUHD}",
-            "liveTimeShifted": "{data.liveTimeShifted}",
-            "audioSwitch": "{data.audioSwitched}",
+            "videoCodec":"{data.videoCodec}",
+            "audioCodec":"{data.audioCodec}",
+            "colorSpace":"{data.colorSpace}",
+            "audioChannels":"{data.audioTracksCount}",
+            "audioTrack":"{data.currentAudioTrack}",
+            "captionsEnabled":"{data.captionsEnabled}",
+            "captionsType":"{data.currentCaptionTrack}",
+            "videoQuality":"{data.playedUHD}",
+            "liveTimeShifted":"{data.liveTimeShifted}",
+            "audioSwitch":"{data.audioSwitched}",
             "TSLibrary":"{data.trackingModuleVersion}"
          },
          "metadataInterface":{
@@ -238,12 +238,12 @@
             "operatingSystemName":"Android",
             "operatingSystemVersion":"{context.osVersion}"
          },
-        "dataType": {
-             "sendUndefined": "boolean",
-             "encodedFrameRate": "int",
-             "duration": "int",
-             "podIndex": "int",
-             "podDuration": "int"
+         "dataType":{
+            "sendUndefined":"boolean",
+            "encodedFrameRate":"int",
+            "duration":"int",
+            "podIndex":"int",
+            "podDuration":"int"
          }
       }
    },
@@ -411,68 +411,70 @@
       ],
       "dataMappings":{
          "default":{
-    "data": [
-        {
-            "aid": "{eventData.sp.aid}",
-            "dtm": "{eventData.sp.dtm}",
-            "e": "ue",
-            "eid": "{eventData.sp.eid}",
-            "p": "tv",
-            "res": "{eventData.sp.res}",
-            "stm": "{eventData.sp.stm}",
-            "tna": "{eventData.sp.tna}",
-            "tv": "bs-1.0.0",
-            "tz": "{context.tz}",
-            "ue_pr": {
-                "data": {
-                    "data": {
-                        "appName": "roku",
-                        "appVersion": "{context.appVersion}",
-                        "clientDeviceType": 6,
-                        "clientFirmware": "{eventData.sp.clientFirmware}",
-                        "clientID": "{eventData.sp.clientID}",
-                        "clientLanguage": "en_US",
-                        "clientManufacturer": "Roku",
-                        "clientModelName": "{data.clientModelName}",
-                        "clientModelNumber": "{data.clientModelNumber}",
-                        "clientNetworkType": "{data.clientNetworkType}",
-                        "clientOS": "{data.clientOS}",
-                        "clientPrivateIP": "{data.clientPrivateIP}",
-                        "clientScreenResolution": "{data.clientScreenResolution}",
-                        "cmAudienceID": "{eventData.sp.cmAudienceID}",
-                        "environment": "staging",
-                        "eventCategory": "{eventData.sp.eventCategory}",
-                        "eventEmitterType": "client",
-                        "eventGeneratorIP": "{data.externalIp}",
-                        "eventGeneratorType": "client",
-                        "eventName": "{eventData.eventType}",
-                        "eventOccurredTimestamp": "{eventData.eventOccurredTimestamp}",
-                        "featureTypeExtension": {
-                            "ver":"{eventData.sp.featureTypeExtension.ver}",
-                            "data":{
-                                "featureTypeId": [ "{eventData.sp.featureTypeExtension.data.featureTypeId}" ]
-                            }
+            "data":[
+               {
+                  "aid":"{eventData.sp.aid}",
+                  "dtm":"{eventData.sp.dtm}",
+                  "e":"ue",
+                  "eid":"{eventData.sp.eid}",
+                  "p":"tv",
+                  "res":"{eventData.sp.res}",
+                  "stm":"{eventData.sp.stm}",
+                  "tna":"{eventData.sp.tna}",
+                  "tv":"bs-1.0.0",
+                  "tz":"{context.tz}",
+                  "ue_pr":{
+                     "data":{
+                        "data":{
+                           "appName":"roku",
+                           "appVersion":"{context.appVersion}",
+                           "clientDeviceType":6,
+                           "clientFirmware":"{eventData.sp.clientFirmware}",
+                           "clientID":"{eventData.sp.clientID}",
+                           "clientLanguage":"en_US",
+                           "clientManufacturer":"Roku",
+                           "clientModelName":"{data.clientModelName}",
+                           "clientModelNumber":"{data.clientModelNumber}",
+                           "clientNetworkType":"{data.clientNetworkType}",
+                           "clientOS":"{data.clientOS}",
+                           "clientPrivateIP":"{data.clientPrivateIP}",
+                           "clientScreenResolution":"{data.clientScreenResolution}",
+                           "cmAudienceID":"{eventData.sp.cmAudienceID}",
+                           "environment":"staging",
+                           "eventCategory":"{eventData.sp.eventCategory}",
+                           "eventEmitterType":"client",
+                           "eventGeneratorIP":"{data.externalIp}",
+                           "eventGeneratorType":"client",
+                           "eventName":"{eventData.eventType}",
+                           "eventOccurredTimestamp":"{eventData.eventOccurredTimestamp}",
+                           "featureTypeExtension":{
+                              "ver":"{eventData.sp.featureTypeExtension.ver}",
+                              "data":{
+                                 "featureTypeId":[
+                                    "{eventData.sp.featureTypeExtension.data.featureTypeId}"
+                                 ]
+                              }
+                           },
+                           "hitID":"{eventData.hitID}",
+                           "isClientDNT":"{eventData.isClientDNT}",
+                           "kidsConstrained":"{eventData.kidsConstrained}",
+                           "playbackState":"{eventData.playbackState}",
+                           "playerName":"{eventData.playerName}",
+                           "playerVersion":"{eventData.playerVersion}",
+                           "screenOrientation":"{eventData.screenOrientation}",
+                           "section":"{eventData.section}",
+                           "sessionID":"{eventData.sp.sessionID}",
+                           "testGroupID":"{eventData.testGroupID}",
+                           "testID":"{eventData.testID}"
                         },
-                        "hitID": "{eventData.hitID}",
-                        "isClientDNT": "{eventData.isClientDNT}",
-                        "kidsConstrained": "{eventData.kidsConstrained}",
-                        "playbackState": "{eventData.playbackState}",
-                        "playerName": "{eventData.playerName}",
-                        "playerVersion": "{eventData.playerVersion}",
-                        "screenOrientation": "{eventData.screenOrientation}",
-                        "section": "{eventData.section}",
-                        "sessionID": "{eventData.sp.sessionID}",
-                        "testGroupID": "{eventData.testGroupID}",
-                        "testID": "{eventData.testID}"
-                    },
-                    "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
-                },
-                "schema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0"
-            }
-        }
-    ],
-    "schema": "iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4"
-},
+                        "schema":"iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
+                     },
+                     "schema":"iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0"
+                  }
+               }
+            ],
+            "schema":"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4"
+         },
          "eventTrackMe":{
             "entry":"trackme"
          }
