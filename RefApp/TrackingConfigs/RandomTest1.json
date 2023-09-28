@@ -412,6 +412,7 @@
       "dataMappings":{
          "default":{
             "schema":"iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
+            "eventType": "{eventData.eventType}",
             "payload":{
                "data":{
                   "hitID":"{context.hitID}",
