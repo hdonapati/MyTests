@@ -413,7 +413,7 @@
          "default":{
             "data": {
                 "data": {
-                    "appName": "roku",
+                    "appName": "{context.appName}",
                     "appVersion": "{context.appVersion}",
                     "channelID": "{context.channelID}",
                     "clientDeviceType": 6,
