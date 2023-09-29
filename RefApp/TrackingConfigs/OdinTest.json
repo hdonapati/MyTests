@@ -411,70 +411,57 @@
       ],
       "dataMappings":{
          "default":{
-            "data":[
-               {
-                  "aid":"{eventData.sp.aid}",
-                  "dtm":"{eventData.sp.dtm}",
-                  "e":"ue",
-                  "eid":"{eventData.sp.eid}",
-                  "p":"tv",
-                  "res":"{eventData.sp.res}",
-                  "stm":"{eventData.sp.stm}",
-                  "tna":"{eventData.sp.tna}",
-                  "tv":"bs-1.0.0",
-                  "tz":"{context.tz}",
-                  "ue_pr":{
-                     "data":{
-                        "data":{
-                           "appName":"avia-roku-ref-app",
-                           "appVersion":"{context.appVersion}",
-                           "clientDeviceType":6,
-                           "clientFirmware":"{eventData.sp.clientFirmware}",
-                           "clientID":"{eventData.sp.clientID}",
-                           "clientLanguage":"en_US",
-                           "clientManufacturer":"Roku",
-                           "clientModelName":"{data.clientModelName}",
-                           "clientModelNumber":"{data.clientModelNumber}",
-                           "clientNetworkType":"{data.clientNetworkType}",
-                           "clientOS":"{data.clientOS}",
-                           "clientPrivateIP":"{data.clientPrivateIP}",
-                           "clientScreenResolution":"{data.clientScreenResolution}",
-                           "cmAudienceID":"{eventData.sp.cmAudienceID}",
-                           "environment":"staging",
-                           "eventCategory":"{eventData.sp.eventCategory}",
-                           "eventEmitterType":"client",
-                           "eventGeneratorIP":"{data.externalIp}",
-                           "eventGeneratorType":"client",
-                           "eventName":"{eventData.eventType}",
-                           "eventOccurredTimestamp":"{eventData.eventOccurredTimestamp}",
-                           "featureTypeExtension":{
-                              "ver":"{eventData.sp.featureTypeExtension.ver}",
-                              "data":{
-                                 "featureTypeId":[
-                                    "{eventData.sp.featureTypeExtension.data.featureTypeId}"
-                                 ]
-                              }
-                           },
-                           "hitID":"{eventData.hitID}",
-                           "isClientDNT":"{eventData.isClientDNT}",
-                           "kidsConstrained":"{eventData.kidsConstrained}",
-                           "playbackState":"{eventData.playbackState}",
-                           "playerName":"{eventData.playerName}",
-                           "playerVersion":"{eventData.playerVersion}",
-                           "screenOrientation":"{eventData.screenOrientation}",
-                           "section":"{eventData.section}",
-                           "sessionID":"{eventData.sp.sessionID}",
-                           "testGroupID":"{eventData.testGroupID}",
-                           "testID":"{eventData.testID}"
+            "data": {
+                "data": {
+                    "appName": "roku",
+                    "appVersion": "{context.appVersion}",
+                    "channelID": "{context.channelID}",
+                    "clientDeviceType": 6,
+                    "clientFirmware": "{data.deviceFirmWare}",
+                    "clientID": "{data.clientID}",
+                    "clientLanguage": "{context.clientID}",
+                    "clientManufacturer": "{data.deviceManufacturer}",
+                    "clientModelName": "{data.deviceModelName}",
+                    "clientModelNumber": "{data.deviceModelNumber}",
+                    "clientNetworkType": "{data.deviceNetworkType}",
+                    "clientOS": "{data.clientOS}",
+                    "clientPrivateIP": "{data.localIP}",
+                    "eventGeneratorIP": "{data.externalIP}",
+                    "clientScreenResolution": "{data.deviceScreenResolution}",
+                    "cmAudienceID": "{context.deviceScreenResolution}",
+                    "environment": "{context.OdinEnv}",
+                    "episodeID": "{eventData.sp.episodeID}",
+                    "episodeTimelinePoint": "{eventData.sp.episodeTimelinePoint}",
+                    "eventCategory": "{eventData.sp.eventCategory}",
+                    "eventEmitterType": "{eventData.sp.eventEmitterType}",
+                    "eventGeneratorType": "{eventData.sp.eventGeneratorType}",
+                    "eventName": "{eventData.sp.eventName}",
+                    "eventOccurredTimestamp": "{eventData.sp.eventOccurredTimestamp}",
+                    "featureTypeExtension": {
+                        "data": {
+                            "featureTypeId": "{eventData.sp.featureTypeIdArr}"
                         },
-                        "schema":"iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
-                     },
-                     "schema":"iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0"
-                  }
-               }
-            ],
-            "schema":"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4"
-         },
+                        "ver": "{eventData.sp.featureTypeExtensionVersion}"
+                    },
+                    "hitID": "{eventData.sp.hitID}",
+                    "isClientDNT": "{eventData.sp.isClientDNT}",
+                    "kidsConstrained": "{eventData.sp.kidsConstrained}",
+                    "playbackState": "{eventData.sp.playbackState}",
+                    "playerHeight": "{data.playerHeight}",
+                    "playerWidth": "{data.playerWidth}",
+                    "playerName": "{data.playerName}",
+                    "playerVersion":"{data.playerVersion}",
+                    "programTimelineID": "{eventData.sp.programTimelineID}",
+                    "screenOrientation": "landscape",
+                    "section": "{eventData.sp.section}",
+                    "sessionID": "{eventData.sp.sessionID}",
+                    "testGroupID": "{eventData.sp.testGroupID}",
+                    "testID": "{eventData.sp.testID}"
+                },
+                "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
+            },
+            "schema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0"
+        },
          "eventTrackMe":{
             "entry":"trackme"
          }
