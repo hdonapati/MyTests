@@ -439,7 +439,7 @@
                     "eventOccurredTimestamp": "{eventData.sp.eventOccurredTimestamp}",
                     "featureTypeExtension": {
                         "data": {
-                            "featureTypeId": "{eventData.sp.featureTypeIdArr}"
+                            "featureTypeId": [ "{eventData.sp.featureTypeIdCSV}" ]
                         },
                         "ver": "{eventData.sp.featureTypeExtensionVersion}"
                     },
