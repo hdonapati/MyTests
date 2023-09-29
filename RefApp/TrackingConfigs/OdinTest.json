@@ -426,7 +426,7 @@
                   "ue_pr":{
                      "data":{
                         "data":{
-                           "appName":"roku",
+                           "appName":"avia-roku-ref-app",
                            "appVersion":"{context.appVersion}",
                            "clientDeviceType":6,
                            "clientFirmware":"{eventData.sp.clientFirmware}",
