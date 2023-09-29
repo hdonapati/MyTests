@@ -380,7 +380,7 @@
       "category":"app",
       "config":{
          "namespace":"appTracker",
-         "endPoint":"https://sp.staging.pluto.tv/",
+         "endPoint":"https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
          "retryNum":3,
          "retryWaitTime":30,
          "debugLogging":true,
