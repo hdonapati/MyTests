@@ -69,6 +69,14 @@
         "provider": "DAI",
         "title": "DAI - Live"
     },
+    "DAI VoD w/Innovid" : {
+        "title":"DAI VoD w/Innovid (returns a 404 during Content)",
+        "provider":"DAI",
+        "daiId":"googleio-highlights",
+        "daiKey":"",
+        "daiSourceId":"2490667",
+        "type":"VOD"
+    },	
     "DAI | VoD | DRM | DASH Thumbs | W/Promo": {
         "adExit": true,
         "adHoliday": false,
