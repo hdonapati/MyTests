@@ -37,6 +37,8 @@
                 "media.season": "{data.isLive} ? {context.undefined} : {data.seasonNumber}",
                 "media.episode": "{data.episodeNumber}",
                 "media.showType": "{data.isEpisode} ? 0 : 2",
+                "media.states.name":"{data.mediaStateName}",
+                "media.qoe.bitrate":"{data.observedBitrate}",
                 "media.resume": "{data.hasSessionResumed}"
             },
             "adBreakInfo": {
@@ -150,7 +152,7 @@
                 "streamType": "{data.isLive} ? Live : VoD",
                 "applicationName": "{context.appName}",
                 "duration": "{data.duration}",
-                "defaultResource": "{data.cdn}",
+                "defaultReportingResource": "{data.cdn}"
                 "encodedFrameRate": "{data.playbackFrameRate}",
                 "viewerId": "{context.userRegId}",
                 "streamId": "{data.adStitcher} ? {data.streamId} : {context.emptyValue}"
@@ -222,8 +224,18 @@
                 "showId": "{context.showSeriesId}",
                 "streamId": "{data.adStitcher} ? {data.streamId} : {context.emptyValue}",
                 "testBucket": "none",
-                "winDimension": "{data.screenSize}",
+                "winDimension": "{data.playerSize}",
                 "Tealium":"{config.tealiumVersion}",
+                "audioCodec": "{data.audioCodec}",
+                "audioTrack": "{data.currentaudioTrack}",
+                "audioChannels": "{data.audioTracksCount}",
+                "audioSwitch": "{data.audioSwitched}",
+                "captionsEnabled": "{data.captionsEnabled}",
+                "captionsType": "{data.currentcaptionTrack}",
+                "colorSpace": "{data.colorSpace} (HDR | SDR)",
+                "videoCodec": "{data.videoCodec}",
+                "videoQuality": "{data.playedUHD} ? 4KUHD : null",
+                "liveTimeShifted": "{data.liveTimeShifted}",
                 "TSLibrary": "{data.trackingModuleVersion}"
             },
             "metadataInterface": {
