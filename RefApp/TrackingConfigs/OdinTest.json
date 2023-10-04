@@ -416,7 +416,7 @@
                     "appName": "{context.appName}",
                     "appVersion": "{context.appVersion}",
                     "channelID": "{context.channelID}",
-                    "clientDeviceType": 6,
+                    "clientDeviceType": "{context.clientDeviceType}",
                     "clientFirmware": "{data.deviceFirmWare}",
                     "clientID": "{data.clientID}",
                     "clientLanguage": "{context.clientLanguage}",
