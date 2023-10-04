@@ -427,7 +427,7 @@
                     "clientOS": "{data.clientOS}",
                     "clientPrivateIP": "{data.localIP}",
                     "eventGeneratorIP": "{data.externalIP}",
-                    "clientScreenResolution": "{data.deviceScreenResolution}",
+                    "clientScreenResolution": "{data.playerSize}",
                     "cmAudienceID": "{context.cmAudienceID}",
                     "environment": "{context.OdinEnv}",
                     "episodeID": "{eventData.sp.episodeID}",
