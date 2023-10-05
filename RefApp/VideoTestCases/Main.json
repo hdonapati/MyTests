@@ -79,6 +79,7 @@
           "imafw_sb":"22"
        },
        "type":"VOD",
+       "drmType": "widevine",
        "fetchLicense": true
     },	
     "DAI | VoD | DRM | DASH Thumbs | W/Promo": {
