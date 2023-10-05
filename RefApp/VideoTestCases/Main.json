@@ -79,6 +79,8 @@
           "imafw_sb":"22"
        },
        "type":"VOD",
+       "dvr": false,
+       "live": false,
        "drmType": "widevine",
        "fetchLicense": true
     },	
