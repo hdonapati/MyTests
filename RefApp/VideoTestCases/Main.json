@@ -73,13 +73,13 @@
        "title":"DAI - VoD w/Innovid",
        "provider":"DAI",
        "daiId":"2497752",
-       "daiKey":"",
        "daiSourceId":"phz8mnm5AvhUS7rv3yHhWUiSigHl7oSF",
        "adParams":{
           "imafw_csid":"streaming_paramountplus_ctv_roku_vod",
           "imafw_sb":"22"
        },
-       "type":"VOD"
+       "type":"VOD",
+       "fetchLicense": true
     },	
     "DAI | VoD | DRM | DASH Thumbs | W/Promo": {
         "adExit": true,
