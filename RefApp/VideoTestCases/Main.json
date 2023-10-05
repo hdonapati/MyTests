@@ -33,7 +33,7 @@
         "adUrl": "https://7f077.v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_ctv_roku_vod&asnw=520311&caid=Qh650aFubj9aURvIzPX2BFNYMXFX5GI_&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_NoVPAID&pvrn=ROKU_ADS_CACHE_BUSTER&resp=vmap1%2Bvast4&ssnw=520311&vprn=ROKU_ADS_CACHE_BUSTER;_fw_h_referer=CBS%20News%205.12.10&_fw_app_bundle=CBS%20News%205.12.10&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&description_url=https%3A%2F%2Fwww.cbsnews.com&vguid=c2f29f22-0f06-45eb-9ae3-ece200e53e3d&sz=640x480&_fw_vcid2=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_hh_ramp_id=UNMATCHED&fms_ifa=6e9b98f8-2e05-5a15-83c6-c974aba06e2c&fms_ramp_id=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_vcid2type=liveramp&",
         "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625/873333_hls/master.m3u8"
     },
-    "RAF - Innovid | VoD | VTT Thumbs": {
+    "RAF | VoD w/Innovid  | VTT Thumbs": {
         "adExit": true,
         "adHoliday": false,
         "dvr": false,
@@ -69,7 +69,7 @@
         "provider": "DAI",
         "title": "DAI - Live"
     },
-    "DAI VoD w/Innovid" : {
+    "DAI | VoD w/Innovid" : {
        "title":"DAI - VoD w/Innovid",
        "provider":"DAI",
        "daiId":"2497752",
@@ -139,7 +139,7 @@
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD"
     },
-     "URL | SuperBowl": {
+     "URL | Live | SuperBowl": {
         "title": "SuperBowl'23 with ID3 Ads",
         "provider": "URL",
         "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
