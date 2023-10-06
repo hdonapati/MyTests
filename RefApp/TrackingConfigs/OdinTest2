@@ -1,0 +1,90 @@
+{
+  "Odin":{
+      "enabled":true,
+      "category":"app",
+      "config":{
+         "namespace":"appTracker",
+         "endPoint":"https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
+         "retryNum":3,
+         "retryWaitTime":30,
+         "debugLogging":true,
+         "base64encoding":false,
+         "sessionContext":true,
+         "platformContext":true,
+         "lifecycleAutotracking":true,
+         "screenViewAutotracking":true,
+         "screenContext":true,
+         "applicationContext":true,
+         "expectionAutotracking":true,
+         "installAutotracking":true,
+         "userAnonymisation":false
+      },
+      "eventRules":[
+         {
+            "when":"{localStorage.Tracking.oneTrustEnabled}",
+            "include":"{localStorage.Odin.commaDelimitedList}"
+         },
+         {
+            "when":"{eventData.sp.isClientDNT}",
+            "include":"buttonPress1, buttonPress2"
+         },
+         {
+            "when":"{context.isRule3Enabled}",
+            "include":"buttonPress5, buttonPress7, buttonPress2"
+         }
+      ],
+      "dataMappings":{
+         "default":{
+            "data": {
+                "data": {
+                  "appName": "{eventData.sp.appName}",
+                  "appVersion": "{eventData.sp.appVersion}",
+                  "channelID": "{eventData.sp.channelID}",
+                  "carrierName": "{eventData.sp.carrierName}",
+                  "clientDeviceType": "{eventData.sp.clientDeviceType}",
+                  "clientFirmware": "{eventData.sp.clientOS}",
+                  "clientID": "{eventData.sp.clientID}",
+                  "clientLanguage": "{eventData.sp.clientLanguage}",
+                  "clientManufacturer": "{eventData.sp.deviceManufacturer}",
+                  "clientModelName": "{eventData.sp.deviceModelName}",
+                  "clientModelNumber": "{eventData.sp.deviceModelNumber}",
+                  "clientNetworkType": "{eventData.sp.deviceNetworkType}",
+                  "clientOS": "{eventData.sp.clientOS}",
+                  "clientPrivateIP": "{eventData.sp.localIP}",
+                  "eventGeneratorIP": "{eventData.sp.externalIP}",
+                  "clientScreenResolution": "{eventData.sp.displayResolution}",
+                  "cmAudienceID": "{eventData.sp.cmAudienceID}",
+                  "environment": "{eventData.sp.OdinEnv}",
+                  "episodeID": "{eventData.sp.episodeID}",
+                  "episodeTimelinePoint": "{eventData.sp.episodeTimelinePoint}",
+                  "eventCategory": "{eventData.sp.eventCategory}",
+                  "eventEmitterType": "{eventData.sp.eventEmitterType}",
+                  "eventGeneratorType": "{eventData.sp.eventGeneratorType}",
+                  "eventName": "{eventData.sp.eventName}",
+                  "eventOccurredTimestamp": "{eventData.sp.eventOccurredTimestamp}",
+                  "featureTypeExtension": "{eventData.sp.featureTypeExtension}",
+                  "hitID": "{eventData.sp.hitID}",
+                  "isClientDNT": "{eventData.sp.isClientDNT}",
+                  "kidsConstrained": "{eventData.sp.kidsConstrained}",
+                  "playbackState": "{eventData.sp.playbackState}",
+                  "playerHeight": "{eventData.sp.displayHeight}",
+                  "playerWidth": "{eventData.sp.displayWidth}",
+                  "playerName": "{eventData.sp.playerName}",
+                  "playerVersion":"{eventData.sp.playerVersion}",
+                  "programTimelineID": "{eventData.sp.programTimelineID}",
+                  "screenOrientation": "landscape",
+                  "section": "{eventData.sp.section}",
+                  "sessionID": "{eventData.sp.sessionID}",
+                  "testGroupID": "{eventData.sp.testGroupID}",
+                  "testID": "{eventData.sp.testID}"  
+                },
+                "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
+            },
+            "schema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0"
+        },
+         "eventTrackMe":{
+            "entry":"trackme"
+         }
+      }
+   }
+}
