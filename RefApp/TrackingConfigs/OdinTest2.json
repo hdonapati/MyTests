@@ -40,7 +40,6 @@
                   "appName": "{eventData.sp.appName}",
                   "appVersion": "{eventData.sp.appVersion}",
                   "channelID": "{eventData.sp.channelID}",
-                  "carrierName": "Hareen",
                   "clientDeviceType": "{eventData.sp.clientDeviceType}",
                   "clientFirmware": "{eventData.sp.clientFirmware}",
                   "clientID": "{eventData.sp.clientID}",
