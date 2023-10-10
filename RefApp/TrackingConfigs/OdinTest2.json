@@ -39,6 +39,7 @@
                 "data": {
                   "appName": "{eventData.sp.appName}",
                   "appVersion": "{eventData.sp.appVersion}",
+                  "carrierName": "{eventData.sp.carrierName}",
                   "channelID": "{eventData.sp.channelID}",
                   "clientDeviceType": "{eventData.sp.clientDeviceType}",
                   "clientFirmware": "{eventData.sp.clientFirmware}",
