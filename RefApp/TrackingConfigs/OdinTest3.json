@@ -67,10 +67,7 @@
                 "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
             },
             "schema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0"
-        },
-         "eventTrackMe":{
-            "entry":"trackme"
-         }
+        }
       }
    }
 }
