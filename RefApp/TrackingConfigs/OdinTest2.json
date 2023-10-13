@@ -26,11 +26,11 @@
          },
          {
             "when":"{eventData.sp.isClientDNT}",
-            "include":"buttonPress1, buttonPress2"
+            "include":"eventX, eventY, eventZ"
          },
          {
             "when":"{context.isRule3Enabled}",
-            "include":"buttonPress5, buttonPress7, buttonPress2"
+            "include":"eventX, eventY, eventZ"
          }
       ],
       "dataMappings":{
