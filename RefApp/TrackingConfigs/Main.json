@@ -240,10 +240,15 @@
             },
             "metadataInterface": {
                 "deviceCategory": "OTT",
-                "deviceType": "Android",
+                "deviceType": "Roku",
                 "deviceModel": "{context.deviceModel}",
-                "operatingSystemName": "Android",
+                "operatingSystemName": "Roku",
                 "operatingSystemVersion": "{context.osVersion}"
+            },
+            "dataType": {
+                "encodedFrameRate": "int",
+                "audioChannels": "int",
+                "duration": "int"
             }
         }
     },
