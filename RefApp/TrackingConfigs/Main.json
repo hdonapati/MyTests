@@ -232,7 +232,7 @@
                 "audioSwitch": "{data.audioSwitched}",
                 "captionsEnabled": "{data.captionsEnabled}",
                 "captionsType": "{data.currentcaptionTrack}",
-                "colorSpace": "{data.colorSpace} (HDR | SDR)",
+                "colorSpace": "{data.colorSpace}",
                 "videoCodec": "{data.videoCodec}",
                 "videoQuality": "{data.playedUHD} ? 4KUHD : null",
                 "liveTimeShifted": "{data.liveTimeShifted}",
