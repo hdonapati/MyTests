@@ -5,6 +5,8 @@
       "config": {
          "namespace": "appTracker",
          "endPoint": "https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
+         "ue_prSchema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
+         "payloadSchema": "iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4",
          "retryNum": 3,
          "retryWaitTime": 30,
          "debugLogging": true,
