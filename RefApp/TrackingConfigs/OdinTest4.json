@@ -22,24 +22,24 @@
       "dataMappings": {
          "default": {
             "payload": {
-               "appName": "{context.appName}",
-               "appVersion": "{context.appVersion}",
-               "channelID": "{context.channelID}",
-               "carrierName": "{context.carrierName}",
-               "clientDeviceType": "{context.clientDeviceType}",
-               "clientFirmware": "{data.clientOS}",
-               "clientID": "{data.clientID}",
-               "clientLanguage": "{context.clientLanguage}",
-               "clientManufacturer": "{data.deviceManufacturer}",
-               "clientModelName": "{data.deviceModelName}",
-               "clientModelNumber": "{data.deviceModelNumber}",
-               "clientNetworkType": "{data.deviceNetworkType}",
-               "clientOS": "{data.clientOS}",
-               "clientPrivateIP": "{data.localIP}",
-               "eventGeneratorIP": "{data.externalIP}",
-               "clientScreenResolution": "{data.displayResolution}",
-               "cmAudienceID": "{context.cmAudienceID}",
-               "environment": "{context.OdinEnv}",
+               "appName": "{eventData.sp.appName}",
+               "appVersion": "{eventData.sp.appVersion}",
+               "carrierName": "{eventData.sp.carrierName}",
+               "channelID": "{eventData.sp.channelID}",
+               "clientDeviceType": "{eventData.sp.clientDeviceType}",
+               "clientFirmware": "{eventData.sp.clientFirmware}",
+               "clientID": "{eventData.sp.clientID}",
+               "clientLanguage": "{eventData.sp.clientLanguage}",
+               "clientManufacturer": "{eventData.sp.clientManufacturer}",
+               "clientModelName": "{eventData.sp.clientModelName}",
+               "clientModelNumber": "{eventData.sp.clientModelNumber}",
+               "clientNetworkType": "{eventData.sp.clientNetworkType}",
+               "clientOS": "{eventData.sp.clientOS}",
+               "clientPrivateIP": "{eventData.sp.clientPrivateIP}",
+               "eventGeneratorIP": "{eventData.sp.eventGeneratorIP}",
+               "clientScreenResolution": "{eventData.sp.clientScreenResolution}",
+               "cmAudienceID": "{eventData.sp.cmAudienceID}",
+               "environment": "{eventData.sp.environment}",
                "episodeID": "{eventData.sp.episodeID}",
                "episodeTimelinePoint": "{eventData.sp.episodeTimelinePoint}",
                "eventCategory": "{eventData.sp.eventCategory}",
@@ -48,19 +48,19 @@
                "eventName": "{eventData.sp.eventName}",
                "eventOccurredTimestamp": "{eventData.sp.eventOccurredTimestamp}",
                "featureTypeExtension": {
+                  "ver": "{eventData.sp.featureTypeExtension.ver}",
                   "data": {
-                     "featureTypeId": "{eventData.sp.featureTypeIdArr}"
-                  },
-                  "ver": "{eventData.sp.featureTypeExtensionVersion}"
+                     "featureTypeId": "{eventData.sp.featureTypeExtension.data.featureTypeId}"
+                  }
                },
                "hitID": "{eventData.sp.hitID}",
                "isClientDNT": "{eventData.sp.isClientDNT}",
                "kidsConstrained": "{eventData.sp.kidsConstrained}",
                "playbackState": "{eventData.sp.playbackState}",
-               "playerHeight": "{data.displayHeight}",
-               "playerWidth": "{data.displayWidth}",
-               "playerName": "{context.useAppPlayerName} ? {context.playerName} : {data.playerName}",
-               "playerVersion": "{context.useAppPlayerVersion} ? {context.playerVersion} : {data.playerVersion}",
+               "playerHeight": "{eventData.sp.playerHeight}",
+               "playerWidth": "{eventData.sp.playerWidth}",
+               "playerName": "{eventData.sp.playerName}",
+               "playerVersion": "{eventData.sp.playerVersion}",
                "programTimelineID": "{eventData.sp.programTimelineID}",
                "screenOrientation": "landscape",
                "section": "{eventData.sp.section}",
@@ -68,10 +68,6 @@
                "testGroupID": "{eventData.sp.testGroupID}",
                "testID": "{eventData.sp.testID}"
             },
-            "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
-         },
-         "eventTrackMe": {
-            "payload": {},
             "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
          }
       }
