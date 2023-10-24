@@ -247,7 +247,6 @@
             },
             "dataType": {
                 "encodedFrameRate": "int",
-                "audioChannels": "int",
                 "duration": "int"
             }
         }
