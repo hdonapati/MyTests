@@ -1,87 +1,89 @@
 {
-   "Odin": {
-      "enabled": true,
-      "category": "app",
-      "trackerCommands": {
-          "debugLogging": "true",
-          "sendUndefined": "false"
-      },
-      "config": {
-         "namespace": "appTracker",
-         "endPoint": "https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
-         "ue_prSchema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
-         "payloadSchema": "iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4",
-         "retryNum": 3,
-         "retryWaitTime": 30,
-         "debugLogging": true,
-         "base64encoding": false,
-         "sessionContext": true,
-         "platformContext": true,
-         "lifecycleAutotracking": true,
-         "screenViewAutotracking": true,
-         "screenContext": true,
-         "applicationContext": true,
-         "expectionAutotracking": true,
-         "installAutotracking": true,
-         "userAnonymisation": false
-      },
-      "dataMappings": {
-         "default": {
-            "payload": {
-               "appName": "{eventData.sp.appName}",
-               "appVersion": "{eventData.sp.appVersion}",
-               "carrierName": "{eventData.sp.carrierName}",
-               "channelID": "{eventData.sp.channelID}",
-               "clientDeviceType": "{eventData.sp.clientDeviceType}",
-               "clientFirmware": "{eventData.sp.clientFirmware}",
-               "clientID": "{eventData.sp.clientID}",
-               "clientLanguage": "{eventData.sp.clientLanguage}",
-               "clientManufacturer": "{eventData.sp.clientManufacturer}",
-               "clientModelName": "{eventData.sp.clientModelName}",
-               "clientModelNumber": "{eventData.sp.clientModelNumber}",
-               "clientNetworkType": "{eventData.sp.clientNetworkType}",
-               "clientOS": "{eventData.sp.clientOS}",
-               "clientPrivateIP": "{eventData.sp.clientPrivateIP}",
-               "eventGeneratorIP": "{eventData.sp.eventGeneratorIP}",
-               "clientScreenResolution": "{eventData.sp.clientScreenResolution}",
-               "cmAudienceID": "{eventData.sp.cmAudienceID}",
-               "environment": "{eventData.sp.environment}",
-               "episodeID": "{eventData.sp.episodeID}",
-               "episodeTimelinePoint": "{eventData.sp.episodeTimelinePoint}",
-               "eventCategory": "{eventData.sp.eventCategory}",
-               "eventEmitterType": "{eventData.sp.eventEmitterType}",
-               "eventGeneratorType": "{eventData.sp.eventGeneratorType}",
-               "eventName": "{eventData.sp.eventName}",
-               "eventOccurredTimestamp": "{eventData.sp.eventOccurredTimestamp}",
-               "featureTypeExtension": {
-                  "ver": "{eventData.sp.featureTypeExtension.ver}",
-                  "data": {
-                     "featureTypeId": "{eventData.sp.featureTypeExtension.data.featureTypeId}"
-                  }
-               },
-               "hitID": "{eventData.sp.hitID}",
-               "isClientDNT": "{eventData.sp.isClientDNT}",
-               "kidsConstrained": "{eventData.sp.kidsConstrained}",
-               "playbackState": "{eventData.sp.playbackState}",
-               "playerHeight": "{eventData.sp.playerHeight}",
-               "playerWidth": "{eventData.sp.playerWidth}",
-               "playerName": "{eventData.sp.playerName}",
-               "playerVersion": "{eventData.sp.playerVersion}",
-               "programTimelineID": "{eventData.sp.programTimelineID}",
-               "screenOrientation": "landscape",
-               "section": "{eventData.sp.section}",
-               "sessionID": "{eventData.sp.sessionID}",
-               "testGroupID": "{eventData.sp.testGroupID}",
-               "testID": "{eventData.sp.testID}"
+    "Odin": {
+        "enabled": true,
+        "category": "app",
+        "params": {
+            "trackerCommands": {
+                "debugLogging": "true",
+                "sendUndefined": "false"
             },
-            "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
-         }
-      },
-      "dataType": {
-         "debugLogging": "boolean",
-         "sendUndefined": "boolean",
-         "retryNum": "int",
-         "retryWaitTime": "int"
-      }
-   }
+            "config": {
+                "namespace": "appTracker",
+                "endPoint": "https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
+                "ue_prSchema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
+                "payloadSchema": "iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4",
+                "retryNum": 3,
+                "retryWaitTime": 30,
+                "debugLogging": true,
+                "base64encoding": false,
+                "sessionContext": true,
+                "platformContext": true,
+                "lifecycleAutotracking": true,
+                "screenViewAutotracking": true,
+                "screenContext": true,
+                "applicationContext": true,
+                "expectionAutotracking": true,
+                "installAutotracking": true,
+                "userAnonymisation": false
+            },
+            "dataMappings": {
+                "default": {
+                    "payload": {
+                        "appName": "{eventData.sp.appName}",
+                        "appVersion": "{eventData.sp.appVersion}",
+                        "carrierName": "{eventData.sp.carrierName}",
+                        "channelID": "{eventData.sp.channelID}",
+                        "clientDeviceType": "{eventData.sp.clientDeviceType}",
+                        "clientFirmware": "{eventData.sp.clientFirmware}",
+                        "clientID": "{eventData.sp.clientID}",
+                        "clientLanguage": "{eventData.sp.clientLanguage}",
+                        "clientManufacturer": "{eventData.sp.clientManufacturer}",
+                        "clientModelName": "{eventData.sp.clientModelName}",
+                        "clientModelNumber": "{eventData.sp.clientModelNumber}",
+                        "clientNetworkType": "{eventData.sp.clientNetworkType}",
+                        "clientOS": "{eventData.sp.clientOS}",
+                        "clientPrivateIP": "{eventData.sp.clientPrivateIP}",
+                        "eventGeneratorIP": "{eventData.sp.eventGeneratorIP}",
+                        "clientScreenResolution": "{eventData.sp.clientScreenResolution}",
+                        "cmAudienceID": "{eventData.sp.cmAudienceID}",
+                        "environment": "{eventData.sp.environment}",
+                        "episodeID": "{eventData.sp.episodeID}",
+                        "episodeTimelinePoint": "{eventData.sp.episodeTimelinePoint}",
+                        "eventCategory": "{eventData.sp.eventCategory}",
+                        "eventEmitterType": "{eventData.sp.eventEmitterType}",
+                        "eventGeneratorType": "{eventData.sp.eventGeneratorType}",
+                        "eventName": "{eventData.sp.eventName}",
+                        "eventOccurredTimestamp": "{eventData.sp.eventOccurredTimestamp}",
+                        "featureTypeExtension": {
+                            "ver": "{eventData.sp.featureTypeExtension.ver}",
+                            "data": {
+                                "featureTypeId": "{eventData.sp.featureTypeExtension.data.featureTypeId}"
+                            }
+                        },
+                        "hitID": "{eventData.sp.hitID}",
+                        "isClientDNT": "{eventData.sp.isClientDNT}",
+                        "kidsConstrained": "{eventData.sp.kidsConstrained}",
+                        "playbackState": "{eventData.sp.playbackState}",
+                        "playerHeight": "{eventData.sp.playerHeight}",
+                        "playerWidth": "{eventData.sp.playerWidth}",
+                        "playerName": "{eventData.sp.playerName}",
+                        "playerVersion": "{eventData.sp.playerVersion}",
+                        "programTimelineID": "{eventData.sp.programTimelineID}",
+                        "screenOrientation": "landscape",
+                        "section": "{eventData.sp.section}",
+                        "sessionID": "{eventData.sp.sessionID}",
+                        "testGroupID": "{eventData.sp.testGroupID}",
+                        "testID": "{eventData.sp.testID}"
+                    },
+                    "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
+                }
+            },
+            "dataType": {
+                "debugLogging": "boolean",
+                "sendUndefined": "boolean",
+                "retryNum": "int",
+                "retryWaitTime": "int"
+            }
+        }
+    }
 }
