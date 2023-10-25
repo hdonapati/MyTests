@@ -2,6 +2,10 @@
    "Odin": {
       "enabled": true,
       "category": "app",
+      "trackerCommands": {
+          "debugLogging": "true",
+          "sendUndefined": "false"
+      },
       "config": {
          "namespace": "appTracker",
          "endPoint": "https://sp.staging.pluto.tv/com.snowplowanalytics.snowplow/tp2",
