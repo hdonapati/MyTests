@@ -76,6 +76,12 @@
             },
             "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0"
          }
+      },
+      "dataType": {
+         "debugLogging": "boolean",
+         "sendUndefined": "boolean",
+         "retryNum": "int",
+         "retryWaitTime": "int"
       }
    }
 }
