@@ -149,7 +149,7 @@
             "contentInfo": {
                 "assetName": "{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
                 "streamUrl": "{data.mediaUrl}",
-                "streamType": "{data.isLive} ? Live : VoD",
+                "isLive": "{data.isLive",
                 "applicationName": "{context.appName}",
                 "duration": "{data.duration}",
                 "defaultReportingResource": "{data.cdn}",
@@ -247,7 +247,7 @@
             },
             "dataType": {
                 "encodedFrameRate": "int",
-                "duration": "int"
+                "isLive": "boolean"
             }
         }
     },
