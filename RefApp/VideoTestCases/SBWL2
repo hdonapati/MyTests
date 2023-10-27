@@ -66,5 +66,16 @@
         "drmType": "playready",
         "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
         "isSBWL": true
+    },
+  "SBWL Mani": {
+        "title": "SuperBowl | P+ Issue | Mani",
+        "provider": "URL",
+        "contentUrl": "https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/index.m3u8",
+        "live": true,
+        "contentID": "6c93f843-3368-43c9-ac54-58d14f6ee827",
+        "fetchLicense": true,
+        "drmType": "playready",
+        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
+        "isSBWL": true
     }
 }
