@@ -149,7 +149,7 @@
             "contentInfo": {
                 "assetName": "{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
                 "streamUrl": "{data.mediaUrl}",
-                "isLive": "{data.isLive",
+                "isLive": "{data.isLive}",
                 "applicationName": "{context.appName}",
                 "duration": "{data.duration}",
                 "defaultReportingResource": "{data.cdn}",
