@@ -166,8 +166,8 @@
             "adInfo": {
                 "assetName": "{data.adTitle}",
                 "duration": "{data.adDuration}",
-                "encodedFrameRate": "{data.playbackFrameRate}",
-                "streamType": "{data.isLive} ? Live : VoD",
+                "encodedFrameRate": "{data.playbackFrameRate}", 
+                "isLive": "{data.isLive}",
                 "applicationName": "{data.playerName}",
                 "defaultResource": "{data.cdn}",
                 "c3.ad.adManagerName": "Google SDK",
