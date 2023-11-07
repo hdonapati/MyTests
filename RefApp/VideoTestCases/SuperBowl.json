@@ -28,6 +28,17 @@
         "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
         "isSBWL": true
     },
+   "SBWL Live HLS SDR": {
+        "title": "SuperBowl | HLS SDR",
+        "provider": "URL",
+        "contentUrl": "https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/index.m3u8",
+        "live": true,
+        "contentID": "21a0170a-59af-4a90-899c-5e989c9c85fc",
+        "fetchLicense": true,
+        "drmType": "playready",
+        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
+        "isSBWL": true
+    },
    "SBWL Live DASH HDR": {
         "title": "SuperBowl | DASH HDR",
         "provider": "URL",
