@@ -1,0 +1,42 @@
+{
+   "SBWL P+ Issue": {
+        "title": "SuperBowl | P+ Issue",
+        "provider": "URL",
+        "contentUrl": "https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/ff8fa0426a384adb91cf542f465c030b/index.m3u8",
+        "live": true,
+        "contentID": "6c93f843-3368-43c9-ac54-58d14f6ee827",
+        "fetchLicense": true,
+        "drmType": "playready",
+        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
+        "isSBWL": true
+    },
+   "URL | Live | SuperBowl": {
+        "title": "SuperBowl'23 with ID3 Ads",
+        "provider": "URL",
+        "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
+        "live": true,
+        "isSBWL": true
+    },
+   "SBWL Live HLS HDR": {
+        "title": "SuperBowl | HLS HDR",
+        "provider": "URL",
+        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/hdr-cmaf-hls-drm/index.m3u8",
+        "live": true,
+        "contentID": "01eefbdb-56ab-48bc-9e9e-f84d481f4be4",
+        "fetchLicense": true,
+        "drmType": "playready",
+        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
+        "isSBWL": true
+    },
+   "SBWL Live DASH HDR": {
+        "title": "SuperBowl | DASH HDR",
+        "provider": "URL",
+        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_3/index.mpd",
+        "live": true,
+        "contentID": "01eefbdb-56ab-48bc-9e9e-f84d481f4be4",
+        "fetchLicense": true,
+        "drmType": "widevine",
+        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
+        "isSBWL": true
+    }
+}
