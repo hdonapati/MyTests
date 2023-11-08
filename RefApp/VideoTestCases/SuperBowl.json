@@ -44,7 +44,7 @@
         "provider": "URL",
         "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_3/index.mpd",
         "live": true,
-        "contentID": "01eefbdb-56ab-48bc-9e9e-f84d481f4be4",
+        "contentID": "f016c23d-d736-444d-a313-ff9a184faf8b",
         "fetchLicense": true,
         "drmType": "widevine",
         "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
