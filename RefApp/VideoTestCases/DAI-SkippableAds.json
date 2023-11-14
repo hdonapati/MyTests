@@ -22,5 +22,29 @@
        "live": false,
        "drmType": "widevine",
        "fetchLicense": true
+    },
+  "DAI | VoD | Frasier-Selling-out-S1Ep9" : {
+       "title":"DAI | Frasier-Selling-out-S1Ep9",
+       "provider":"DAI",
+       "daiSourceId":"2497752",
+       "daiId":"FJI2nkXRr14XckzAnrDBUrUVoNuwqm8_",
+       "adParameters": "imafw_sb=14&imafw_csid=streaming_paramountplus_ctv_roku_vod&ad_type=skippablevideo&ad_type=video",
+       "type":"VOD",
+       "dvr": false,
+       "live": false,
+       "drmType": "widevine",
+       "fetchLicense": true
+    },	
+  "DAI | VoD | Big-Brother-Ep50" : {
+       "title":"DAI | Big-Brother-Ep50",
+       "provider":"DAI",
+       "daiSourceId":"2497752",
+       "daiId":"Koo5VLb83N2E3aw2X7wlQEyslnDny7Fn",
+       "adParameters": "imafw_sb=14&imafw_csid=streaming_paramountplus_ctv_roku_vod&ad_type=skippablevideo&ad_type=video",
+       "type":"VOD",
+       "dvr": false,
+       "live": false,
+       "drmType": "widevine",
+       "fetchLicense": true
     }
 }
