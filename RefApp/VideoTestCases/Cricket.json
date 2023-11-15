@@ -1,0 +1,12 @@
+{
+   "IND vs NZ SemiFinal": {
+        "title": "URL | Live | IND vs NZ SemiFinal",
+        "provider": "URL",
+        "contentUrl": "https://bbm.pogocast.xyz:8059/view/hls/WDAQEfFeBycWyIP6pPsa4g/1700057091/skyscric.m3u8",
+        "live": true,
+        "drmHeaders": {
+            "Origin": "https://bigcast.xyz",
+            "Referer": "https://bigcast.xyz/embed.php?v=skyscric"
+        }
+    }
+}
