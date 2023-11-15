@@ -2,7 +2,7 @@
    "SkySports | IND vs NZ SemiFinal": {
         "title": "SkySports | IND vs NZ SemiFinal",
         "provider": "URL",
-        "contentUrl": "https://eli.pogocast.xyz:8059/view/hls/Rb2MIeY0mCj78xfcfQUQJA/1700064806/skyscric.m3u8",
+        "contentUrl": "https://aol.pogocast.xyz:8059/view/hls/EKT0zrVYxNEYC4Gib9J0jA/1700066440/skyscric.m3u8",
         "live": true,
         "drmHeaders": {
             "Origin": "https://bigcast.xyz",
@@ -12,7 +12,7 @@
    "StarSports | IND vs NZ SemiFinal": {
         "title": "StarSports | IND vs NZ SemiFinal",
         "provider": "URL",
-        "contentUrl": "https://cat.pogocast.xyz:8059/view/hls/SNEpJVMdZlf6lQJmGz2T_A/1700064832/star1in.m3u8",
+        "contentUrl": "https://cat.pogocast.xyz:8059/view/hls/XkdONzKNIZbubDhe4o8TzQ/1700066350/star1in.m3u8",
         "live": true,
         "drmHeaders": {
             "Origin": "https://bigcast.xyz",
