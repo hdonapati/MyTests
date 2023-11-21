@@ -21,7 +21,6 @@
         "contentID": "f016c23d-d736-444d-a313-ff9a184faf8b",
         "fetchLicense": true,
         "drmType": "widevine",
-        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
         "isSBWL": true
     },
    "HDR | DRM HLS": {
@@ -32,7 +31,6 @@
         "contentID": "f016c23d-d736-444d-a313-ff9a184faf8b",
         "fetchLicense": true,
         "drmType": "playready",
-        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
         "isSBWL": true
     },
    "SDR | CLEAR HLS": {
@@ -50,7 +48,6 @@
         "contentID": "83e16375-f226-4dbc-90ab-6f37d714b7c7",
         "fetchLicense": true,
         "drmType": "playready",
-        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
         "isSBWL": true
     }
 }
