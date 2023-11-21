@@ -1,78 +1,53 @@
 {
-   "URL | Live | SuperBowl": {
-        "title": "SuperBowl'23 with ID3 Ads",
+   "HDR | CLEAR DASH": {
+        "title": "SBWL - HDR - DASH Clear",
         "provider": "URL",
-        "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
+        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_4/main.mpd",
         "live": true,
         "isSBWL": true
     },
-   "HDR | Clear CMAF | 1": {
-        "title": "SuperBowl | HDR | Clear CMAF 1",
+   "HDR | CLEAR HLS": {
+        "title": "SBWL - HDR - HLS Clear",
         "provider": "URL",
-        "contentUrl": "https://c75a7e79204e539d.mediapackage.us-east-1.amazonaws.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
+        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_3/hdr-cmaf-hls-clear/main.m3u8",
         "live": true,
         "isSBWL": true
     },
-   "HDR | Clear CMAF | 2": {
-        "title": "SuperBowl | HDR | Clear CMAF 2",
+   "HDR | DRM DASH": {
+        "title": "SBWL - HDR - DASH DRM",
         "provider": "URL",
-        "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
+        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "live": true,
-        "isSBWL": true
-    },
-  "HDR | DRM DASH | 1": {
-        "title": "SuperBowl | HDR | DRM DASH 1",
-        "provider": "URL",
-        "contentUrl": "https://c75a7e79204e539d.mediapackage.us-east-1.amazonaws.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
-        "live": true,
-        "contentID": "fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
-        "useStagingForDRMLicense": true,
+        "contentID": "f016c23d-d736-444d-a313-ff9a184faf8b",
         "fetchLicense": true,
         "drmType": "widevine",
+        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
         "isSBWL": true
     },
-   "HDR | DRM DASH | 2": {
-        "title": "SuperBowl | HDR | DRM DASH 2",
+   "HDR | DRM HLS": {
+        "title": "SBWL - HDR - HLS DRM",
         "provider": "URL",
-        "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/8ed5905e3c594aea8054c72e57af58ff/index.mpd",
+        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_1/hdr-cmaf-hls-drm/main.m3u8",
         "live": true,
-        "contentID": "fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
-        "useStagingForDRMLicense": true,
-        "fetchLicense": true,
-        "drmType": "widevine",
-        "isSBWL": true
-    },
-   "SDR | Clear HLS | 1": {
-        "title": "SuperBowl | SDR | Clear HLS 1",
-        "provider": "URL",
-        "contentUrl": "https://63050ee307b58b8f.mediapackage.us-east-1.amazonaws.com/out/v1/0a1b0a524eee4b619d614326391ddee4/index.m3u8",
-        "live": true,
-        "isSBWL": true
-    },
-   "SDR | Clear HLS | 2": {
-        "title": "SuperBowl | SDR | Clear HLS 2",
-        "provider": "URL",
-        "contentUrl": "https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/0a1b0a524eee4b619d614326391ddee4/index.m3u8",
-        "live": true,
-        "isSBWL": true
-    },
-  "SBWL P+ Issue": {
-        "title": "SuperBowl | P+ Issue",
-        "provider": "URL",
-        "contentUrl": "https://sblvi754e20a.airspace-cdn.cbsivideo.com/out/v1/ff8fa0426a384adb91cf542f465c030b/index.m3u8",
-        "live": true,
-        "contentID": "6c93f843-3368-43c9-ac54-58d14f6ee827",
+        "contentID": "f016c23d-d736-444d-a313-ff9a184faf8b",
         "fetchLicense": true,
         "drmType": "playready",
         "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
         "isSBWL": true
     },
-  "SBWL Mani": {
-        "title": "SuperBowl | P+ Issue | Mani",
+   "SDR | CLEAR HLS": {
+        "title": "SBWL - SDR - HLS Clear",
         "provider": "URL",
-        "contentUrl": "https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/index.m3u8",
+        "contentUrl": "https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
         "live": true,
-        "contentID": "d36bf7ac-4f41-4033-8e86-dfba2d7c9730",
+        "isSBWL": true
+    },
+   "SDR | DRM HLS": {
+        "title": "SBWL - SDR - HLS DRM",
+        "provider": "URL",
+        "contentUrl": "https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
+        "live": true,
+        "contentID": "83e16375-f226-4dbc-90ab-6f37d714b7c7",
         "fetchLicense": true,
         "drmType": "playready",
         "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
