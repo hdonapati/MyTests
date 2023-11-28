@@ -233,7 +233,7 @@
                 "audioSwitch": "{data.audioSwitched}",
                 "captionsEnabled": "{data.captionsEnabled}",
                 "captionsType": "{data.currentcaptionTrack}",
-                "colorSpace": "{data.colorSpace}",
+                "videoColorRange": "{data.colorSpace}",
                 "videoCodec": "{data.videoCodec}",
                 "videoQuality": "{data.playedUHD} ? 4KUHD : null",
                 "liveTimeShifted": "{data.liveTimeShifted}",
