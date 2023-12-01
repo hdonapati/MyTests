@@ -56,5 +56,15 @@
         "fetchLicense": true,
         "drmType": "playready",
         "isSBWL": true
+    },
+   "SDR | DRM HLS 2": {
+        "title": "SBWL - SDR - HLS DRM 2",
+        "provider": "URL",
+        "contentUrl": "https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
+        "live": true,
+        "contentID": "beaf6d83-5b68-4b33-b518-2bde2dd536ea",
+        "fetchLicense": true,
+        "drmType": "playready",
+        "isSBWL": true
     }
 }
