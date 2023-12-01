@@ -40,6 +40,13 @@
         "live": true,
         "isSBWL": true
     },
+   "SDR | CLEAR HLS 2": {
+        "title": "SBWL - SDR - HLS Clear 2",
+        "provider": "URL",
+        "contentUrl": "https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
+        "live": true,
+        "isSBWL": true
+    },
    "SDR | DRM HLS": {
         "title": "SBWL - SDR - HLS DRM",
         "provider": "URL",
