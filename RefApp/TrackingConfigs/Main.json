@@ -223,7 +223,7 @@
                 "seriesTitle": "{data.seriesTitle}",
                 "showId": "{context.showSeriesId}",
                 "streamId": "{data.adStitcher} ? {data.streamId} : {context.emptyValue}",
-                "streamDeviceSupportedFormat": "{data.deviceSupportedFormat}",
+                "streamDeviceSupportedFormat": "{data.deviceSupportedFormats}",
                 "testBucket": "none",
                 "winDimension": "{data.playerSize}",
                 "Tealium":"{config.tealiumVersion}",
