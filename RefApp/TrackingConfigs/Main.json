@@ -78,6 +78,11 @@
             "qoeData": {
                 "media.qoe.timeToStart": "{data.timeToStart}"
             },
+            "playerStates": {
+                "timeShifted": "true",
+                "timeShiftedAd": "true",
+                "streamingFormatVideoColorRange": "true"
+            },
             "dataType": {
                 "analytics.enableSSL": "boolean",
                 "media.length": "int",
@@ -86,7 +91,10 @@
                 "media.ad.podSecond": "int",
                 "media.ad.length": "int",
                 "media.ad.podPosition": "int",
-                "media.qoe.timeToStart": "int"
+                "media.qoe.timeToStart": "int",
+                "timeShifted":"boolean",
+                "timeShiftedAd":"boolean",
+                "streamingFormatVideoColorRange": "boolean"
             }
         }
     },
