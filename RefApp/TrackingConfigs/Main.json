@@ -80,7 +80,6 @@
             },
             "playerStates": {
                 "timeShifted": "true",
-                "timeShiftedAd": "true",
                 "streamingFormatVideoColorRange": "true"
             },
             "dataType": {
