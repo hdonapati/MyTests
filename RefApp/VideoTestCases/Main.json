@@ -161,14 +161,5 @@
         "provider": "CUSTOM",
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD"
-    },
-    "DAI | DVR| DRM": {
-        "daiId": "FK81dfnhRS2cXTA2iczTAA",
-        "contentID": "W3ONcRWtWXQbE8XLlC6ivcg_W_fvG9Ep",
-        "dvr": true,
-        "live": true,
-        "partnerId": "cbs",
-        "provider": "DAI",
-        "title": "DAI DVR w/HLS Key Headers"
     }
 }
