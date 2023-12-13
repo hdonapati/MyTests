@@ -11,7 +11,7 @@
         "provider": "URL",
         "type": "VOD",
         "contentID": "8FQnfDwGymX3t4l9igyKdGeoHwXKpiMQ",
-        "drmType": "playready",
+        "drmType": "widevine",
         "fetchLicense": true,
         "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/05/03/2029486147829/2393169_cenc_fmp4_hdr_dash/stream.mpd"
     },
@@ -19,7 +19,7 @@
         "provider": "URL",
         "type": "VOD",
         "contentID": "8FQnfDwGymX3t4l9igyKdGeoHwXKpiMQ8￹",
-        "drmType": "playready",
+        "drmType": "widevine",
         "fetchLicense": true,
         "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/05/03/2029486147829/2393169_cenc_fmp4_hdr_dash/stream.mpd"
     }
