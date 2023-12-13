@@ -1,24 +1,8 @@
 {
-    "Premium Video + URL 1 | DASH | DRM": {
-        "provider": "URL",
-        "type": "VOD",
-        "contentID": "7juDj4xQPZG1xtvD0pDPRQWgv1Vj6xox",
-        "drmType": "widevine",
-        "fetchLicense": true,
-        "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/04/27/2199270467759/2344697_cenc_fmp4_hdr_dash/stream.mpd"
-    },
-   "Premium Video + URL 2 | DASH | DRM ": {
+   "Premium Video + URL | DASH | DRM ": {
         "provider": "URL",
         "type": "VOD",
         "contentID": "8FQnfDwGymX3t4l9igyKdGeoHwXKpiMQ",
-        "drmType": "widevine",
-        "fetchLicense": true,
-        "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/05/03/2029486147829/2393169_cenc_fmp4_hdr_dash/stream.mpd"
-    },
-    "Premium Video + URL 3 | DASH | DRM ": {
-        "provider": "URL",
-        "type": "VOD",
-        "contentID": "8FQnfDwGymX3t4l9igyKdGeoHwXKpiMQ8￹",
         "drmType": "widevine",
         "fetchLicense": true,
         "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/05/03/2029486147829/2393169_cenc_fmp4_hdr_dash/stream.mpd"
