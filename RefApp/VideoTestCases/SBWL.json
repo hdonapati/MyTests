@@ -18,7 +18,7 @@
         "provider": "URL",
         "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "live": true,
-        "contentID": "da78412f-2ac1-4370-9c60-d19ced0752bf",
+        "contentID": "4873c8d6-9e82-4ed2-9dd7-fa8a128e13fe",
         "fetchLicense": true,
         "drmType": "widevine",
         "isSBWL": true
@@ -28,7 +28,7 @@
         "provider": "URL",
         "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_1/hdr-cmaf-hls-drm/main.m3u8",
         "live": true,
-        "contentID": "da78412f-2ac1-4370-9c60-d19ced0752bf",
+        "contentID": "4873c8d6-9e82-4ed2-9dd7-fa8a128e13fe",
         "fetchLicense": true,
         "drmType": "playready",
         "isSBWL": true
@@ -52,7 +52,7 @@
         "provider": "URL",
         "contentUrl": "https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
         "live": true,
-        "contentID": "ce91c112-7120-4b2c-ba84-80cf8c75f688",
+        "contentID": " bc011945-76ae-4551-a536-e79e6f0d45d1",
         "fetchLicense": true,
         "drmType": "playready",
         "isSBWL": true
@@ -62,7 +62,7 @@
         "provider": "URL",
         "contentUrl": "https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
         "live": true,
-        "contentID": "ce91c112-7120-4b2c-ba84-80cf8c75f688",
+        "contentID": " bc011945-76ae-4551-a536-e79e6f0d45d1",
         "fetchLicense": true,
         "drmType": "playready",
         "isSBWL": true
