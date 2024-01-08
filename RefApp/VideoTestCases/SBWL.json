@@ -1,15 +1,29 @@
 {
    "HDR | CLEAR DASH": {
-        "title": "SBWL - HDR - DASH Clear",
+        "title": "SBWL/Prod - HDR - DASH Clear",
         "provider": "URL",
         "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_4/main.mpd",
         "live": true,
         "isSBWL": true
     },
    "HDR | CLEAR HLS": {
-        "title": "SBWL - HDR - HLS Clear",
+        "title": "SBWL/Prod - HDR - HLS Clear",
         "provider": "URL",
         "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_3/hdr-cmaf-hls-clear/main.m3u8",
+        "live": true,
+        "isSBWL": true
+    },
+   "HDR | CLEAR DASH | Dev": {
+        "title": "SBWL/Dev - HDR - DASH Clear",
+        "provider": "URL",
+        "contentUrl": "https://sb589f19881.airspace-cdn.cbsivideo.com/stream_4/main.mpd",
+        "live": true,
+        "isSBWL": true
+    },
+   "HDR | CLEAR HLS | Dev": {
+        "title": "SBWL/Dev - HDR - HLS Clear",
+        "provider": "URL",
+        "contentUrl": "https://sb589f19881.airspace-cdn.cbsivideo.com/stream_3/monitor/main.m3u8",
         "live": true,
         "isSBWL": true
     },
@@ -34,14 +48,14 @@
         "isSBWL": true
     },
    "SDR | CLEAR HLS": {
-        "title": "SBWL - SDR - HLS Clear",
+        "title": "SBWL/Prod - SDR - HLS Clear",
         "provider": "URL",
         "contentUrl": "https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
         "live": true,
         "isSBWL": true
     },
    "SDR | CLEAR HLS 2": {
-        "title": "SBWL - SDR - HLS Clear 2",
+        "title": "SBWL/Dev - SDR - HLS Clear 2",
         "provider": "URL",
         "contentUrl": "https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_2/main.m3u8",
         "live": true,
