@@ -37,6 +37,16 @@
         "drmType": "widevine",
         "isSBWL": true
     },
+   "HDR | DRM DASH Dev": {
+        "title": "SBWL/Dev - HDR - DASH DRM",
+        "provider": "URL",
+        "contentUrl": "https://sb589f19881.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
+        "live": true,
+        "contentID": "fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
+        "fetchLicense": true,
+        "drmType": "widevine",
+        "isSBWL": true
+    },
    "HDR | DRM HLS": {
         "title": "SBWL - HDR - HLS DRM",
         "provider": "URL",
