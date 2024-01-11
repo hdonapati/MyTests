@@ -44,6 +44,7 @@
         "live": true,
         "contentID": "fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
         "fetchLicense": true,
+        "useStagingForDRMLicense": true,
         "drmType": "widevine",
         "isSBWL": true
     },
