@@ -42,7 +42,7 @@
         "provider": "URL",
         "contentUrl": "https://sb589f19881.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "live": true,
-        "contentID": "fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
+        "contentID": "714a4e76-c833-46a9-8e91-99b712508071",
         "fetchLicense": true,
         "useStagingForDRMLicense": true,
         "drmType": "widevine",
