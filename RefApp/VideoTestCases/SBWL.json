@@ -32,7 +32,7 @@
         "provider": "URL",
         "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "live": true,
-        "contentID": "f0bdb26c-b853-418b-b740-98b10f2ec35b",
+        "contentID": "714a4e76-c833-46a9-8e91-99b712508071",
         "fetchLicense": true,
         "drmType": "widevine",
         "isSBWL": true
@@ -42,7 +42,7 @@
         "provider": "URL",
         "contentUrl": "https://sb589f19881.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "live": true,
-        "contentID": "714a4e76-c833-46a9-8e91-99b712508071",
+        "contentID": "fa4c06e8-7cde-4794-bbe8-35b1e41b927c",
         "fetchLicense": true,
         "useStagingForDRMLicense": true,
         "drmType": "widevine",
