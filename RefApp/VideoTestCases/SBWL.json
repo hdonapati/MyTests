@@ -9,7 +9,7 @@
    "HDR | CLEAR HLS": {
         "title": "SBWL/Prod - HDR - HLS Clear",
         "provider": "URL",
-        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_3/hdr-cmaf-hls-clear/main.m3u8",
+        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_3/sb58/main.m3u8",
         "live": true,
         "isSBWL": true
     },
@@ -28,7 +28,7 @@
         "isSBWL": true
     },
    "HDR | DRM DASH": {
-        "title": "SBWL - HDR - DASH DRM",
+        "title": "SBWL/Prod - HDR - DASH DRM",
         "provider": "URL",
         "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "live": true,
@@ -49,9 +49,9 @@
         "isSBWL": true
     },
    "HDR | DRM HLS": {
-        "title": "SBWL - HDR - HLS DRM",
+        "title": "SBWL/Prod - HDR - HLS DRM",
         "provider": "URL",
-        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_1/hdr-cmaf-hls-drm/main.m3u8",
+        "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_1/sb58/main.m3u8",
         "live": true,
         "contentID": "f0bdb26c-b853-418b-b740-98b10f2ec35b",
         "fetchLicense": true,
@@ -73,7 +73,7 @@
         "isSBWL": true
     },
    "SDR | DRM HLS": {
-        "title": "SBWL - SDR - HLS DRM",
+        "title": "SBWL/Prod - SDR - HLS DRM",
         "provider": "URL",
         "contentUrl": "https://sb58hf609gf.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
         "live": true,
@@ -83,7 +83,7 @@
         "isSBWL": true
     },
    "SDR | DRM HLS 2": {
-        "title": "SBWL - SDR - HLS DRM 2",
+        "title": "SBWL/Dev - SDR - HLS DRM",
         "provider": "URL",
         "contentUrl": "https://sb58gcf94h2.airspace-cdn.cbsivideo.com/stream_1/main.m3u8",
         "live": true,
