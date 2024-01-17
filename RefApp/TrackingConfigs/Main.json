@@ -80,10 +80,6 @@
                 "media.qoe.errorID": "{data.errorCode}",
                 "media.qoe.errorSource": "player"
             },
-            "errorData": {
-                "media.qoe.errorID": "{data.errorCode}",
-                "media.qoe.errorSource": "player"
-            },
             "playerStates": {
                 "timeShifted": "true",
                 "streamingFormatVideoColorRange": "true"
