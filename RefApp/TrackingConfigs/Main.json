@@ -80,7 +80,7 @@
             },
             "errorData": {
                 "media.qoe.errorID": "{data.errorCode}",
-                "media.qoe.errorSource": "player",
+                "media.qoe.errorSource": "player"
             },
             "playerStates": {
                 "timeShifted": "true",
