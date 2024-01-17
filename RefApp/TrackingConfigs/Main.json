@@ -78,6 +78,10 @@
             "qoeData": {
                 "media.qoe.timeToStart": "{data.timeToStart}"
             },
+            "errorData": {
+                "media.qoe.errorID": "{data.errorCode}",
+                "media.qoe.errorSource": "player",
+            },
             "playerStates": {
                 "timeShifted": "true",
                 "streamingFormatVideoColorRange": "true"
