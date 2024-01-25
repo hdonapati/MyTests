@@ -32,7 +32,7 @@
         "provider": "URL",
         "contentUrl": "https://sb58da3125g.airspace-cdn.cbsivideo.com/stream_2/main.mpd",
         "live": true,
-        "contentID": "1460556a-a1c6-456a-8da8-a33ad1f2e9e7",
+        "contentID": "550eb742-717a-4378-9f7f-ebf43cee7f6c",
         "fetchLicense": true,
         "drmType": "widevine",
         "isSBWL": true
