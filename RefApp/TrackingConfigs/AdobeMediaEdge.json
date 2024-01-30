@@ -13,7 +13,7 @@
             },
             "eventList": {
                 "Play": {
-                    "path": "/ee-pre-prd/va/v1/play",
+                    "path": "{settings.uriHost}/va/v1/play",
                     "schema": {
                         "events": [
                             {
@@ -30,7 +30,7 @@
                     }
                 },
                 "Pause": {
-                    "path": "/ee-pre-prd/va/v1/pauseStart",
+                    "path": "{settings.uriHost}/va/v1/pauseStart",
                     "schema": {
                         "events": [
                             {
@@ -47,7 +47,7 @@
                     }
                 },
                 "Heartbeat": {
-                    "path": "/ee-pre-prd/va/v1/ping",
+                    "path": "{settings.uriHost}/va/v1/ping",
                     "schema": {
                         "events": [
                             {
@@ -64,7 +64,7 @@
                     }
                 },
                 "BufferStart": {
-                    "path": "/ee-pre-prd/va/v1/bufferStart",
+                    "path": "{settings.uriHost}/va/v1/bufferStart",
                     "schema": {
                         "events": [
                             {
@@ -81,7 +81,7 @@
                     }
                 },
                 "AdBreakStart": {
-                    "path": "/ee-pre-prd/va/v1/adBreakStart",
+                    "path": "{settings.uriHost}/va/v1/adBreakStart",
                     "schema": {
                         "events": [
                             {
@@ -103,7 +103,7 @@
                     }
                 },
                 "AdBreakEnd": {
-                    "path": "/ee-pre-prd/va/v1/adBreakComplete",
+                    "path": "{settings.uriHost}/va/v1/adBreakComplete",
                     "schema": {
                         "events": [
                             {
@@ -120,7 +120,7 @@
                     }
                 },
                 "AdStart": {
-                    "path": "/ee-pre-prd/va/v1/adStart",
+                    "path": "{settings.uriHost}/va/v1/adStart",
                     "schema": {
                         "events": [
                             {
@@ -156,7 +156,7 @@
                     }
                 },
                 "AdPause": {
-                    "path": "/ee-pre-prd/va/v1/pauseStart",
+                    "path": "{settings.uriHost}/va/v1/pauseStart",
                     "schema": {
                         "events": [
                             {
@@ -173,7 +173,7 @@
                     }
                 },
                 "AdEnd": {
-                    "path": "/ee-pre-prd/va/v1/adComplete",
+                    "path": "{settings.uriHost}/va/v1/adComplete",
                     "schema": {
                         "events": [
                             {
@@ -190,7 +190,7 @@
                     }
                 },
                 "Error": {
-                    "path": "/ee-pre-prd/va/v1/error",
+                    "path": "{settings.uriHost}/va/v1/error",
                     "schema": {
                         "events": [
                             {
@@ -215,7 +215,7 @@
                     }
                 },
                 "FatalError": {
-                    "path": "/ee-pre-prd/va/v1/error",
+                    "path": "{settings.uriHost}/va/v1/error",
                     "schema": {
                         "events": [
                             {
@@ -240,7 +240,7 @@
                     }
                 },
                 "SessionStart": {
-                    "path": "/ee-pre-prd/va/v1/sessionStart",
+                    "path": "{settings.uriHost}/va/v1/sessionStart",
                     "schema": {
                         "events": [
                             {
@@ -264,7 +264,7 @@
                     }
                 },
                 "SessionEnd": {
-                    "path": "/ee-pre-prd/va/v1/sessionEnd",
+                    "path": "{settings.uriHost}/va/v1/sessionEnd",
                     "schema": {
                         "events": [
                             {
@@ -281,7 +281,7 @@
                     }
                 },
                 "SessionComplete": {
-                    "path": "/ee-pre-prd/va/v1/sessionComplete",
+                    "path": "{settings.uriHost}/va/v1/sessionComplete",
                     "schema": {
                         "events": [
                             {
@@ -298,7 +298,7 @@
                     }
                 },
                 "StatesUpdate": {
-                    "path": "/ee-pre-prd/va/v1/statesUpdate",
+                    "path": "{settings.uriHost}/va/v1/statesUpdate",
                     "schema": {
                         "events": [
                             {
