@@ -23,7 +23,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -40,7 +40,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -57,7 +57,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -74,7 +74,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -96,7 +96,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -113,7 +113,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -149,7 +149,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -166,7 +166,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -183,7 +183,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -208,7 +208,7 @@
                                             "source": "player"
                                         }
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -233,7 +233,7 @@
                                             "source": "player"
                                         }
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -257,7 +257,7 @@
                                         },
                                         "playhead": "{data.playhead} || 0"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -274,7 +274,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead}"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -291,7 +291,7 @@
                                         "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead}"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -310,7 +310,7 @@
                                         "statesStart": "{context.inbuilt.statesStarted}",
                                         "statesEnd": "{context.inbuilt.statesEnded}"
                                     },
-                                    "timestamp": "{context.inbuilt.timestamp}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
