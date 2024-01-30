@@ -20,7 +20,7 @@
                                 "xdm": {
                                     "eventType": "media.play",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -37,7 +37,7 @@
                                 "xdm": {
                                     "eventType": "media.pauseStart",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -54,7 +54,7 @@
                                 "xdm": {
                                     "eventType": "media.ping",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -71,7 +71,7 @@
                                 "xdm": {
                                     "eventType": "media.bufferStart",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -93,7 +93,7 @@
                                             "index": "{data.adModel.podIndex}",
                                             "offset": "{data.adModel.adTimeOffset}"
                                         },
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -110,7 +110,7 @@
                                 "xdm": {
                                     "eventType": "media.adBreakComplete",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -131,7 +131,7 @@
                                             "friendlyName": "{data.adModel.adPodTypeString} || n/a",
                                             "name": "{data.adModel.adTitle} || n/a",
                                             "length": "{data.adModel.adDuration} || 5",
-                                            "advertiser": "{data.playhead} - {context.inbuilt.adobeEdgeSessionId} - advertiser name - {context.hello}",
+                                            "advertiser": "{data.playhead} - {data.adobeEdgeSessionId} - advertiser name - {context.hello}",
                                             "campaignID": "{data.adModel.adID} || n/a",
                                             "creativeID": "{data.adModel.creativeId} || n/a",
                                             "creativeURL": "{data.adModel.adURLString} || http://www.paramount.com",
@@ -146,7 +146,7 @@
                                                 "value": "c3"
                                             }
                                         ],
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -163,7 +163,7 @@
                                 "xdm": {
                                     "eventType": "media.pauseStart",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -180,7 +180,7 @@
                                 "xdm": {
                                     "eventType": "media.adComplete",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -197,7 +197,7 @@
                                 "xdm": {
                                     "eventType": "media.error",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0",
                                         "qoeDataDetails": {
                                             "bitrate": "{data.bitrate}",
@@ -222,7 +222,7 @@
                                 "xdm": {
                                     "eventType": "media.error",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} || 0",
                                         "qoeDataDetails": {
                                             "bitrate": "{data.bitrate}",
@@ -271,7 +271,7 @@
                                 "xdm": {
                                     "eventType": "media.sessionEnd",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead}"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -288,7 +288,7 @@
                                 "xdm": {
                                     "eventType": "media.sessionComplete",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead}"
                                     },
                                     "timestamp": "{data.timestampISO}"
@@ -305,7 +305,7 @@
                                 "xdm": {
                                     "eventType": "media.statesUpdate",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead}",
                                         "statesStart": "{context.inbuilt.statesStarted}",
                                         "statesEnd": "{context.inbuilt.statesEnded}"
