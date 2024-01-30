@@ -11,6 +11,14 @@
                 "sessionTimeout": "6",
                 "retrySessionInterval": "2"
             },
+            "trackerCommands": {
+                "debugLogging": "true",
+                "sendUndefined": "false"
+            },
+            "playerStates": {
+                "timeShifted": "true",
+                "streamingFormatVideoColorRange": "true"
+            },
             "eventList": {
                 "Play": {
                     "path": "{settings.uriHost}/va/v1/play",
@@ -316,22 +324,6 @@
                         ]
                     }
                 }
-            },
-            "trackerCommands": {
-                "debugLogging": "true",
-                "sendUndefined": "false"
-            },
-            "sessionInfo": {
-                "name": "ame: Media Analytics API Sample",
-                "playerName": "ame: sample-html5-api-player",
-                "contentType": "VOD",
-                "length": "60",
-                "channel": "ame:sample-channel",
-                "appVersion": "ame:va-api-1.0.0"
-            },
-            "playerStates": {
-                "timeShifted": "true",
-                "timeShiftedAd": "true"
             },
             "dataType": {
                 "debugLogging": "boolean",
