@@ -259,7 +259,7 @@
                                             "name": "title",
                                             "playerName": "{data.playerName}",
                                             "contentType": "{data.isLive} ? Live : VOD",
-                                            "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}",
+                                            "length": "{data.isLive} ? 86400 : {context.mediaDuration}",
                                             "channel": "channel name",
                                             "appVersion": "{data.playerVersion}"
                                         },
