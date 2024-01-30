@@ -1,0 +1,351 @@
+{
+    "AdobeMediaEdge": {
+        "enabled": "{context.enableAdobeMediaEdge}",
+        "category": "video",
+        "type": "restapi",
+        "params": {
+            "settings": {
+                "datastreamId": "7f342689-f4d2-408e-a22c-1089010fd434",
+                "uriHost": "https://edge.adobedc.net",
+                "pingInterval": "10",
+                "sessionTimeout": "6",
+                "retrySessionInterval": "2"
+            },
+            "eventList": {
+                "Play": {
+                    "path": "/ee-pre-prd/va/v1/play",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.play",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "Pause": {
+                    "path": "/ee-pre-prd/va/v1/pauseStart",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.pauseStart",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "Heartbeat": {
+                    "path": "/ee-pre-prd/va/v1/ping",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.ping",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "BufferStart": {
+                    "path": "/ee-pre-prd/va/v1/bufferStart",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.bufferStart",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "AdBreakStart": {
+                    "path": "/ee-pre-prd/va/v1/adBreakStart",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.adBreakStart",
+                                    "mediaCollection": {
+                                        "advertisingPodDetails": {
+                                            "friendlyName": "{data.adModel.adPodTypeString}-roll",
+                                            "index": "{data.adModel.podIndex}",
+                                            "offset": "{data.adModel.adTimeOffset}"
+                                        },
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "AdBreakEnd": {
+                    "path": "/ee-pre-prd/va/v1/adBreakComplete",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.adBreakComplete",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "AdStart": {
+                    "path": "/ee-pre-prd/va/v1/adStart",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.adStart",
+                                    "mediaCollection": {
+                                        "advertisingDetails": {
+                                            "friendlyName": "{data.adModel.adPodTypeString} || n/a",
+                                            "name": "{data.adModel.adTitle} || n/a",
+                                            "length": "{data.adModel.adDuration} || 5",
+                                            "advertiser": "{data.playhead} - {context.inbuilt.adobeEdgeSessionId} - advertiser name - {context.hello}",
+                                            "campaignID": "{data.adModel.adID} || n/a",
+                                            "creativeID": "{data.adModel.creativeId} || n/a",
+                                            "creativeURL": "{data.adModel.adURLString} || http://www.paramount.com",
+                                            "placementID": "{context.placementID} || n/a",
+                                            "siteID": "{context.siteId} || n/a",
+                                            "podPosition": "{data.adModel.adPositionInPod} || 0",
+                                            "playerName": "{data.playerName}"
+                                        },
+                                        "customMetadata": [
+                                            {
+                                                "name": "myCustomValue3",
+                                                "value": "c3"
+                                            }
+                                        ],
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "AdPause": {
+                    "path": "/ee-pre-prd/va/v1/pauseStart",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.pauseStart",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "AdEnd": {
+                    "path": "/ee-pre-prd/va/v1/adComplete",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.adComplete",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "Error": {
+                    "path": "/ee-pre-prd/va/v1/error",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.error",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0",
+                                        "qoeDataDetails": {
+                                            "bitrate": "{data.bitrate}",
+                                            "droppedFrames": "{data.droppedFrames}"
+                                        },
+                                        "errorDetails": {
+                                            "name": "{data.cvpErrorCode} - {data.cvpError}",
+                                            "source": "player"
+                                        }
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "FatalError": {
+                    "path": "/ee-pre-prd/va/v1/error",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.error",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} || 0",
+                                        "qoeDataDetails": {
+                                            "bitrate": "{data.bitrate}",
+                                            "droppedFrames": "{data.droppedFrames}"
+                                        },
+                                        "errorDetails": {
+                                            "name": "{data.cvpErrorCode} - {data.cvpError}",
+                                            "source": "player"
+                                        }
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "SessionStart": {
+                    "path": "/ee-pre-prd/va/v1/sessionStart",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.sessionStart",
+                                    "mediaCollection": {
+                                        "sessionDetails": {
+                                            "name": "title",
+                                            "playerName": "{data.playerName}",
+                                            "contentType": "{data.isLive} ? Live : VOD",
+                                            "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}",
+                                            "channel": "channel name",
+                                            "appVersion": "{data.playerVersion}"
+                                        },
+                                        "playhead": "{data.playhead} || 0"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "SessionEnd": {
+                    "path": "/ee-pre-prd/va/v1/sessionEnd",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.sessionEnd",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead}"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "SessionComplete": {
+                    "path": "/ee-pre-prd/va/v1/sessionComplete",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.sessionComplete",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead}"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "StatesUpdate": {
+                    "path": "/ee-pre-prd/va/v1/statesUpdate",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.statesUpdate",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead}",
+                                        "statesStart": "{context.inbuilt.statesStarted}",
+                                        "statesEnd": "{context.inbuilt.statesEnded}"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestamp}"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "trackerCommands": {
+                "debugLogging": "true",
+                "sendUndefined": "false"
+            },
+            "sessionInfo": {
+                "name": "ame: Media Analytics API Sample",
+                "playerName": "ame: sample-html5-api-player",
+                "contentType": "VOD",
+                "length": "60",
+                "channel": "ame:sample-channel",
+                "appVersion": "ame:va-api-1.0.0"
+            },
+            "playerStates": {
+                "timeShifted": "true",
+                "timeShiftedAd": "true"
+            },
+            "dataType": {
+                "debugLogging": "boolean",
+                "sendUndefined": "boolean",
+                "pingInterval": "int",
+                "retrySessionInterval": "int",
+                "playhead": "int",
+                "length": "int",
+                "sessionTimeout": "float",
+                "playheadTimeout": "float",
+                "timeShifted": "boolean",
+                "timeShiftedAd": "boolean",
+                "offset": "int"
+            }
+        }
+    }
+}
