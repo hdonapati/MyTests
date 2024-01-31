@@ -248,7 +248,7 @@
                     }
                 },
                 "SessionStart": {
-                    "path": "{settings.uriHost}/va/v1/sessionStart",
+                    "path": "{settings.uriHost}/va/v1/sessionStart?configId={settings.datastreamId}",
                     "schema": {
                         "events": [
                             {
