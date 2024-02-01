@@ -97,9 +97,9 @@
                                     "eventType": "media.adBreakStart",
                                     "mediaCollection": {
                                         "advertisingPodDetails": {
-                                            "friendlyName": "{data.adModel.adPodTypeString}-roll",
-                                            "index": "{data.adModel.podIndex}",
-                                            "offset": "{data.adModel.adTimeOffset}"
+                                            "friendlyName": "{data.adPodType}",
+                                            "index": "{data.adPodPosition}",
+                                            "offset": "{data.adPodStartPosition}"
                                         },
                                         "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead}"
@@ -136,16 +136,16 @@
                                     "eventType": "media.adStart",
                                     "mediaCollection": {
                                         "advertisingDetails": {
-                                            "friendlyName": "{data.adModel.adPodTypeString} || n/a",
-                                            "name": "{data.adModel.adTitle} || n/a",
-                                            "length": "{data.adModel.adDuration} || 5",
-                                            "advertiser": "{data.playhead} - {data.adobeEdgeSessionId} - advertiser name - {context.hello}",
-                                            "campaignID": "{data.adModel.adID} || n/a",
-                                            "creativeID": "{data.adModel.creativeId} || n/a",
-                                            "creativeURL": "{data.adModel.adURLString} || http://www.paramount.com",
-                                            "placementID": "{context.placementID} || n/a",
-                                            "siteID": "{context.siteId} || n/a",
-                                            "podPosition": "{data.adModel.adPositionInPod} || 0",
+                                            "friendlyName": "{data.adPodType}",
+                                            "name": "{data.adTitle}",
+                                            "length": "{data.adDuration}",
+                                            "advertiser": "{data.advertiserName}",
+                                            "campaignID": "{data.adId}",
+                                            "creativeID": "{data.adCreativeId}",
+                                            "creativeURL":  "{data.adUrl}",
+                                            "placementID": "{context.placementID}",
+                                            "siteID": "{context.siteId}",
+                                            "podPosition": "{data.adPositionInPod}"
                                             "playerName": "{data.playerName}"
                                         },
                                         "customMetadata": [
@@ -237,7 +237,7 @@
                                             "droppedFrames": "{data.droppedFrames}"
                                         },
                                         "errorDetails": {
-                                            "name": "{data.cvpErrorCode} - {data.cvpError}",
+                                            "name": "{data.errorCode} - {data.errorMessage}",
                                             "source": "player"
                                         }
                                     },
@@ -315,8 +315,8 @@
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead}",
-                                        "statesStart": "{context.inbuilt.statesStarted}",
-                                        "statesEnd": "{context.inbuilt.statesEnded}"
+                                        "statesStart": "{data.statesStartName}",
+                                        "statesEnd": "{data.statesEndName}"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
