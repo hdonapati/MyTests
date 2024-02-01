@@ -145,7 +145,7 @@
                                             "creativeURL":  "{data.adUrl}",
                                             "placementID": "{context.placementID}",
                                             "siteID": "{context.siteId}",
-                                            "podPosition": "{data.adPositionInPod}"
+                                            "podPosition": "{data.adPositionInPod}",
                                             "playerName": "{data.playerName}"
                                         },
                                         "customMetadata": [
