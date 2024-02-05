@@ -29,7 +29,7 @@
                                     "eventType": "media.play",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -46,7 +46,7 @@
                                     "eventType": "media.pauseStart",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -63,7 +63,7 @@
                                     "eventType": "media.ping",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -80,7 +80,7 @@
                                     "eventType": "media.bufferStart",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -102,7 +102,7 @@
                                             "offset": "{data.adPodStartPosition}"
                                         },
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -119,7 +119,7 @@
                                     "eventType": "media.adBreakComplete",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -136,16 +136,16 @@
                                     "eventType": "media.adStart",
                                     "mediaCollection": {
                                         "advertisingDetails": {
-                                            "friendlyName": "{data.adPodType}",
-                                            "name": "{data.adTitle}",
-                                            "length": "{data.adDuration}",
-                                            "advertiser": "{data.advertiserName}",
-                                            "campaignID": "{data.adId}",
-                                            "creativeID": "{data.adCreativeId}",
-                                            "creativeURL":  "{data.adUrl}",
-                                            "placementID": "{context.placementID}",
-                                            "siteID": "{context.siteId}",
-                                            "podPosition": "{data.adPositionInPod}",
+                                            "friendlyName": "{data.adPodType} | n/a",
+                                            "name": "{data.adTitle} | n/a",
+                                            "length": "{data.adDuration} | 5",
+                                            "advertiser": "{data.advertiserName} | n/a",
+                                            "campaignID": "{data.adId} | n/a",
+                                            "creativeID": "{data.adCreativeId} | n/a",
+                                            "creativeURL":  "{data.adUrl} | http://www.paramount.com",
+                                            "placementID": "{context.placementID} | n/a",
+                                            "siteID": "{context.siteId} | n/a",
+                                            "podPosition": "{data.adPositionInPod} | 0",
                                             "playerName": "{data.playerName}"
                                         },
                                         "customMetadata": [
@@ -155,7 +155,7 @@
                                             }
                                         ],
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -172,7 +172,7 @@
                                     "eventType": "media.pauseStart",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -189,7 +189,7 @@
                                     "eventType": "media.adComplete",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -206,7 +206,7 @@
                                     "eventType": "media.error",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}",
+                                        "playhead": "{data.playhead} | 0",
                                         "qoeDataDetails": {
                                             "bitrate": "{data.bitrate}",
                                             "droppedFrames": "{data.droppedFrames}"
@@ -231,7 +231,7 @@
                                     "eventType": "media.error",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}",
+                                        "playhead": "{data.playhead} | 0",
                                         "qoeDataDetails": {
                                             "bitrate": "{data.bitrate}",
                                             "droppedFrames": "{data.droppedFrames}"
@@ -263,7 +263,7 @@
                                             "channel": "{context.channelName}",
                                             "appVersion": "{context.appVersion}"
                                         },
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -280,7 +280,7 @@
                                     "eventType": "media.sessionEnd",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -297,7 +297,7 @@
                                     "eventType": "media.sessionComplete",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}"
+                                        "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
@@ -314,7 +314,7 @@
                                     "eventType": "media.statesUpdate",
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}",
+                                        "playhead": "{data.playhead} | 0",
                                         "statesStart": "{data.statesStartName}",
                                         "statesEnd": "{data.statesEndName}"
                                     },
