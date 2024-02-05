@@ -180,6 +180,23 @@
                         ]
                     }
                 },
+                "AdSkip": {
+                    "path": "{settings.uriHost}/va/v1/adSkip",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.adSkip",
+                                    "mediaCollection": {
+                                        "sessionID": "{session.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} | 0"
+                                    },
+                                     "timestamp": "{data.timestampISO}"
+                                }
+                            }
+                        ]
+                    }
+                },
                 "AdEnd": {
                     "path": "{settings.uriHost}/va/v1/adComplete",
                     "schema": {
