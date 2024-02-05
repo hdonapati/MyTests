@@ -322,6 +322,63 @@
                         ]
                     }
                 },
+                "ChapterStart": {
+                    "path": "/ee-pre-prd/va/v1/chapterStart",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.chapterStart",
+                                    "mediaCollection": {
+                                        "sessionID": "{data.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} | 0",
+                                        "chapterDetails": {
+                                            "offset": "{data.chapterOffset}",
+                                            "length": "{data.chapterLength}",
+                                            "index": "{data.chapterIndex}",
+                                            "friendlyName": "{data.chapterFriendlyName}"
+                                        }
+                                    },
+                                    "timestamp": "{data.timestampISO}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "ChapterComplete": {
+                    "path": "/ee-pre-prd/va/v1/chapterComplete",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.chapterComplete",
+                                    "mediaCollection": {
+                                        "sessionID": "{data.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} | 0"
+                                    },
+                                    "timestamp": "{data.timestampISO}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "ChapterSkip": {
+                    "path": "/ee-pre-prd/va/v1/chapterSkip",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.chapterSkip",
+                                    "mediaCollection": {
+                                        "sessionID": "{data.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} | 0"
+                                    },
+                                    "timestamp": "{data.timestampISO}"
+                                }
+                            }
+                        ]
+                    }
+                },
                 "StatesUpdate": {
                     "path": "{settings.uriHost}/va/v1/statesUpdate",
                     "schema": {
