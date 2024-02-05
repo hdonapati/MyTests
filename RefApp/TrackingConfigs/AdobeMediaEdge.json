@@ -16,8 +16,7 @@
                 "sendUndefined": "false"
             },
             "playerStates": {
-                "timeShifted": "true",
-                "streamingFormatVideoColorRange": "true"
+                "timeShifted": "true"
             },
             "eventList": {
                 "Play": {
@@ -409,7 +408,6 @@
                 "sessionTimeout": "float",
                 "playheadTimeout": "float",
                 "timeShifted": "boolean",
-                "timeShiftedAd": "boolean",
                 "offset": "int"
             }
         }
