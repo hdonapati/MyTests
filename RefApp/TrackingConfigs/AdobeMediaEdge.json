@@ -136,14 +136,14 @@
                                     "eventType": "media.adStart",
                                     "mediaCollection": {
                                         "advertisingDetails": {
-                                            "friendlyName": "{data.adPodType} | n/a",
+                                            "friendlyName": "{data.adTitle} | n/a",
                                             "name": "{data.adTitle} | n/a",
                                             "length": "{data.adDuration} | 5",
                                             "advertiser": "{data.advertiserName} | n/a",
                                             "campaignID": "{data.adId} | n/a",
                                             "creativeID": "{data.adCreativeId} | n/a",
-                                            "creativeURL":  "{data.adUrl} | http://www.paramount.com",
-                                            "placementID": "{context.placementID} | n/a",
+                                            "creativeURL":  "{data.adUrl}",
+                                            "placementID": "{context.placementID}",
                                             "siteID": "{context.siteId} | n/a",
                                             "podPosition": "{data.adPositionInPod} | 0",
                                             "playerName": "{data.playerName}"
