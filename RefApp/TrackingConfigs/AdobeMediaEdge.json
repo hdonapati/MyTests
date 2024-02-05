@@ -332,8 +332,8 @@
                                     "mediaCollection": {
                                         "sessionID": "{data.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} | 0",
-                                        "statesStart": "{data.statesStartName}",
-                                        "statesEnd": "{data.statesEndName}"
+                                        "statesStart": "{data.statesStartParam}",
+                                        "statesEnd": "{data.statesEndParam}"
                                     },
                                     "timestamp": "{data.timestampISO}"
                                 }
