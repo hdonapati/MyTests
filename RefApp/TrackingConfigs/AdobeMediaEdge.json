@@ -16,7 +16,7 @@
                 "sendUndefined": "false"
             },
             "playerStates": {
-                "timeShifted": "true"
+                "timeShifted": true
             },
             "eventList": {
                 "Play": {
