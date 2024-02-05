@@ -229,7 +229,7 @@
                                             "droppedFrames": "{data.droppedFrames}"
                                         },
                                         "errorDetails": {
-                                            "name": "{data.cvpErrorCode} - {data.cvpError}",
+                                            "name": "{data.errorCode} - {data.errorMessage}",
                                             "source": "player"
                                         }
                                     },
