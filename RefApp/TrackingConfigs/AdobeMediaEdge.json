@@ -8,7 +8,6 @@
                 "datastreamId": "7f342689-f4d2-408e-a22c-1089010fd434",
                 "uriHost": "{context.dev} ? https://edge.adobedc.net/ee-pre-prd : https://edge.adobedc.net/ee",
                 "pingInterval": "10",
-                "sessionTimeout": "6",
                 "retrySessionLimit": "2"
             },
             "trackerCommands": {
