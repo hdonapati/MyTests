@@ -9,7 +9,7 @@
                 "uriHost": "{context.dev} ? https://edge.adobedc.net/ee-pre-prd : https://edge.adobedc.net/ee",
                 "pingInterval": "10",
                 "sessionTimeout": "6",
-                "retrySessionInterval": "2"
+                "retrySessionLimit": "2"
             },
             "trackerCommands": {
                 "debugLogging": "true",
