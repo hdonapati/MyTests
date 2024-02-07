@@ -401,7 +401,7 @@
                 "debugLogging": "boolean",
                 "sendUndefined": "boolean",
                 "pingInterval": "int",
-                "retrySessionInterval": "int",
+                "retrySessionLimit": "int",
                 "playhead": "int",
                 "length": "int",
                 "sessionTimeout": "float",
