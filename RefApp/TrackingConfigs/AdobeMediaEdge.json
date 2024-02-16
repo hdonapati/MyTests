@@ -11,8 +11,8 @@
                 "retrySessionLimit": 2
             },
             "trackerCommands": {
-                "debugLogging": "true",
-                "sendUndefined": "false"
+                "debugLogging": true,
+                "sendUndefined": false
             },
             "playerStates": {
                 "timeShifted": true
@@ -321,7 +321,7 @@
                     }
                 },
                 "ChapterStart": {
-                    "path": "/ee-pre-prd/va/v1/chapterStart",
+                    "path": "{settings.uriHost}/va/v1/chapterStart",
                     "schema": {
                         "events": [
                             {
@@ -344,7 +344,7 @@
                     }
                 },
                 "ChapterComplete": {
-                    "path": "/ee-pre-prd/va/v1/chapterComplete",
+                    "path": "{settings.uriHost}/va/v1/chapterComplete",
                     "schema": {
                         "events": [
                             {
@@ -361,7 +361,7 @@
                     }
                 },
                 "ChapterSkip": {
-                    "path": "/ee-pre-prd/va/v1/chapterSkip",
+                    "path": "{settings.uriHost}/va/v1/chapterSkip",
                     "schema": {
                         "events": [
                             {
@@ -405,7 +405,6 @@
                 "playhead": "int",
                 "length": "int",
                 "sessionTimeout": "float",
-                "playheadTimeout": "float",
                 "timeShifted": "boolean",
                 "offset": "int"
             }
