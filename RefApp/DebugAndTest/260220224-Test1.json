@@ -1,0 +1,15 @@
+{
+  "DAI Innovid Test": {
+      "adParameters":  "cust_params=recommended_show%3D941410057%2C6087%2C61456415%2C61456498%2C61457871%2C61456319%2C22927%2C61456254%2C216813%2C61456641&imafw__fw_3P_UID=UID2%3AAgAABtPev2WhGQvd4X1G%2BfBEhdHL6GIlWli9RthGlAdcrfI65JlM%2Bp38K0C%2BeGc3yfVtPV13ldCt8trWQgKDOU0eznFL7ISTFLkY%2FF9sYV95N%2B9u8xsycdn0r0zu5BwLtroBr1FAIFLCJq7knXvR5yB8RoGg8SyW63xzW3NtU9lUE52%2FHg%3D%3D%2CIDL%3AAp2NK_2_qv4YBiySlFjuuNUjyitv2dK0YmvbAAMyAKidrNGnErM2oyfH&imafw__fw_content_language=en&imafw__fw_continuous_play=0&imafw__fw_coppa=0&imafw__fw_did=rida%3A669c8c93-ff3a-5046-87e7-48e46f32a387&imafw__fw_h_x_country=us&imafw__fw_is_lat=0&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=XY6395KZcZ7IibaOw9uKbpQzsn9HeGT3LSUucmxE_ebX75pwk&imafw_cpPre=0&imafw_cpSession=0&imafw_csid=streaming_paramountplus_us_ctv_roku_vod&imafw_device_region_language=en&imafw_fms_bididtype=1010%2C1020&imafw_fms_emailhash=5ccc0e09b8163805d1a923e00590ea00fd7073808d0a07411aee00b36d8ab45c&imafw_fms_hh_ramp_id=hY6395GC7p-t1STUgspqCyk2N4DTiNo2178OVwFRf3CcaMI9s&imafw_fms_ifa=669c8c93-ff3a-5046-87e7-48e46f32a387&imafw_fms_ramp_envelope=Ap2NK_2_qv4YBiySlFjuuNUjyitv2dK0YmvbAAMyAKidrNGnErM2oyfH&imafw_fms_ramp_id=XY6395KZcZ7IibaOw9uKbpQzsn9HeGT3LSUucmxE_ebX75pwk&imafw_fms_ruleid=10000&imafw_fms_subscriberid=55431407&imafw_fms_uid2=AgAABtPev2WhGQvd4X1G%2BfBEhdHL6GIlWli9RthGlAdcrfI65JlM%2Bp38K0C%2BeGc3yfVtPV13ldCt8trWQgKDOU0eznFL7ISTFLkY%2FF9sYV95N%2B9u8xsycdn0r0zu5BwLtroBr1FAIFLCJq7knXvR5yB8RoGg8SyW63xzW3NtU9lUE52%2FHg%3D%3D&imafw_fms_userid=7a019f28-22eb-509a-94a5-0b719f331bfb&imafw_fms_vcid2type=liveramp&imafw_ge=1&imafw_gr=3&imafw_ima_sdkv=3.x&imafw_language_selection=en&imafw_movieSection&imafw_packageSource=cbscomp&imafw_ptype=video&imafw_region=us&imafw_roku_ad_query_id=7167856067815018610&imafw_sb=22&imafw_session=c&imafw_showSection=home&imafw_source=show%20hero&imafw_sub=55431407&imafw_subses=3&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=41057149-1f95-4911-8300-ea0c7073eed7&tfcd=0&dai-excl=codec:ac-3,codec:aac&imafw_playername_version=avia-roku_4.21.1&imafw_ima_sdkv=3.0816",
+      "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+      "daiId": "xb1fVyn4iMOoJ6qGYCcNZaPVSuM4mv8o",
+      "daiSourceId": "2497752",
+      "drmType": "widevine",
+      "dvr": false,
+      "live": false,
+      "partnerId": "cbs",
+      "provider": "DAI",
+      "title": "DAI Innovid Test",
+      "fetchLicense": true
+  }
+}
