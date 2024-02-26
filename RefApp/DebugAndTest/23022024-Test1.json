@@ -30,10 +30,6 @@
         "disableTrackers": [],
         "DRM_PLAYREADY": "playready",
         "DRM_WIDEVINE": "widevine",
-        "drmHeaders": {
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjNkNjg4NGJmLWViMDktNDA1Zi1hOWZjLWU0NGE1NmY3NjZiNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4MTM5ODEzM19VUyIsImVudCI6W3siYmlkIjoiQWxsQWNjZXNzTWFpbiIsImVwaWQiOjl9XSwiaWF0IjoxNzA4NzIxMzYxLCJleHAiOjE3MDg3MzU3NjEsImlzcyI6ImNicyIsImFpZCI6ImNic2kiLCJpc2UiOnRydWUsImp0aSI6ImJiN2EwYTQ4LWY3NGEtNDdkZi05YTg4LWNhODlkYWE4NjE4NSJ9.wRohEqO7iddKjkHPFqR9_jDNxgmOP72JMVVDXuMsJi4"
-        },
-        "drmLicenseUrl": "https://cbsi.live.ott.irdeto.com/playready/rightsmanager.asmx?CrmId=cbsi&AccountId=cbsi&SubContentType=Default&contentId=brWgtoqsmODRgSlxGqurc_hxqYU0ZBny",
         "drmType": "playready",
         "dvr": false,
         "enableAdMeasurements": true,
