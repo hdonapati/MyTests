@@ -246,7 +246,7 @@
             	"testBucket": "none",
             	"videoCodec": "{data.videoCodec}",
             	"videoColorRange": "{data.colorSpace}",
-            	"videoQuality": "{data.playedUHD} ? 4KUHD : null",
+            	"playedUHD": "{data.playedUHD}",
             	"winDimension": "{data.playerSize}"
             },
             "metadataInterface": {
