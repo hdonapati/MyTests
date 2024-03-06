@@ -385,11 +385,11 @@
                                 "xdm": {
                                     "eventType": "media.statesUpdate",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}",
-                                        "statesStart": "{context.inbuilt.statesStarted}"
+                                        "sessionID": "{data.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} | 0",
+                                        "statesStart": "{data.statesStartParam}"
                                     },
-                                    "timestamp": "{context.inbuilt.timestampISO}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -403,11 +403,11 @@
                                 "xdm": {
                                     "eventType": "media.statesUpdate",
                                     "mediaCollection": {
-                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead}",
-                                        "statesEnd": "{context.inbuilt.statesEnded}"
+                                        "sessionID": "{data.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead} | 0",
+                                        "statesEnd": "{data.statesEndParam}"
                                     },
-                                    "timestamp": "{context.inbuilt.timestampISO}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
