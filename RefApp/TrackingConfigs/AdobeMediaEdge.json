@@ -140,7 +140,7 @@
                                             "advertiser": "{data.advertiserName} | n/a",
                                             "campaignID": "{data.adId} | n/a",
                                             "creativeID": "{data.adCreativeId} | n/a",
-                                            "creativeURL":  "{data.adUrl}",
+                                            "creativeURL": "{data.adUrl}",
                                             "placementID": "{context.placementID}",
                                             "siteID": "{context.siteId} | n/a",
                                             "podPosition": "{data.adPositionInPod} | 0",
@@ -189,7 +189,7 @@
                                         "sessionID": "{session.adobeEdgeSessionId}",
                                         "playhead": "{data.playhead} | 0"
                                     },
-                                     "timestamp": "{data.timestampISO}"
+                                    "timestamp": "{data.timestampISO}"
                                 }
                             }
                         ]
@@ -377,7 +377,7 @@
                         ]
                     }
                 },
-                "StatesUpdate": {
+                "StateStart": {
                     "path": "{settings.uriHost}/va/v1/statesUpdate",
                     "schema": {
                         "events": [
@@ -385,12 +385,29 @@
                                 "xdm": {
                                     "eventType": "media.statesUpdate",
                                     "mediaCollection": {
-                                        "sessionID": "{data.adobeEdgeSessionId}",
-                                        "playhead": "{data.playhead} | 0",
-                                        "statesStart": "{data.statesStartParam}",
-                                        "statesEnd": "{data.statesEndParam}"
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead}",
+                                        "statesStart": "{context.inbuilt.statesStarted}"
                                     },
-                                    "timestamp": "{data.timestampISO}"
+                                    "timestamp": "{context.inbuilt.timestampISO}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "StateEnd": {
+                    "path": "{settings.uriHost}/va/v1/statesUpdate",
+                    "schema": {
+                        "events": [
+                            {
+                                "xdm": {
+                                    "eventType": "media.statesUpdate",
+                                    "mediaCollection": {
+                                        "sessionID": "{context.inbuilt.adobeEdgeSessionId}",
+                                        "playhead": "{data.playhead}",
+                                        "statesEnd": "{context.inbuilt.statesEnded}"
+                                    },
+                                    "timestamp": "{context.inbuilt.timestampISO}"
                                 }
                             }
                         ]
