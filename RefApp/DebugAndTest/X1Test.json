@@ -11,6 +11,7 @@
                 "launchProfileId": "3cf18d572b06/a8abe2eb8959/launch-be790b5adaf9-development",
                 "loggingLevel": {
                     "launchProfileId": "3cf18d572b06/a8abe2eb8959/launch-be790b5adaf9-development",
+                    "sendUndefined": "false"
                 }
             },
             "dataStreamIdMappings": [
