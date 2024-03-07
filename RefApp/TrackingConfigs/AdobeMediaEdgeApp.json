@@ -10,7 +10,6 @@
             "config": {
                 "edgeConfigId": "bc1f1b56-dce6-4a2d-a0b6-917ae75c6c7d",
                 "edgeDomain": "cbsinteractive.data.adobedc.net",
-                "loggingLevel": "DEBUG"
             },
             "dataStreamIdMappings": [
                 {"dataStreamId1": [
