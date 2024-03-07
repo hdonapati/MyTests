@@ -1,0 +1,75 @@
+{
+  "AdobeMediaEdgeApp": {
+        "enabled": "{context.enableAdobeMediaEdgeApp}",
+        "category": "app",
+        "params": {
+            "trackerCommands": {
+                "debugLogging": "true",
+                "sendUndefined": "false"
+            },
+            "config": {
+                "launchProfileId": "3cf18d572b06/a8abe2eb8959/launch-be790b5adaf9-development",
+                "loggingLevel": "DEBUG"
+            },
+            "dataStreamIdMappings": [
+                {"dataStreamId1": [
+                    "event1", "event2"
+                ]},
+                {"dataStreamId2": [
+                    "event2", "event21", "event22"
+                ]},
+                {"dataStreamId3": [
+                    "event22", "event31", "event32"
+                ]}
+            ],
+            "eventRules": [
+                {
+                    "when": "ALLOW",
+                    "eventList": "cmPodStart, channelGuideRequest, cmEnd, uILoaded, cmPodComplete, bootstrapLoaded, clipEnd, cmPodBegin, cmBegin, bootstrapRequest, episodeStart, clipStart, heartBeat, channelGuideLoaded, appLaunch, cmStart, cmThirdQuartile, cmComplete, playerBufferStart, cmFirstQuartile, changePlaybackState, appLoaded, playerBufferEnd, videoLoaded, episodeEnd, channelChange, pageView, videoRequest, cmImpression, impressionNonAd, userAction, cmMidPoint, cmPodEnd, carouselView"
+                },
+                {
+                    "when": "DENY",
+                    "eventList": "carouselView"
+                },
+                {
+                    "when": "{context.flag1}",
+                    "eventList": "pageView, carouselView"
+                },
+                {
+                    "when": "{context.flag2}",
+                    "eventList": "carouselView"
+                }
+            ],
+            "dataMappings": {
+                "default": {
+                    "xdm": {
+                        "eventType": "carouselView"
+                    },
+                    "data": {
+                        "brandPlatformId": "{eventData.brandPlatformId}",
+                        "siteEdition": "{eventData.siteEdition}",
+                        "optimizelyExp": "{eventData.optimizelyExp}",
+                        "pageType": "{eventData.pageType}",
+                        "pageViewGuid": "{eventData.pageViewGuid}",
+                        "searchTerm": "{eventData.searchTerm}",
+                        "userRegId": "{eventData.userRegId}",
+                        "userBundle": "{eventData.userBundle}",
+                        "userStatus": "{eventData.userStatus}",
+                        "userType": "{eventData.userType}",
+                        "userClientRegion": "{eventData.userClientRegion}",
+                        "userProfileId": "{eventData.userProfileId}",
+                        "userProfileCategory": "{eventData.userProfileCategory}",
+                        "userProfileMaster": "{eventData.userProfileMaster}",
+                        "userProfileRefId": "{eventData.userProfileRefId}",
+                        "contentFeatures": "{eventData.contentFeatures}"
+                    }
+                }
+            },
+            "dataType": {
+                "debugLogging": "boolean",
+                "sendUndefined": "boolean",
+                "contentFeatures": "array"
+            }
+        }
+    }
+}
