@@ -28,10 +28,6 @@
                     "eventList": "cmPodStart, channelGuideRequest, cmEnd, uILoaded, cmPodComplete, bootstrapLoaded, clipEnd, cmPodBegin, cmBegin, bootstrapRequest, episodeStart, clipStart, heartBeat, channelGuideLoaded, appLaunch, cmStart, cmThirdQuartile, cmComplete, playerBufferStart, cmFirstQuartile, changePlaybackState, appLoaded, playerBufferEnd, videoLoaded, episodeEnd, channelChange, pageView, videoRequest, cmImpression, impressionNonAd, userAction, cmMidPoint, cmPodEnd, carouselView"
                 },
                 {
-                    "when": "DENY",
-                    "eventList": "carouselView"
-                },
-                {
                     "when": "{context.flag1}",
                     "eventList": "pageView, carouselView"
                 },
