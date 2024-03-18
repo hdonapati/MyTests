@@ -36,7 +36,7 @@
             "dataMappings": {
                 "default": {
                     "xdm": {
-                        "eventType": "carouselView"
+                        "eventType": "{eventData.eventType}"
                     },
                     "data": {
                         "brandPlatformId": "{eventData.brandPlatformId}",
