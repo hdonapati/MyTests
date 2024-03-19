@@ -39,7 +39,7 @@
                     "xdm": {
                         "eventType": "{eventData.eventType}"
                     },
-                    "_cbsi": {
+                    "data": {
                         "brandPlatformId": "{eventData.brandPlatformId}",
                         "siteEdition": "{eventData.siteEdition}",
                         "optimizelyExp": "{eventData.optimizelyExp}",
