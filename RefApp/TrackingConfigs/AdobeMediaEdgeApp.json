@@ -61,8 +61,7 @@
             },
             "dataType": {
                 "debugLogging": "boolean",
-                "sendUndefined": "boolean",
-                "contentFeatures": "array"
+                "sendUndefined": "boolean"
             }
         }
     }
