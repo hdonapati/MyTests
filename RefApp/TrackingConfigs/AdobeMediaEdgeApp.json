@@ -1,5 +1,5 @@
 {
-  "AdobeMediaEdgeApp": {
+  "AdobeEdgeApp": {
         "enabled": "{context.enableAdobeMediaEdgeApp}",
         "category": "app",
         "params": {
