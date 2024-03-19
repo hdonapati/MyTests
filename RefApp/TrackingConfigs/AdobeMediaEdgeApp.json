@@ -12,6 +12,7 @@
                 "edge.domain": "cbsinteractive.data.adobedc.net"
             },
             "dataStreamIdMappings": {
+                "carouselView": "someStreamID",
                 "event1": "dataStreamId1",
                 "event2": "dataStreamId2",
                 "event21": "dataStreamId2",
