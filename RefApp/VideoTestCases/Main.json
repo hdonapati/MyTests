@@ -16,6 +16,7 @@
         "dvr": true,
         "live": true,
         "provider": "URL",
+        "isLtsRestricted": true,
         "title": "URL - Live+DVR | HLS Syncback",
         "contentUrl": "https://dai2-playlistserver.aws.syncbak.com/cpl/12733/cbsnfl/2.0/7b226361706162696c6974696573223a207b20223630667073223a2074727565207d7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjIwMTYwNDAxIiwidHlwIjoiSldUIn0.eyJjaWQiOiIxMjcxMCIsImNzYiI6ZmFsc2UsImRldmljZVR5cGUiOiI4IiwiZXhwIjoxNzEyNzAyOTgzLCJpc3MiOiJnZXRobHMiLCJtZDUiOiI3MWQ3Y2ViYzI3ZjBhNGNjYzhiOGE1MDBiMWQ2Mjk2MiIsIm1pZCI6IjEyNzMzIiwic2lkIjoiOTEiLCJzdWIiOiIwNjMzYWQ5ZWQ1NjE2ZjNlNWUxYmU5YWE4MjA0MWZiMiJ9.UuMbkTDwQeOTfQ1G_q4fgSTTKoBhObmcJV-dU2_RyZo"
     },
