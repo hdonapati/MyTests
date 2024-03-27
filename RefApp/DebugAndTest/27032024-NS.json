@@ -20,7 +20,7 @@
         "customProvider": null,
         "DAI_PROVIDER": "DAI",
         "daiAdUiNode": null,
-        "daiAuthToken": "cmsid=2645322~exp=1711558882~vid=mgid:arc:episode:shared.betplus.us:96843800-dc31-11e9-9fb2-70df2f866ace~hmac=63f0ed3a30f1bb2a608c651007b2ad0280b92d691e0ac2bebc46fb326ad39a67",
+        "daiAuthToken": "cmsid=2645322~exp=2711558882~vid=mgid:arc:episode:shared.betplus.us:96843800-dc31-11e9-9fb2-70df2f866ace~hmac=63f0ed3a30f1bb2a608c651007b2ad0280b92d691e0ac2bebc46fb326ad39a67",
         "daiId": "mgid:arc:episode:shared.betplus.us:96843800-dc31-11e9-9fb2-70df2f866ace",
         "daiKey": "",
         "daiSourceId": "2645322",
