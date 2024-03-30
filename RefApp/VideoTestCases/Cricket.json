@@ -1,26 +1,6 @@
 {
-   "SkySports | IND vs NZ SemiFinal": {
-        "title": "SkySports | IND vs NZ SemiFinal",
-        "provider": "URL",
-        "contentUrl": "https://goko7.pogocast.xyz:8059/view/hls/f09fBE5Qar-Ye1BXzE9iug/1700068009/skyscric.m3u8",
-        "live": true,
-        "drmHeaders": {
-            "Origin": "https://bigcast.xyz",
-            "Referer": "https://bigcast.xyz/embed.php?v=skyscric"
-        }
-    },
-   "StarSports | IND vs NZ SemiFinal": {
-        "title": "StarSports | IND vs NZ SemiFinal",
-        "provider": "URL",
-        "contentUrl": "https://bbm.pogocast.xyz:8059/view/hls/pYMjm-dBgMLxQG7hmUArfg/1700069365/star1in.m3u8",
-        "live": true,
-        "drmHeaders": {
-            "Origin": "https://bigcast.xyz",
-            "Referer": "https://bigcast.xyz/embed.php?v=skyscric"
-        }
-    },
-   "Willow | RCB vs KKR | IPL": {
-        "title": "Willow | RCB vs KKR | IPL",
+   "Willow | IPL": {
+        "title": "Willow | IPL",
         "provider": "URL",
         "contentUrl": "https://nes03.jobdone.top:8088/live/webcricwillow/playlist.m3u8?vidictid=198111452026&id=120375&pk=40eec500d5c0490eb32622d17a6a1d501ab9391dae165a12382f6def8afaacf9bba2a6c53db8dab781241ac0b09fa967a9e9e88c6c6a268f69fce21d450760be",
         "live": true
