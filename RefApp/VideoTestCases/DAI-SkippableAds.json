@@ -1,4 +1,16 @@
 {
+  "DAI | VoD | Google Test" : {
+       "title":"DAI - Google Test",
+       "provider":"DAI",
+       "daiSourceId":"2497752",
+       "daiId":"Koo5VLb83N2E3aw2X7wlQEyslnDny7Fn",
+       "adParameters":"imafw_csid=streaming_paramountplus_us_ctv_roku_vod&imafw_sb=14",     
+       "type":"VOD",
+       "dvr": false,
+       "live": false,
+       "drmType": "widevine",
+       "fetchLicense": true
+    },	
   "DAI | VoD | Frasier-Selling-out-S1Ep9" : {
        "title":"DAI - Frasier-Selling-out-S1Ep9",
        "provider":"DAI",
