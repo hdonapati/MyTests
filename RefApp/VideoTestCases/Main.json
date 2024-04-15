@@ -15,7 +15,7 @@
     "DAI | VoD | Skip Promo" : {
        "title":"DAI - Skip Promo",
        "provider":"DAI",
-       "daiSDKInitParams": { "promoskip": true },
+       "daiFeatureFlags": { "promoskip": true },
        "daiSourceId":"2497752",
        "daiId":"Koo5VLb83N2E3aw2X7wlQEyslnDny7Fn",
        "adParameters":"imafw_csid=streaming_paramountplus_us_ctv_roku_vod&imafw_sb=14",     
