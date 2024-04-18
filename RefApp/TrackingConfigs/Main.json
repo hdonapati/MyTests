@@ -299,25 +299,8 @@
             }
         }
     },
-    "Moat": {
-        "enabled": true,
-        "category": "tracking",
-        "params": {
-            "trackerCommands": {
-                "runInMainThread": false
-            },
-            "sessionInfo": {
-                "slicer1": "CBS",
-                "slicer2": "NA"
-            },
-            "adInfo": {
-                "media.ad.id": "{data.adId}",
-                "media.ad.creativeId": "{data.creativeId}"
-            }
-        }
-    },
     "Mux": {
-        "enabled": true,
+        "enabled": "{context.enableTracking} && {context.enableMux}",
         "category": "qos",
         "params": {
             "trackerCommands": {
@@ -341,7 +324,7 @@
         }
     },
     "Nielsen": {
-        "enabled": true,
+        "enabled": "{context.enableTracking} && {context.enableNielsen}",
         "category": "tracking",
         "params": {
             "trackerCommands": {
@@ -408,7 +391,7 @@
         }
     },
     "Oztam": {
-        "enabled": true,
+        "enabled": "{context.enableTracking} && {context.enableOztam}",
         "category": "tracking",
         "params": {
             "trackerCommands": {
@@ -428,7 +411,7 @@
         }
     },
     "Sparrow": {
-        "enabled": true,
+        "enabled": "{context.enableTracking} && {context.enableSparrow}",
         "category": "tracking",
         "params": {
             "trackerCommands": {
@@ -455,25 +438,8 @@
             }
         }
     },
-    "Vast": {
-        "enabled": true,
-        "category": "tracking",
-        "params": {
-            "trackerCommands": {
-                "runInMainThread": true
-            },
-            "sessionInfo": {
-                "id3Owner": "com.paramount.vtg",
-                "adPlatform": "ott",
-                "adApp": "cbssports_roku_app",
-                "adEndError": 2,
-                "podEndError": 5,
-                "adTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=Superbowl_58_Linear_Stream_Game_Day&csid=streaming_paramountplus_us_ctv_roku_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&mode=live&nw=520311&prof=520311%3Asuperbowl&pvrn=[RANDOM]&resp=vmap1%2Bvast4&ssnw=520311&vdty=VARIABLE&vrdu=[DUR]&vprn=[RANDOM];_fw_coppa=0&_fw_did=rida%3A2d39280a-e53d-5fff-bd09-2ec1bc40874d&_fw_is_lat=1&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_hylda=acid%3Dtpplushylda%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_player_height=1080&_fw_player_width=1920&ge=1&gr=3&packageSource=recurly&session=d&sub=100001470&subses=2&sb=6&esb=14&_fw_us_privacy=1YNN&fms_emailhash=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&fms_ruleid=10004%2C10003&fms_vcid2type=emailhash&fms_subscriberid=100001470&_fw_vcid2=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&fms_userid=cefd01e6-e0d9-5ce8-be3d-4c6597c2fc46&sz=640x480&tfcd=0&user=ADULT&vguid=40b6d00a-cc24-4645-94c8-f8ee94320faa;cpsq=1&maxd=[DUR]&mind=[DUR]&ptgt=a&slid=&tpcl=MIDROLL&slau=Super%20Bowl%2058&tpos=0;slid=companion&ptgt=p&slau=companion&w=1920&h=375&flag=%2Bcmpn&prct=application%2Fjson"
-            }
-        }
-    },
-     "Youbora": {
-        "enabled": "{context.enableYoubora}",
+    "Youbora": {
+        "enabled": "{context.enableTracking} && {context.enableYoubora}",
         "params": {
             "trackerCommands": {
                 "debugLogging": "{localStorage.Youbora.debugLogging}",
