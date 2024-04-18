@@ -1,6 +1,6 @@
 {
     "Adobe": {
-        "enabled": true,
+        "enabled": "{context.enableTracking} && {context.enableAdobeMedia}",
         "category": "tracking",
         "params": {
             "trackerCommands": {
@@ -100,7 +100,7 @@
         }
     },
     "AdobeECID": {
-      "enabled": "true",
+      "enabled": "{context.enableTracking} && {context.enableAdobeECID}",
       "params": {
         "serverInfo": {
           "demdexUrl": "dpm.demdex.net/id?d_rtbd=json&d_ver=2&d_orgid=",
@@ -110,7 +110,7 @@
       }
     },
     "Comscore": {
-        "enabled": true,
+        "enabled": "{context.enableTracking} && {context.enableComscore}",
         "category": "tracking",
         "params": {
             "trackerCommands": {
@@ -145,7 +145,7 @@
         }
     },
     "Conviva": {
-        "enabled": true,
+        "enabled": "{context.enableTracking} && {context.enableConviva}",
         "category": "qos",
         "params": {
             "trackerCommands": {
@@ -263,7 +263,7 @@
         }
     },
     "Hydra": {
-    	"enabled":true,
+    	"enabled": "{context.enableTracking} && {context.enableHydra}",
     	"category":"app",
     	"params":{
     	    "config":{
@@ -280,7 +280,7 @@
     	 }
     },
     "KantarBARB": {
-        "enabled": true,
+        "enabled": "{context.enableTracking} && {context.enableKantar}",
         "category": "tracking",
         "params": {
             "accountInfo": {
