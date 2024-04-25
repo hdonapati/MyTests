@@ -25,6 +25,17 @@
        "drmType": "widevine",
        "fetchLicense": true
     },
+    "DAI | VoD | No Ads" : {
+       "title":"DAI - No Ads Test",
+       "provider":"DAI",
+       "daiSourceId":"2497752",
+       "daiId":"Koo5VLb83N2E3aw2X7wlQEyslnDny7Fn",
+       "type":"VOD",
+       "dvr": false,
+       "live": false,
+       "drmType": "widevine",
+       "fetchLicense": true
+    },
     "URL | Live+DVR | Syncback": {
         "dvr": true,
         "live": true,
