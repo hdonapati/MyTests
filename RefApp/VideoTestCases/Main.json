@@ -25,16 +25,16 @@
        "drmType": "widevine",
        "fetchLicense": true
     },
-    "DAI | VoD | No Ads" : {
-       "title":"DAI - No Ads Test",
-       "provider":"DAI",
-       "daiSourceId":"2497752",
-       "daiId":"Koo5VLb83N2E3aw2X7wlQEyslnDny7Fn",
-       "type":"VOD",
-       "dvr": false,
-       "live": false,
-       "drmType": "widevine",
-       "fetchLicense": true
+    "RAF | VoD | VTT Thumbs | No Ads": {
+        "adExit": true,
+        "adHoliday": false,
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "provider": "RAF",
+        "title": "RAF - VoD (VTT Thumbs)  | No Ads",
+        "thumbnailUrl": "https://news.play.cbsi.video/h/1.LWdas2uVWKafMzKr3fhkvf74th6VUX6NnqNJtBteI3oB8WLyNvwnWyw3UmmW41boCwUnS1L6nMsaK1ZcKA2p16EHChfbxSaYJqrBmECpwjxspzTpeybMHyFq4TMyXbOZvNTE7xCPfXN4vkIvxgdLetHlTrFWKq88nO6KsdefZCQK1FAkHbtYk5M6u5C18jZI7aS/thumbs.vtt",
+        "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625/873333_hls/master.m3u8"
     },
     "URL | Live+DVR | Syncback": {
         "dvr": true,
