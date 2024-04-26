@@ -1,0 +1,190 @@
+{
+    "AdobeEdgeApp": {
+        "enabled": "true",
+        "category": "app",
+        "params": {
+            "trackerCommands": {
+                "debugLogging": "true",
+                "sendUndefined": "false"
+            },
+            "config": {
+                "edge.configId": "bc1f1b56-dce6-4a2d-a0b6-917ae75c6c7d",
+                "edge.domain": "cbsinteractive.data.adobedc.net"
+            },
+            "dataStreamIdMappings": {
+                "carouselView": "someStreamID",
+                "event1": "dataStreamId1",
+                "event2": "dataStreamId2",
+                "event21": "dataStreamId2",
+                "event22": "dataStreamId3",
+                "event31": "dataStreamId3",
+                "event32": "dataStreamId3"
+            },
+            "eventRules": [
+                {
+                    "when": "ALLOW",
+                    "eventList": "pageView, userAction"
+                }
+            ],
+            "dataMappings": {
+                "default": {
+                    "xdm": {
+                        "eventType": "test_Event"
+                    },
+                    "data": {
+                        "brandPlatformId": "test_brandPlatformId",
+                        "siteEdition": "test_siteEdition",
+                        "optimizelyExp": "test_optimizelyExp",
+                        "pageType": "test_pageType",
+                        "pageViewGuid": "test_pageViewGuid",
+                        "searchTerm": "test_searchTerm",
+                        "userRegId": "{eventData.sp.accountID}",
+                        "userBundle": "test_userBundle",
+                        "userStatus": "test_userStatus",
+                        "userType": "test_userType",
+                        "userClientRegion": "test_userClientRegion",
+                        "userProfileId": "test_userProfileId",
+                        "userProfileCategory": "test_userProfileCategory",
+                        "userProfileMaster": "test_userProfileMaster",
+                        "userProfileRefId": "test_userProfileRefId",
+                        "contentFeatures": "test_contentFeatures",
+                        "clientIdTest": "{eventData.sp.clientID}",
+                        "ecidTestAEP": "{localstorage.adb_aep_roku_sdk.ecid}",
+                        "ecidTestECIDModule": "{localStorage.AdobeECID.aviaAdobeECID}",
+                        "eventNameTest": "{eventData.sp.eventName}"
+                    }
+                }
+            },
+            "dataType": {
+                "debugLogging": "boolean",
+                "sendUndefined": "boolean"
+            }
+        }
+    },
+    "Odin": {
+        "enabled": "{context.analyticsAndPerformanceConsent}",
+        "category": "app",
+        "params": {
+            "trackerCommands": {
+                "debugLogging": "false",
+                "sendUndefined": "false"
+            },
+            "config": {
+                "endPoint": "{context.isDev} ? https://dl.pluto.tv/nile/et2 : https://dl.pluto.tv/nile/et2",
+                "ue_prSchema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
+                "payloadSchema": "iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4",
+                "retryNum": 3,
+                "retryWaitTime": 30
+            },
+            "eventRules": [
+                {
+                    "when": "ALLOW",
+                    "eventList": "pageView"
+                }
+            ],
+            "dataMappings": {
+                "default": {
+                    "schema": "iglu:com.plutotv/pluto_events/jsonschema/1-0-0",
+                    "payload": {
+                        "clientID": "{eventData.sp.clientID}",
+                        "playerName": "{eventData.sp.playerName}",
+                        "clientScreenResolution": "{eventData.sp.clientScreenResolution}",
+                        "kidsConstrained": "{eventData.sp.kidsConstrained}",
+                        "eventEmitterType": "{eventData.sp.eventEmitterType}",
+                        "featureType": "{eventData.sp.featureType}",
+                        "playerHeight": "{eventData.sp.playerHeight}",
+                        "label": "{eventData.sp.label}",
+                        "appVersion": "{eventData.sp.appVersion}",
+                        "channelID": "{eventData.sp.channelID}",
+                        "episodeID": "{eventData.sp.episodeID}",
+                        "episodeTimelinePoint": "{eventData.sp.episodeTimelinePoint}",
+                        "eventGeneratorIP": "{eventData.sp.eventGeneratorIP}",
+                        "environment": "{eventData.sp.environment}",
+                        "clientDeviceType": "{eventData.sp.clientDeviceType}",
+                        "appName": "{eventData.sp.appName}",
+                        "playbackState": "{eventData.sp.playbackState}",
+                        "hitID": "{eventData.sp.hitID}",
+                        "clientPrivateIP": "{eventData.sp.clientPrivateIP}",
+                        "isAutoPlay": "{eventData.sp.isAutoPlay}",
+                        "playerVersion": "{eventData.sp.playerVersion}",
+                        "clientModelName": "{eventData.sp.clientModelName}",
+                        "section": "{eventData.sp.section}",
+                        "streamBitrate": "{eventData.sp.streamBitrate}",
+                        "utmCampaign": "{eventData.sp.utmCampaign}",
+                        "utmContent": "{eventData.sp.utmContent}",
+                        "clientFirmware": "{eventData.sp.clientFirmware}",
+                        "utmMedium": "{eventData.sp.utmMedium}",
+                        "clientNetworkType": "{eventData.sp.clientNetworkType}",
+                        "carrierName": "{eventData.sp.carrierName}",
+                        "utmSource": "{eventData.sp.utmSource}",
+                        "screenOrientation": "{eventData.sp.screenOrientation}",
+                        "pageName": "{eventData.sp.pageName}",
+                        "eventName": "{eventData.sp.eventName}",
+                        "eventGeneratorType": "{eventData.sp.eventGeneratorType}",
+                        "eventCategory": "{eventData.sp.eventCategory}",
+                        "subAppName": "{eventData.sp.subAppName}",
+                        "sessionID": "{eventData.sp.sessionID}",
+                        "utmTerm": "{eventData.sp.utmTerm}",
+                        "clientModelNumber": "{eventData.sp.clientModelNumber}",
+                        "previousPageName": "{eventData.sp.previousPageName}",
+                        "clientLanguage": "{eventData.sp.clientLanguage}",
+                        "cmAudienceID": "{eventData.sp.cmAudienceID}",
+                        "previousSection": "{eventData.sp.previousSection}",
+                        "userInteractionMode": "{eventData.sp.userInteractionMode}",
+                        "eventOccurredTimestamp": "{eventData.sp.eventOccurredTimestamp}",
+                        "clientManufacturer": "{eventData.sp.clientManufacturer}",
+                        "playerWidth": "{eventData.sp.playerWidth}",
+                        "clientOS": "{eventData.sp.clientOS}",
+                        "accountID": "{eventData.sp.accountID}",
+                        "isClientDNT": "{eventData.sp.isClientDNT}",
+                        "testGroupID": "{eventData.sp.testGroupID}",
+                        "testID": "{eventData.sp.testID}",
+                        "cmImpressionCounter": "{eventData.sp.cmImpressionCounter}",
+                        "cmImpressionIndex": "{eventData.sp.cmImpressionIndex}",
+                        "cmPodID": "{eventData.sp.cmPodID}",
+                        "cmDurationOriginal": "{eventData.sp.cmDurationOriginal}",
+                        "cmDurationServed": "{eventData.sp.cmDurationServed}",
+                        "cmPodCounter": "{eventData.sp.cmPodCounter}",
+                        "cmPodDuration": "{eventData.sp.cmPodDuration}",
+                        "cmPodIndex": "{eventData.sp.cmPodIndex}",
+                        "cmRequestCounter": "{eventData.sp.cmRequestCounter}",
+                        "stitcherVersion": "{eventData.sp.stitcherVersion}",
+                        "programTimelineID": "{eventData.sp.programTimelineID}",
+                        "previousChannelID": "{eventData.sp.previousChannelID}",
+                        "clipID": "{eventData.sp.clipID}",
+                        "clipTimelinePoint": "{eventData.sp.clipTimelinePoint}",
+                        "value": "{eventData.sp.value}",
+                        "pinnedCategoryIndex": "{eventData.sp.pinnedCategoryIndex}",
+                        "pinnedCategoryName": "{eventData.sp.pinnedCategoryName}",
+                        "pinnedItemIndex": "{eventData.sp.pinnedItemIndex}",
+                        "cmType": "{eventData.sp.cmType}",
+                        "linkID": "{eventData.sp.linkID}",
+                        "itemPositionX": "{eventData.sp.itemPositionX}",
+                        "itemPositionY": "{eventData.sp.itemPositionY}",
+                        "subtitleLanguage": "{eventData.sp.subtitleLanguage}",
+                        "jsonExtensions": {
+                            "ver": "{eventData.sp.jsonExtensions.ver}",
+                            "data": {
+                                "screenID": "{eventData.sp.jsonExtensions.data.screenID}",
+                                "screenElementId": "{eventData.sp.jsonExtensions.data.screenElementId}",
+                                "screenElementDetail": "{eventData.sp.jsonExtensions.data.screenElementDetail}"
+                            }
+                        },
+                        "featureTypeExtension": {
+                            "ver": "{eventData.sp.featureTypeExtension.ver}",
+                            "data": {
+                                "featureTypeId": "{eventData.sp.featureTypeExtension.data.featureTypeId}"
+                            }
+                        }
+                    }
+                }
+            },
+            "dataType": {
+                "debugLogging": "boolean",
+                "sendUndefined": "boolean",
+                "retryNum": "int",
+                "retryWaitTime": "int"
+            }
+        }
+    }
+}
