@@ -62,7 +62,7 @@
         }
     },
     "Odin": {
-        "enabled": "{context.analyticsAndPerformanceConsent}",
+        "enabled": "true",
         "category": "app",
         "params": {
             "trackerCommands": {
