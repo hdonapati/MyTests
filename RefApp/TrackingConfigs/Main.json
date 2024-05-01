@@ -266,6 +266,10 @@
     	"enabled": "{context.enableTracking} && {context.enableHydra}",
     	"category":"app",
     	"params":{
+            "trackerCommands": {
+                "sendUndefined": false,
+                "debugLogging": true
+            },
     	    "config":{
     	         "namespace":"appTracker",
     	         "endPoint":"https://hydra-api.dev.cbsivideo.com",
@@ -276,8 +280,10 @@
                  "postBatchSize": 10
     	      },
     	      "dataType":{
-    	         "tokenExpiryTime":"int",
-                 "postBatchSize":"int"
+    	         "tokenExpiryTime": "int",
+                 "postBatchSize": "int",
+                 "sendUndefined": "boolean",
+                 "debugLogging": "boolean"
     	      }
     	 }
     },
