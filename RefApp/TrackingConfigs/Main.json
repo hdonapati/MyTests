@@ -272,10 +272,12 @@
                  "fetchTokenPath":"/v1/token",
                  "authSessionPath":"/v1/auth",
                  "postEventsPath":"/v1/events",
-    	         "tokenExpiryTime":14400
+    	         "tokenExpiryTime":14400,
+                 "postBatchSize": 10
     	      },
     	      "dataType":{
-    	         "tokenExpiryTime":"int"
+    	         "tokenExpiryTime":"int",
+                 "postBatchSize":"int"
     	      }
     	 }
     },
