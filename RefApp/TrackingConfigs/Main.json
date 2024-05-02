@@ -278,13 +278,17 @@
                  "postEventsPath":"/v1/events",
     	         "tokenExpiryTime":14400,
                  "postBatchSize": 10
-    	      },
-    	      "dataType":{
+    	    },
+            "avoidEvents": "EVENT_DAI/EVENT_SUB_READY, EVENT_TICKER"
+            "eventNameMapping": {
+                "EVENT_PROGRESS": "contentprogress"
+            },
+    	    "dataType":{
     	         "tokenExpiryTime": "int",
                  "postBatchSize": "int",
                  "sendUndefined": "boolean",
                  "debugLogging": "boolean"
-    	      }
+    	    }
     	 }
     },
     "KantarBARB": {
