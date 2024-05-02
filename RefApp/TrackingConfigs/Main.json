@@ -268,7 +268,8 @@
     	"params":{
             "trackerCommands": {
                 "sendUndefined": false,
-                "debugLogging": true
+                "debugLogging": true,
+                "avoidEvents": "EVENT_DAI/EVENT_SUB_READY, EVENT_TICKER"
             },
     	    "config":{
     	         "namespace":"appTracker",
@@ -279,7 +280,6 @@
     	         "tokenExpiryTime":14400,
                  "postBatchSize": 10
     	    },
-            "avoidEvents": "EVENT_DAI/EVENT_SUB_READY, EVENT_TICKER"
             "eventNameMapping": {
                 "EVENT_PROGRESS": "contentprogress"
             },
