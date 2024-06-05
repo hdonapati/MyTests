@@ -68,14 +68,14 @@
         "adUrl": "https://7f077.v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_ctv_roku_vod&asnw=520311&caid=Qh650aFubj9aURvIzPX2BFNYMXFX5GI_&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_NoVPAID&pvrn=ROKU_ADS_CACHE_BUSTER&resp=vmap1%2Bvast4&ssnw=520311&vprn=ROKU_ADS_CACHE_BUSTER;_fw_h_referer=CBS%20News%205.12.10&_fw_app_bundle=CBS%20News%205.12.10&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&description_url=https%3A%2F%2Fwww.cbsnews.com&vguid=c2f29f22-0f06-45eb-9ae3-ece200e53e3d&sz=640x480&_fw_vcid2=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_hh_ramp_id=UNMATCHED&fms_ifa=6e9b98f8-2e05-5a15-83c6-c974aba06e2c&fms_ramp_id=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_vcid2type=liveramp&",
         "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625/873333_hls/master.m3u8"
     },
-    "RAF | VoD w/Innovid  | VTT Thumbs": {
+    "RAF | VoD | VTT Thumbs": {
         "adExit": true,
         "adHoliday": false,
         "dvr": false,
         "live": false,
         "partnerId": "cbs",
         "provider": "RAF",
-        "title": "RAF - VoD w/Innovid",
+        "title": "RAF - VoD 2",
         "thumbnailUrl": "https://news.play.cbsi.video/h/1.LWdas2uVWKafMzKr3fhkvf74th6VUX6NnqNJtBteI3oB8WLyNvwnWyw3UmmW41boCwUnS1L6nMsaK1ZcKA2p16EHChfbxSaYJqrBmECpwjxspzTpeybMHyFq4TMyXbOZvNTE7xCPfXN4vkIvxgdLetHlTrFWKq88nO6KsdefZCQK1FAkHbtYk5M6u5C18jZI7aS/thumbs.vtt",
         "adUrl": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=phz8mnm5AvhUS7rv3yHhWUiSigHl7oSF&csid=streaming_paramountplus_ctv_roku_vod&flag=+amcb+emcr+dtrd+sltp+slcb+exvt+fbad+sync+nucr+aeti&metr=1023&nw=520311&prof=520311%3AGoogleDAISSAI_CBSi&pvrn=393623631333578663&resp=vmap1+vast4&ssnw=520311&vdur=2284&vprn=2685689068606241974;15-0.0-VI20-roku=1&15-0.0-VI61-roku=1&30-0.0-VI25-roku=1&_fw_3P_UID=UID2%3AAgAABD60p+2S58ncPH13x57cjgSK35t0IbAsCpSf%2Fv4wrxkQMJvAgSS322VEd8u9%2F6ytB3gzaxras5SNid+94vZxAZrGmgmufFFHyTCJI6TGm6ipvA%2Ff6WJ6wUcXnVpIVi+T0Y3rzMASmJJ4NTgTaJhekS4CwB5oRSX5tJpjUESyW7+G1g%3D%3D&_fw_continuous_play=0&_fw_coppa=0&_fw_did=rida%3A53f08f51-3e6b-5776-a9e1-4f18259a4f82&_fw_h_referer=Paramount+%20Debug%20Proxy%20Enabled.adsenseformobileapps.com%2F&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_player_height=1080&_fw_player_width=1920&_fw_us_privacy=1YNN&_fw_vcid2=XY6395HKPKbPtQrNEeqNiyti2v-z2f8j6mllS3Pc8SH_jOIRk&bundle=SHO&bundle=exSHO&cpPre=0&cpSession=0&dai_stream_activity_id=cb5c538e-c8ea-470a-afa7-6563d93adf17&esb=14&fms_bididtype=1010&fms_emailhash=481ec629f710b694e2fb84ac214aba9b4569c88cf1a82bd9d59172229f7b69f9&fms_hh_ramp_id=hY6395eIQr6Jjy-Rah8vZx4bJBJnLpoTlOS7_zbJetRKH_1Fg&fms_ifa=53f08f51-3e6b-5776-a9e1-4f18259a4f82&fms_ramp_id=XY6395HKPKbPtQrNEeqNiyti2v-z2f8j6mllS3Pc8SH_jOIRk&fms_subscriberid=82008994&fms_uid2=AgAABD60p+2S58ncPH13x57cjgSK35t0IbAsCpSf%2Fv4wrxkQMJvAgSS322VEd8u9%2F6ytB3gzaxras5SNid+94vZxAZrGmgmufFFHyTCJI6TGm6ipvA%2Ff6WJ6wUcXnVpIVi+T0Y3rzMASmJJ4NTgTaJhekS4CwB5oRSX5tJpjUESyW7+G1g%3D%3D&fms_userid=074c2500-6321-5f97-9ac8-d7de9cfed19e&fms_vcid2type=liveramp&ge=3&gr=4&ima_sdkv=3.x&packageSource=cbscomp&playername_version=avia_4.8.1&recommended_show=5692&recommended_show=6087&recommended_show=61456655&recommended_show=61456636&recommended_show=61466365&recommended_show=393&recommended_show=61456196&recommended_show=61457158&recommended_show=61456195&recommended_show=62468457&roku_ad_query_id=7105918356731805931&sb=22&session=a&sub=82008994&subses=4&sz=640x480&tfcd=0&user=ADULT&vguid=9de2991c-c85b-487b-8be4-826665a89879;ptgt=a&slau=preroll&slid=preroll&tpcl=PREROLL;cpsq=1&ptgt=a&slau=midroll&slid=midroll1&tpcl=MIDROLL&tpos=538;cpsq=2&ptgt=a&slau=midroll&slid=midroll2&tpcl=MIDROLL&tpos=848;cpsq=3&ptgt=a&slau=midroll&slid=midroll3&tpcl=MIDROLL&tpos=1025;cpsq=4&ptgt=a&slau=midroll&slid=midroll4&tpcl=MIDROLL&tpos=1271;cpsq=5&ptgt=a&slau=midroll&slid=midroll5&tpcl=MIDROLL&tpos=1575;cpsq=6&ptgt=a&slau=midroll&slid=midroll6&tpcl=MIDROLL&tpos=1773;cpsq=7&ptgt=a&slau=midroll&slid=midroll7&tpcl=MIDROLL&tpos=1893;cpsq=8&ptgt=a&slau=midroll&slid=midroll8&tpcl=MIDROLL&tpos=2174;ptgt=a&slau=postroll&slid=postroll&tpcl=POSTROLL",
         "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625/873333_hls/master.m3u8"
@@ -104,8 +104,8 @@
         "provider": "DAI",
         "title": "DAI - Live"
     },
-    "DAI | VoD w/Innovid" : {
-       "title":"DAI - VoD w/Innovid",
+    "DAI | VoD 1" : {
+       "title":"DAI - VoD 1",
        "provider":"DAI",
        "daiSourceId":"2497752",
        "daiId":"phz8mnm5AvhUS7rv3yHhWUiSigHl7oSF",
@@ -131,6 +131,23 @@
         "partnerId": "cbs",
         "provider": "DAI",
         "title": "DAI - VoD (DRM) (DASH Thumbs) w/Promo",
+        "fetchLicense": true
+    },
+    "DAI | VoD | DRM | DASH Thumbs | Innovid": {
+        "adExit": true,
+        "adHoliday": false,
+        "daiId": "wvJd26vLxpwJ1YPf202Hx31mpFghc50F",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "adParams":{
+          "imafw_csid":"streaming_paramountplus_ctv_roku_vod",
+          "imafw_sb":"22"
+         },
+        "provider": "DAI",
+        "title": "DAI - Innovid | The Price is Right - 09/26/2023 ",
         "fetchLicense": true
     },
     "DAI | VoD | DRM | DASH Thumbs | W/Promo | w/Resume": {
