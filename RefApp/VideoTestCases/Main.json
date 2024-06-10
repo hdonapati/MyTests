@@ -150,6 +150,24 @@
         "title": "DAI - Innovid | The Price is Right - 09/26/2023 ",
         "fetchLicense": true
     },
+     "DAI | VoD | DRM | DASH Thumbs | BrightLine": {
+        "daiId": "YAxteZGi9KXBFui9JAtKjMb4qNJQWO_y",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "dvr": false,
+        "live": false,
+        "partnerId": "cbs",
+        "adParams":{
+          "csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "sb":"22",
+          "imafw_csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "imafw_sb":"22"
+         },
+        "provider": "DAI",
+        "title": "DAI - BrightLine",
+        "fetchLicense": true
+    },
     "DAI | VoD | DRM | DASH Thumbs | W/Promo | w/Resume": {
         "adExit": true,
         "adHoliday": false,
