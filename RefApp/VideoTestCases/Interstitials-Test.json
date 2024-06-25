@@ -20,9 +20,14 @@
         "type": "VOD",
         "contentURL": "https://video-arch.s3.amazonaws.com/hls_alb/clips/hls/hls_alb_demo_master_safari.m3u8"
     },
-  "DASH Interstitial": {
+  "DASH Interstitial with onRequest": {
         "provider": "URL",
         "type": "VOD",
         "contentURL": "https://dash.akamaized.net/dash264/TestCases/5b/nomor/8.mpd"
+    },
+  "DASH Interstitial with onLoad": {
+        "provider": "URL",
+        "type": "VOD",
+        "contentURL": "https://dash.akamaized.net/dash264/TestCases/5b/nomor/6.mpd"
     }
 }
