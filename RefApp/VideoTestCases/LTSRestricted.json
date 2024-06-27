@@ -1,0 +1,22 @@
+{
+  "DAI | Live+DVR | HLS Clear": {
+        "isLtsRestricted": true,
+        "dvr": true,
+        "live": true,
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "title": "DAI - Live+DVR | HLS Clear",
+        "daiId": "HdjmKUTQRkexxeXSRa2Txw",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
+        "adParameters": "cust_params=recommended_show%3D106%2C6087%2C61457217%2C61456196%2C393%2C21028%2C61456636%2C42505&imafw__fw_coppa=0&imafw__fw_did=rida%3Aefa37e1e-6a94-5563-bd90-284fbb37a1c5&imafw__fw_is_lat=1&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&imafw_csid=streaming_paramountplus_ctv_roku_live&imafw_esb=14&imafw_fms_emailhash=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&imafw_fms_ruleid=10003%2C10004&imafw_fms_subscriberid=100001470&imafw_fms_userid=e5017518-cc19-58b9-bdfb-e763f2ffc194&imafw_fms_vcid2type=emailhash&imafw_ge=1&imafw_gr=3&imafw_ima_sdkv=3.x&imafw_packageSource=recurly&imafw_roku_ad_query_id=7138598886194010242&imafw_sb=6&imafw_session=b&imafw_sub=100001470&imafw_subses=1&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=b31baff7-df8c-43b9-8c01-717e5e2ca529&tfcd=0"
+    },
+  "URL | Live+DVR | Syncback": {
+        "dvr": true,
+        "live": true,
+        "provider": "URL",
+        "isLtsRestricted": true,
+        "title": "URL - Live+DVR | HLS Syncback",
+        "contentUrl": "https://dai2-playlistserver.aws.syncbak.com/cpl/12733/cbsnfl/2.0/7b226361706162696c6974696573223a207b20223630667073223a2074727565207d7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjIwMTYwNDAxIiwidHlwIjoiSldUIn0.eyJjaWQiOiIxMjcxMCIsImNzYiI6ZmFsc2UsImRldmljZVR5cGUiOiI4IiwiZXhwIjoxNzEyNzAyOTgzLCJpc3MiOiJnZXRobHMiLCJtZDUiOiI3MWQ3Y2ViYzI3ZjBhNGNjYzhiOGE1MDBiMWQ2Mjk2MiIsIm1pZCI6IjEyNzMzIiwic2lkIjoiOTEiLCJzdWIiOiIwNjMzYWQ5ZWQ1NjE2ZjNlNWUxYmU5YWE4MjA0MWZiMiJ9.UuMbkTDwQeOTfQ1G_q4fgSTTKoBhObmcJV-dU2_RyZo"
+    }
+}
