@@ -20,27 +20,11 @@
     "contentUrl": "https://dai2-playlistserver.aws.syncbak.com/cpl/12733/cbsnfl/2.0/7b226361706162696c6974696573223a207b20223630667073223a2074727565207d7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjIwMTYwNDAxIiwidHlwIjoiSldUIn0.eyJjaWQiOiIxMjcxMCIsImNzYiI6ZmFsc2UsImRldmljZVR5cGUiOiI4IiwiZXhwIjoxNzEyNzAyOTgzLCJpc3MiOiJnZXRobHMiLCJtZDUiOiI3MWQ3Y2ViYzI3ZjBhNGNjYzhiOGE1MDBiMWQ2Mjk2MiIsIm1pZCI6IjEyNzMzIiwic2lkIjoiOTEiLCJzdWIiOiIwNjMzYWQ5ZWQ1NjE2ZjNlNWUxYmU5YWE4MjA0MWZiMiJ9.UuMbkTDwQeOTfQ1G_q4fgSTTKoBhObmcJV-dU2_RyZo"
   },
   "P+ NFl Stream TC": {
-    "autoPlay": true,
-    "cdnCheck": true,
-    "contentGenre": "*null",
-    "contentType": "hls",
-    "contentUrl": "https://stage-playlistserver.aws.syncbak.com/spl/cbslts/3.0/master.m3u8?api_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjVhNDcwMDI0MmNkZDRkNzViYmMxYzExMzE2YWI2MTE0IiwidHlwIjoiSldUIn0.eyJiYXNlQ2hhbm5lbElkIjoyOSwibXZwZElkIjoicHBsdXNMQ1AiLCJkaWQiOiJhYjRmMzc0My1jMmMxLTU4NTktODBkYS1kMzAwMmFkYTQ2YjIiLCJkdHAiOjgsImV4cCI6MTcxOTU4OTQ3MywiaXNzIjoiQ0JTLmNvbSIsImF1ZCI6InBsYXlsaXN0c2VydmVyLmF3cy5zeW5jYmFrLmNvbSIsIm1kNSI6IjYzODI1YjA0NjQ2NTVjNThkMGU3NjZjZDg4ZTc0MzI4IiwiaXAiOiI5Ny45OS4yMS4xOTgiLCJkYyI6eyI2MEZQUyI6dHJ1ZX0sImV1YSI6ZmFsc2UsImVpZCI6ZmFsc2UsImlhdCI6MTcxOTU4OTM4M30.6L846yglLOJORq86ZZI9szeRBCb2z7GL5upjmg8aIIM",
-    "daiId": "237",
-    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-    "daiSourceId": "20289",
-    "drmHeaders": {},
-    "drmLicenseUrl": "",
-    "drmType": "none",
     "dvr": true,
-    "id3Owners": [
-      "pplus.id3"
-    ],
-    "isLtsRestricted": true,
-    "kidsContent": false,
-    "length": 0,
-    "limitInnovidInteractivity": false,
     "live": true,
-    "ltsArchiveStartTimestampInUTC": 0,
+    "provider": "URL",
+    "isLtsRestricted": true,
+    "contentUrl": "https://stage-playlistserver.aws.syncbak.com/spl/cbslts/3.0/master.m3u8?api_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjVhNDcwMDI0MmNkZDRkNzViYmMxYzExMzE2YWI2MTE0IiwidHlwIjoiSldUIn0.eyJiYXNlQ2hhbm5lbElkIjoyOSwibXZwZElkIjoicHBsdXNMQ1AiLCJkaWQiOiJhYjRmMzc0My1jMmMxLTU4NTktODBkYS1kMzAwMmFkYTQ2YjIiLCJkdHAiOjgsImV4cCI6MTcxOTU4OTg4NSwiaXNzIjoiQ0JTLmNvbSIsImF1ZCI6InBsYXlsaXN0c2VydmVyLmF3cy5zeW5jYmFrLmNvbSIsIm1kNSI6IjYzODI1YjA0NjQ2NTVjNThkMGU3NjZjZDg4ZTc0MzI4IiwiaXAiOiI5Ny45OS4yMS4xOTgiLCJkYyI6eyI2MEZQUyI6dHJ1ZX0sImV1YSI6ZmFsc2UsImVpZCI6ZmFsc2UsImlhdCI6MTcxOTU4OTc5NX0.asg7kbb8c2So6peEj5bpCXyBTTY9dbRNiiijWVaNSQA",
     "provider": "URL"
   }
 }
