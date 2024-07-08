@@ -10,6 +10,7 @@
         },     
        "type":"VOD",
        "drmType": "widevine",
+       "usePodServing": true,
        "fetchLicense": true
     },
   "Wolf Pack - Two Bitten, Two Born" : {
@@ -23,6 +24,7 @@
         },     
        "type":"VOD",
        "drmType": "widevine",
+       "usePodServing": true,
        "fetchLicense": true
     },
   "De La Calle - New York" : {
@@ -36,6 +38,7 @@
         },     
        "type":"VOD",
        "drmType": "widevine",
+       "usePodServing": true,
        "fetchLicense": true
     }
 }
