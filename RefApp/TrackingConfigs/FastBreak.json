@@ -6,7 +6,7 @@
        "adTagParameters": {
             "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
             "imafw_ge": "3",
-            "imafw_gr": "5",
+            "imafw_gr": "5"
         },     
        "type":"VOD",
        "drmType": "widevine",
@@ -19,7 +19,7 @@
        "adTagParameters": {
             "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
             "imafw_ge": "3",
-            "imafw_gr": "5",
+            "imafw_gr": "5"
         },     
        "type":"VOD",
        "drmType": "widevine",
@@ -32,7 +32,7 @@
        "adTagParameters": {
             "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
             "imafw_ge": "3",
-            "imafw_gr": "5",
+            "imafw_gr": "5"
         },     
        "type":"VOD",
        "drmType": "widevine",
