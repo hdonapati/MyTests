@@ -1,0 +1,44 @@
+{
+   "Sexy Beast - Won't Soon Forget This" : {
+       "provider":"DAI",
+       "daiSourceId":"2497752",
+       "daiId":"tE7VpjiuvEfk_eKQvBSM2k7XVoNVv8B3",
+       "adTagParameters": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5"
+        },     
+       "type":"VOD",
+       "drmType": "widevine",
+       "usePodServing": true,
+       "fetchLicense": true
+    },
+  "Wolf Pack - Two Bitten, Two Born" : {
+       "provider":"DAI",
+       "daiSourceId":"2497752",
+       "daiId":"17Z_qXcjPNisZ6sa_t2gkXUSBk7_BRfe",
+       "adTagParameters": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5"
+        },     
+       "type":"VOD",
+       "drmType": "widevine",
+       "usePodServing": true,
+       "fetchLicense": true
+    },
+  "De La Calle - New York" : {
+       "provider":"DAI",
+       "daiSourceId":"2497752",
+       "daiId":"Wu3JQeIwmpHtWVvMlxHf1hAICEj6Twx2",
+       "adTagParameters": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5"
+        },     
+       "type":"VOD",
+       "drmType": "widevine",
+       "usePodServing": true,
+       "fetchLicense": true
+    }
+}
