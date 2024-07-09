@@ -1,4 +1,17 @@
 {
+    "Sexy Beast - Won't Soon Forget This" : {
+       "provider":"DAI",
+       "daiSourceId":"2497752",
+       "daiId":"tE7VpjiuvEfk_eKQvBSM2k7XVoNVv8B3",
+       "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5"
+        },     
+       "type":"VOD",
+       "drmType": "widevine",
+       "fetchLicense": true
+    },
    "Sexy Beast - Won't Soon Forget This" : {
        "provider":"DAI",
        "daiSourceId":"2497752",
