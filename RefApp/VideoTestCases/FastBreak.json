@@ -1,60 +1,226 @@
 {
-    "Sexy Beast - Won't Soon Forget This | Normal DAI" : {
-       "provider":"DAI",
-       "daiSourceId":"2497752",
-       "daiId":"tE7VpjiuvEfk_eKQvBSM2k7XVoNVv8B3",
-       "adParams": {
+    "Sexy Beast - Won't Soon Forget This": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "tE7VpjiuvEfk_eKQvBSM2k7XVoNVv8B3",
+        "adParams": {
             "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
             "imafw_ge": "3",
-            "imafw_gr": "5"
-        },     
-       "type":"VOD",
-       "drmType": "widevine",
-       "fetchLicense": true
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
     },
-   "Sexy Beast - Won't Soon Forget This" : {
-       "provider":"DAI",
-       "daiSourceId":"2497752",
-       "daiId":"tE7VpjiuvEfk_eKQvBSM2k7XVoNVv8B3",
-       "adParams": {
+    "FB | Sexy Beast - Won't Soon Forget This": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "tE7VpjiuvEfk_eKQvBSM2k7XVoNVv8B3",
+        "adParams": {
             "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
             "imafw_ge": "3",
-            "imafw_gr": "5"
-        },     
-       "type":"VOD",
-       "drmType": "widevine",
-       "usePodServing": true,
-       "podServingNetworkCode": "8264",
-       "fetchLicense": true
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
     },
-  "Wolf Pack - Two Bitten, Two Born" : {
-       "provider":"DAI",
-       "daiSourceId":"2497752",
-       "daiId":"17Z_qXcjPNisZ6sa_t2gkXUSBk7_BRfe",
-       "adParams": {
+    "Wolf Pack - Two Bitten, Two Born": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "17Z_qXcjPNisZ6sa_t2gkXUSBk7_BRfe",
+        "adParams": {
             "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
             "imafw_ge": "3",
-            "imafw_gr": "5"
-        },     
-       "type":"VOD",
-       "drmType": "widevine",
-       "usePodServing": true,
-       "podServingNetworkCode": "8264",
-       "fetchLicense": true
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
     },
-  "De La Calle - New York" : {
-       "provider":"DAI",
-       "daiSourceId":"2497752",
-       "daiId":"Wu3JQeIwmpHtWVvMlxHf1hAICEj6Twx2",
-       "adParams": {
+    "FB | Wolf Pack - Two Bitten, Two Born": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "17Z_qXcjPNisZ6sa_t2gkXUSBk7_BRfe",
+        "adParams": {
             "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
             "imafw_ge": "3",
-            "imafw_gr": "5"
-        },     
-       "type":"VOD",
-       "drmType": "widevine",
-       "usePodServing": true,
-       "podServingNetworkCode": "8264",
-       "fetchLicense": true
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "De La Calle - New York": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "Wu3JQeIwmpHtWVvMlxHf1hAICEj6Twx2",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | De La Calle - New York": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "Wu3JQeIwmpHtWVvMlxHf1hAICEj6Twx2",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "All Star Shore - Welcome to the Shore": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "0tII_6BZKvwpT_2s4gZlqAEcBafHCAga",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | All Star Shore - Welcome to the Shore": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "0tII_6BZKvwpT_2s4gZlqAEcBafHCAga",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "The Envoys - Walk With": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "3rmwEuPov_Gtb87_5_o_OIyaOw3NoWZq",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | The Envoys - Walk With": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "3rmwEuPov_Gtb87_5_o_OIyaOw3NoWZq",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "Everybody Hates Chris": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "SVAFIkFxj21y4Wk3bqj9pPNsnjzbVKKO",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | Everybody Hates Chris": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "SVAFIkFxj21y4Wk3bqj9pPNsnjzbVKKO",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "Jersey Shore: Family Vacation": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "AawdEVhCUe1_jc_85wWbREEB7Nt6aPI7",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | Jersey Shore: Family Vacation": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "AawdEVhCUe1_jc_85wWbREEB7Nt6aPI7",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
     }
 }
