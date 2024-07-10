@@ -222,5 +222,37 @@
         "usePodServing": true,
         "podServingNetworkCode": "8264",
         "fetchLicense": true
+    },
+    "DAI | Droid TC": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "h_i1ZPKIKTOTq4M1UhvM92vLO2drmiCF",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | Droid TC": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "h_i1ZPKIKTOTq4M1UhvM92vLO2drmiCF",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
     }
 }
