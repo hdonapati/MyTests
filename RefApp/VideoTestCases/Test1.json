@@ -1,0 +1,13 @@
+{
+  "CBS Sports Test" : {
+    "contentUrl": "https://prope2ag9032.airspace-cdn.cbsivideo.com/out/v1/6cba4874d74346998922e0c6e44cf5f7/manifest.mpd",
+    "dvr": false,
+    "live": true,
+    "id3Owners": [
+        "com.cbsinteractive.sbvast"
+    ],
+    "drmType": "widevine",
+    "contentId": "cbs-sports-test",
+    "fetchLicense": true
+  }
+}
