@@ -247,7 +247,8 @@
             "imafw_ge": "3",
             "imafw_gr": "5",
             "sb": "22", 
-            "imafw_sb": "22"
+            "imafw_sb": "22",
+            "failParam": { "why": "fail", "what": -1}
         },
         "type": "VOD",
         "drmType": "widevine",
