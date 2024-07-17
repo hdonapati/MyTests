@@ -150,6 +150,14 @@
                                             {
                                                 "name": "myCustomValue3",
                                                 "value": "c3"
+                                            },
+                                            {
+                                                "name": "unknown",
+                                                "value": "cc"
+                                            },
+                                            {
+                                                "name": "hehe",
+                                                "value": "haha"
                                             }
                                         ],
                                         "sessionID": "{data.adobeEdgeSessionId}",
