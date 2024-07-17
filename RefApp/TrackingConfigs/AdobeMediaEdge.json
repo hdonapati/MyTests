@@ -281,6 +281,13 @@
                                         "playhead": "{data.playhead} | 0"
                                     },
                                     "timestamp": "{data.timestampISO}"
+                                },
+                                "identityMap": {
+                                    "ECID": [
+                                        {
+                                            "id": "{localStorage.Tracking.aviaAdobeECID}"
+                                        }
+                                    ]
                                 }
                             }
                         ]
