@@ -168,7 +168,7 @@
         "title": "DAI - BrightLine",
         "fetchLicense": true
     },
-    "DAI | VoD | DRM | DASH Thumbs | BrightLine2": {
+    "DAI | VoD | DRM | DASH Thumbs | BrightLine1": {
         "daiId": "2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
         "daiKey": "7j3n273bfj7jcnvf22d713a51f",
         "daiSourceId": "2560022",
@@ -184,6 +184,24 @@
          },
         "provider": "DAI",
         "title": "DAI - BrightLine 1",
+        "fetchLicense": true
+    },
+    "DAI | VoD | DRM | DASH Thumbs | BrightLine2": {
+        "daiId": "2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2560022",
+        "drmType": "widevine",
+        "partnerId": "cbs",
+        "adParams":{
+          "imafw_caid":"2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
+          "caid":"2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
+          "imafw_csid":"streaming_paramountplus_us_ctv_appletv_vod",
+          "csid":"streaming_paramountplus_us_ctv_appletv_vod",
+          "imafw_sb":"22",
+          "sb":"22"
+         },
+        "provider": "DAI",
+        "title": "DAI - BrightLine 2",
         "fetchLicense": true
     },
     "DAI | VoD | DRM | DASH Thumbs | W/Promo | w/Resume": {
