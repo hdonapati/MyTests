@@ -1,0 +1,26 @@
+{
+    "AU Fail - DAI": {
+        "adParameters": "cust_params=recommended_show%3D943600057%2C61460282%2C940740057%2C61460200%2C61457125%2C61456415%2C61456496%2C61466446%2C61466455%2C941640058&imafw__fw_3P_UID=UID2%3AAgAACdND7Aj3lmxkSSp74LO7%2FUKh%2FhrqvHYjor0QJeMeHbblX2Ik4XVfxFNpMcFdt9QqAZNhx49lQeIeV2gWTe4CtylKXj9mYDONnzT76W3oUQfqByjzICC%2FkEbdS2UOYhtmA3y0zai4fKiaNiNK6%2BT3WvtI%2BxlqPQKVpYUDuHslJ5Pu6Q%3D%3D%2CIDL%3AAovSU3wGfp6rOb9I1rYNOO5QnnOkG22DGbjXIFJUJi9ZKsAvcl8FFGyx0xIAgG6tIUaH6TNnUSQ%2Cconnectid%3Aalxvd1IGAtx7Zy-SENPskhgO4SMAF9lJHE-tJOW76nF51isxl0atmswp8jRNRmq2hU2ml9oF_b7SuJGllM7vuQ&imafw__fw_content_language=en&imafw__fw_continuous_play=0&imafw__fw_coppa=0&imafw__fw_did=rida%3Aa267b489-41cf-5898-b3d7-b9c4fc09a62b&imafw__fw_h_x_country=au&imafw__fw_is_lat=0&imafw__fw_vcid2=Xi6395C55IIbf8m8x8ZC0kNE6kkgpv8NFnnPc4jKrny3wd0XEANj0ZkGusw9FteinqVDs3&imafw_build=sideload&imafw_cpPre=0&imafw_cpSession=0&imafw_csid=streaming_paramountplus_au_ctv_roku_vod&imafw_device_region_language=en&imafw_endcard=false&imafw_env=production&imafw_fms_bididtype=1010%2C1040%2C1030&imafw_fms_connectid=alxvd1IGAtx7Zy-SENPskhgO4SMAF9lJHE-tJOW76nF51isxl0atmswp8jRNRmq2hU2ml9oF_b7SuJGllM7vuQ&imafw_fms_emailhash=4e46201776890a26692d9e7f910f958bcaacdf8c4de6686154bf9484c4a74b84&imafw_fms_hh_ramp_id=UNMATCHED&imafw_fms_ifa=a267b489-41cf-5898-b3d7-b9c4fc09a62b&imafw_fms_ramp_envelope=AovSU3wGfp6rOb9I1rYNOO5QnnOkG22DGbjXIFJUJi9ZKsAvcl8FFGyx0xIAgG6tIUaH6TNnUSQ&imafw_fms_ramp_id=Xi6395C55IIbf8m8x8ZC0kNE6kkgpv8NFnnPc4jKrny3wd0XEANj0ZkGusw9FteinqVDs3&imafw_fms_ruleid=10000&imafw_fms_subscriberid=1042207280&imafw_fms_uid2=AgAACdND7Aj3lmxkSSp74LO7%2FUKh%2FhrqvHYjor0QJeMeHbblX2Ik4XVfxFNpMcFdt9QqAZNhx49lQeIeV2gWTe4CtylKXj9mYDONnzT76W3oUQfqByjzICC%2FkEbdS2UOYhtmA3y0zai4fKiaNiNK6%2BT3WvtI%2BxlqPQKVpYUDuHslJ5Pu6Q%3D%3D&imafw_fms_userid=f6adf271-5a12-5594-a185-ff4e04f059d3&imafw_fms_vcid2type=liveramp&imafw_ima_sdkv=3.x&imafw_language_selection=en&imafw_packageSource=cbscomp&imafw_ptype=video&imafw_region=au&imafw_roku_ad_query_id=7221204317577460809&imafw_sb=22&imafw_session=a&imafw_showSection=episodes%3Aseason_1&imafw_source=show_content_episodes%3Aseason_1&imafw_sub=1042207280&imafw_sublife=f&imafw_subses=2&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=f89a0631-44a7-4d7b-819d-f781290a4532&is_lat=0&tfcd=0",
+        "contentType": "dash",
+        "contentUrl": "https://bakery.pplus.paramount.tech/v(dvh)/a(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/c(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/paramountplus/2023/10/16/2273740355589/2695576_cenc_dash/stream.mpd",
+        "daiId": "CtwyaGtuaq6xxataEBbFcvRWyfKWXOtA",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "title": "Wish the Fight Away"
+    },
+    "AU Fail - URL | WV": {
+        "contentUrl": "https://bakery.pplus.paramount.tech/v(dvh)/a(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/c(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/paramountplus/2023/10/16/2273740355589/2695576_cenc_dash/stream.mpd",
+        "drmType": "widevine",
+        "contentId": "CtwyaGtuaq6xxataEBbFcvRWyfKWXOtA",
+        "fetchLicense": true
+    },
+    "AU Fail - URL | PR": {
+        "contentUrl": "https://bakery.pplus.paramount.tech/v(dvh)/a(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/c(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/paramountplus/2023/10/16/2273740355589/2695576_cenc_dash/stream.mpd",
+        "drmType": "playready",
+        "contentId": "CtwyaGtuaq6xxataEBbFcvRWyfKWXOtA",
+        "fetchLicense": true
+    }
+}
