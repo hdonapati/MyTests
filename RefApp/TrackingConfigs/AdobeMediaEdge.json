@@ -288,6 +288,32 @@
                                         },
                                         "playhead": "{data.playhead} | 0"
                                     },
+                                    "customMetadata": [
+                                        {
+                                            "name": "_cbsi.mediaId1",
+                                            "value": "{data.videoId}"
+                                        },
+                                        {
+                                            "name": "_cbsi.siteCode",
+                                            "value": "{context.siteCode}"
+                                        },
+                                        {
+                                            "name": "_cbsi.showDaypart",
+                                            "value": "{context.showDaypart}"
+                                        },
+                                        {
+                                            "name": "_cbsi.userRegId",
+                                            "value": "{context.userRegId}"
+                                        },
+                                        {
+                                            "name": "_cbsi.userStatus",
+                                            "value": "{context.userStatus}"
+                                        },
+                                        {
+                                            "name": "_cbsi.showSeriesId",
+                                            "value": "{context.showSeriesId}"
+                                        }
+                                    ],
                                     "timestamp": "{data.timestampISO}"
                                 },
                                 "identityMap": {
