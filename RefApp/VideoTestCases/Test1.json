@@ -14,6 +14,6 @@
   },
   "URL TEST - Empty Content URL": {
     "contentUrl": "",
-    "live": true,
+    "live": true
   }
 }
