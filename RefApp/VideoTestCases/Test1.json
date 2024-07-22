@@ -11,9 +11,11 @@
     "fetchLicense": true
   },
   "URL TEST - No Content URL": {
+    "provider": "URL"
   },
   "URL TEST - Empty Content URL": {
     "contentUrl": "",
+    "provider": "URL",
     "live": true
   }
 }
