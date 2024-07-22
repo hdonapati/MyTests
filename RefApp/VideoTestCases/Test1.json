@@ -10,16 +10,10 @@
     "contentId": "cbs-sports-test",
     "fetchLicense": true
   },
-  "URL TEST- Buff Timeout | WV": {
-    "contentUrl": "https://bakery.pplus.paramount.tech/v(dvh)/a(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/c(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/paramountplus/2023/10/16/2273740355589/2695576_cenc_dash/stream.mpd",
-    "drmType": "widevine",
-    "contentId": "CtwyaGtuaq6xxataEBbFcvRWyfKWXOtA",
-    "fetchLicense": true
+  "URL TEST - No Content URL": {
   },
-  "URL TEST- Buff Timeout | PR": {
-    "contentUrl": "https://bakery.pplus.paramount.tech/v(dvh)/a(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/c(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/paramountplus/2023/10/16/2273740355589/2695576_cenc_dash/stream.mpd",
-    "drmType": "playready",
-    "contentId": "CtwyaGtuaq6xxataEBbFcvRWyfKWXOtA",
-    "fetchLicense": true
+  "URL TEST - Empty Content URL": {
+    "contentUrl": "",
+    "live": true,
   }
 }
