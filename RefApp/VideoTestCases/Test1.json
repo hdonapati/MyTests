@@ -12,16 +12,12 @@
   },
   "URL TEST- Buff Timeout | WV": {
     "contentUrl": "https://bakery.pplus.paramount.tech/v(dvh)/a(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/c(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/paramountplus/2023/10/16/2273740355589/2695576_cenc_dash/stream.mpd",
-    "dvr": false,
-    "live": true,
     "drmType": "widevine",
     "contentId": "CtwyaGtuaq6xxataEBbFcvRWyfKWXOtA",
     "fetchLicense": true
   },
   "URL TEST- Buff Timeout | PR": {
     "contentUrl": "https://bakery.pplus.paramount.tech/v(dvh)/a(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/c(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/paramountplus/2023/10/16/2273740355589/2695576_cenc_dash/stream.mpd",
-    "dvr": false,
-    "live": true,
     "drmType": "playready",
     "contentId": "CtwyaGtuaq6xxataEBbFcvRWyfKWXOtA",
     "fetchLicense": true
