@@ -1,5 +1,5 @@
 {
-  "AdobeEdgeApp": {
+    "AdobeEdgeApp": {
         "enabled": "{context.enableAdobeMediaEdgeApp}",
         "category": "app",
         "params": {
@@ -56,6 +56,12 @@
                         "userProfileMaster": "{eventData.userProfileMaster}",
                         "userProfileRefId": "{eventData.userProfileRefId}",
                         "contentFeatures": "{eventData.contentFeatures}"
+                    }
+                },
+                "carouselView, carouselSelect, searchResultView": {
+                    "xdm": {
+                        "eventType": "{eventData.eventType}",
+                        "paramX": "{eventData.paramX}"
                     }
                 }
             },
