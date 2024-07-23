@@ -8,8 +8,7 @@
         "daiSourceId": "2497752",
         "drmType": "widevine",
         "partnerId": "cbs",
-        "provider": "DAI",
-        "title": "Wish the Fight Away"
+        "provider": "DAI"
     },
     "AU Fail - URL | WV": {
         "contentUrl": "https://bakery.pplus.paramount.tech/v(dvh)/a(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/c(l(fr,de,it,no,fi,da,sv,es-MX,pt-BR))/paramountplus/2023/10/16/2273740355589/2695576_cenc_dash/stream.mpd",
