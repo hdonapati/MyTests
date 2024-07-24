@@ -1,10 +1,10 @@
 {
-  "CBS Sports Test" : {
+  "CBS Sports Test": {
     "contentUrl": "https://prope2ag9032.airspace-cdn.cbsivideo.com/out/v1/6cba4874d74346998922e0c6e44cf5f7/manifest.mpd",
     "dvr": false,
     "live": true,
     "id3Owners": [
-        "com.cbsinteractive.sbvast"
+      "com.cbsinteractive.sbvast"
     ],
     "drmType": "widevine",
     "contentId": "cbs-sports-test",
@@ -17,5 +17,23 @@
     "contentUrl": "",
     "provider": "URL",
     "live": true
+  },
+  "DAI | VoD | DRM | DASH Thumbs | BrightLine1": {
+    "daiId": "2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
+    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+    "daiSourceId": "2560022",
+    "drmType": "widevine",
+    "partnerId": "cbs",
+    "adParams": {
+      "imafw_caid": "2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
+      "caid": "2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
+      "imafw_csid": "streaming_paramountplus_us_ctv_roku_vod",
+      "csid": "streaming_paramountplus_us_ctv_roku_vod",
+      "imafw_sb": "22",
+      "sb": "22"
+    },
+    "resumePosition": 1320,
+    "provider": "DAI",
+    "title": "DAI - BrightLine 1"
   }
 }
