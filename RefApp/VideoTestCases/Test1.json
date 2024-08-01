@@ -60,6 +60,7 @@
     "drmType": "widevine",
     "partnerId": "cbs",
     "fetchLicense": true,
+    "live": true,
     "provider": "DAI"
   },
   "DAI - HDR | Ads&Content 2": {
@@ -67,6 +68,7 @@
     "drmType": "widevine",
     "partnerId": "cbs",
     "fetchLicense": true,
+    "live": true,
     "provider": "DAI"
   }
 }
