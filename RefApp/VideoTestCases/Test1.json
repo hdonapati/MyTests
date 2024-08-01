@@ -59,12 +59,14 @@
     "daiSourceId": "2560022",
     "drmType": "widevine",
     "partnerId": "cbs",
+    "fetchLicense": true,
     "provider": "DAI"
   },
   "DAI - HDR | Ads&Content 2": {
     "daiId": "D8G2nkT0RISyR8WdT40V3Q",
     "drmType": "widevine",
     "partnerId": "cbs",
+    "fetchLicense": true,
     "provider": "DAI"
   }
 }
