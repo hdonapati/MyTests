@@ -1,0 +1,47 @@
+{
+    "Fathom": {
+        "enabled": "{context.enableFathom}",
+        "category": "app",
+        "params": {
+            "trackerCommands": {
+                "debugLogging": "true",
+                "sendUndefined": "false"
+            },
+            "settings": {
+                "endPointHost": "{context.dev} ? https://i-amlg-dev.appspot.com : https://i-amlg-prod.appspot.com"
+            },
+            "dataMappings": {
+                "display": {
+                   "path": "{settings.endPointHost}/display",
+                   "eventPayload":{
+                        "metadata": {
+                            "user_id": "{eventData.userID} | {context.userID}",
+                            "profile_id": "{eventData.profileID} | {context.profileID}",
+                            "profile_type": "{eventData.profileType} | {context.profileType}",
+                            "country": "{eventData.country} | {context.country}",
+                            "site": "{eventData.site} | {context.site}",
+                            "device_type": "{eventData.deviceType} | {context.deviceType}",
+                            "platform": "{eventData.platform} | {context.platform}",
+                            "env": "{eventData.env} | {context.env}",
+                            "view_guid": "{eventData.viewGUID}",
+                            "optimizelyExp": "{eventData.optimizelyExp}",
+                            "model_id": "{eventData.modelID} | {context.modelID}",
+                        },
+                        "payload": "{eventData.displayPayload}"
+                   }
+                },
+                "take": {
+                    "path": "{settings.endPointHost}/take",
+                    "eventPayload":{
+                        "display_id": "{eventData.displayID}",
+                        "content_id": "{eventData.contentID}"
+                    }
+                }
+            },
+            "dataType": {
+                "debugLogging": "boolean",
+                "sendUndefined": "boolean"
+            }
+        }
+    }
+}
