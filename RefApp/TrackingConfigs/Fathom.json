@@ -25,7 +25,7 @@
                             "env": "{eventData.env} | {context.env}",
                             "view_guid": "{eventData.viewGUID}",
                             "optimizelyExp": "{eventData.optimizelyExp}",
-                            "model_id": "{eventData.modelID} | {context.modelID}",
+                            "model_id": "{eventData.modelID} | {context.modelID}"
                         },
                         "payload": "{eventData.displayPayload}"
                    }
