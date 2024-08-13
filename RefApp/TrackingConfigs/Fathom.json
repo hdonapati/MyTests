@@ -28,7 +28,6 @@
                             "model_id": "{eventData.modelID}",
                             "page": "{eventData.page}",
                             "version":"{eventData.version}"
-
                         },
                         "payload": "{eventData.displayPayload}"
                    }
