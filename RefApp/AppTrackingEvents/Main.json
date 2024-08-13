@@ -616,6 +616,8 @@
         "viewGUID": "6a033eb2-ab17-4365-b9da-530ae97fb122",
         "optimizelyExp": "test",
         "model_id": "1234",
+        "page": "testPage",
+        "site": "testSite",
         "displayPayload": [
             {
                 "reco_id": "0a20725b-7966-4597-9675-0bde03345803",
