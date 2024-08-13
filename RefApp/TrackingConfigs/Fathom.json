@@ -25,7 +25,10 @@
                             "env": "{eventData.env}",
                             "view_guid": "{eventData.viewGUID}",
                             "optimizelyExp": "{eventData.optimizelyExp}",
-                            "model_id": "{eventData.modelID}"
+                            "model_id": "{eventData.modelID}",
+                            "page": "{eventData.page}",
+                            "version":"{eventData.version}"
+
                         },
                         "payload": "{eventData.displayPayload}"
                    }
@@ -45,3 +48,4 @@
         }
     }
 }
+15:20
