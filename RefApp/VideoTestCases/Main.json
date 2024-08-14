@@ -246,6 +246,7 @@
         "dvr": true,
         "drmType": "widevine",
         "contentID": "41e216ac-19f6-462a-9df2-3f8b7cd2122b",
+        "useStagingForDRMLicense": true,
         "contentURL": "https://prope238agh5.airspace-cdn.cbsivideo.com/out/v1/b79778c9abaa4cc5bd49bae5900e2fb5/manifest.mpd"
     },
     "CUSTOM | VoD ": {
