@@ -150,6 +150,16 @@
         "title": "DAI - Innovid | The Price is Right - 09/26/2023 ",
         "fetchLicense": true
      },
+     "DAI - BrightLine 2": {
+        "adParameters": "cust_params=recommended_show%3D61456636%2C6087%2C61456321%2C393%2C61456196%2C61456195%2C42505%2C61456386%2C5692%2C61456496&imafw__fw_content_language=en&imafw__fw_continuous_play=0&imafw__fw_coppa=0&imafw__fw_did=rida%3A876a043c-86df-5f8f-8fde-d690ed80c9be&imafw__fw_h_x_country=us&imafw__fw_is_lat=1&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=c8b268d41bda08ecf77ccd1135a0fc19c26b32290b01a2793202c4da27205ed1&imafw_build=sideload&imafw_cpPre=0&imafw_cpSession=0&imafw_csid=streaming_paramountplus_us_ctv_roku_vod&imafw_device_region_language=en&imafw_endcard=false&imafw_env=production&imafw_fms_emailhash=c8b268d41bda08ecf77ccd1135a0fc19c26b32290b01a2793202c4da27205ed1&imafw_fms_ruleid=10003%2C10004&imafw_fms_subscriberid=70274630&imafw_fms_userid=cefd01e6-e0d9-5ce8-be3d-4c6597c2fc46&imafw_fms_vcid2type=emailhash&imafw_ge=1&imafw_gr=4&imafw_ima_sdkv=3.x&imafw_language_selection=en&imafw_packageSource=cbscomp&imafw_ptype=video&imafw_region=us&imafw_sb=22&imafw_session=b&imafw_showSection=home&imafw_source=show_hero&imafw_sub=70274630&imafw_sublife=g&imafw_subses=1&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=8555714e-93ed-41f0-b23e-186b5c4d3852&is_lat=1&tfcd=0",
+        "contentUrl": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/09/19/2265011267517/2367632_cenc_precon_dash/stream.mpd",
+        "daiId": "YAxteZGi9KXBFui9JAtKjMb4qNJQWO_y",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "provider": "DAI",
+        "fetchLicense": true
+     },
      "DAI | VoD | DRM | DASH Thumbs | BrightLine": {
         "daiId": "YAxteZGi9KXBFui9JAtKjMb4qNJQWO_y",
         "daiKey": "7j3n273bfj7jcnvf22d713a51f",
