@@ -192,6 +192,7 @@
          },
         "provider": "DAI",
         "title": "DAI - BrightLine Video Gallery",
+        "resumePosition": 690,
         "fetchLicense": true
     },
     "DAI | VoD | DRM | DASH Thumbs | BrightLine1": {
