@@ -70,5 +70,18 @@
     "fetchLicense": true,
     "live": true,
     "provider": "DAI"
+  },
+  "DAI - Innovid | no Ad Events": {
+    "adParameters": "cust_params=recommended_show%3D61457085%2C61456386%2C61456636%2C61458935%2C61456321%2C6087%2C393%2C61456196%2C61456414%2C42505&imafw__fw_3P_UID=UID2%3AAgAADEubVuuL%2Bc3qMcb559CW8QNkCK%2FIov1JQY5RO0CArDLrUWzFBbK3MDsGvsnJgy1uAfqu5Yafm0fpOqd1T68HAARUqEfta6Nk96bo4ClICmF%2F3CzltXre7jRnnt5Ht8ijNILpRODLQXMFUjd5opKBcOdGD82UxeWfaXvDIqh9oyLlcw%3D%3D%2CIDL%3AAlmO1YbVbKIMGyGbtYLDb6eHR1okL86AycR88TzbQvExrFBHO3RnWdFPyz8NF6hj8b-fSAOg%2Cconnectid%3ARFChs7UOWAW0_6tksDPBq6kGsv5dyPHdHOE-pWTc4RFohgk-A28n72C-vlW6FEfKSAweXaBdKJHJ8jXQzaroYg&imafw__fw_content_language=en&imafw__fw_continuous_play=0&imafw__fw_coppa=0&imafw__fw_did=rida%3Aa267b489-41cf-5898-b3d7-b9c4fc09a62b&imafw__fw_h_x_country=ca&imafw__fw_is_lat=0&imafw__fw_vcid2=Xi6395Unuyn6Xgv-27KqIy2BDeXU4tpqmKU2PRgY4lbihmOA5jPe-j6xt0Sn81w2IYwq5T&imafw_build=sideload&imafw_cpPre=0&imafw_cpSession=0&imafw_csid=streaming_paramountplus_ca_ctv_roku_vod&imafw_device_region_language=en&imafw_endcard=false&imafw_env=production&imafw_fms_bididtype=1022%2C1030%2C1010&imafw_fms_connectid=RFChs7UOWAW0_6tksDPBq6kGsv5dyPHdHOE-pWTc4RFohgk-A28n72C-vlW6FEfKSAweXaBdKJHJ8jXQzaroYg&imafw_fms_emailhash=83a0b36b19401903daf561f6cca59b3c44a7e8a8afbf2c5aed6d110c472d78c8&imafw_fms_hh_ramp_id=UNMATCHED&imafw_fms_ifa=a267b489-41cf-5898-b3d7-b9c4fc09a62b&imafw_fms_ramp_envelope=AlmO1YbVbKIMGyGbtYLDb6eHR1okL86AycR88TzbQvExrFBHO3RnWdFPyz8NF6hj8b-fSAOg&imafw_fms_ramp_id=Xi6395Unuyn6Xgv-27KqIy2BDeXU4tpqmKU2PRgY4lbihmOA5jPe-j6xt0Sn81w2IYwq5T&imafw_fms_ruleid=10000&imafw_fms_subscriberid=1042217272&imafw_fms_uid2=AgAADEubVuuL%2Bc3qMcb559CW8QNkCK%2FIov1JQY5RO0CArDLrUWzFBbK3MDsGvsnJgy1uAfqu5Yafm0fpOqd1T68HAARUqEfta6Nk96bo4ClICmF%2F3CzltXre7jRnnt5Ht8ijNILpRODLQXMFUjd5opKBcOdGD82UxeWfaXvDIqh9oyLlcw%3D%3D&imafw_fms_userid=f6adf271-5a12-5594-a185-ff4e04f059d3&imafw_fms_vcid2type=liveramp&imafw_ima_sdkv=3.x&imafw_language_selection=en&imafw_packageSource=cbscomp&imafw_ptype=video&imafw_region=ca&imafw_sb=22&imafw_session=d&imafw_showSection=episodes%3Aseason_1&imafw_source=show_content_episodes%3Aseason_1&imafw_sub=1042217272&imafw_sublife=f&imafw_subses=4&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=29caad54-996c-4f96-b5d0-618043d37bc7&is_lat=0&tfcd=0",
+    "contentGenre": "Drama",
+    "daiId": "6PTnxGFC_62jyL1Bacl8aGiRsKyizNhE",
+    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+    "daiSourceId": "2497752",
+    "drmType": "widevine",
+    "enableFreewheelMode": true,
+    "enableId3": false,
+    "enableNonce": true,
+    "partnerId": "cbs",
+    "provider": "DAI"
   }
 }
