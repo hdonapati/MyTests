@@ -23,14 +23,14 @@
     "provider": "URL",
     "resumePosition": 690,
     "live": true,
-    "dvr": true,
+    "dvr": true
   },
   "RAF Live+DVR with Resume": {
     "contentUrl": "https://dai.google.com/linear/hls/pa/event/HdjmKUTQRkexxeXSRa2Txw/stream/8632c3a3-499c-4ed6-bd8c-ed1910655187:DLS/master.m3u8",
     "provider": "RAF",
     "resumePosition": 690,
     "live": true,
-    "dvr": true,
+    "dvr": true
   },
   "DAI | VoD | DRM | DASH Thumbs | BrightLine1": {
     "daiId": "2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
