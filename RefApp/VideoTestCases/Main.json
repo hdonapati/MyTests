@@ -283,6 +283,7 @@
     "URL | TGM | Doby AV": {
         "provider": "URL",
         "contentID": "Alcn0hcGx0HosdhcawKteH8DXh3RiOF7",
+        "drmType": "widevine",
         "type": "VOD",
         "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2510383_cenc_fmp4_dash/stream.mpd",
         "fetchLicense": true
