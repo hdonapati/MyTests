@@ -23,11 +23,18 @@
         "title": "URL - Live+DVR HLS 0",
         "contentUrl": "https://propec941a5h.airspace-cdn.cbsivideo.com/out/v1/c9cbcac3533d454e8570acb532c28d13/manifest.m3u8"
     },
-    "DAI | Live+DVR DASH": {
+    "DAI | Live+DVR HLS": {
         "dvr": true,
         "live": true,
         "partnerId": "cbs",
         "provider": "DAI",
         "daiId": "tn2ouzqjSK29sVd43TrY0g"
+    },
+    "DAI | Live+DVR DASH": {
+        "dvr": true,
+        "live": true,
+        "partnerId": "cbs",
+        "provider": "DAI",
+        "daiId": "SBFWkeuWSTGVEj_5YUQk8Q"
     }
 }
