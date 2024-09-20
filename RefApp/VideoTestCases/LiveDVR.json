@@ -31,7 +31,8 @@
         "contentID": "41e216ac-19f6-462a-9df2-3f8b7cd2122b",
         "fetchLicense": true,
         "drmType": "playready",
-        "daiId": "tn2ouzqjSK29sVd43TrY0g"
+        "daiId": "tn2ouzqjSK29sVd43TrY0g",
+        "useStagingForDRMLicense": true
     },
     "DAI | Live+DVR DASH": {
         "dvr": true,
@@ -41,6 +42,7 @@
         "contentID": "41e216ac-19f6-462a-9df2-3f8b7cd2122b",
         "fetchLicense": true,
         "drmType": "widevine",
-        "daiId": "SBFWkeuWSTGVEj_5YUQk8Q"
+        "daiId": "SBFWkeuWSTGVEj_5YUQk8Q",
+        "useStagingForDRMLicense": true
     }
 }
