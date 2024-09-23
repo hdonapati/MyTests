@@ -1,4 +1,16 @@
 {
+    "URL | HLS Clear": {
+        "dvr": true,
+        "live": true,
+        "provider": "URL",
+        "contentUrl": "https://propef617fd2.airspace-cdn.cbsivideo.com/out/v1/ba4be290fc97416e82dda52bd7879b31/manifest.m3u8"
+    },
+    "URL | DASH Clear": {
+        "dvr": true,
+        "live": true,
+        "provider": "URL",
+        "contentUrl": "https://dai.google.com/linear/dash/event/CUs-9881QE6Sy_aX_d99LA/manifest.mpd"
+    },
     "URL | Live+DVR DASH 0": {
         "dvr": true,
         "live": true,
