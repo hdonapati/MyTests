@@ -115,5 +115,12 @@
     "drmType": "widevine",
     "provider": "RAF",
     "title": "9/17: CBS Evening News"
-  }
+  },
+  "URL VoD | HLS | WV & Sample-AES": {
+      "provider": "URL",
+      "contentUrl": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine-hls/hls.m3u8",
+      "drmType": "widevine",
+      "drmLicenseUrl":"https://cwip-shaka-proxy.appspot.com/no_auth",
+      "type": "VOD"
+    }
 }
