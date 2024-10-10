@@ -1,14 +1,14 @@
 {
   "URI VoD - DRM (CMAF-Live-MultiPeriod-SingleVTT-DRM)": {
     "provider": "URI",
-    "uri": "https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2024/08/14/2363551811915/15848_cmaf_cbcs_live/stream.mpd",
+    "contentURL": "https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2024/08/14/2363551811915/15848_cmaf_cbcs_live/stream.mpd",
     "drmType": "widevine",
     "contentID": "PNLoXASfzEnOAeF_dFAA9MZrSpRLdpud",
     "type": "VOD"
   },
   "URI VoD - DRM (CMAF-OnDemand-MultiPeriod-MultipleVTT-Start_0)": {
     "provider": "URI",
-    "uri": "https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2024/08/14/2363551811915/15848_cmaf_cbcs_ondemand/stream_with_adjusted_vtt.mpd",
+    "contentURL": "https://vod-gcs-cedexis-dev.cbsaavideo.com/CBS_Production_Entertainment_VMS/2024/08/14/2363551811915/15848_cmaf_cbcs_ondemand/stream_with_adjusted_vtt.mpd",
     "drmType": "widevine",
     "contentID": "PNLoXASfzEnOAeF_dFAA9MZrSpRLdpud",
     "type": "VOD"
