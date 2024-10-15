@@ -255,5 +255,21 @@
         "usePodServing": true,
         "podServingNetworkCode": "8264",
         "fetchLicense": true
+    },
+    "1 | FB | Non DRM": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "9969b9fa-9991-11ea-9225-70df2f866ace",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22",
+            "failParam": { "why": "fail", "what": -1}
+        },
+        "type": "VOD",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264"
     }
 }
