@@ -1,0 +1,770 @@
+{
+    "DAI | 0 | zpgz6gxWBXDzun8djJm5lS5auOjqjxsa": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "zpgz6gxWBXDzun8djJm5lS5auOjqjxsa",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 0 | zpgz6gxWBXDzun8djJm5lS5auOjqjxsa": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "zpgz6gxWBXDzun8djJm5lS5auOjqjxsa",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 1 | xJcD4xxQZYGVupPLPAqL3cmJt7tMLgVT": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "xJcD4xxQZYGVupPLPAqL3cmJt7tMLgVT",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 1 | xJcD4xxQZYGVupPLPAqL3cmJt7tMLgVT": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "xJcD4xxQZYGVupPLPAqL3cmJt7tMLgVT",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 2 | JXeaVbbMV_mzfORxr5Xl9SqGNOxejcS9": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "JXeaVbbMV_mzfORxr5Xl9SqGNOxejcS9",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 2 | JXeaVbbMV_mzfORxr5Xl9SqGNOxejcS9": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "JXeaVbbMV_mzfORxr5Xl9SqGNOxejcS9",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 3 | P4cT0dezeoUCWMMtzyLYCWr5aeMhmE97": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "P4cT0dezeoUCWMMtzyLYCWr5aeMhmE97",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 3 | P4cT0dezeoUCWMMtzyLYCWr5aeMhmE97": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "P4cT0dezeoUCWMMtzyLYCWr5aeMhmE97",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 4 | XfujTty_DvR_8jdoYtcyUz1TJMPc2YSC": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "XfujTty_DvR_8jdoYtcyUz1TJMPc2YSC",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 4 | XfujTty_DvR_8jdoYtcyUz1TJMPc2YSC": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "XfujTty_DvR_8jdoYtcyUz1TJMPc2YSC",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 5 | wFVRApmxTFLNphuE6MK24UtBNP338S7I": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "wFVRApmxTFLNphuE6MK24UtBNP338S7I",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 5 | wFVRApmxTFLNphuE6MK24UtBNP338S7I": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "wFVRApmxTFLNphuE6MK24UtBNP338S7I",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 6 | 179xau3E4d4vLEWJnRDYSdN95IUpgi_t": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "179xau3E4d4vLEWJnRDYSdN95IUpgi_t",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 6 | 179xau3E4d4vLEWJnRDYSdN95IUpgi_t": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "179xau3E4d4vLEWJnRDYSdN95IUpgi_t",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 7 | LOUkelmtyV2Wp4ge3heBXusk6oI0FYbA": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "LOUkelmtyV2Wp4ge3heBXusk6oI0FYbA",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 7 | LOUkelmtyV2Wp4ge3heBXusk6oI0FYbA": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "LOUkelmtyV2Wp4ge3heBXusk6oI0FYbA",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 8 | Oi5_OeESSkTEyeglvzivYRPAeHIFkUPx": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "Oi5_OeESSkTEyeglvzivYRPAeHIFkUPx",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 8 | Oi5_OeESSkTEyeglvzivYRPAeHIFkUPx": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "Oi5_OeESSkTEyeglvzivYRPAeHIFkUPx",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 9 | atNyhl6XwDQOtJOtNeIVhu0DvUalBv5X": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "atNyhl6XwDQOtJOtNeIVhu0DvUalBv5X",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 9 | atNyhl6XwDQOtJOtNeIVhu0DvUalBv5X": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "atNyhl6XwDQOtJOtNeIVhu0DvUalBv5X",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 10 | hF9_ApiRzGnaZ6RgFx3PLYOu4Zp5ez7D": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "hF9_ApiRzGnaZ6RgFx3PLYOu4Zp5ez7D",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 10 | hF9_ApiRzGnaZ6RgFx3PLYOu4Zp5ez7D": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "hF9_ApiRzGnaZ6RgFx3PLYOu4Zp5ez7D",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 11 | fWyqhOAL1xmKOmI08BSdcsR1pE0Yhuc3": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "fWyqhOAL1xmKOmI08BSdcsR1pE0Yhuc3",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 11 | fWyqhOAL1xmKOmI08BSdcsR1pE0Yhuc3": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "fWyqhOAL1xmKOmI08BSdcsR1pE0Yhuc3",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 12 | iHg1wESakl2TxY8HGNeQOmnmkZktVYdz": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "iHg1wESakl2TxY8HGNeQOmnmkZktVYdz",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 12 | iHg1wESakl2TxY8HGNeQOmnmkZktVYdz": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "iHg1wESakl2TxY8HGNeQOmnmkZktVYdz",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 13 | 8n5fssdBYhlwL6wwPRczEphLE198_2hC": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "8n5fssdBYhlwL6wwPRczEphLE198_2hC",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 13 | 8n5fssdBYhlwL6wwPRczEphLE198_2hC": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "8n5fssdBYhlwL6wwPRczEphLE198_2hC",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 14 | 1mivsAcxl36m7J89Rv323N8hOt6g5Ogk": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "1mivsAcxl36m7J89Rv323N8hOt6g5Ogk",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 14 | 1mivsAcxl36m7J89Rv323N8hOt6g5Ogk": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "1mivsAcxl36m7J89Rv323N8hOt6g5Ogk",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 15 | aNR7I1U_DO3xBusEvGyCNjxTjXmD5w0j": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "aNR7I1U_DO3xBusEvGyCNjxTjXmD5w0j",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 15 | aNR7I1U_DO3xBusEvGyCNjxTjXmD5w0j": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "aNR7I1U_DO3xBusEvGyCNjxTjXmD5w0j",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 16 | bzjWPYGGYm9u_KB65o7QFc_XywatwSAZ": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "bzjWPYGGYm9u_KB65o7QFc_XywatwSAZ",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 16 | bzjWPYGGYm9u_KB65o7QFc_XywatwSAZ": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "bzjWPYGGYm9u_KB65o7QFc_XywatwSAZ",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 17 | pBPJrU3MmTvDTO7lFGvzyblEUs_Dafyf": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "pBPJrU3MmTvDTO7lFGvzyblEUs_Dafyf",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 17 | pBPJrU3MmTvDTO7lFGvzyblEUs_Dafyf": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "pBPJrU3MmTvDTO7lFGvzyblEUs_Dafyf",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 18 | MBOugqQZXuQ0gvh1SjBJxH_qBh9NtBTG": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "MBOugqQZXuQ0gvh1SjBJxH_qBh9NtBTG",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 18 | MBOugqQZXuQ0gvh1SjBJxH_qBh9NtBTG": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "MBOugqQZXuQ0gvh1SjBJxH_qBh9NtBTG",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 19 | AScYtaNjo3pRIaKVnHMU6qFXUE6ePzA5": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "AScYtaNjo3pRIaKVnHMU6qFXUE6ePzA5",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 19 | AScYtaNjo3pRIaKVnHMU6qFXUE6ePzA5": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "AScYtaNjo3pRIaKVnHMU6qFXUE6ePzA5",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 20 | Dz_sAB_bE_j_VzqiEdwuzRs3uk5dbArb": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "Dz_sAB_bE_j_VzqiEdwuzRs3uk5dbArb",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 20 | Dz_sAB_bE_j_VzqiEdwuzRs3uk5dbArb": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "Dz_sAB_bE_j_VzqiEdwuzRs3uk5dbArb",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 21 | _MFJMyAqiQx_ldBXsBlF25UIzZzrHeEN": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "_MFJMyAqiQx_ldBXsBlF25UIzZzrHeEN",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 21 | _MFJMyAqiQx_ldBXsBlF25UIzZzrHeEN": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "_MFJMyAqiQx_ldBXsBlF25UIzZzrHeEN",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 22 | pKTzYpxcYyqupB90Pfzzt5rI6qUCQjdZ": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "pKTzYpxcYyqupB90Pfzzt5rI6qUCQjdZ",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 22 | pKTzYpxcYyqupB90Pfzzt5rI6qUCQjdZ": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "pKTzYpxcYyqupB90Pfzzt5rI6qUCQjdZ",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
+    "DAI | 23 | 4PYR3UIltTvLlicZGwWfttxjIj7CInU8": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "4PYR3UIltTvLlicZGwWfttxjIj7CInU8",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "fetchLicense": true
+    },
+    "FB | 23 | 4PYR3UIltTvLlicZGwWfttxjIj7CInU8": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "4PYR3UIltTvLlicZGwWfttxjIj7CInU8",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22",
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    }
+}
