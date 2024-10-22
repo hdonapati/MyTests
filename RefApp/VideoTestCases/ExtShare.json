@@ -1,5 +1,5 @@
 {
-   "FB | Test | Non-DRM Ads": {
+  "FB | Test | Non-DRM Ads": {
     "provider": "DAI",
     "daiSourceId": "2497752",
     "daiId": "TWm1OvH8UylPaaXdT_G5aZaIn7zFjL6H",
@@ -13,5 +13,22 @@
     "type": "VOD",
     "usePodServing": true,
     "podServingNetworkCode": "8264"
+  },
+  "FB | Test | DRM & Ads": {
+    "provider": "DAI",
+    "daiSourceId": "2497752",
+    "daiId": "tE7VpjiuvEfk_eKQvBSM2k7XVoNVv8B3",
+    "adParams": {
+      "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+      "imafw_ge": "3",
+      "imafw_gr": "5",
+      "sb": "22",
+      "imafw_sb": "22"
+    },
+    "type": "VOD",
+    "drmType": "widevine",
+    "usePodServing": true,
+    "podServingNetworkCode": "8264",
+    "fetchLicense": true
   }
 }
