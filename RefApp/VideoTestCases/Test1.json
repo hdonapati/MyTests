@@ -121,10 +121,10 @@
     "drmLicenseUrl": "https://cwip-shaka-proxy.appspot.com/no_auth",
     "type": "VOD"
   },
-  "FB | Sexy Beast - Won't Soon Forget This": {
+  "FB | Test | Non-DRM Ads": {
     "provider": "DAI",
     "daiSourceId": "2497752",
-    "daiId": "d2833e36-dfad-11eb-8774-70df2f866ace",
+    "daiId": "TWm1OvH8UylPaaXdT_G5aZaIn7zFjL6H",
     "adParams": {
       "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
       "imafw_ge": "3",
