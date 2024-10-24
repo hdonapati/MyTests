@@ -140,7 +140,7 @@
                       "advertiser": "{data.advertiserName} | n/a",
                       "campaignID": "{data.adId} | n/a",
                       "creativeID": "{data.adCreativeId} | n/a",
-                      "creativeURL": "{data.adUrl} | n/a",
+                      "creativeURL": "{data.adUrl} | {data.mediaUrl}",
                       "placementID": "{context.placementID} | n/a",
                       "siteID": "{context.siteId} | n/a",
                       "podPosition": "{data.adPositionInPod} | 0",
@@ -520,7 +520,7 @@
         "media.ad.id": "{data.mediaTitle} - {data.adTitle}",
         "media.ad.length": "{data.adDuration}",
         "media.ad.creativeId": "{data.adId}",
-        "media.ad.creativeURL": "{data.adUrl}",
+        "media.ad.creativeURL": "{data.adUrl} | {data.mediaUrl}",
         "media.ad.playerName": "{data.playerName}",
         "media.ad.podPosition": "{data.adPositionInPod}"
       },
