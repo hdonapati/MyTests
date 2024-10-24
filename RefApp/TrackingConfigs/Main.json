@@ -140,7 +140,7 @@
                       "advertiser": "{data.advertiserName} | n/a",
                       "campaignID": "{data.adId} | n/a",
                       "creativeID": "{data.adCreativeId} | n/a",
-                      "creativeURL": "{data.adUrl}",
+                      "creativeURL": "{data.adUrl} | n/a",
                       "placementID": "{context.placementID}",
                       "siteID": "{context.siteId} | n/a",
                       "podPosition": "{data.adPositionInPod} | 0",
