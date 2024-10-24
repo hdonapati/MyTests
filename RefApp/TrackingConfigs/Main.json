@@ -141,7 +141,7 @@
                       "campaignID": "{data.adId} | n/a",
                       "creativeID": "{data.adCreativeId} | n/a",
                       "creativeURL": "{data.adUrl} | n/a",
-                      "placementID": "{context.placementID}",
+                      "placementID": "{context.placementID} | n/a",
                       "siteID": "{context.siteId} | n/a",
                       "podPosition": "{data.adPositionInPod} | 0",
                       "playerName": "{data.playerName}"
