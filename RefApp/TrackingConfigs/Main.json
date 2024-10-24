@@ -924,7 +924,7 @@
     "params": {
       "trackerCommands": {
         "debugLogging": "{localStorage.Youbora.debugLogging}",
-        "enableSessionTracking": "{context.enableYouboraSessionTracking}",
+        "disableSessionTracking": "{context.disableYouboraSessionTracking}",
         "delayedStart": true,
         "sendUndefined": false
       },
@@ -1154,7 +1154,7 @@
         "debugLogging": "boolean",
         "delayedStart": "boolean",
         "sendUndefined": "boolean",
-        "enableSessionTracking": "boolean",
+        "disableSessionTracking": "boolean",
         "sessionInterval": "int",
         "sessionTimeout": "int"
       }
