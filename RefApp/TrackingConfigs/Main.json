@@ -1154,7 +1154,7 @@
         "debugLogging": "boolean",
         "delayedStart": "boolean",
         "sendUndefined": "boolean",
-        "disableSessionTracking": "boolean",
+        "enableSessionTracking": "boolean",
         "sessionInterval": "int",
         "sessionTimeout": "int"
       }
