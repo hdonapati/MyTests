@@ -96,6 +96,16 @@
     "partnerId": "cbs",
     "provider": "DAI"
   },
+  "DAI - Ad Events Issue": {
+    "adParameters": "cust_params=recommended_show%3D62477657%2C944100057%2C941410057%2C106%2C5692%2C6087%2C515500157%2C61456415%2C943910057%2C61466369&imafw__fw_3P_UID=IDL%3AArqYgLqR7o3MF0czCOQEFITkGryxkK3P--YG6DzwRt-8ogOk9tkUD-3To-taDwQ7WxMeTMI_Uf7AdHGDAIYbPwqNxPnAWRR4PoQRQDOLh_auIe-mk3XMhzLyBQ1e5JlaeRmE21FbA0gKHAfSQjwAz55CizXEKnd_Xny-alaw5vRf9KGL9f8yHo-_kNOFGvAjvA-mAa0m%2CPAIRID%3AWyJBMDRnazdVTkF6Y1pjc3NLSlNXVWJLalJwUGNxekcyNHhORU40S2lzTUc4RSJd%2Cconnectid%3A3qcgguD70nnP9idE7l0afz4lB0xwZNI0pgezC_E0EaSjRx2TmYHTjhB5LG87eTYi-zE-KX-O8SnCV-wD05ODmQ%2CUID2%3AAgAADMWJyocF2Pi%2FbH%2BkQM1ZstwqpARsTTRk135yU%2BkizEYutMbAcZTop4VJOlldikFvoRfpZ9Ikq9o7xakqjYU1qiHBEqLFC4eScqQm9X%2BesMiGHUBTPfYL0zqZ3qt6KUne%2F6y3M3rI68upxKTx%2BoqTHhouqWs3qggCnr94srTfKifDtg%3D%3D&imafw__fw_content_language=en&imafw__fw_continuous_play=0&imafw__fw_coppa=0&imafw__fw_did=rida%3Aa4db1330-6113-5150-a0c1-4eb700ca78bb&imafw__fw_h_x_country=us&imafw__fw_is_lat=0&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=Xi6395Xg9rCVP1JhF61itNHv9MmzEg1_ly7WJbzGIsLM9PdZGgxuE4_ebgtp4s5UFPEMds&imafw_build=sideload&imafw_cpPre=0&imafw_cpSession=0&imafw_csid=streaming_paramountplus_us_ctv_roku_vod&imafw_device_region_language=en&imafw_endcard=false&imafw_env=production&imafw_fms_bididtype=1040%2C1050%2C1030%2C1010&imafw_fms_connectid=3qcgguD70nnP9idE7l0afz4lB0xwZNI0pgezC_E0EaSjRx2TmYHTjhB5LG87eTYi-zE-KX-O8SnCV-wD05ODmQ&imafw_fms_emailhash=7e5b7b6ec0ee66b754d123cfef1917ee6e4374493316b00ca2f22ba5e2ecee25&imafw_fms_hh_ramp_id=UNMATCHED&imafw_fms_ifa=a4db1330-6113-5150-a0c1-4eb700ca78bb&imafw_fms_pair=WyJBMDRnazdVTkF6Y1pjc3NLSlNXVWJLalJwUGNxekcyNHhORU40S2lzTUc4RSJd&imafw_fms_ramp_envelope=ArqYgLqR7o3MF0czCOQEFITkGryxkK3P--YG6DzwRt-8ogOk9tkUD-3To-taDwQ7WxMeTMI_Uf7AdHGDAIYbPwqNxPnAWRR4PoQRQDOLh_auIe-mk3XMhzLyBQ1e5JlaeRmE21FbA0gKHAfSQjwAz55CizXEKnd_Xny-alaw5vRf9KGL9f8yHo-_kNOFGvAjvA-mAa0m&imafw_fms_ramp_id=Xi6395Xg9rCVP1JhF61itNHv9MmzEg1_ly7WJbzGIsLM9PdZGgxuE4_ebgtp4s5UFPEMds&imafw_fms_ruleid=10000&imafw_fms_subscriberid=72584817&imafw_fms_uid2=AgAADMWJyocF2Pi%2FbH%2BkQM1ZstwqpARsTTRk135yU%2BkizEYutMbAcZTop4VJOlldikFvoRfpZ9Ikq9o7xakqjYU1qiHBEqLFC4eScqQm9X%2BesMiGHUBTPfYL0zqZ3qt6KUne%2F6y3M3rI68upxKTx%2BoqTHhouqWs3qggCnr94srTfKifDtg%3D%3D&imafw_fms_userid=1a2d2b80-7b2f-5345-b418-fb2b18579968&imafw_fms_vcid2type=liveramp&imafw_ge=0&imafw_gr=4&imafw_ima_sdkv=3.x&imafw_language_selection=en&imafw_packageSource=cbscomp&imafw_ptype=video&imafw_region=us&imafw_sb=22&imafw_session=c&imafw_showSection=home&imafw_source=show_hero&imafw_sub=72584817&imafw_sublife=g&imafw_subses=2&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=9a7a6e77-bac2-4e52-8444-fcbf3a253d9c&is_lat=0&tfcd=0&imafw_playername_version=avia-roku_4.36.0&imafw_ima_sdkv=3.1209",
+    "daiId": "i1o_jpOJ_ilCnPDNklScSkdpuxQtc3wQ",
+    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+    "daiSourceId": "2497752",
+    "drmType": "widevine",
+    "enableNonce": true,
+    "partnerId": "cbs",
+    "provider": "DAI"
+  },
   "DAI - Content Adaptive Encoding": {
     "title": "DAI VoD w/DRM - Content Adaptive Encoding - CF User",
     "provider": "DAI",
