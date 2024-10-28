@@ -106,6 +106,16 @@
     "partnerId": "cbs",
     "provider": "DAI"
   },
+  "DAI - Ad Events Issue 2": {
+    "adParameters": "cust_params=recommended_show%3D22899%2C61466423%2C61456655%2C352%2C7148%2C61456239%2C61457120%2C61456892%2C22926%2C63114&imafw__fw_content_language=en&imafw__fw_continuous_play=0&imafw__fw_coppa=1&imafw__fw_h_x_country=us&imafw__fw_is_lat=0&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=3c96ce82-c5f9-5a5c-80e0-f13079435967&imafw_build=sideload&imafw_cpPre=0&imafw_cpSession=0&imafw_csid=streaming_paramountplus_us_ctv_roku_vod&imafw_device_region_language=en&imafw_endcard=false&imafw_env=production&imafw_fms_ruleid=10002%2C10003%2C10009&imafw_fms_userid=3c96ce82-c5f9-5a5c-80e0-f13079435967&imafw_fms_vcid2type=userid&imafw_ima_sdkv=3.x&imafw_language_selection=en&imafw_packageSource=cbscomp&imafw_ptype=video&imafw_region=us&imafw_sb=22&imafw_session=b&imafw_showSection=episodes%3Aseason_1&imafw_source=show_content_episodes%3Aseason_1&imafw_subses=3&imafw_sz=640x480&imafw_tfcd=1&imafw_user=ADULT&imafw_vguid=746b9f0b-dc29-495b-be74-8347093b9f56&is_lat=0&tfcd=1&dai-excl=codec:ac-3,codec:aac&imafw_playername_version=avia-roku_4.35.1&imafw_ima_sdkv=3.1209",
+    "daiId": "i1o_jpOJ_ilCnPDNklScSkdpuxQtc3wQ",
+    "daiKey": "C_SfB1ocoZd1hUV3zQJmqM_twTK4RDSl",
+    "daiSourceId": "2497752",
+    "drmType": "widevine",
+    "enableNonce": true,
+    "partnerId": "cbs",
+    "provider": "DAI"
+  },
   "DAI - Content Adaptive Encoding": {
     "title": "DAI VoD w/DRM - Content Adaptive Encoding - CF User",
     "provider": "DAI",
