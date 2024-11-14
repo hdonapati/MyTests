@@ -38,6 +38,23 @@
        "drmType": "widevine",
        "fetchLicense": true
     },
+    "FB | Everybody Hates Chris": {
+        "provider": "DAI",
+        "daiSourceId": "2497752",
+        "daiId": "SVAFIkFxj21y4Wk3bqj9pPNsnjzbVKKO",
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
     "RAF | VoD | VTT Thumbs | No Ads": {
         "adExit": true,
         "adHoliday": false,
