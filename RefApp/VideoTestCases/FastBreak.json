@@ -1,4 +1,21 @@
 {
+    "FB | Incorrectly configured": {
+        "provider": "DAI",
+        "daiSourceId": null,
+        "daiId": null,
+        "adParams": {
+            "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+            "imafw_ge": "3",
+            "imafw_gr": "5",
+            "sb": "22", 
+            "imafw_sb": "22"
+        },
+        "type": "VOD",
+        "drmType": "widevine",
+        "usePodServing": true,
+        "podServingNetworkCode": "8264",
+        "fetchLicense": true
+    },
     "DAI | Sexy Beast - Won't Soon Forget This": {
         "provider": "DAI",
         "daiSourceId": "2497752",
