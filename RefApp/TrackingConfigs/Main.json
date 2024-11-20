@@ -785,7 +785,8 @@
     "category": "qos",
     "params": {
       "trackerCommands": {
-        "runInMainThread": true
+        "runInMainThread": true,
+        "exitType": "soft"
       },
       "sessionInfo": {
         "apiKey": "1778b90ad19424061a4c8920a"
