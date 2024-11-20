@@ -1,0 +1,29 @@
+{
+    "Mux":{
+        "enabled": true,
+        "category": "qos",
+        "params": {
+            "trackerCommands": {
+                "exitType": "soft"
+            },
+            "playerData": {
+                "property_key": "1778b90ad19424061a4c8920a",
+                "env_key": "1778b90ad19424061a4c8920a",
+                "player_name": "{data.playerName}",
+                "player_version": "{data.playerVersion}",
+                "player_resolution": "{data.displayResolution",
+                "player_auto_play": "{data.isAutoPlay} || false",
+                "player_init_time": "{context.initTime}",
+                "viewer_user_id": "{context.userId}"
+           },
+            "videoData": {
+                "video_content_type": "{data.isLive} ? live : on-demand",
+                "video_id": "{data.mediaId}",
+                "video_title": "{data.mediaTitle}",
+                "video_cdn": "{data.cdn}",
+                "videoLanguageCode": "{data.languageCode}",
+                "experiment_name": "oviodo"
+            }
+        }
+    }
+}
