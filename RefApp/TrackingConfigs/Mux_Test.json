@@ -4,14 +4,15 @@
         "category": "qos",
         "params": {
             "trackerCommands": {
-                "exitType": "soft"
+                "exitType": "soft",
+                "sendUndefined": true
             },
             "playerData": {
                 "property_key": "1778b90ad19424061a4c8920a",
                 "env_key": "1778b90ad19424061a4c8920a",
                 "player_name": "{data.playerName}",
                 "player_version": "{data.playerVersion}",
-                "player_resolution": "{data.displayResolution",
+                "player_resolution": "{data.displayResolution}",
                 "player_auto_play": "{data.isAutoPlay} || false",
                 "player_init_time": "{context.initTime}",
                 "viewer_user_id": "{context.userId}"
@@ -23,6 +24,10 @@
                 "video_cdn": "{data.cdn}",
                 "videoLanguageCode": "{data.languageCode}",
                 "experiment_name": "oviodo"
+            },
+            "dataType": {
+                "sendUndefined":"boolean",
+                "player_auto_play":"boolean"
             }
         }
     }
