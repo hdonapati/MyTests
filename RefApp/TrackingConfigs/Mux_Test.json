@@ -21,7 +21,7 @@
                 "video_content_type": "{data.isLive} ? live : on-demand",
                 "video_id": "{data.mediaId}",
                 "video_title": "{data.mediaTitle}",
-                "kids_content": "{data.isKidsContent}"
+                "kids_content": "{data.isKidsContent}",
                 "video_cdn": "{data.cdn}",
                 "videoLanguageCode": "{data.languageCode}",
                 "experiment_name": "oviodo"
