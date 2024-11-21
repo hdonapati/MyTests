@@ -13,6 +13,8 @@
                 "player_name": "{data.playerName}",
                 "player_version": "{data.playerVersion}",
                 "player_resolution": "{data.displayResolution}",
+                "player_source_height": "{data.displayHeight}",
+                "player_source_width": "{data.displayWidth}",
                 "player_auto_play": "{data.isAutoPlay} || false",
                 "player_init_time": "{context.initTime}",
                 "viewer_user_id": "{context.userId}"
