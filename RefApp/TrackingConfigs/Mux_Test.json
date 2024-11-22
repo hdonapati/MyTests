@@ -30,7 +30,9 @@
             },
             "dataType": {
                 "sendUndefined":"boolean",
-                "player_auto_play":"boolean"
+                "player_auto_play":"boolean",
+                "player_source_height": "int",
+                "player_source_width": "int"
             }
         }
     }
