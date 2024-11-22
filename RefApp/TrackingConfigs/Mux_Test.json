@@ -5,7 +5,7 @@
         "params": {
             "trackerCommands": {
                 "exitType": "soft",
-                "sendUndefined": true
+                "sendUndefined": false
             },
             "playerData": {
                 "property_key": "1778b90ad19424061a4c8920a",
