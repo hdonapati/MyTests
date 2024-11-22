@@ -20,23 +20,23 @@
                 "viewer_user_id": "{context.userId}"
            },
             "videoData": {
-                "video_content_type": "{context.contentType} || clip",
-                "video_variant_name": "{context.variantName} || Variant-Avia",
-                "video_variant_id": "{context.variantId} || 8055",
-                "view_session_id": "{context.viewId} || 123-456-7890",
-                "video_series": "{context.seriesName} || Avia-Native-Series",
-                "video_producer": "{context.producer} || Avia-Productions",
-                "view_session_id": "{context.viewId} || 1234",
+                "video_content_type": "{context.contentType} | clip",
+                "video_variant_name": "{context.variantName} | Variant-Avia",
+                "video_variant_id": "{context.variantId} | 8055",
+                "view_session_id": "{context.viewId} | 123-456-7890",
+                "video_series": "{context.seriesName} | Avia-Native-Series",
+                "video_producer": "{context.producer} | Avia-Productions",
+                "view_session_id": "{context.viewId} | 1234",
                 "video_stream_type": "{data.isLive} ? live : on-demand",
                 "video_id": "{context.mediaId}",
                 "video_title": "{data.mediaTitle}",
                 "kids_content": "{data.isKidsContent}",
-                "video_duration": "{context.mediaDuration} || {data.duration}",
+                "video_duration": "{context.mediaDuration} | {data.duration}",
                 "view_drm_type": "{data.drmType}",
                 "video_cdn": "{data.cdn}",
                 "video_encoding_variant": "{data.videoCodec}",
                 "video_language_code": "{data.languageCode}",
-                "experiment_name": "{context.experimentName} || Avia-Test-Case"
+                "experiment_name": "{context.experimentName} | Avia-Test-Case"
             },
             "dataType": {
                 "sendUndefined":"boolean",
