@@ -34,7 +34,7 @@
                 "video_duration": "{context.mediaDuration} || {data.duration}",
                 "view_drm_type": "{data.drmType}",
                 "video_cdn": "{data.cdn}",
-                "video_encoding_variant": "{data.videoformat}",
+                "video_encoding_variant": "{data.videoCodec}",
                 "video_language_code": "{data.languageCode}",
                 "experiment_name": "{context.experimentName} || Avia-Test-Case"
             },
