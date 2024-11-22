@@ -49,7 +49,7 @@
                 "custom_7": "isDAIAPI: {data.isDAIAPI}",
                 "custom_8": "isAdHoliday: {data.isAdHoliday}",
                 "custom_9": "deviceModelName: {data.deviceModelName}",
-                "custom_10": "ClientId: {data.ClientId}",
+                "custom_10": "ClientId: {data.ClientId}"
             },
             "dataType": {
                 "sendUndefined":"boolean",
