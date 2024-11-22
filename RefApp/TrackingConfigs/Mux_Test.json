@@ -28,7 +28,7 @@
                 "video_producer": "{context.producer} || Avia-Productions",
                 "view_session_id": "{context.viewId} || 1234",
                 "video_stream_type": "{data.isLive} ? live : on-demand",
-                "video_id": "{data.mediaId}",
+                "video_id": "{context.mediaId}",
                 "video_title": "{data.mediaTitle}",
                 "kids_content": "{data.isKidsContent}",
                 "video_duration": "{context.mediaDuration} || {data.mediaDuration}",
