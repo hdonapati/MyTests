@@ -12,9 +12,8 @@
                 "env_key": "1778b90ad19424061a4c8920a",
                 "player_name": "{data.playerName}",
                 "player_version": "{data.playerVersion}",
-                "player_resolution": "{data.displayResolution}",
-                "player_source_height": "{data.displayHeight}",
-                "player_source_width": "{data.displayWidth}",
+                "player_height": "{data.displayHeight}",
+                "player_width": "{data.displayWidth}",
                 "player_auto_play": "{data.isAutoPlay} | false",
                 "player_init_time": "{context.initTime}",
                 "viewer_user_id": "{context.userId}"
@@ -34,13 +33,29 @@
                 "video_duration": "{context.mediaDuration} | {data.duration}",
                 "view_drm_type": "{data.drmType}",
                 "video_cdn": "{data.cdn}",
+                "player_source_height": "{data.streamHeight}",
+                "player_source_width": "{data.streamWidth}",
                 "video_encoding_variant": "{data.videoCodec}",
                 "video_language_code": "{data.languageCode}",
                 "experiment_name": "{context.experimentName} | Avia-Test-Case"
             },
+            "customData": {
+                "custom_1": "isDebug: {data.isDebug}",
+                "custom_2": "isMuted: {data.isMuted}",
+                "custom_3": "isCaptions: {data.isCaptions}",
+                "custom_4": "deviceSupportedFormats: {data.deviceSupportedFormats}",
+                "custom_5": "adStitcher: {data.adStitcher}",
+                "custom_6": "isDAIPodServing: {data.isDAIPodServing}",
+                "custom_7": "isDAIAPI: {data.isDAIAPI}",
+                "custom_8": "isAdHoliday: {data.isAdHoliday}",
+                "custom_9": "deviceModelName: {data.deviceModelName}",
+                "custom_10": "ClientId: {data.ClientId}",
+            },
             "dataType": {
                 "sendUndefined":"boolean",
                 "player_auto_play":"boolean",
+                "player_height": "int",
+                "player_width": "int",
                 "player_source_height": "int",
                 "player_source_width": "int"
             }
