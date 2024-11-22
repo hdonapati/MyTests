@@ -31,7 +31,7 @@
                 "video_id": "{context.mediaId}",
                 "video_title": "{data.mediaTitle}",
                 "kids_content": "{data.isKidsContent}",
-                "video_duration": "{context.mediaDuration} || {data.mediaDuration}",
+                "video_duration": "{context.mediaDuration} || {data.duration}",
                 "view_drm_type": "{data.drmType}",
                 "video_cdn": "{data.cdn}",
                 "video_encoding_variant": "{data.videoformat}",
