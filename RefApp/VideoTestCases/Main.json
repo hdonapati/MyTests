@@ -305,6 +305,16 @@
         "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2510383_cenc_fmp4_dash/stream.mpd",
         "fetchLicense": true
     },
+    "URL | SyncBack | LiveDVR HLS Thumbs": {
+        "provider": "URL",
+        "contentID": "b92ce33d-cc3d-4728-9996-e3fee3615bcf",
+        "drmType": "playready",
+        "live": true,
+        "dvr": true,
+        "contentURL": "https://prope76e6g77.airspace-cdn.cbsivideo.com/out/v1/17bf98e66c9e49abb4c6deaada095a5d/manifest.m3u8",
+        "useStagingForDRMLicense": true,
+        "fetchLicense": true
+    },
     "URL | LTS | DASH+DRM": {
         "provider": "URL",
         "live": true,
