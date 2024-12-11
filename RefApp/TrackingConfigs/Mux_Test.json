@@ -39,7 +39,7 @@
                 "video_language_code": "{data.languageCode}",
                 "experiment_name": "{context.experimentName} | Avia-Test-Case"
             },
-            "customData": {
+            "customInfo": {
                 "custom_1": "isDebug: {data.isDebug}",
                 "custom_2": "isMuted: {data.isMuted}",
                 "custom_3": "isCaptions: {data.isCaptions}",
