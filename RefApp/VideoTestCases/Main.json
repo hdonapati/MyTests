@@ -313,7 +313,7 @@
         "dvr": true,
         "contentURL": "https://prope76e6g77.airspace-cdn.cbsivideo.com/out/v1/17bf98e66c9e49abb4c6deaada095a5d/manifest.m3u8",
         "useStagingForDRMLicense": true,
-        "fetchLicense": true
+        "fetchLicense": false
     },
     "URL | LTS | DASH+DRM": {
         "provider": "URL",
