@@ -155,5 +155,27 @@
     "type": "VOD",
     "usePodServing": true,
     "podServingNetworkCode": "8264"
+  },
+  "BETPlus - AdParams GPP": {
+    "adParameters": "&&imafw__fw_coppa=0&imafw__fw_h_user_agent=Roku/DVP-14.1 (14.1.4.7709-C2)&imafw__fw_is_lat=1&imafw__fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&imafw__fw_playid=7140fd66-cf98-4725-ad96-2a10d68c626c&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=c663ba146bd4a41704c36a9138b0a05189dbb2609e9ee5f1d19fba53cdf7a8c3&imafw_accountid=3b6f3340-41de-4b07-9223-6c28eb8ee5f4&imafw_csid=streaming_betplus_us_ctv_roku_vod&imafw_fms_emailhash=c663ba146bd4a41704c36a9138b0a05189dbb2609e9ee5f1d19fba53cdf7a8c3&imafw_fms_ruleid=10003,10004&imafw_fms_subscriberid=d3725f9c-0d4b-4b8a-9ab5-57756ff4719d&imafw_fms_userid=df3bc9b4-f2f5-5c10-8c18-19258c2100b4&imafw_fms_vcid2type=emailhash&imafw_gpp=DBABzw~1YNN~BVQqAAAAAgA&imafw_gpp_sid=6_7&imafw_metr=1031&imafw_prof=520311:GoogleDAISSAI_OTT_v01&imafw_profid=3b6f3340-41de-4b07-9223-6c28eb8ee5f4&imafw_sb=22&imafw_sub=d3725f9c-0d4b-4b8a-9ab5-57756ff4719d&imafw_tsla=80_roku&imafw_user=ADULT&imafw_vguid=1a0f8b36-7551-422b-9916-b1498a547b94&npa=&rdp=1",
+    "contentGenre": "Drama",
+    "contentType": "hls",
+    "contentUrl": "http://topaz.viacomcbs.digital/h/a/dG9wYXoxYDlkNjFkZjA1LWY1NGUtMTFlYy05YjFiLTBlNDBjZjJmYzI4NWBmZDU4ODYzNTM1Y2IxNmE0ODc1ZDdjOWUzZDY4NDliM2RhN2RhZmU3YHB0ZXBhTTVrTW5OeElOU0xBSHlUaXRDR2J3MGU0djdwOTY3NEQ1N29Gdmc/master.m3u8?mgid=mgid:arc:movie:shared.betplus.us:9d61df05-f54e-11ec-9b1b-0e40cf2fc285&ts=1726684010-1&pthash=fd58863535cb16a4875d7c9e3d6849b3da7dafe7&hdnts=exp=1736454947~acl=/h/a/dG9wYXoxYDlkNjFkZjA1LWY1NGUtMTFlYy05YjFiLTBlNDBjZjJmYzI4NWBmZDU4ODYzNTM1Y2IxNmE0ODc1ZDdjOWUzZDY4NDliM2RhN2RhZmU3YHB0ZXBhTTVrTW5OeElOU0xBSHlUaXRDR2J3MGU0djdwOTY3NEQ1N29Gdmc/*~hmac=97bca89fb7c8ae3cb6ee9c329ff6a5ecfdb5936318947d81477009dee54802da",
+    "daiAuthToken": "cmsid=2645322~exp=1736454947~vid=mgid:arc:movie:shared.betplus.us:9d61df05-f54e-11ec-9b1b-0e40cf2fc285~hmac=df4980fa89aaf5fc2c0b304fe366f1af63d3285e73588d7742fa0b92976f5cc1",
+    "daiId": "mgid:arc:movie:shared.betplus.us:9d61df05-f54e-11ec-9b1b-0e40cf2fc285",
+    "daiKey": "",
+    "daiSourceId": "2645322",
+    "nielsenAppId": "P2871BBFF-1A28-44AA-AF68-C7DE4B148C32",
+    "provider": "DAI",
+    "resumePosition": 1160,
+    "retryOnStreamError": false,
+    "thumbnailUrl": "http://topaz.viacomcbs.digital/h/a/dG9wYXoxYDlkNjFkZjA1LWY1NGUtMTFlYy05YjFiLTBlNDBjZjJmYzI4NWBmZDU4ODYzNTM1Y2IxNmE0ODc1ZDdjOWUzZDY4NDliM2RhN2RhZmU3YHB0ZXBhTTVrTW5OeElOU0xBSHlUaXRDR2J3MGU0djdwOTY3NEQ1N29Gdmc/thumbs-4x4-320x180.vtt?mgid=mgid:arc:movie:shared.betplus.us:9d61df05-f54e-11ec-9b1b-0e40cf2fc285&ts=1726684010-1&pthash=fd58863535cb16a4875d7c9e3d6849b3da7dafe7&hdnts=exp=1736454947~acl=/h/a/dG9wYXoxYDlkNjFkZjA1LWY1NGUtMTFlYy05YjFiLTBlNDBjZjJmYzI4NWBmZDU4ODYzNTM1Y2IxNmE0ODc1ZDdjOWUzZDY4NDliM2RhN2RhZmU3YHB0ZXBhTTVrTW5OeElOU0xBSHlUaXRDR2J3MGU0djdwOTY3NEQ1N29Gdmc/*~hmac=97bca89fb7c8ae3cb6ee9c329ff6a5ecfdb5936318947d81477009dee54802da",
+    "title": "mgid:arc:movie:shared.betplus.us:9d61df05-f54e-11ec-9b1b-0e40cf2fc285",
+    "trackingParameters": {
+      "context.appName": "betplus",
+      "context.appVersion": "avia-roku_4.37.0",
+      "context.mediaDuration": 6461.91,
+      "data.mediaTitle": "Kemba"
+    }
   }
 }
