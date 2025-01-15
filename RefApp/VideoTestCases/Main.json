@@ -31,7 +31,7 @@
        "daiFeatureFlags": { "promoskip": true },
        "daiSourceId":"2497752",
        "daiId":"Koo5VLb83N2E3aw2X7wlQEyslnDny7Fn",
-       "adParameters":"imafw_csid=streaming_paramountplus_us_desktop_web_vod&imafw_sb=22",     
+       "adParameters":"imafw_csid=streaming_paramountplus_us_desktop_web_vod&imafw_sb=14",     
        "type":"VOD",
        "dvr": false,
        "live": false,
