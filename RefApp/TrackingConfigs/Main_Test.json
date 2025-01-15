@@ -622,7 +622,7 @@
       },
       "sessionInfo": {
         "customerKey": "{context.dev} ? ce4836fb66f6e081bcf6fea7df4531f22ac7ffbb : 87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
-        "gatewayUrl": "{context.dev} ? http://cbscom-test.ts-testonly.conviva.com : cws.conviva.com"
+        "gatewayUrl": "{context.dev} ? https://cbscom-test.ts-testonly.conviva.com : https://cws.conviva.com"
       },
       "contentInfo": {
         "assetName": "{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
