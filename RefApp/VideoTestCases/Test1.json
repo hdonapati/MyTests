@@ -177,5 +177,16 @@
       "context.mediaDuration": 6461.91,
       "data.mediaTitle": "Kemba"
     }
+  },
+  "DAI Skip Promo - P+ Issue": {
+    "adParameters": "cust_params=recommended_show%3D943970057%2C954789957%2C61456643%2C61456655%2C61456445%2C5683%2C62468457%2C59076%2C61456954%2C59078&imafw__fw_content_language=en&imafw__fw_continuous_play=0&imafw__fw_coppa=0&imafw__fw_did=rida%3Aa4db1330-6113-5150-a0c1-4eb700ca78bb&imafw__fw_h_x_country=us&imafw__fw_is_lat=1&imafw__fw_us_privacy=1YYN&imafw__fw_vcid2=22f22512a11b9904ffa8e2e5e077f5237835fb3c13ea5d7fbec42f95837dacb2&imafw_build=sideload&imafw_cpPre=0&imafw_cpSession=0&imafw_csid=streaming_paramountplus_us_ctv_roku_vod&imafw_device_region_language=en&imafw_endcard=false&imafw_env=production&imafw_esb=6&imafw_fms_emailhash=22f22512a11b9904ffa8e2e5e077f5237835fb3c13ea5d7fbec42f95837dacb2&imafw_fms_ruleid=10004%2C10003&imafw_fms_subscriberid=18117269&imafw_fms_userid=1a2d2b80-7b2f-5345-b418-fb2b18579968&imafw_fms_vcid2type=emailhash&imafw_ge=0&imafw_gpp=DBABzw~1YYN~BVQVAAAAAgA&imafw_gpp_sid=6_7&imafw_gr=3&imafw_ima_sdkv=3.x&imafw_language_selection=en&imafw_packageSource=cbscomp&imafw_ptype=video&imafw_region=us&imafw_sb=14&imafw_session=d&imafw_showSection=episodes%3Aseason_1&imafw_source=show_content_episodes%3Aseason_1&imafw_sub=18117269&imafw_sublife=g&imafw_subses=1&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=2bf9f6bc-02df-4e5d-bbfb-c4bac18f3cd7&is_lat=1&rdp=1&tfcd=0",
+    "daiFeatureFlags": { "promoskip": true },
+    "daiId": "Koo5VLb83N2E3aw2X7wlQEyslnDny7Fn",
+    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+    "daiSourceId": "2497752",
+    "drmType": "widevine",
+    "partnerId": "cbs",
+    "provider": "DAI",
+    "fetchLicense": true
   }
 }
