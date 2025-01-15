@@ -621,8 +621,8 @@
         "runInMainThread": true
       },
       "sessionInfo": {
-        "customerKey": "ce4836fb66f6e081bcf6fea7df4531f22ac7ffbb",
-        "gatewayUrl": "{context.dev} ? cbscom-test.testonly.conviva.com : "
+        "customerKey": "{context.dev} ? ce4836fb66f6e081bcf6fea7df4531f22ac7ffbb : 87a6b28bc7823e67a5bb2a0a6728c702afcae78d",
+        "gatewayUrl": "{context.dev} ? cbscom-test.ts-testonly.conviva.com : cws.conviva.com"
       },
       "contentInfo": {
         "assetName": "{data.isLive} ? [Live] {data.mediaTitle} : [VoD] {data.mediaTitle}",
