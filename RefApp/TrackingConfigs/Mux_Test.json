@@ -38,7 +38,7 @@
             },
             "viewData": {
                 "view_session_id": "{context.viewId} | 123-456-7890",
-                "video_drm_type": "{data.drmType}"
+                "view_drm_type": "{data.drmType}"
             },
             "customInfo": {
                 "custom_1": "isDebug: {data.isDebug}",
