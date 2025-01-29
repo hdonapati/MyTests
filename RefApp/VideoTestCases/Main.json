@@ -186,7 +186,7 @@
         "live": false,
         "partnerId": "cbs",
         "adParams":{
-          "imafw_csid":"streaming_paramountplus_us_desktop_web_vod",
+          "imafw_csid":"streaming_paramountplus_us_ctv_roku_vod",
           "imafw_sb":"22"
          },
         "provider": "DAI",
