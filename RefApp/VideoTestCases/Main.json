@@ -329,13 +329,10 @@
     },
     "URL | SyncBack | LiveDVR HLS Thumbs": {
         "provider": "URL",
-        "contentID": "b92ce33d-cc3d-4728-9996-e3fee3615bcf",
         "drmType": "widevine",
         "live": true,
         "dvr": true,
-        "contentURL": "https://prope76e6g77.airspace-cdn.cbsivideo.com/out/v1/17bf98e66c9e49abb4c6deaada095a5d/manifest.m3u8",
-        "useStagingForDRMLicense": true,
-        "fetchLicense": false
+        "contentURL": "https://qa-cbsplaylistserver.aws.syncbak.com/cpl/-1608041354/cbslts/2.0/7b226361706162696c6974696573223a207b20223630667073223a2074727565207d7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjIwMTYwNDAxIiwidHlwIjoiSldUIn0.eyJjaWQiOiIxMjcxMCIsImNzYiI6ZmFsc2UsImRldmljZVR5cGUiOiI4IiwiZXhwIjoxNzQwNjIwNzMxLCJpc3MiOiJnZXRobHMiLCJtZDUiOiJhZjMwNzYzNWE3MmFmODNiNmFkNGY1MDA0ODkyMzRhZiIsIm1pZCI6Ii0xNjA4MDQxMzU0Iiwic2lkIjoiOTEiLCJzdWIiOiIxZDZiYTg1NDIzYmQ0YWMxNmJmM2U5NGI0NTAyZGVmZiJ9.pcJq3ttzSqggLSt8XRNtreJKDi34so_ACVNbDtLadsc"
     },
     "URL | LTS | DASH+DRM": {
         "provider": "URL",
