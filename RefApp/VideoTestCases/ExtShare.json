@@ -1,4 +1,20 @@
 {
+  "FB+ | FAKE_CMS_ID DASH": {
+    "provider": "DAI",
+    "daiSourceId": "2497752",
+    "daiId": "FAKE_CMS_ID",
+    "adParams": {
+      "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+      "imafw_ge": "3",
+      "imafw_gr": "5",
+      "sb": "22",
+      "imafw_sb": "22"
+    },
+    "type": "VOD",
+    "contentType": "dash",
+    "usePodServing": true,
+    "podServingNetworkCode": "8264"
+  },
   "FB | Test | Non-DRM Ads": {
     "provider": "DAI",
     "daiSourceId": "2497752",
@@ -32,3 +48,4 @@
     "fetchLicense": true
   }
 }
+
