@@ -1,0 +1,98 @@
+{
+    "DAI | VoD | BrightLine - Carousel": {
+        "daiId": "zfXRaxfgmNoW_r590tAAbiJoeFqL5vFL",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "partnerId": "cbs",
+        "adParams":{
+          "csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "sb":"22",
+          "imafw_csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "imafw_sb":"22"
+         },
+        "provider": "DAI",
+        "resumePosition": 10,
+        "fetchLicense": true
+    },
+    "DAI | VoD | BrightLine - Trivia": {
+        "daiId": "3E4A9F93-E14A-5E08-656A-DEDD9BDE5D7D",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "partnerId": "cbs",
+        "adParams":{
+          "csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "sb":"22",
+          "imafw_csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "imafw_sb":"22"
+         },
+        "provider": "DAI",
+        "resumePosition": 10,
+        "fetchLicense": true
+    },
+    "DAI | VoD | BrightLine - Video Gallery": {
+        "daiId": "YAxteZGi9KXBFui9JAtKjMb4qNJQWO_y",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "partnerId": "cbs",
+        "adParams":{
+          "csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "sb":"22",
+          "imafw_csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "imafw_sb":"22"
+         },
+        "provider": "DAI",
+        "resumePosition": 10,
+        "fetchLicense": true
+    },
+    "DAI | VoD | BrightLine - Image Gallery": {
+        "daiId": "UcihsPyDL_cvs_j_XJrfa2mTLNsVhoyW",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "partnerId": "cbs",
+        "adParams":{
+          "csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "sb":"22",
+          "imafw_csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "imafw_sb":"22"
+         },
+        "provider": "DAI",
+        "resumePosition": 10,
+        "fetchLicense": true
+    },
+    "DAI | VoD | BrightLine - Ad Selector": {
+        "daiId": "162AB953-B28B-56D0-E83D-0D5FC510524A",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "partnerId": "cbs",
+        "adParams":{
+          "csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "sb":"22",
+          "imafw_csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "imafw_sb":"22"
+         },
+        "provider": "DAI",
+        "resumePosition": 10,
+        "fetchLicense": true
+    },
+    "DAI | VoD | BrightLine - Quiz Show": {
+        "daiId": "dsABzhhh4O85_xkgNrBdGgGKQHywm8QM",
+        "daiKey": "7j3n273bfj7jcnvf22d713a51f",
+        "daiSourceId": "2497752",
+        "drmType": "widevine",
+        "partnerId": "cbs",
+        "adParams":{
+          "csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "sb":"22",
+          "imafw_csid":"streaming_paramountplus_us_ctv_roku_vod",
+          "imafw_sb":"22"
+         },
+        "provider": "DAI",
+        "resumePosition": 10,
+        "fetchLicense": true
+    }
+}
