@@ -320,5 +320,22 @@
     "type": "VOD",
     "usePodServing": true,
     "podServingNetworkCode": "8264"
+  },
+  "FB | XbJB5iyNSRhVu3IhgL4zKpIHXX4jY7TY": {
+    "provider": "DAI",
+    "daiSourceId": "2497752",
+    "daiId": "XbJB5iyNSRhVu3IhgL4zKpIHXX4jY7TY",
+    "adParams": {
+      "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
+      "imafw_ge": "3",
+      "imafw_gr": "5",
+      "sb": "22",
+      "imafw_sb": "22",
+      "failParam": { "why": "fail", "what": -1 }
+    },
+    "type": "VOD",
+    "drmType": "widevine",
+    "usePodServing": true,
+    "podServingNetworkCode": "8264"
   }
 }
