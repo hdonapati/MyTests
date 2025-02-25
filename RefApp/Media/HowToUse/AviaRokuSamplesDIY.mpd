@@ -4,6 +4,7 @@
 	</ProgramInformation>
 	<ServiceDescription id="0">
 	</ServiceDescription>
+	<BaseURL>https://raw.githubusercontent.com/hdonapati/MyTests/refs/heads/main/RefApp/Media/HowToUse/</BaseURL>
 	<Period id="0" start="PT0.0S">
 		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="25/1" maxWidth="2560" maxHeight="1440" par="16:9">
 			<Representation id="0" mimeType="video/mp4" codecs="avc1.640032" bandwidth="261360" width="2560" height="1440" sar="1:1">
