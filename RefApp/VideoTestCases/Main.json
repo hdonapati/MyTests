@@ -86,15 +86,16 @@
         "fetchLicense": true
     },
     "RAF | VoD | VTT Thumbs | No Ads": {
-        "adExit": true,
-        "adHoliday": false,
-        "dvr": false,
-        "live": false,
-        "partnerId": "cbs",
         "provider": "RAF",
         "title": "RAF - VoD (VTT Thumbs)  | No Ads",
         "thumbnailUrl": "https://news.play.cbsi.video/h/1.LWdas2uVWKafMzKr3fhkvf74th6VUX6NnqNJtBteI3oB8WLyNvwnWyw3UmmW41boCwUnS1L6nMsaK1ZcKA2p16EHChfbxSaYJqrBmECpwjxspzTpeybMHyFq4TMyXbOZvNTE7xCPfXN4vkIvxgdLetHlTrFWKq88nO6KsdefZCQK1FAkHbtYk5M6u5C18jZI7aS/thumbs.vtt",
         "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625/873333_hls/master.m3u8"
+    },
+    "RAF | VoD with PostRoll": {
+        "provider": "RAF",
+        "title": "RAF | VoD with PostRoll",
+        "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",
+        "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8"
     },
     "URL | Live+DVR | Syncback": {
         "dvr": true,
