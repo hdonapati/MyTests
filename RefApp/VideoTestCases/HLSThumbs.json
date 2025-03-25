@@ -1,0 +1,18 @@
+{
+    "URI VoD - HLS with EXT-X-TILES Thumbnails": {
+      "provider": "URL",
+      "contentUrl": "https://static.dev.cbsivideo.com/avia_android/tiled_thumb/master.m3u8"
+    },
+    "URI VoD - HLS without EXT-X-TILES Thumbnails": {
+      "provider": "URL",
+      "contentUrl": "https://static.dev.cbsivideo.com/avia_android/tiled_thumb/master_no_tiles.m3u8"
+    },
+    "URI VoD - HLS with EXT-X-TILES Thumbnails (Max Sprite Size)": {
+      "provider": "URL",
+      "contentUrl": "https://static.dev.cbsivideo.com/avia_android/tiled_thumb/master_max_tiles.m3u8"
+    },
+    "URI VoD - HLS with mix of EXT-X-TILES Thumbnails": {
+      "provider": "URL",
+      "contentUrl": "https://static.dev.cbsivideo.com/avia_android/tiled_thumb/master_mixed.m3u8"
+    }
+}
