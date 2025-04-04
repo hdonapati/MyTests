@@ -1,4 +1,10 @@
 {
+    "URI LTS - HLS Single Image Thumbnails ": {
+      "provider": "URL",
+      "live": true,
+      "dvr": true,
+      "contentUrl": "https://propea4de872.airspace-cdn.cbsivideo.com/out/v1/b58b62edfc6540e9b40ab5db411828a9/manifest.m3u8"
+    },
     "URI VoD - HLS with EXT-X-TILES Thumbnails": {
       "provider": "URL",
       "contentUrl": "https://static.dev.cbsivideo.com/avia_android/tiled_thumb/master.m3u8"
