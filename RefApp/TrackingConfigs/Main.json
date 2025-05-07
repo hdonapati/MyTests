@@ -979,7 +979,7 @@
         "sessionInterval": "45"
       },
       "accountInfo": {
-        "accountCode": "plutotvdev"
+        "accountCode": "{context.youboraAccountCode} |plutotvdev"
       },
       "authInfo": {
         "pluginVersion": "6.5.29-RokuVideo",
