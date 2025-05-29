@@ -3,6 +3,7 @@
     "contentId": "5415596b-f2ef-4f8d-a481-fc4b3a6baa3e",
     "contentType": "dash",
     "fetchLicense": true,
+    "drmType": "widevine",
     "contentUrl": "https://poolc864g323.airspace-cdn.cbsivideo.com/out/v1/28036cd5c0594b3c8b02fc143bb3e75f/start/1748553300/manifest.mpd",
     "dvr": true,
     "live": true,
