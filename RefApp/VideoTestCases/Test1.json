@@ -1,4 +1,13 @@
 {
+  "LTS DASH - P+": {
+    "contentId": "5415596b-f2ef-4f8d-a481-fc4b3a6baa3e",
+    "contentType": "dash",
+    "fetchLicense": true,
+    "contentUrl": "https://poolc864g323.airspace-cdn.cbsivideo.com/out/v1/28036cd5c0594b3c8b02fc143bb3e75f/start/1748553300/manifest.mpd",
+    "dvr": true,
+    "live": true,
+    "provider": "URL"
+  },
   "NFL on CBS": {
     "contentType": "hls",
     "contentUrl": "https://stage-playlistserver.aws.syncbak.com/spl/cbslts/3.0/master.m3u8?api_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjVhNDcwMDI0MmNkZDRkNzViYmMxYzExMzE2YWI2MTE0IiwidHlwIjoiSldUIn0.eyJiYXNlQ2hhbm5lbElkIjoyNDAyMiwibXZwZElkIjoicHBsdXNMQ1AiLCJkaWQiOiJhYjRmMzc0My1jMmMxLTU4NTktODBkYS1kMzAwMmFkYTQ2YjIiLCJkdHAiOjgsImV4cCI6MTc0NjgxNDk2MCwiaXNzIjoiQ0JTLmNvbSIsImF1ZCI6InBsYXlsaXN0c2VydmVyLmF3cy5zeW5jYmFrLmNvbSIsIm1kNSI6IjYzODI1YjA0NjQ2NTVjNThkMGU3NjZjZDg4ZTc0MzI4IiwiaXAiOiI5OS44LjM3Ljk2IiwiZGMiOnsiNjBGUFMiOnRydWV9LCJldWEiOmZhbHNlLCJlaWQiOmZhbHNlLCJpYXQiOjE3NDY4MTQ4NzB9.rY_jgNXcurUvi1zOuL_UhrCUglqTVA6losTGsyW0T_8",
