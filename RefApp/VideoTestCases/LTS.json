@@ -32,7 +32,7 @@
     "provider": "DAI",
     "daiId": "-yc7uTciSECmk_S3G3h7b",
     "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-  }
+  },
   "LTS DASH Clear - Jacob": {
     "contentUrl": "https://8572e342e3eeb5c4.mediapackage.us-east-1.amazonaws.com/out/v1/adbe6b35822d4c09b4a57bfc36110c54/manifest.mpd",
     "dvr": true,
