@@ -33,6 +33,18 @@
     "daiId": "ES2r_sCBS42qSBS-F710UQ",
     "daiKey": "7j3n273bfj7jcnvf22d713a51f"
   },
+  "LTS DAI HLS - Direct URL | ES2r_sCBS42qSBS-F710UQ": {
+    "dvr": true,
+    "live": true,
+    "provider": "URL",
+    "contentUrl": "https://dai.google.com/linear/hls/pa/event/ES2r_sCBS42qSBS-F710UQ/stream/29994faa-31c6-48a0-81df-f34c2c57b04c:CBF2/master.m3u8"
+  },
+  "LTS DAI HLS - Direct URL | HdjmKUTQRkexxeXSRa2Txw": {
+    "dvr": true,
+    "live": true,
+    "provider": "URL",
+    "contentUrl": "https://dai.google.com/linear/hls/pa/event/HdjmKUTQRkexxeXSRa2Txw/stream/19c2bd89-aa52-4b35-bdcc-c53165fae3b0:DLS/master.m3u8"
+  },
   "LTS DASH Clear - Jacob": {
     "contentUrl": "https://8572e342e3eeb5c4.mediapackage.us-east-1.amazonaws.com/out/v1/adbe6b35822d4c09b4a57bfc36110c54/manifest.mpd",
     "dvr": true,
