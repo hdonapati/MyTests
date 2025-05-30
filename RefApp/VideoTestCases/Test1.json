@@ -4,7 +4,7 @@
     "dvr": true,
     "live": true,
     "provider": "URL"
-  }
+  },
   "LTS DASH - P+": {
     "contentId": "5415596b-f2ef-4f8d-a481-fc4b3a6baa3e",
     "contentType": "dash",
