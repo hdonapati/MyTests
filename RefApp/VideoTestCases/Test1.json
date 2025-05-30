@@ -1,4 +1,10 @@
 {
+  "LTS DASH Clear - Jacob": {
+    "contentUrl": "https://8572e342e3eeb5c4.mediapackage.us-east-1.amazonaws.com/out/v1/adbe6b35822d4c09b4a57bfc36110c54/manifest.mpd",
+    "dvr": true,
+    "live": true,
+    "provider": "URL"
+  }
   "LTS DASH - P+": {
     "contentId": "5415596b-f2ef-4f8d-a481-fc4b3a6baa3e",
     "contentType": "dash",
