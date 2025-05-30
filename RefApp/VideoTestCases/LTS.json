@@ -33,13 +33,13 @@
     "daiId": "ES2r_sCBS42qSBS-F710UQ",
     "daiKey": "7j3n273bfj7jcnvf22d713a51f"
   },
-  "LTS DAI HLS - Direct URL | ES2r_sCBS42qSBS-F710UQ": {
+  "URL LTS (from DAI Workflow) | ES2r_sCBS42qSBS-F710UQ": {
     "dvr": true,
     "live": true,
     "provider": "URL",
     "contentUrl": "https://dai.google.com/linear/hls/pa/event/ES2r_sCBS42qSBS-F710UQ/stream/29994faa-31c6-48a0-81df-f34c2c57b04c:CBF2/master.m3u8"
   },
-  "LTS DAI HLS - Direct URL | HdjmKUTQRkexxeXSRa2Txw": {
+  "URL LTS (from DAI Workflow) | HdjmKUTQRkexxeXSRa2Txw": {
     "dvr": true,
     "live": true,
     "provider": "URL",
