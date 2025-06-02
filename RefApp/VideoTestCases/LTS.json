@@ -50,5 +50,11 @@
     "dvr": true,
     "live": true,
     "provider": "URL"
+  },
+  "LTS HLS Clear with Thumbnails - Propellor": {
+    "contentUrl": "https://propef85g654.airspace-cdn.cbsivideo.com/out/v1/cb6e7c421e854713bf948df440f3885d/manifest.m3u8",
+    "dvr": true,
+    "live": true,
+    "provider": "URL"
   }
 }
