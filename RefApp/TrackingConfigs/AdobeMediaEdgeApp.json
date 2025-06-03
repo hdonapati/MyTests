@@ -13,12 +13,12 @@
             },
             "dataStreamIdMappings": {
                 "carouselView": "someStreamID",
-                "event1": "dataStreamId1",
-                "event2": "dataStreamId2",
-                "event21": "dataStreamId2",
-                "event22": "dataStreamId3",
-                "event31": "dataStreamId3",
-                "event32": "dataStreamId3"
+                "event1": "{context.isDev} ? dataStreamId1-Dev : dataStreamId1",
+                "event2": "{context.isDev} ? dataStreamId2-Dev : dataStreamId2",
+                "event21": "{context.isDev} ? dataStreamId2-Dev : dataStreamId2",
+                "event22": "{context.isDev} ? dataStreamId3-Dev : dataStreamId3",
+                "event31": "{context.isDev} ? dataStreamId3-Dev : dataStreamId3",
+                "event32": "{context.isDev} ? dataStreamId3-Dev : dataStreamId3"
             },
             "eventRules": [
                 {
