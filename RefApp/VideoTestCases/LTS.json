@@ -30,6 +30,12 @@
     "live": true,
     "provider": "URL"
   },
+  "LTS DASH Clear with Thumbnails - Propellor": {
+    "contentUrl": "https://prope18hbc1b.airspace-cdn.cbsivideo.com/out/v1/90416876d0ff475287182dd5490b49bc/manifest.mpd",
+    "dvr": true,
+    "live": true,
+    "provider": "URL"
+  },
   "LTS HLS Clear with Thumbnails - Propellor": {
     "contentUrl": "https://propef85g654.airspace-cdn.cbsivideo.com/out/v1/cb6e7c421e854713bf948df440f3885d/manifest.m3u8",
     "dvr": true,
