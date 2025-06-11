@@ -13,11 +13,11 @@
             "eventRules": [
                   {
                     "when": "{context.analyticsAndPerformanceConsent} ? ALLOW : DENY",
-                    "include": "display, take"
+                    "eventList": "display, take"
                   },
                   {
                     "when": "{context.kidsConstrained} ? DENY : ALLOW",
-                    "include": "display, take"
+                    "eventList": "display, take"
                   }
             ],
             "dataMappings": {
