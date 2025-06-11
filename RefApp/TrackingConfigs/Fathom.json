@@ -11,10 +11,14 @@
                 "endPointHost": "{context.dev} ? https://i-amlg-dev.appspot.com : https://i-amlg-prod.appspot.com"
             },
             "eventRules": [
-                  {
-                    "when": "{context.kidsConstrained} ? DENY : ALLOW",
-                    "eventList": "display, take"
-                  }
+                    {
+                        "when": "ALLOW",
+                        "eventList": "display, take"
+                    },
+                    {
+                        "when": "{context.kidsConstrained}",
+                        "eventList": "non-event"
+                    }      
             ],
             "dataMappings": {
                 "display": {
