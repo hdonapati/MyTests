@@ -830,7 +830,17 @@
         "custom_7": "isDAIAPI: {data.isDAIAPI}",
         "custom_8": "isAdHoliday: {data.isAdHoliday}",
         "custom_9": "deviceModelName: {data.deviceModelName}",
-        "custom_10": "ClientId: {data.ClientId}"
+        "custom_10": "ClientId: {data.ClientId}",
+        "custom_11": "isDebug2: {data.isDebug}",
+        "custom_12": "isMuted2: {data.isMuted}",
+        "custom_13": "isCaptions2: {data.isCaptions}",
+        "custom_14": "deviceSupportedFormats2: {data.deviceSupportedFormats}",
+        "custom_15": "adStitcher2: {data.adStitcher}",
+        "custom_16": "isDAIPodServing2: {data.isDAIPodServing}",
+        "custom_17": "isDAIAPI2: {data.isDAIAPI}",
+        "custom_18": "isAdHoliday2: {data.isAdHoliday}",
+        "custom_19": "deviceModelName2: {data.deviceModelName}",
+        "custom_20": "ClientId2: {data.ClientId}"
       },
       "dataType": {
         "sendUndefined": "boolean",
