@@ -27,6 +27,7 @@
     "type": "VOD",
     "drmType": "widevine",
     "usePodServing": true,
+    "resumePosition": 2,
     "podServingNetworkCode": "8264",
     "fetchLicense": true
   },
