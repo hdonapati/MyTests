@@ -803,12 +803,6 @@
         "viewer_plan": "{context.plan} | Avia-Plan",
         "viewer_plan_category": "{context.planCategory} | Avia-Plan-Category",
         "viewer_plan_status": "{context.planStatus} | Avia-Plan-Status",
-        "viewer_application_name": "ATP: {context.applicationName} | Avia-Roku-Ref-App",
-        "viewer_os_family": "ATP: {context.osFamily} | Roku OS",
-        "viewer_os_version": "ATP: {data.clientOS}",
-        "viewer_device_model": "ATP: {data.deviceModelNumber}",
-        "viewer_device_manufacturer": "ATP: {data.deviceManufacturer}",
-        "viewer_device_category": "ATP: {data.deviceModelType} | Streaming Device"
       },
       "viewData": {
         "view_session_id": "{context.viewId} | 123-456-7890",
