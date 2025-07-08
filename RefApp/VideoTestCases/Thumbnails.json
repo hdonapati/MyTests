@@ -72,7 +72,7 @@
     "provider": "URL"
   },
   "LTS HLS Clear with Thumbnails - Syncback": {
-    "contentUrl": "https://stage-playlistserver.aws.syncbak.com/spl/cbslts/3.0/master.m3u8?api_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjVhNDcwMDI0MmNkZDRkNzViYmMxYzExMzE2YWI2MTE0IiwidHlwIjoiSldUIn0.eyJiYXNlQ2hhbm5lbElkIjoyNDAyMiwibXZwZElkIjoicHBsdXNMQ1AiLCJkaWQiOiJEOUEzRDI5QS1BN0MzLTQzNjctQUI2Ni0yNEJFRTRFMDA0MUEiLCJkdHAiOjgsImV4cCI6MTc1MTk5NzcxMCwiaXNzIjoiQ0JTLmNvbSIsImF1ZCI6InBsYXlsaXN0c2VydmVyLmF3cy5zeW5jYmFrLmNvbSIsIm1kNSI6IjYzODI1YjA0NjQ2NTVjNThkMGU3NjZjZDg4ZTc0MzI4IiwiZGMiOnsiNjBGUFMiOnRydWV9LCJldWEiOmZhbHNlLCJlaWQiOmZhbHNlLCJpYXQiOjE3NTE5OTc2MjB9.QRbmCu9twqHlXVeJ3ZCrbB7P7DZDMn-N13O156naeuE",
+    "contentUrl": "https://stage-playlistserver.aws.syncbak.com/spl/cbslts/3.0/master.m3u8?api_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjVhNDcwMDI0MmNkZDRkNzViYmMxYzExMzE2YWI2MTE0IiwidHlwIjoiSldUIn0.eyJiYXNlQ2hhbm5lbElkIjoyNDAyMiwibXZwZElkIjoicHBsdXNMQ1AiLCJkaWQiOiJEOUEzRDI5QS1BN0MzLTQzNjctQUI2Ni0yNEJFRTRFMDA0MUEiLCJkdHAiOjgsImV4cCI6MTc1MTk5ODE3OSwiaXNzIjoiQ0JTLmNvbSIsImF1ZCI6InBsYXlsaXN0c2VydmVyLmF3cy5zeW5jYmFrLmNvbSIsIm1kNSI6IjYzODI1YjA0NjQ2NTVjNThkMGU3NjZjZDg4ZTc0MzI4IiwiZGMiOnsiNjBGUFMiOnRydWV9LCJldWEiOmZhbHNlLCJlaWQiOmZhbHNlLCJpYXQiOjE3NTE5OTgwODl9.CH2DqvH8VtFUQr-dDT7E1FxGWmSjT-CxeGyg_UDUp5E",
     "dvr": true,
     "live": true,
     "provider": "URL"
