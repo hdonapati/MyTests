@@ -781,29 +781,94 @@
     }
   },
   "Mux": {
-    "enabled": "{context.enableTracking} && {context.enableMux}",
-    "category": "qos",
-    "params": {
-      "trackerCommands": {
-        "runInMainThread": true
-      },
-      "sessionInfo": {
-        "apiKey": "1778b90ad19424061a4c8920a"
-      },
-      "mediaInfo": {
-        "playerName": "{data.playerName}",
-        "contentType": "{data.isLive} ? live : on-demand",
-        "videoStreamType": "{data.isLive} ? live : on-demand",
-        "videoId": "{data.mediaId}",
-        "playerVersion": "{data.playerVersion}",
-        "viewerUserId": "{data.userId} | -1",
-        "videoTitle": "{data.mediaTitle}",
-        "videoCdn": "{data.cdn}",
-        "videoLanguageCode": "{data.languageCode}",
-        "playerInitTime": "{context.initTime}"
+      "enabled":"{context.enableTracking} && {context.enableMux}",
+      "category":"qos",
+      "params":{
+         "trackerCommands":{
+            "exitType":"soft",
+            "sendUndefined":false
+         },
+         "playerData":{
+            "env_key":"1778b90ad19424061a4c8920a",
+            "player_name":"{data.playerName}",
+            "player_version":"{data.playerVersion}",
+            "player_height":"{data.displayHeight}",
+            "player_width":"{data.displayWidth}",
+            "player_auto_play":"{data.isAutoPlay} | false",
+            "player_init_time":"{context.initTime}",
+            "viewer_user_id":"{context.userId}"
+         },
+         "viewerData":{
+            "viewer_plan":"{context.plan} | Avia-Plan",
+            "viewer_plan_category":"{context.planCategory} | Avia-Plan-Category",
+            "viewer_plan_status":"{context.planStatus} | Avia-Plan-Status"
+         },
+         "viewData":{
+            "view_session_id":"{context.viewId} | 123-456-7890",
+            "view_drm_type":"{data.drmType}",
+            "view_client_application_name":"{context.applicationName} | Avia-Roku-Ref-App",
+            "view_client_application_version":"{context.applicationVersion} | 1.0.0"
+         },
+         "videoData":{
+            "video_content_type":"{context.contentType} | clip",
+            "video_variant_name":"{context.variantName} | Variant-Avia",
+            "video_variant_id":"{context.variantId} | 8055",
+            "view_session_id":"{context.viewId} | 123-456-7890",
+            "video_series":"{context.seriesName} | Avia-Native-Series",
+            "video_producer":"{context.producer} | Avia-Productions",
+            "video_stream_type":"{data.isLive} ? live : on-demand",
+            "video_id":"{context.mediaId}",
+            "video_title":"{data.mediaTitle}",
+            "kids_content":"{data.isKidsContent}",
+            "video_duration":"{context.mediaDuration} | {data.duration}",
+            "video_drm_type":"{data.drmType}",
+            "video_cdn":"{data.cdn}",
+            "player_source_height":"{data.streamHeight}",
+            "player_source_width":"{data.streamWidth}",
+            "video_encoding_variant":"{data.videoCodec}",
+            "video_language_code":"{data.languageCode}",
+            "experiment_name":"{context.experimentName} | Avia-Test-Case",
+            "video_affiliate":"{context.affiliate} | Avia-Affiliate",
+            "video_brand":"{context.brand} | Avia-Brand",
+            "video_codec":"{data.videoCodec}",
+            "video_audio_codec":"{data.audioCodec}",
+            "video_creator_id":"{context.creatorId} | 123456789",
+            "video_dynamic_range_type":"{data.colorSpace}",
+            "video_is_live":"{data.isLive} ? live : on-demand",
+            "video_source_url":"{data.mediaUrl}"
+         },
+         "customInfo":{
+            "custom_1":"isDebug: {data.isDebug}",
+            "custom_2":"isMuted: {data.isMuted}",
+            "custom_3":"isCaptions: {data.isCaptions}",
+            "custom_4":"deviceSupportedFormats: {data.deviceSupportedFormats}",
+            "custom_5":"adStitcher: {data.adStitcher}",
+            "custom_6":"isDAIPodServing: {data.isDAIPodServing}",
+            "custom_7":"isDAIAPI: {data.isDAIAPI}",
+            "custom_8":"isAdHoliday: {data.isAdHoliday}",
+            "custom_9":"deviceModelName: {data.deviceModelName}",
+            "custom_10":"ClientId: {data.ClientId}",
+            "custom_11":"isDebug2: {data.isDebug}",
+            "custom_12":"isMuted2: {data.isMuted}",
+            "custom_13":"isCaptions2: {data.isCaptions}",
+            "custom_14":"deviceSupportedFormats2: {data.deviceSupportedFormats}",
+            "custom_15":"adStitcher2: {data.adStitcher}",
+            "custom_16":"isDAIPodServing2: {data.isDAIPodServing}",
+            "custom_17":"isDAIAPI2: {data.isDAIAPI}",
+            "custom_18":"isAdHoliday2: {data.isAdHoliday}",
+            "custom_19":"deviceModelName2: {data.deviceModelName}",
+            "custom_20":"ClientId2: {data.ClientId}"
+         },
+         "dataType":{
+            "sendUndefined":"boolean",
+            "player_auto_play":"boolean",
+            "player_height":"int",
+            "player_width":"int",
+            "player_source_height":"int",
+            "player_source_width":"int"
+         }
       }
-    }
-  },
+   },
   "Nielsen": {
     "enabled": "{context.enableTracking} && {context.enableNielsen}",
     "category": "tracking",
