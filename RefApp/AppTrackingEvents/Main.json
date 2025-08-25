@@ -1,6 +1,7 @@
 {
     "Sample Carousel View Event": {
         "eventType": "carouselView",
+        "type": "carouselView",
         "brandPlatformId": "pplus_roku_app",
         "siteEdition": "en|US",
         "optimizelyExp": "web_add_collections_in_main_nav_and_remove_news:no_removals",
@@ -270,6 +271,7 @@
     },
     "Sample Page View Event": {
         "eventType": "pageView",
+        "type": "pageView",
         "brandPlatformId": "pplus_roku_app",
         "siteEdition": "en|US",
         "optimizelyExp": "web_add_collections_in_main_nav_and_remove_news:no_removals",
@@ -606,6 +608,7 @@
     },
     "Sample Fathom DISPLAY Event": {
         "eventType": "display",
+        "type": "display",
         "userID": "test1234",
         "profileID": "profileABC",
         "profileType": "profileX",
@@ -670,6 +673,7 @@
     },
     "Sample Fathom TAKE Event": {
         "eventType": "take",
+        "type": "take",
         "displayID": "bf57ea42-2c59-466e-861d-ae5e92a18a99",
         "contentID": "61457250"
     }
