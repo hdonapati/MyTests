@@ -1,6 +1,7 @@
 {
     "Sample Carousel View Event": {
         "eventType": "carouselView",
+        "category": "appTrackingEvent",
         "type": "carouselView",
         "brandPlatformId": "pplus_roku_app",
         "siteEdition": "en|US",
@@ -271,6 +272,7 @@
     },
     "Sample Page View Event": {
         "eventType": "pageView",
+        "category": "appTrackingEvent",
         "type": "pageView",
         "brandPlatformId": "pplus_roku_app",
         "siteEdition": "en|US",
@@ -608,6 +610,7 @@
     },
     "Sample Fathom DISPLAY Event": {
         "eventType": "display",
+        "category": "appTrackingEvent",
         "type": "display",
         "userID": "test1234",
         "profileID": "profileABC",
@@ -673,6 +676,7 @@
     },
     "Sample Fathom TAKE Event": {
         "eventType": "take",
+        "category": "appTrackingEvent",
         "type": "take",
         "displayID": "bf57ea42-2c59-466e-861d-ae5e92a18a99",
         "contentID": "61457250"
