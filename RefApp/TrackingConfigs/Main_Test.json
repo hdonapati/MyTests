@@ -716,7 +716,8 @@
         "videoCodec": "{data.videoCodec}",
         "videoColorRange": "{data.colorSpace}",
         "playedUHD": "{data.playedUHD}",
-        "winDimension": "{data.playerSize}"
+        "winDimension": "{data.playerSize}",
+        "eventID": "{dataHub.id}"
       },
       "metadataInterface": {
         "deviceCategory": "OTT",
@@ -856,8 +857,8 @@
             "custom_16":"isDAIPodServing2: {data.isDAIPodServing}",
             "custom_17":"isDAIAPI2: {data.isDAIAPI}",
             "custom_18":"isAdHoliday2: {data.isAdHoliday}",
-            "custom_19":"deviceModelName2: {data.deviceModelName}",
-            "custom_20":"ClientId2: {data.ClientId}"
+            "custom_19":"eventDebugLocation: {dataHub.debugLocation}",
+            "custom_20":"eventID: {dataHub.id}"
          },
          "dataType":{
             "sendUndefined":"boolean",
