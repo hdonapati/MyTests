@@ -849,7 +849,7 @@
             "custom_8":"isAdHoliday: {data.isAdHoliday}",
             "custom_9":"deviceModelName: {data.deviceModelName}",
             "custom_10":"ClientId: {data.ClientId}",
-            "custom_11":"isDebug2: {data.isDebug}",
+            "custom_11":"DT.Now: <% Date.now() %>",
             "custom_12":"isMuted2: {data.isMuted}",
             "custom_13":"isCaptions2: {data.isCaptions}",
             "custom_14":"deviceSupportedFormats2: {data.deviceSupportedFormats}",
