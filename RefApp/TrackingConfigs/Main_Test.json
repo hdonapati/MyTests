@@ -853,9 +853,9 @@
             "custom_12":"DT.toISOString: <% Date.toISOString() %>",
             "custom_13":"Counter.next: <% Counter.next() %>",
             "custom_14":"UUID.random: <% UUID.random() %>",
-            "custom_15":"adStitcher2: {data.adStitcher}",
-            "custom_16":"isDAIPodServing2: {data.isDAIPodServing}",
-            "custom_17":"isDAIAPI2: {data.isDAIAPI}",
+            "custom_15":"isDebug: {data.isDebug} | UUID.random: <% UUID.random() %>",
+            "custom_16":"DT.toISOString: <% Date.toISOString() %> - DT.Now: <% Date.now() %>",
+            "custom_17":"Counter.next: <% Counter.next() %> & isMuted: {data.isMuted}",
             "custom_18":"isAdHoliday2: {data.isAdHoliday}",
             "custom_19":"eventDebugLocation: {dataHub.debugLocation}",
             "custom_20":"eventID: {dataHub.id}"
