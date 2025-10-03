@@ -148,6 +148,10 @@
                     },
                     "customMetadata": [
                       {
+                        "name": "counterCheck",
+                        "value": "<% Counter.next() %>"
+                      },
+                      {
                         "name": "myCustomValue3",
                         "value": "c3"
                       },
