@@ -349,12 +349,17 @@
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD"
     },
-     "URL | Live | SuperBowl": {
-        "title": "SuperBowl'23 with ID3 Ads",
+     "URL | Live | CLID3": {
+        "title": "CLID3 with ID3 Ads",
         "provider": "URL",
-        "contentUrl": "https://sblvi2078h9h.airspace-cdn.cbsivideo.com/out/v1/f388889369b9401cb8bdad965aed5e32/uhd-hdr/index.m3u8",
+        "contentUrl": "https://dai.google.com/linear/hls/event/vFC4Rb0eSfW8emit-rp9-A/master.m3u8",
         "live": true,
-        "isSBWL": true
+        "dvr"; true,
+        "clid3Config": {
+            "id3Owner": "com.paramount.vtg",
+            "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=Superbowl_58_Linear_Stream_Game_Day&csid=streaming_paramountplus_us_ctv_roku_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&mode=live&nw=520311&prof=520311%3Asuperbowl&pvrn=12345&resp=vmap1%2Bvast4&ssnw=520311&vdty=VARIABLE&vrdu=180&vprn=2345;_fw_coppa=0&_fw_did=12334&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_hylda=acid%3DPplus%26aiid%3D1999%26abid%3Dbreak%3A%2F%2F1999%2Fbreak1&_fw_player_height=1080&_fw_player_width=1920&_fw_vcid2=2345&ge=1&gr=3&packageSource=cbscomp&sb=22&session=b&sub=55320952&subses=1&sz=640x480&tfcd=0&user=ADULT&vguid=832136be-7339-424c-99df;cpsq=1&maxd=180&mind=180&ptgt=a&slid=&tpcl=MIDROLL&slau=Super%20Bowl%2058&tpos=0;slid=companion&ptgt=p&slau=companion&w=1920&h=375&flag=%2Bcmpn&prct=application%2Fjson%2Ctext%2Fhtml_doc_ref"
+        },
+        "isCLID3": true
     },
     "URL | VoD | Multiple Audio Tracks": {
         "provider": "URL",
