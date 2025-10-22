@@ -721,7 +721,7 @@
         "videoColorRange": "{data.colorSpace}",
         "playedUHD": "{data.playedUHD}",
         "winDimension": "{data.playerSize}",
-        "eventID": "{dataHub.id}"
+        "eventID": "{dataHub.playbackEventCategory.id}"
       },
       "metadataInterface": {
         "deviceCategory": "OTT",
