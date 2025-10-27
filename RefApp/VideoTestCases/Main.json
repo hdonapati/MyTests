@@ -345,7 +345,7 @@
         "dvr": true,
         "clid3Config": {
             "id3Owner": "com.paramount.vtg",
-            "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=Superbowl_58_Linear_Stream_Game_Day&csid=streaming_paramountplus_us_ctv_roku_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&mode=live&nw=520311&prof=520311%3Asuperbowl&pvrn=12345&resp=vmap1%2Bvast4&ssnw=520311&vdty=VARIABLE&vrdu=180&vprn=2345;_fw_coppa=0&_fw_did=12334&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_hylda=acid%3DPplus%26aiid%3D1999%26abid%3Dbreak%3A%2F%2F1999%2Fbreak1&_fw_player_height=1080&_fw_player_width=1920&_fw_vcid2=2345&ge=1&gr=3&packageSource=cbscomp&sb=22&session=b&sub=55320952&subses=1&sz=640x480&tfcd=0&user=ADULT&vguid=832136be-7339-424c-99df;cpsq=1&maxd=180&mind=180&ptgt=a&slid=&tpcl=MIDROLL&slau=Super%20Bowl%2058&tpos=0;slid=companion&ptgt=p&slau=companion&w=1920&h=375&flag=%2Bcmpn&prct=application%2Fjson%2Ctext%2Fhtml_doc_ref"
+            "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=[CAID]&csid=streaming_paramountplus_us_ctv_roku_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&mode=live&nw=520311&prof=520311%3Asuperbowl&pvrn=[RANDOM]&resp=vmap1%2Bvast4&ssnw=520311&vdty=VARIABLE&vrdu=[DUR]&vprn=[RANDOM];_fw_coppa=0&_fw_did=7635748&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_hylda=acid%3DPplus%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_player_height=1080&_fw_player_width=1920&_fw_vcid2=12345&sb=22&sz=640x480&tfcd=0&user=ADULT&vguid=08976;cpsq=1&maxd=[DUR]&mind=[DUR]&ptgt=a&slid=&tpcl=MIDROLL&slau=[SLAU]&tpos=0;"
         },
         "isCLID3": true
     },
