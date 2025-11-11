@@ -341,7 +341,7 @@
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD"
     },
-    "URL | DAI Workflow Live | CLIDE": {
+    "URL | DAI Workflow | CLIDE": {
         "title": "UFC CLIDE | DAI WorkFlow",
         "provider": "URL",
         "contentUrl": "https://dai.google.com/linear/hls/event/vFC4Rb0eSfW8emit-rp9-A/master.m3u8",
@@ -353,7 +353,7 @@
         },
         "isCLID3": true
     },
-    "URL | DAI Workflow Live | CLIDE": {
+    "URL | Propellor Workflow | CLIDE": {
         "title": "UFC CLIDE | Propellor WorkFlow",
         "provider": "URL",
         "contentUrl": "https://prope3783egc.airspace-cdn.cbsivideo.com/expire-1/vtgufcsfotest/vtgqaee3d/master-vtgqaee3d-hls-f3805e.m3u8",
