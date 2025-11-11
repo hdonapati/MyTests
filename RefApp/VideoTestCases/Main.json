@@ -12,17 +12,17 @@
         "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
         "adParameters": "cust_params=recommended_show%3D106%2C6087%2C61457217%2C61456196%2C393%2C21028%2C61456636%2C42505&imafw__fw_coppa=0&imafw__fw_did=rida%3Aefa37e1e-6a94-5563-bd90-284fbb37a1c5&imafw__fw_is_lat=1&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&imafw_csid=streaming_paramountplus_ctv_roku_live&imafw_esb=14&imafw_fms_emailhash=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&imafw_fms_ruleid=10003%2C10004&imafw_fms_subscriberid=100001470&imafw_fms_userid=e5017518-cc19-58b9-bdfb-e763f2ffc194&imafw_fms_vcid2type=emailhash&imafw_ge=1&imafw_gr=3&imafw_ima_sdkv=3.x&imafw_packageSource=recurly&imafw_roku_ad_query_id=7138598886194010242&imafw_sb=6&imafw_session=b&imafw_sub=100001470&imafw_subses=1&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=b31baff7-df8c-43b9-8c01-717e5e2ca529&tfcd=0"
     },
-    "DAI - Live CLID3 Squeezeback Ads": {
+    "DAI - Live CLIDE Squeezeback Ads": {
         "live": true,
         "partnerId": "cbs",
         "provider": "DAI",
         "daiId": "vFC4Rb0eSfW8emit-rp9-A",
         "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-        "clid3Config": {
+        "CLIDEConfig": {
             "id3Owner": "com.paramount.vtg",
             "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=[CAID]&csid=streaming_paramountplus_us_ctv_roku_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&mode=live&nw=520311&prof=520311%3Asuperbowl&pvrn=[RANDOM]&resp=vmap1%2Bvast4&ssnw=520311&vdty=VARIABLE&vrdu=[DUR]&vprn=[RANDOM];_fw_coppa=0&_fw_did=7635748&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_hylda=acid%3DPplus%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_player_height=1080&_fw_player_width=1920&_fw_vcid2=12345&sb=22&sz=640x480&tfcd=0&user=ADULT&vguid=08976;cpsq=1&maxd=[DUR]&mind=[DUR]&ptgt=a&slid=&tpcl=MIDROLL&slau=[SLAU]&tpos=0;"
         },
-        "isCLID3": true
+        "isCLIDE": true
     },
     "DAI | VoD | Big-Brother-Ep50" : {
        "title":"DAI - Big-Brother-Ep50",
@@ -341,15 +341,27 @@
         "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
         "type": "VOD"
     },
-    "URL | Live | CLID3": {
-        "title": "URL CLID3 | UFC WorkFlow",
+    "URL | DAI Workflow Live | CLIDE": {
+        "title": "UFC CLIDE | DAI WorkFlow",
         "provider": "URL",
         "contentUrl": "https://dai.google.com/linear/hls/event/vFC4Rb0eSfW8emit-rp9-A/master.m3u8",
         "live": true,
         "dvr": true,
-        "clid3Config": {
+        "CLID3Config": {
             "id3Owner": "com.paramount.vtg",
-            "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=[CAID]&csid=streaming_paramountplus_us_ctv_roku_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&mode=live&nw=520311&prof=520311%3Asuperbowl&pvrn=[RANDOM]&resp=vmap1%2Bvast4&ssnw=520311&vdty=VARIABLE&vrdu=[DUR]&vprn=[RANDOM];_fw_coppa=0&_fw_did=7635748&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_hylda=acid%3DPplus%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_player_height=1080&_fw_player_width=1920&_fw_vcid2=12345&sb=22&sz=640x480&tfcd=0&user=ADULT&vguid=08976;cpsq=1&maxd=[DUR]&mind=[DUR]&ptgt=a&slid=&tpcl=MIDROLL&slau=[SLAU]&tpos=0;"
+            "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?prof=520311%3Ahylda&nw=520311&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&asnw=520311&vrdu=[DUR]&vprn=[RANDOM]&resp=vmap1%2Bvast4&vdty=VARIABLE&csid=streaming_paramountplus_us_ctv_appletv_live&caid=[CAID]&pvrn=[RANDOM]&ssnw=520311&metr=1023&mode=LIVE;fms_idfv=00F91CD0-0F9B-4760-8FD0-91378C717221&fms_vcid2type=emailhash&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_vcid2=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_height=1080&_fw_coppa=0&fms_emailhash=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_width=1920&fms_userid=%242a%2404%24Jmq6K4YgOwS38dusyZE3KOajyyot0HmP6leOXmFQtCUxQ7P9P.fd.&_fw_hylda=acid%3DPplus%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_us_privacy=1YNN&vguid=82CC0A5F-3008-411E-A4FD-4E211C2285B9&session=b&sb=14&subses=2&packageSource=recurly&gr=null&sz=640x480&ge=2&tfcd=0&user=ADULT;ptgt=a&slau=[SLAU]&cpsq=1&mind=[DUR]&tpos=0&tpcl=MIDROLL&maxd=[DUR];slid=companion&slau=companion&w=1920&h=375&flag=%2Bcmpn&prct=application%2Fjson%2Ctext%2Fhtml_doc_ref&ptgt=p"
+        },
+        "isCLID3": true
+    },
+    "URL | DAI Workflow Live | CLIDE": {
+        "title": "UFC CLIDE | Propellor WorkFlow",
+        "provider": "URL",
+        "contentUrl": "https://prope3783egc.airspace-cdn.cbsivideo.com/expire-1/vtgufcsfotest/vtgqaee3d/master-vtgqaee3d-hls-f3805e.m3u8",
+        "live": true,
+        "dvr": true,
+        "CLID3Config": {
+            "id3Owner": "com.paramount.vtg",
+            "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?prof=520311%3Ahylda&nw=520311&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&asnw=520311&vrdu=[DUR]&vprn=[RANDOM]&resp=vmap1%2Bvast4&vdty=VARIABLE&csid=streaming_paramountplus_us_ctv_appletv_live&caid=[CAID]&pvrn=[RANDOM]&ssnw=520311&metr=1023&mode=LIVE;fms_idfv=00F91CD0-0F9B-4760-8FD0-91378C717221&fms_vcid2type=emailhash&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_vcid2=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_height=1080&_fw_coppa=0&fms_emailhash=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_width=1920&fms_userid=%242a%2404%24Jmq6K4YgOwS38dusyZE3KOajyyot0HmP6leOXmFQtCUxQ7P9P.fd.&_fw_hylda=acid%3DPplus%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_us_privacy=1YNN&vguid=82CC0A5F-3008-411E-A4FD-4E211C2285B9&session=b&sb=14&subses=2&packageSource=recurly&gr=null&sz=640x480&ge=2&tfcd=0&user=ADULT;ptgt=a&slau=[SLAU]&cpsq=1&mind=[DUR]&tpos=0&tpcl=MIDROLL&maxd=[DUR];slid=companion&slau=companion&w=1920&h=375&flag=%2Bcmpn&prct=application%2Fjson%2Ctext%2Fhtml_doc_ref&ptgt=p"
         },
         "isCLID3": true
     },
