@@ -18,11 +18,11 @@
         "provider": "DAI",
         "daiId": "vFC4Rb0eSfW8emit-rp9-A",
         "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-        "CLIDEConfig": {
+        "CLID3Config": {
             "id3Owner": "com.paramount.vtg",
-            "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?asnw=520311&caid=[CAID]&csid=streaming_paramountplus_us_ctv_roku_live&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&mode=live&nw=520311&prof=520311%3Asuperbowl&pvrn=[RANDOM]&resp=vmap1%2Bvast4&ssnw=520311&vdty=VARIABLE&vrdu=[DUR]&vprn=[RANDOM];_fw_coppa=0&_fw_did=7635748&_fw_is_lat=0&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_hylda=acid%3DPplus%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_player_height=1080&_fw_player_width=1920&_fw_vcid2=12345&sb=22&sz=640x480&tfcd=0&user=ADULT&vguid=08976;cpsq=1&maxd=[DUR]&mind=[DUR]&ptgt=a&slid=&tpcl=MIDROLL&slau=[SLAU]&tpos=0;"
+            "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?prof=520311%3Ahylda&nw=520311&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&asnw=520311&vrdu=[DUR]&vprn=[RANDOM]&resp=vmap1%2Bvast4&vdty=VARIABLE&csid=streaming_paramountplus_us_ctv_appletv_live&caid=[CAID]&pvrn=[RANDOM]&ssnw=520311&metr=1023&mode=LIVE;fms_idfv=00F91CD0-0F9B-4760-8FD0-91378C717221&fms_vcid2type=emailhash&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_vcid2=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_height=1080&_fw_coppa=0&fms_emailhash=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_width=1920&fms_userid=%242a%2404%24Jmq6K4YgOwS38dusyZE3KOajyyot0HmP6leOXmFQtCUxQ7P9P.fd.&_fw_hylda=acid%3DPplus%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_us_privacy=1YNN&vguid=82CC0A5F-3008-411E-A4FD-4E211C2285B9&session=b&sb=14&subses=2&packageSource=recurly&gr=null&sz=640x480&ge=2&tfcd=0&user=ADULT;ptgt=a&slau=[SLAU]&cpsq=1&mind=[DUR]&tpos=0&tpcl=MIDROLL&maxd=[DUR];slid=companion&slau=companion&w=1920&h=375&flag=%2Bcmpn&prct=application%2Fjson%2Ctext%2Fhtml_doc_ref&ptgt=p"
         },
-        "isCLIDE": true
+        "isCLID3": true
     },
     "DAI | VoD | Big-Brother-Ep50" : {
        "title":"DAI - Big-Brother-Ep50",
@@ -342,7 +342,7 @@
         "type": "VOD"
     },
     "URL | DAI Workflow | CLIDE": {
-        "title": "UFC CLIDE | DAI WorkFlow",
+        "title": "UFC CLIDE | URL of DAI WorkFlow",
         "provider": "URL",
         "contentUrl": "https://dai.google.com/linear/hls/event/vFC4Rb0eSfW8emit-rp9-A/master.m3u8",
         "live": true,
