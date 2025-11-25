@@ -1,684 +1,723 @@
 {
-    "Sample Carousel View Event": {
-        "eventType": "carouselView",
-        "category": "appTrackingEvent",
-        "type": "carouselView",
-        "brandPlatformId": "pplus_roku_app",
-        "siteEdition": "en|US",
-        "optimizelyExp": "web_add_collections_in_main_nav_and_remove_news:no_removals",
-        "pageType": "front_door",
-        "pageViewGuid": "4c838455-f317-46e2-b0de-25f2b4589977",
-        "searchTerm": "",
-        "userRegId": "24391455",
-        "userBundle": "",
-        "userStatus": "sb|14",
-        "userType": "SUBSCRIBER",
-        "userClientRegion": "US",
-        "userProfileId": "145643",
-        "userProfileCategory": "ADULT",
-        "userProfileMaster": "true",
-        "userProfileRefId": "0",
-        "contentFeatures": [
-            {
-                "containerId": "a15cd787-3629-49c6-81cc-c10ace8058d5",
-                "containerTitle": "Keep Watching",
-                "containerType": "keepWatching",
-                "displayId": "9341b684-565a-41d6-91e8-977bb0daeb1d",
-                "rowNum": "0",
-                "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
-                "pvrModel": "",
-                "items": [
-                    {
-                        "id": "216816",
-                        "title": "Star Trek: Deep Space Nine",
-                        "type": "show",
-                        "position": "0",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "216816",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "gSVWq4dYohGsCp2njzIPbJuspp0CZVp8",
-                        "title": "Dora: Say Hola to Adventure!",
-                        "type": "movie",
-                        "position": "1",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "5772",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "21028",
-                        "title": "The Amazing Race",
-                        "type": "show",
-                        "position": "2",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "21028",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "709500157",
-                        "title": "Colin from Accounts",
-                        "type": "show",
-                        "position": "3",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "709500157",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456409",
-                        "title": "Happy Together",
-                        "type": "show",
-                        "position": "4",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456409",
-                        "contentStatus": "false"
-                    }
-                ],
-                "isHighlightEnabled": "true",
-                "containerStyle": "default"
-            },
-            {
-                "containerId": "d8d1d77f-4e63-4a0a-973f-82b210c27528",
-                "containerTitle": "Star Trek",
-                "containerType": "showMovieHybrid",
-                "displayId": "75aa9563-7972-49e0-a04b-ff4ee5ebe663",
-                "rowNum": "1",
-                "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
-                "pvrModel": "trending",
-                "items": [
-                    {
-                        "id": "8",
-                        "title": "Star Trek",
-                        "type": "promo_hub",
-                        "position": "0",
-                        "badgeLabel": "",
-                        "isUnlocked": "",
-                        "cmsId": "",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456261",
-                        "title": "Star Trek: Discovery",
-                        "type": "show",
-                        "position": "1",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456261",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "216818",
-                        "title": "Star Trek: Voyager",
-                        "type": "show",
-                        "position": "2",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "216818",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "216813",
-                        "title": "Star Trek: The Next Generation",
-                        "type": "show",
-                        "position": "3",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "216813",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "216816",
-                        "title": "Star Trek: Deep Space Nine",
-                        "type": "show",
-                        "position": "4",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "216816",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456655",
-                        "title": "Star Trek: Lower Decks",
-                        "type": "show",
-                        "position": "5",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456655",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61464508",
-                        "title": "Star Trek: Strange New Worlds",
-                        "type": "show",
-                        "position": "6",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61464508",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "42721",
-                        "title": "Star Trek: Enterprise",
-                        "type": "show",
-                        "position": "7",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "42721",
-                        "contentStatus": "false"
-                    }
-                ],
-                "isHighlightEnabled": "true",
-                "containerStyle": "default"
-            },
-            {
-                "containerId": "c0cb1c25-94e6-472c-82cd-b5ba095fd66b",
-                "containerTitle": "News",
-                "containerType": "showMovieHybrid",
-                "displayId": "1a359068-9591-41ef-987f-10b15e945a33",
-                "rowNum": "2",
-                "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
-                "pvrModel": "default",
-                "items": [
-                    {
-                        "id": "13",
-                        "title": "News",
-                        "type": "promo_hub",
-                        "position": "0",
-                        "badgeLabel": "",
-                        "isUnlocked": "",
-                        "cmsId": "",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "25448",
-                        "title": "CBS Mornings",
-                        "type": "show",
-                        "position": "1",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "25448",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "25748",
-                        "title": "CBS Evening News",
-                        "type": "show",
-                        "position": "2",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "25748",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "24719",
-                        "title": "60 Minutes",
-                        "type": "show",
-                        "position": "3",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "24719",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "22960",
-                        "title": "48 Hours",
-                        "type": "show",
-                        "position": "4",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "22960",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "245503",
-                        "title": "Face the Nation",
-                        "type": "show",
-                        "position": "5",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "245503",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456303",
-                        "title": "CBS Sunday Morning",
-                        "type": "show",
-                        "position": "6",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456303",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456601",
-                        "title": "CBS Saturday Morning",
-                        "type": "show",
-                        "position": "7",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456601",
-                        "contentStatus": "false"
-                    }
-                ],
-                "isHighlightEnabled": "true",
-                "containerStyle": "default"
-            }
-        ]
+  "Sample Carousel View Event": {
+    "eventType": "carouselView",
+    "category": "appTrackingEvent",
+    "type": "carouselView",
+    "brandPlatformId": "pplus_roku_app",
+    "siteEdition": "en|US",
+    "optimizelyExp": "web_add_collections_in_main_nav_and_remove_news:no_removals",
+    "pageType": "front_door",
+    "pageViewGuid": "4c838455-f317-46e2-b0de-25f2b4589977",
+    "searchTerm": "",
+    "userRegId": "24391455",
+    "userBundle": "",
+    "userStatus": "sb|14",
+    "userType": "SUBSCRIBER",
+    "userClientRegion": "US",
+    "userProfileId": "145643",
+    "userProfileCategory": "ADULT",
+    "userProfileMaster": "true",
+    "userProfileRefId": "0",
+    "contentFeatures": [
+      {
+        "containerId": "a15cd787-3629-49c6-81cc-c10ace8058d5",
+        "containerTitle": "Keep Watching",
+        "containerType": "keepWatching",
+        "displayId": "9341b684-565a-41d6-91e8-977bb0daeb1d",
+        "rowNum": "0",
+        "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
+        "pvrModel": "",
+        "items": [
+          {
+            "id": "216816",
+            "title": "Star Trek: Deep Space Nine",
+            "type": "show",
+            "position": "0",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "216816",
+            "contentStatus": "false"
+          },
+          {
+            "id": "gSVWq4dYohGsCp2njzIPbJuspp0CZVp8",
+            "title": "Dora: Say Hola to Adventure!",
+            "type": "movie",
+            "position": "1",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "5772",
+            "contentStatus": "false"
+          },
+          {
+            "id": "21028",
+            "title": "The Amazing Race",
+            "type": "show",
+            "position": "2",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "21028",
+            "contentStatus": "false"
+          },
+          {
+            "id": "709500157",
+            "title": "Colin from Accounts",
+            "type": "show",
+            "position": "3",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "709500157",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456409",
+            "title": "Happy Together",
+            "type": "show",
+            "position": "4",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456409",
+            "contentStatus": "false"
+          }
+        ],
+        "isHighlightEnabled": "true",
+        "containerStyle": "default"
+      },
+      {
+        "containerId": "d8d1d77f-4e63-4a0a-973f-82b210c27528",
+        "containerTitle": "Star Trek",
+        "containerType": "showMovieHybrid",
+        "displayId": "75aa9563-7972-49e0-a04b-ff4ee5ebe663",
+        "rowNum": "1",
+        "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
+        "pvrModel": "trending",
+        "items": [
+          {
+            "id": "8",
+            "title": "Star Trek",
+            "type": "promo_hub",
+            "position": "0",
+            "badgeLabel": "",
+            "isUnlocked": "",
+            "cmsId": "",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456261",
+            "title": "Star Trek: Discovery",
+            "type": "show",
+            "position": "1",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456261",
+            "contentStatus": "false"
+          },
+          {
+            "id": "216818",
+            "title": "Star Trek: Voyager",
+            "type": "show",
+            "position": "2",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "216818",
+            "contentStatus": "false"
+          },
+          {
+            "id": "216813",
+            "title": "Star Trek: The Next Generation",
+            "type": "show",
+            "position": "3",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "216813",
+            "contentStatus": "false"
+          },
+          {
+            "id": "216816",
+            "title": "Star Trek: Deep Space Nine",
+            "type": "show",
+            "position": "4",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "216816",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456655",
+            "title": "Star Trek: Lower Decks",
+            "type": "show",
+            "position": "5",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456655",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61464508",
+            "title": "Star Trek: Strange New Worlds",
+            "type": "show",
+            "position": "6",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61464508",
+            "contentStatus": "false"
+          },
+          {
+            "id": "42721",
+            "title": "Star Trek: Enterprise",
+            "type": "show",
+            "position": "7",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "42721",
+            "contentStatus": "false"
+          }
+        ],
+        "isHighlightEnabled": "true",
+        "containerStyle": "default"
+      },
+      {
+        "containerId": "c0cb1c25-94e6-472c-82cd-b5ba095fd66b",
+        "containerTitle": "News",
+        "containerType": "showMovieHybrid",
+        "displayId": "1a359068-9591-41ef-987f-10b15e945a33",
+        "rowNum": "2",
+        "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
+        "pvrModel": "default",
+        "items": [
+          {
+            "id": "13",
+            "title": "News",
+            "type": "promo_hub",
+            "position": "0",
+            "badgeLabel": "",
+            "isUnlocked": "",
+            "cmsId": "",
+            "contentStatus": "false"
+          },
+          {
+            "id": "25448",
+            "title": "CBS Mornings",
+            "type": "show",
+            "position": "1",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "25448",
+            "contentStatus": "false"
+          },
+          {
+            "id": "25748",
+            "title": "CBS Evening News",
+            "type": "show",
+            "position": "2",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "25748",
+            "contentStatus": "false"
+          },
+          {
+            "id": "24719",
+            "title": "60 Minutes",
+            "type": "show",
+            "position": "3",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "24719",
+            "contentStatus": "false"
+          },
+          {
+            "id": "22960",
+            "title": "48 Hours",
+            "type": "show",
+            "position": "4",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "22960",
+            "contentStatus": "false"
+          },
+          {
+            "id": "245503",
+            "title": "Face the Nation",
+            "type": "show",
+            "position": "5",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "245503",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456303",
+            "title": "CBS Sunday Morning",
+            "type": "show",
+            "position": "6",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456303",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456601",
+            "title": "CBS Saturday Morning",
+            "type": "show",
+            "position": "7",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456601",
+            "contentStatus": "false"
+          }
+        ],
+        "isHighlightEnabled": "true",
+        "containerStyle": "default"
+      }
+    ]
+  },
+  "Sample Page View Event": {
+    "eventType": "pageView",
+    "category": "appTrackingEvent",
+    "type": "pageView",
+    "brandPlatformId": "pplus_roku_app",
+    "siteEdition": "en|US",
+    "optimizelyExp": "web_add_collections_in_main_nav_and_remove_news:no_removals",
+    "pageType": "front_door",
+    "pageViewGuid": "4c838455-f317-46e2-b0de-25f2b4589977",
+    "searchTerm": "",
+    "userRegId": "24391455",
+    "userBundle": "",
+    "userStatus": "sb|14",
+    "userType": "SUBSCRIBER",
+    "userClientRegion": "US",
+    "userProfileId": "145643",
+    "userProfileCategory": "ADULT",
+    "userProfileMaster": "true",
+    "userProfileRefId": "0",
+    "spParent": {
+      "aid": "0h",
+      "dtm": "1698785976078",
+      "e": "ue",
+      "eid": "",
+      "p": "tv",
+      "res": "1080x1920",
+      "stm": "1698785976362",
+      "tna": "RokuTracker",
+      "tv": "bs-1.0.0",
+      "tz": "US/Central"
     },
-    "Sample Page View Event": {
-        "eventType": "pageView",
-        "category": "appTrackingEvent",
-        "type": "pageView",
-        "brandPlatformId": "pplus_roku_app",
-        "siteEdition": "en|US",
-        "optimizelyExp": "web_add_collections_in_main_nav_and_remove_news:no_removals",
-        "pageType": "front_door",
-        "pageViewGuid": "4c838455-f317-46e2-b0de-25f2b4589977",
-        "searchTerm": "",
-        "userRegId": "24391455",
-        "userBundle": "",
-        "userStatus": "sb|14",
-        "userType": "SUBSCRIBER",
-        "userClientRegion": "US",
-        "userProfileId": "145643",
-        "userProfileCategory": "ADULT",
-        "userProfileMaster": "true",
-        "userProfileRefId": "0",
-        "spParent": {
-            "aid": "0h",
-            "dtm": "1698785976078",
-            "e": "ue",
-            "eid": "",
-            "p": "tv",
-            "res": "1080x1920",
-            "stm": "1698785976362",
-            "tna": "RokuTracker",
-            "tv": "bs-1.0.0",
-            "tz": "US/Central"
+    "sp": {
+      "appName": "roku",
+      "appVersion": "5.29.0-29cf57bd812963e483307ec8ac8d3e7c0f7f64e8",
+      "channelID": "613260e4bdb71c00070d63fa",
+      "clientDeviceType": 6,
+      "clientFirmware": "ROKU OS 12.00",
+      "clientID": "e23a6215-eeb2-5c58-b9ff-feed9aa883f6",
+      "clientLanguage": "en_US",
+      "clientManufacturer": "Roku",
+      "clientModelName": "65S41",
+      "clientModelNumber": "G000X",
+      "clientNetworkType": "wifi",
+      "clientOS": "ROKU OS 12",
+      "clientPrivateIP": "100.110.134.252",
+      "clientScreenResolution": "1920X1080",
+      "cmAudienceID": "dab4e406-f938-5f0a-8346-52ee3656f499",
+      "environment": "staging",
+      "episodeID": "63bf4f05a076d200070d2316",
+      "episodeTimelinePoint": 3576,
+      "eventCategory": "background",
+      "eventEmitterType": "client",
+      "eventGeneratorIP": "69.1.215.17",
+      "eventGeneratorType": "client",
+      "eventName": "pageView",
+      "eventOccurredTimestamp": 1698785976078,
+      "featureTypeExtension": {
+        "data": {
+          "featureTypeId": ["10012", "10013"]
         },
-        "sp": {
-            "appName": "roku",
-            "appVersion": "5.29.0-29cf57bd812963e483307ec8ac8d3e7c0f7f64e8",
-            "channelID": "613260e4bdb71c00070d63fa",
-            "clientDeviceType": 6,
-            "clientFirmware": "ROKU OS 12.00",
-            "clientID": "e23a6215-eeb2-5c58-b9ff-feed9aa883f6",
-            "clientLanguage": "en_US",
-            "clientManufacturer": "Roku",
-            "clientModelName": "65S41",
-            "clientModelNumber": "G000X",
-            "clientNetworkType": "wifi",
-            "clientOS": "ROKU OS 12",
-            "clientPrivateIP": "100.110.134.252",
-            "clientScreenResolution": "1920X1080",
-            "cmAudienceID": "dab4e406-f938-5f0a-8346-52ee3656f499",
-            "environment": "staging",
-            "episodeID": "63bf4f05a076d200070d2316",
-            "episodeTimelinePoint": 3576,
-            "eventCategory": "background",
-            "eventEmitterType": "client",
-            "eventGeneratorIP": "69.1.215.17",
-            "eventGeneratorType": "client",
-            "eventName": "pageView",
-            "eventOccurredTimestamp": 1698785976078,
-            "featureTypeExtension": {
-                "data": {
-                    "featureTypeId": [
-                        "10012",
-                        "10013"
-                    ]
-                },
-                "ver": "1.0"
-            },
-            "hitID": 7,
-            "isClientDNT": false,
-            "jsonExtensions": {
-                "data": {
-                    "screenID": "10009"
-                },
-                "ver": "2.0"
-            },
-            "kidsConstrained": false,
-            "playbackState": "fullscreen",
-            "playerHeight": 1080,
-            "playerName": "roVideoPlayer",
-            "playerVersion": "12.00",
-            "playerWidth": 1920,
-            "programTimelineID": "653c2cde770cf100085cec03",
-            "screenOrientation": "landscape",
-            "section": "live",
-            "sessionID": "646d281f-7830-11ee-8d05-5ed4e76585b1",
-            "testGroupID": "B",
-            "testID": "CLOUD_ACC_TEST"
+        "ver": "1.0"
+      },
+      "hitID": 7,
+      "isClientDNT": false,
+      "jsonExtensions": {
+        "data": {
+          "screenID": "10009"
         },
-        "contentFeatures": [
-            {
-                "containerId": "a15cd787-3629-49c6-81cc-c10ace8058d5",
-                "containerTitle": "Keep Watching",
-                "containerType": "keepWatching",
-                "displayId": "9341b684-565a-41d6-91e8-977bb0daeb1d",
-                "rowNum": "0",
-                "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
-                "pvrModel": "",
-                "items": [
-                    {
-                        "id": "216816",
-                        "title": "Star Trek: Deep Space Nine",
-                        "type": "show",
-                        "position": "0",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "216816",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "gSVWq4dYohGsCp2njzIPbJuspp0CZVp8",
-                        "title": "Dora: Say Hola to Adventure!",
-                        "type": "movie",
-                        "position": "1",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "5772",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "21028",
-                        "title": "The Amazing Race",
-                        "type": "show",
-                        "position": "2",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "21028",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "709500157",
-                        "title": "Colin from Accounts",
-                        "type": "show",
-                        "position": "3",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "709500157",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456409",
-                        "title": "Happy Together",
-                        "type": "show",
-                        "position": "4",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456409",
-                        "contentStatus": "false"
-                    }
-                ],
-                "isHighlightEnabled": "true",
-                "containerStyle": "default"
-            },
-            {
-                "containerId": "d8d1d77f-4e63-4a0a-973f-82b210c27528",
-                "containerTitle": "Star Trek",
-                "containerType": "showMovieHybrid",
-                "displayId": "75aa9563-7972-49e0-a04b-ff4ee5ebe663",
-                "rowNum": "1",
-                "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
-                "pvrModel": "trending",
-                "items": [
-                    {
-                        "id": "8",
-                        "title": "Star Trek",
-                        "type": "promo_hub",
-                        "position": "0",
-                        "badgeLabel": "",
-                        "isUnlocked": "",
-                        "cmsId": "",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456261",
-                        "title": "Star Trek: Discovery",
-                        "type": "show",
-                        "position": "1",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456261",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "216818",
-                        "title": "Star Trek: Voyager",
-                        "type": "show",
-                        "position": "2",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "216818",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "216813",
-                        "title": "Star Trek: The Next Generation",
-                        "type": "show",
-                        "position": "3",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "216813",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "216816",
-                        "title": "Star Trek: Deep Space Nine",
-                        "type": "show",
-                        "position": "4",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "216816",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456655",
-                        "title": "Star Trek: Lower Decks",
-                        "type": "show",
-                        "position": "5",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456655",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61464508",
-                        "title": "Star Trek: Strange New Worlds",
-                        "type": "show",
-                        "position": "6",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61464508",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "42721",
-                        "title": "Star Trek: Enterprise",
-                        "type": "show",
-                        "position": "7",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "42721",
-                        "contentStatus": "false"
-                    }
-                ],
-                "isHighlightEnabled": "true",
-                "containerStyle": "default"
-            },
-            {
-                "containerId": "c0cb1c25-94e6-472c-82cd-b5ba095fd66b",
-                "containerTitle": "News",
-                "containerType": "showMovieHybrid",
-                "displayId": "1a359068-9591-41ef-987f-10b15e945a33",
-                "rowNum": "2",
-                "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
-                "pvrModel": "default",
-                "items": [
-                    {
-                        "id": "13",
-                        "title": "News",
-                        "type": "promo_hub",
-                        "position": "0",
-                        "badgeLabel": "",
-                        "isUnlocked": "",
-                        "cmsId": "",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "25448",
-                        "title": "CBS Mornings",
-                        "type": "show",
-                        "position": "1",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "25448",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "25748",
-                        "title": "CBS Evening News",
-                        "type": "show",
-                        "position": "2",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "25748",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "24719",
-                        "title": "60 Minutes",
-                        "type": "show",
-                        "position": "3",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "24719",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "22960",
-                        "title": "48 Hours",
-                        "type": "show",
-                        "position": "4",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "22960",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "245503",
-                        "title": "Face the Nation",
-                        "type": "show",
-                        "position": "5",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "245503",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456303",
-                        "title": "CBS Sunday Morning",
-                        "type": "show",
-                        "position": "6",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456303",
-                        "contentStatus": "false"
-                    },
-                    {
-                        "id": "61456601",
-                        "title": "CBS Saturday Morning",
-                        "type": "show",
-                        "position": "7",
-                        "badgeLabel": "false",
-                        "isUnlocked": "true",
-                        "cmsId": "61456601",
-                        "contentStatus": "false"
-                    }
-                ],
-                "isHighlightEnabled": "true",
-                "containerStyle": "default"
-            }
-        ]
+        "ver": "2.0"
+      },
+      "kidsConstrained": false,
+      "playbackState": "fullscreen",
+      "playerHeight": 1080,
+      "playerName": "roVideoPlayer",
+      "playerVersion": "12.00",
+      "playerWidth": 1920,
+      "programTimelineID": "653c2cde770cf100085cec03",
+      "screenOrientation": "landscape",
+      "section": "live",
+      "sessionID": "646d281f-7830-11ee-8d05-5ed4e76585b1",
+      "testGroupID": "B",
+      "testID": "CLOUD_ACC_TEST"
     },
-    "Sample Fathom DISPLAY Event": {
-        "eventType": "display",
-        "category": "appTrackingEvent",
-        "type": "display",
-        "userID": "test1234",
-        "profileID": "profileABC",
-        "profileType": "profileX",
-        "country": "US",
-        "deviceType": "OTT",
-        "platform": "Roku",
-        "env": "dev",
-        "viewGUID": "6a033eb2-ab17-4365-b9da-530ae97fb122",
-        "optimizelyExp": "test",
-        "model_id": "1234",
-        "page": "testPage",
-        "site": "testSite",
-        "displayPayload": [
-            {
-                "reco_id": "0a20725b-7966-4597-9675-0bde03345803",
-                "display_id": "f029555b-c471-406b-850d-e546827b6b1d",
-                "display_name": "Keep Watching",
-                "carousel_id": "3847208a-1323-4d30-86ed-db5f3d481379",
-                "position": 0,
-                "content": [
-                    {
-                        "content_id": "tQk_Qooh5wUlxQqzj_4LiBO2m4iMrcPD",
-                        "content_type": "movie",
-                        "position": 0
-                    },
-                    {
-                        "content_id": "LpyeyuyED4gDmIWo9aCKQT6HNFoGHlLX",
-                        "content_type": "movie",
-                        "position": 1
-                    },
-                    {
-                        "content_id": "1wTEl1omTrGvkvUVAMleps3da2vpcBsx",
-                        "content_type": "movie",
-                        "position": 2
-                    }
-                ]
-            },
-            {
-                "reco_id": "c44ea674-c055-4a78-8129-d4503284bda5",
-                "display_id": "bf57ea42-2c59-466e-861d-ae5e92a18a99",
-                "display_name": "Trending Shows",
-                "position": 1,
-                "content": [
-                    {
-                        "content_id": "61457250",
-                        "content_type": "show",
-                        "position": 0
-                    },
-                    {
-                        "content_id": "61456636",
-                        "content_type": "show",
-                        "position": 1
-                    },
-                    {
-                        "content_id": "61457137",
-                        "content_type": "show",
-                        "position": 2
-                    }
-                ]
-            }
+    "contentFeatures": [
+      {
+        "containerId": "a15cd787-3629-49c6-81cc-c10ace8058d5",
+        "containerTitle": "Keep Watching",
+        "containerType": "keepWatching",
+        "displayId": "9341b684-565a-41d6-91e8-977bb0daeb1d",
+        "rowNum": "0",
+        "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
+        "pvrModel": "",
+        "items": [
+          {
+            "id": "216816",
+            "title": "Star Trek: Deep Space Nine",
+            "type": "show",
+            "position": "0",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "216816",
+            "contentStatus": "false"
+          },
+          {
+            "id": "gSVWq4dYohGsCp2njzIPbJuspp0CZVp8",
+            "title": "Dora: Say Hola to Adventure!",
+            "type": "movie",
+            "position": "1",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "5772",
+            "contentStatus": "false"
+          },
+          {
+            "id": "21028",
+            "title": "The Amazing Race",
+            "type": "show",
+            "position": "2",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "21028",
+            "contentStatus": "false"
+          },
+          {
+            "id": "709500157",
+            "title": "Colin from Accounts",
+            "type": "show",
+            "position": "3",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "709500157",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456409",
+            "title": "Happy Together",
+            "type": "show",
+            "position": "4",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456409",
+            "contentStatus": "false"
+          }
+        ],
+        "isHighlightEnabled": "true",
+        "containerStyle": "default"
+      },
+      {
+        "containerId": "d8d1d77f-4e63-4a0a-973f-82b210c27528",
+        "containerTitle": "Star Trek",
+        "containerType": "showMovieHybrid",
+        "displayId": "75aa9563-7972-49e0-a04b-ff4ee5ebe663",
+        "rowNum": "1",
+        "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
+        "pvrModel": "trending",
+        "items": [
+          {
+            "id": "8",
+            "title": "Star Trek",
+            "type": "promo_hub",
+            "position": "0",
+            "badgeLabel": "",
+            "isUnlocked": "",
+            "cmsId": "",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456261",
+            "title": "Star Trek: Discovery",
+            "type": "show",
+            "position": "1",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456261",
+            "contentStatus": "false"
+          },
+          {
+            "id": "216818",
+            "title": "Star Trek: Voyager",
+            "type": "show",
+            "position": "2",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "216818",
+            "contentStatus": "false"
+          },
+          {
+            "id": "216813",
+            "title": "Star Trek: The Next Generation",
+            "type": "show",
+            "position": "3",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "216813",
+            "contentStatus": "false"
+          },
+          {
+            "id": "216816",
+            "title": "Star Trek: Deep Space Nine",
+            "type": "show",
+            "position": "4",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "216816",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456655",
+            "title": "Star Trek: Lower Decks",
+            "type": "show",
+            "position": "5",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456655",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61464508",
+            "title": "Star Trek: Strange New Worlds",
+            "type": "show",
+            "position": "6",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61464508",
+            "contentStatus": "false"
+          },
+          {
+            "id": "42721",
+            "title": "Star Trek: Enterprise",
+            "type": "show",
+            "position": "7",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "42721",
+            "contentStatus": "false"
+          }
+        ],
+        "isHighlightEnabled": "true",
+        "containerStyle": "default"
+      },
+      {
+        "containerId": "c0cb1c25-94e6-472c-82cd-b5ba095fd66b",
+        "containerTitle": "News",
+        "containerType": "showMovieHybrid",
+        "displayId": "1a359068-9591-41ef-987f-10b15e945a33",
+        "rowNum": "2",
+        "rankModel": "Convoy_v1_2024-02-22 15:58:22 convoy-us-inference",
+        "pvrModel": "default",
+        "items": [
+          {
+            "id": "13",
+            "title": "News",
+            "type": "promo_hub",
+            "position": "0",
+            "badgeLabel": "",
+            "isUnlocked": "",
+            "cmsId": "",
+            "contentStatus": "false"
+          },
+          {
+            "id": "25448",
+            "title": "CBS Mornings",
+            "type": "show",
+            "position": "1",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "25448",
+            "contentStatus": "false"
+          },
+          {
+            "id": "25748",
+            "title": "CBS Evening News",
+            "type": "show",
+            "position": "2",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "25748",
+            "contentStatus": "false"
+          },
+          {
+            "id": "24719",
+            "title": "60 Minutes",
+            "type": "show",
+            "position": "3",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "24719",
+            "contentStatus": "false"
+          },
+          {
+            "id": "22960",
+            "title": "48 Hours",
+            "type": "show",
+            "position": "4",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "22960",
+            "contentStatus": "false"
+          },
+          {
+            "id": "245503",
+            "title": "Face the Nation",
+            "type": "show",
+            "position": "5",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "245503",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456303",
+            "title": "CBS Sunday Morning",
+            "type": "show",
+            "position": "6",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456303",
+            "contentStatus": "false"
+          },
+          {
+            "id": "61456601",
+            "title": "CBS Saturday Morning",
+            "type": "show",
+            "position": "7",
+            "badgeLabel": "false",
+            "isUnlocked": "true",
+            "cmsId": "61456601",
+            "contentStatus": "false"
+          }
+        ],
+        "isHighlightEnabled": "true",
+        "containerStyle": "default"
+      }
+    ]
+  },
+  "Sample Fathom DISPLAY Event": {
+    "eventType": "display",
+    "category": "appTrackingEvent",
+    "type": "display",
+    "userID": "test1234",
+    "profileID": "profileABC",
+    "profileType": "profileX",
+    "country": "US",
+    "deviceType": "OTT",
+    "platform": "Roku",
+    "env": "dev",
+    "viewGUID": "6a033eb2-ab17-4365-b9da-530ae97fb122",
+    "optimizelyExp": "test",
+    "model_id": "1234",
+    "page": "testPage",
+    "site": "testSite",
+    "displayPayload": [
+      {
+        "reco_id": "0a20725b-7966-4597-9675-0bde03345803",
+        "display_id": "f029555b-c471-406b-850d-e546827b6b1d",
+        "display_name": "Keep Watching",
+        "carousel_id": "3847208a-1323-4d30-86ed-db5f3d481379",
+        "position": 0,
+        "content": [
+          {
+            "content_id": "tQk_Qooh5wUlxQqzj_4LiBO2m4iMrcPD",
+            "content_type": "movie",
+            "position": 0
+          },
+          {
+            "content_id": "LpyeyuyED4gDmIWo9aCKQT6HNFoGHlLX",
+            "content_type": "movie",
+            "position": 1
+          },
+          {
+            "content_id": "1wTEl1omTrGvkvUVAMleps3da2vpcBsx",
+            "content_type": "movie",
+            "position": 2
+          }
         ]
+      },
+      {
+        "reco_id": "c44ea674-c055-4a78-8129-d4503284bda5",
+        "display_id": "bf57ea42-2c59-466e-861d-ae5e92a18a99",
+        "display_name": "Trending Shows",
+        "position": 1,
+        "content": [
+          {
+            "content_id": "61457250",
+            "content_type": "show",
+            "position": 0
+          },
+          {
+            "content_id": "61456636",
+            "content_type": "show",
+            "position": 1
+          },
+          {
+            "content_id": "61457137",
+            "content_type": "show",
+            "position": 2
+          }
+        ]
+      }
+    ]
+  },
+  "Sample Fathom TAKE Event": {
+    "eventType": "take",
+    "category": "appTrackingEvent",
+    "type": "take",
+    "displayID": "bf57ea42-2c59-466e-861d-ae5e92a18a99",
+    "contentID": "61457250"
+  },
+  "Sample Orion/trackMarqueeView Event": {
+    "eventType": "trackMarqueeView",
+    "id": "46d5fbfb-c0fc-4a35-a608-fe15f5ac5dbe",
+    "hitId": 0,
+    "type": "trackMarqueeView",
+    "visitId": "1746036574445",
+    "appInfo": {
+      "name": "pplus_ott_lg",
+      "clientRegion": "US",
+      "version": "myVersion",
+      "sessionId": "1748493762529"
     },
-    "Sample Fathom TAKE Event": {
-        "eventType": "take",
-        "category": "appTrackingEvent",
-        "type": "take",
-        "displayID": "bf57ea42-2c59-466e-861d-ae5e92a18a99",
-        "contentID": "61457250"
-    }
+    "identity": {
+      "fpid": "1fd662ce-6a48-41fa-9929-df4b05e366df",
+      "ecid": "89402930368806434151785186497125723346"
+    },
+    "user": {
+      "accountId": "24391455",
+      "profileId": "145643",
+      "profileCategory": "ADULT",
+      "profileMaster": "true",
+      "packageStatus": "ACTIVE",
+      "packageSource": "cbscomp",
+      "type": "SUBSCRIBER",
+      "isAuthenticated": "true"
+    },
+    "pageName": "/",
+    "pageUrl": "/",
+    "pageType": "front_door",
+    "movieGenre": "Thriller",
+    "movieId": "8PT5sjd0j0SMVW3AYu6iSz_WsDF8wl5b",
+    "movieTitle": "September 5",
+    "optimizelyExp": "homepage_configuration:new_homepage|trailers_in_DP:control|push_reminder:control;",
+    "pageViewGuid": "0d395fde-8e62-4869-b334-51b9f483f18e",
+    "slideCTA": "WATCH NOW",
+    "slideCycle": "0",
+    "slideId": "1411743",
+    "slideLink": "pplus://www.paramountplus.com/movies/video/8PT5sjd0j0SMVW3AYu6iSz_WsDF8wl5b/#open",
+    "slideTarget": "8PT5sjd0j0SMVW3AYu6iSz_WsDF8wl5b",
+    "slideTitle": "September 5",
+    "slideType": "movie"
+  }
 }
