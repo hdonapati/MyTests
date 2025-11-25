@@ -1,0 +1,1106 @@
+{
+  "Orion": {
+    "enabled": "{context.enableOrion}",
+    "category": "app",
+    "params": {
+      "trackerCommands": {
+        "debugLogging": "true",
+        "sendUndefined": "false"
+      },
+      "settings": {
+        "endPointHost": "https://orion-dev.paramountplus.com/o",
+        "pingInterval": "10.0",
+        "maxBatchSize": "1",
+        "batchFlushInterval": "10.0"
+      },
+      "eventRules": [
+        {
+          "when": "DENY",
+          "eventList": "carouselView"
+        }
+      ],
+      "dataMappings": {
+        "error": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.error",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "UVPNVideoTrackingHarness",
+            "version": "1"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": 2616
+            },
+            "stateDetails": {
+              "timeShiftedView": "{dataHub.timeShiftedView}",
+              "fullScreen": false,
+              "subTitleTrack": "off",
+              "pictureInPicture": false,
+              "audioMuted": false,
+              "audioTrack": "en-us"
+            },
+            "playhead": "{data.adPlayhead}",
+            "errorDetail": {
+              "errorCode": "{dataHub.playback.cvpErrorCode}",
+              "isFatal": true,
+              "errorMessage": "{dataHub.playback.cvpErrorMessage}"
+            }
+          },
+          "user": {
+            "accountId": "{dataHub.user.accountId}",
+            "profileId": "{dataHub.user.profileId}",
+            "profileCategory": "{dataHub.user.profileCategory}",
+            "profileMaster": "{dataHub.user.profileMaster}",
+            "profilePic": "",
+            "status": "",
+            "type": "{dataHub.user.type}",
+            "isAuthenticated": "{dataHub.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "contentstart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.contentStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "<% UUID.random() %>",
+              "name": "{data.contentVideoTitle}",
+              "type": "{data.isLive} ? Live : VOD",
+              "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "resourcebufferingstarted": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.bufferStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "<% UUID.random() %>",
+              "name": "{data.contentVideoTitle}",
+              "type": "{data.isLive} ? Live : VOD",
+              "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "resourcebufferingended": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.play",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "<% UUID.random() %>",
+              "name": "{data.contentVideoTitle}",
+              "type": "{data.isLive} ? Live : VOD",
+              "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "seekstart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.seekStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "<% UUID.random() %>",
+              "name": "{data.contentVideoTitle}",
+              "type": "{data.isLive} ? Live : VOD",
+              "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "seekcomplete": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.play",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "<% UUID.random() %>",
+              "name": "{data.contentVideoTitle}",
+              "type": "{data.isLive} ? Live : VOD",
+              "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "contentcomplete": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.playComplete",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "<% UUID.random() %>",
+              "name": "{data.contentVideoTitle}",
+              "type": "{data.isLive} ? Live : VOD",
+              "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "contentpaused": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.pauseStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "<% UUID.random() %>",
+              "name": "{data.contentVideoTitle}",
+              "type": "{data.isLive} ? Live : VOD",
+              "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "contentplaying": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.play",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "<% UUID.random() %>",
+              "name": "{dataHub.playback.contentVideoTitle}",
+              "type": "{data.isLive} ? Live : VOD",
+              "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "resourcestart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.sessionStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "{data.playerName}",
+            "clientRegion": "US",
+            "playerName": "@cbsinteractive/avia-js",
+            "version": "myVersion",
+            "playerVersion": "{data.playerVersion}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "1fd662ce-6a48-41fa-9929-df4b05e366df"
+            },
+            "ecid": {
+              "id": "89402930368806434151785186497125723346"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "<% UUID.random() %>",
+              "name": "{dataHub.playback.contentVideoTitle}",
+              "type": "{data.isLive} ? Live : VOD",
+              "length": "{data.isLive} ? 86400 : {context.inbuilt.duration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            }
+          },
+          "user": {
+            "accountId": "24391455",
+            "profileId": "145643",
+            "profileCategory": "ADULT",
+            "profileMaster": "true",
+            "packageStatus": "ACTIVE",
+            "packageSource": "cbscomp",
+            "type": "SUBSCRIBER",
+            "isAuthenticated": "true"
+          },
+          "context": {
+            "mediaContentType": "{context.mediaContentType}",
+            "pageName": "{context.pageName}",
+            "pageType": "{context.video}",
+            "pageUrl": "{context.pageUrl}",
+            "pageViewGuid": "<% UUID.random() %>",
+            "screenName": "{context.screenName}",
+            "showEpisodeId": "{context.showEpisodeId}",
+            "showEpisodeNumber": "{context.episodeNumber}",
+            "showEpisodeTitle": "{dataHub.playback.contentVideoTitle}",
+            "showGenre": "{context.showGenre}",
+            "showSeasonNumber": "{context.showSeasonNumber}",
+            "showSeriesId": "{context.showSeriesId}",
+            "showSeriesTitle": "{dataHub.playback.contentVideoTitle}"
+          }
+        },
+        "trackMarqueeView": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "trackMarqueeView",
+          "timestamp": "<% Date.now() %>",
+          "visitId": "{dataHub.appEvent.visitId}",
+          "app": {
+            "name": "{dataHub.appEvent.appName}",
+            "clientRegion": "{dataHub.appEvent.clientRegion}",
+            "version": "{dataHub.appEvent.version}",
+            "sessionId": "{dataHub.appEvent.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.appEvent.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.appEvent.identity.ecid}"
+            }
+          },
+          "user": {
+            "accountId": "{dataHub.appEvent.user.accountId}",
+            "profileId": "{dataHub.appEvent.user.profileId}",
+            "profileCategory": "{dataHub.appEvent.user.profileCategory}",
+            "profileMaster": "{dataHub.appEvent.user.profileMaster}",
+            "packageStatus": "{dataHub.appEvent.user.packageStatus}",
+            "packageSource": "{dataHub.appEvent.user.packageSource}",
+            "type": "{dataHub.appEvent.user.type}",
+            "isAuthenticated": "{dataHub.appEvent.user.isAuthenticated}"
+          },
+          "context": {
+            "pageName": "{dataHub.appEvent.pageName}",
+            "pageUrl": "{dataHub.appEvent.pageUrl}",
+            "pageType": "{dataHub.appEvent.pageType}",
+            "movieGenre": "{dataHub.appEvent.movieGenre}",
+            "movieId": "{dataHub.appEvent.movieId}",
+            "movieTitle": "{dataHub.appEvent.movieTitle}",
+            "optimizelyExp": "{dataHub.appEvent.optimizelyExp}",
+            "pageViewGuid": "{dataHub.appEvent.pageViewGuid}",
+            "slideCTA": "{dataHub.appEvent.slideCTA}",
+            "slideCycle": "{dataHub.appEvent.slideCycle}",
+            "slideId": "{dataHub.appEvent.slideId}",
+            "slideLink": "{dataHub.appEvent.slideLink}",
+            "slideTarget": "{dataHub.appEvent.slideTarget}",
+            "slideTitle": "{dataHub.appEvent.slideTitle}",
+            "slideType": "{dataHub.appEvent.slideType}"
+          }
+        },
+        "contentprogress": {
+          "id": "2dcea5e7-f33c-4a64-880b-d4af6a486834",
+          "hitId": "26",
+          "type": "media.ping",
+          "timestamp": "2025-04-30T18:35:39.036Z",
+          "emittedTimestamp": "2025-04-30T18:35:39.036Z",
+          "visitId": "1746036574445",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "a95b34a5-c5f8-4082-a775-a19fa202b90c",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": "2616"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "resourceend": {
+          "id": "d5dd0597-9494-4900-b0d7-1daa4316bf1b",
+          "hitId": "50",
+          "type": "media.sessionEnd",
+          "timestamp": "2025-04-30T18:35:39.036Z",
+          "visitId": "1746036574445",
+          "emittedTimestamp": "2025-02-26T21:57:56.421Z",
+          "app": {
+            "name": "pplus_site_desktop",
+            "version": "myVersion"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "a95b34a5-c5f8-4082-a775-a19fa202b90c",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": "2616"
+            },
+            "playhead": "{dataHub.playhead}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "adbreakstart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adBreakStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "UVPNVideoTrackingHarness",
+            "version": "1"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": 2616
+            },
+            "stateDetails": {
+              "timeShiftedView": "{dataHub.timeShiftedView}",
+              "fullScreen": false,
+              "subTitleTrack": "off",
+              "pictureInPicture": false,
+              "audioMuted": false,
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.adBreakPosition}",
+              "offset": "{dataHub.adModel.adTimeOffset}",
+              "type": "{dataHub.adModel.adPodType}"
+            },
+            "playhead": "{data.adPlayhead}"
+          },
+          "user": {
+            "accountId": "{dataHub.user.accountId}",
+            "profileId": "{dataHub.user.profileId}",
+            "profileCategory": "{dataHub.user.profileCategory}",
+            "profileMaster": "{dataHub.user.profileMaster}",
+            "profilePic": "",
+            "status": "",
+            "type": "{dataHub.user.type}",
+            "isAuthenticated": "{dataHub.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adbreakcomplete": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adBreakComplete",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "UVPNVideoTrackingHarness",
+            "version": "1"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": 2616
+            },
+            "stateDetails": {
+              "timeShiftedView": "{dataHub.timeShiftedView}",
+              "fullScreen": false,
+              "subTitleTrack": "off",
+              "pictureInPicture": false,
+              "audioMuted": false,
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.adBreakPosition}",
+              "offset": "{dataHub.adModel.adTimeOffset}",
+              "type": "{dataHub.adModel.adPodType}"
+            },
+            "playhead": "{data.adPlayhead}"
+          },
+          "user": {
+            "accountId": "{dataHub.user.accountId}",
+            "profileId": "{dataHub.user.profileId}",
+            "profileCategory": "{dataHub.user.profileCategory}",
+            "profileMaster": "{dataHub.user.profileMaster}",
+            "profilePic": "",
+            "status": "",
+            "type": "{dataHub.user.type}",
+            "isAuthenticated": "{dataHub.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adstart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "UVPNVideoTrackingHarness",
+            "version": "1"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": 2616
+            },
+            "stateDetails": {
+              "timeShiftedView": "{dataHub.timeShiftedView}",
+              "fullScreen": false,
+              "subTitleTrack": "off",
+              "pictureInPicture": false,
+              "audioMuted": false,
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.adBreakPosition}",
+              "offset": "{dataHub.adModel.adTimeOffset}",
+              "type": "{dataHub.adModel.adPodType}"
+            },
+            "adDetails": {
+              "id": "{dataHub.adModel.adID}",
+              "name": "{dataHub.adModel.adTitle}",
+              "length": "{dataHub.adModel.adDuration}",
+              "position": "{dataHub.adModel.adPositionInPod}",
+              "progress": 0
+            },
+            "playhead": "{data.adPlayhead}"
+          },
+          "user": {
+            "accountId": "{dataHub.user.accountId}",
+            "profileId": "{dataHub.user.profileId}",
+            "profileCategory": "{dataHub.user.profileCategory}",
+            "profileMaster": "{dataHub.user.profileMaster}",
+            "profilePic": "",
+            "status": "",
+            "type": "{dataHub.user.type}",
+            "isAuthenticated": "{dataHub.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adcomplete": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adComplete",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "UVPNVideoTrackingHarness",
+            "version": "1"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": 2616
+            },
+            "stateDetails": {
+              "timeShiftedView": "{dataHub.timeShiftedView}",
+              "fullScreen": false,
+              "subTitleTrack": "off",
+              "pictureInPicture": false,
+              "audioMuted": false,
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.adBreakPosition}",
+              "offset": "{dataHub.adModel.adTimeOffset}",
+              "type": "{dataHub.adModel.adPodType}"
+            },
+            "adDetails": {
+              "id": "{dataHub.adModel.adID}",
+              "name": "{dataHub.adModel.adTitle}",
+              "length": "{dataHub.adModel.adDuration}",
+              "position": "{dataHub.adModel.adPositionInPod}",
+              "progress": 100
+            },
+            "playhead": "{data.adPlayhead}"
+          },
+          "user": {
+            "accountId": "{dataHub.user.accountId}",
+            "profileId": "{dataHub.user.profileId}",
+            "profileCategory": "{dataHub.user.profileCategory}",
+            "profileMaster": "{dataHub.user.profileMaster}",
+            "profilePic": "",
+            "status": "",
+            "type": "{dataHub.user.type}",
+            "isAuthenticated": "{dataHub.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adskipped": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adSkip",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "UVPNVideoTrackingHarness",
+            "version": "1"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": 2616
+            },
+            "stateDetails": {
+              "timeShiftedView": "{dataHub.timeShiftedView}",
+              "fullScreen": false,
+              "subTitleTrack": "off",
+              "pictureInPicture": false,
+              "audioMuted": false,
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.adBreakPosition}",
+              "offset": "{dataHub.adModel.adTimeOffset}",
+              "type": "{dataHub.adModel.adPodType}"
+            },
+            "adDetails": {
+              "id": "{dataHub.adModel.adID}",
+              "name": "{dataHub.adModel.adTitle}",
+              "length": "{dataHub.adModel.adDuration}",
+              "position": "{dataHub.adModel.adPositionInPod}",
+              "progress": 100
+            },
+            "playhead": "{data.adPlayhead}"
+          },
+          "user": {
+            "accountId": "{dataHub.user.accountId}",
+            "profileId": "{dataHub.user.profileId}",
+            "profileCategory": "{dataHub.user.profileCategory}",
+            "profileMaster": "{dataHub.user.profileMaster}",
+            "profilePic": "",
+            "status": "",
+            "type": "{dataHub.user.type}",
+            "isAuthenticated": "{dataHub.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adfirstquartile": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adQuartile",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "UVPNVideoTrackingHarness",
+            "version": "1"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": 2616
+            },
+            "stateDetails": {
+              "timeShiftedView": "{dataHub.timeShiftedView}",
+              "fullScreen": false,
+              "subTitleTrack": "off",
+              "pictureInPicture": false,
+              "audioMuted": false,
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.adBreakPosition}",
+              "offset": "{dataHub.adModel.adTimeOffset}",
+              "type": "{dataHub.adModel.adPodType}"
+            },
+            "adDetails": {
+              "id": "{dataHub.adModel.adID}",
+              "name": "{dataHub.adModel.adTitle}",
+              "length": "{dataHub.adModel.adDuration}",
+              "position": "{dataHub.adModel.adPositionInPod}",
+              "progress": 25
+            },
+            "playhead": "{data.adPlayhead}"
+          },
+          "user": {
+            "accountId": "{dataHub.user.accountId}",
+            "profileId": "{dataHub.user.profileId}",
+            "profileCategory": "{dataHub.user.profileCategory}",
+            "profileMaster": "{dataHub.user.profileMaster}",
+            "profilePic": "",
+            "status": "",
+            "type": "{dataHub.user.type}",
+            "isAuthenticated": "{dataHub.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "admidpoint": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adQuartile",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "UVPNVideoTrackingHarness",
+            "version": "1"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": 2616
+            },
+            "stateDetails": {
+              "timeShiftedView": "{dataHub.timeShiftedView}",
+              "fullScreen": false,
+              "subTitleTrack": "off",
+              "pictureInPicture": false,
+              "audioMuted": false,
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.adBreakPosition}",
+              "offset": "{dataHub.adModel.adTimeOffset}",
+              "type": "{dataHub.adModel.adPodType}"
+            },
+            "adDetails": {
+              "id": "{dataHub.adModel.adID}",
+              "name": "{dataHub.adModel.adTitle}",
+              "length": "{dataHub.adModel.adDuration}",
+              "position": "{dataHub.adModel.adPositionInPod}",
+              "progress": 50
+            },
+            "playhead": "{data.adPlayhead}"
+          },
+          "user": {
+            "accountId": "{dataHub.user.accountId}",
+            "profileId": "{dataHub.user.profileId}",
+            "profileCategory": "{dataHub.user.profileCategory}",
+            "profileMaster": "{dataHub.user.profileMaster}",
+            "profilePic": "",
+            "status": "",
+            "type": "{dataHub.user.type}",
+            "isAuthenticated": "{dataHub.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adthirdquartile": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adQuartile",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "<% UUID.random() %>",
+          "app": {
+            "name": "UVPNVideoTrackingHarness",
+            "version": "1"
+          },
+          "identity": {
+            "fpid": {
+              "id": "cd4497b5-5361-4794-97a6-d44ec11fd695"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback.playerSessionId}",
+            "mediaDetails": {
+              "id": "uMLoF99GuMgFzr3bA9CS7SiRrf8xTQVI",
+              "name": "Tracker - Klamath Falls",
+              "type": "VOD",
+              "length": 2616
+            },
+            "stateDetails": {
+              "timeShiftedView": "{dataHub.timeShiftedView}",
+              "fullScreen": false,
+              "subTitleTrack": "off",
+              "pictureInPicture": false,
+              "audioMuted": false,
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.adBreakPosition}",
+              "offset": "{dataHub.adModel.adTimeOffset}",
+              "type": "{dataHub.adModel.adPodType}"
+            },
+            "adDetails": {
+              "id": "{dataHub.adModel.adID}",
+              "name": "{dataHub.adModel.adTitle}",
+              "length": "{dataHub.adModel.adDuration}",
+              "position": "{dataHub.adModel.adPositionInPod}",
+              "progress": 75
+            },
+            "playhead": "{data.adPlayhead}"
+          },
+          "user": {
+            "accountId": "{dataHub.user.accountId}",
+            "profileId": "{dataHub.user.profileId}",
+            "profileCategory": "{dataHub.user.profileCategory}",
+            "profileMaster": "{dataHub.user.profileMaster}",
+            "profilePic": "",
+            "status": "",
+            "type": "{dataHub.user.type}",
+            "isAuthenticated": "{dataHub.user.isAuthenticated}"
+          },
+          "context": {}
+        }
+      },
+      "dataType": {
+        "debugLogging": "boolean",
+        "sendUndefined": "boolean",
+        "playhead": "int",
+        "isAuthenticated": "boolean",
+        "pingInterval": "float",
+        "maxBatchSize": "int",
+        "batchFlushInterval": "float",
+        "length": "int",
+        "timeShiftedView": "int",
+        "pictureInPicture": "int",
+        "audioMuted": "int",
+        "fullScreen": "int"
+      }
+    }
+  }
+}
