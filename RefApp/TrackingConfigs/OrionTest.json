@@ -508,13 +508,13 @@
           "id": "<% UUID.random() %>",
           "hitId": "<% Counter.next() %>",
           "type": "trackMarqueeView",
-          "timestamp": "<% Date.now() %>",
+          "timestamp": "<% Date.toISOString() %>",
           "visitId": "{dataHub.appEvent.visitId}",
           "app": {
-            "name": "{dataHub.appEvent.appName}",
-            "clientRegion": "{dataHub.appEvent.clientRegion}",
-            "version": "{dataHub.appEvent.version}",
-            "sessionId": "{dataHub.appEvent.sessionId}"
+            "name": "{dataHub.appEvent.appInfo.appName}",
+            "clientRegion": "{dataHub.appEvent.appInfo.clientRegion}",
+            "version": "{dataHub.appEvent.appInfo.version}",
+            "sessionId": "{dataHub.appEvent.appInfo.sessionId}"
           },
           "identity": {
             "fpid": {
