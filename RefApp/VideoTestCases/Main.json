@@ -353,6 +353,11 @@
         },
         "isCLID3": true
     },
+    "URL | MultiView": {
+        "live": true,
+        "title": "URL - MultiView",
+        "contentUrl": "https://origin-irp-paramountmv-poc-01.vos360.video/Content/Channel/service2/HLS/master.m3u8"
+    },
     "URL | Propellor Workflow | CLIDE": {
         "title": "UFC CLIDE | Propellor WorkFlow",
         "provider": "URL",
