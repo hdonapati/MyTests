@@ -355,11 +355,13 @@
     },
     "URL | MultiView HLS": {
         "live": true,
+        "provider": "URL",
         "title": "URL - MultiView HLS",
         "contentUrl": "https://origin-irp-paramountmv-poc-01.vos360.video/Content/Channel/service2/HLS/master.m3u8"
     },
     "URL | MultiView DASH": {
         "live": true,
+        "provider": "URL",
         "title": "URL - MultiView DASH",
         "contentUrl": "https://origin-irp-paramountmv-poc-01.vos360.video/Content/DASH_DASH/Live/channel(service2)/master.mpd"
     },
