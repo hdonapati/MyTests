@@ -423,7 +423,7 @@
                         "carrierName": "{context.carrierName}",
                         "clientDeviceType": "{context.clientDeviceType}",
                         "clientFirmware": "{data.clientOS}",
-                        "clientID": "{data.clientID}",
+                        "clientID": "{eventData.detail.userRegId}",
                         "clientLanguage": "{context.clientLanguage}",
                         "clientManufacturer": "{data.deviceManufacturer}",
                         "clientModelName": "{data.deviceModelName}",
