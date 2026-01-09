@@ -738,7 +738,7 @@
          "trackerCommands":{
             "sendUndefined":false,
             "debugLogging":"{context.enableHydraDebugLogs}",
-            "avoidEvents":"EVENT_DAI/EVENT_SUB_READY, EVENT_TICKER"
+            "avoidEvents":"EVENT_RAF/EVENT_SUB_READY, EVENT_DAI/EVENT_SUB_READY, EVENT_TICKER"
          },
          "config":{
             "namespace":"appTracker",
