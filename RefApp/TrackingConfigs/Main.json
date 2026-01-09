@@ -737,7 +737,7 @@
       "params":{
          "trackerCommands":{
             "sendUndefined":false,
-            "debugLogging":true,
+            "debugLogging":"{context.enableHydraDebugLogs}",
             "avoidEvents":"EVENT_DAI/EVENT_SUB_READY, EVENT_TICKER"
          },
          "config":{
