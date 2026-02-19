@@ -16,6 +16,8 @@
          },
          "playerStates":{
             "timeShifted":true
+            "streamingFormatVideoColorRange": true,
+            "squeezebackAd": true
          },
          "eventList":{
             "Play":{
@@ -550,8 +552,9 @@
             "media.qoe.errorSource":"player"
          },
          "playerStates":{
-            "timeShifted":"true",
-            "streamingFormatVideoColorRange":"true"
+            "timeShifted":true
+            "streamingFormatVideoColorRange": true,
+            "squeezebackAd": true
          },
          "dataType":{
             "analytics.enableSSL":"boolean",
