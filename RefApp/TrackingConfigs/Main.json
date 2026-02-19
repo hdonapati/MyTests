@@ -15,7 +15,7 @@
             "sendUndefined":false
          },
          "playerStates":{
-            "timeShifted":true
+            "timeShifted": true,
             "streamingFormatVideoColorRange": true,
             "squeezebackAd": true
          },
@@ -552,7 +552,7 @@
             "media.qoe.errorSource":"player"
          },
          "playerStates":{
-            "timeShifted":true
+            "timeShifted":true,
             "streamingFormatVideoColorRange": true,
             "squeezebackAd": true
          },
