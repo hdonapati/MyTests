@@ -1,14 +1,4 @@
 {
-  "VisitSessionIdProvider": {
-    "enabled": "{context.enableVisitSessionIdProvider}",
-    "type": "preprocessor",
-    "params": {
-      "visitSessionId": "<% UUID.session() %>",
-      "expirationMinutes": 30,
-      "excludeCategories": [],
-      "providerURL": "//example.com/sessionid"
-    }
-  },
   "AdobeMediaEdge": {
     "enabled": "{context.enableAdobeMediaEdge}",
     "category": "video",
@@ -871,7 +861,20 @@
         "custom_17": "isDAIAPI2: {data.isDAIAPI}",
         "custom_18": "isAdHoliday2: {data.isAdHoliday}",
         "custom_19": "deviceModelName2: {data.deviceModelName}",
-        "custom_20": "ClientId2: {data.ClientId}"
+        "custom_20": "ClientId2: {data.ClientId}",
+        "custom_21": "Boolean NOT Test0: <% Boolean.not({context.foo}) %>",
+        "custom_22": "Boolean NOT Test1: <% Boolean.not({context.foo} || {context.bar}) %>",
+        "custom_23": "Boolean NOT Test2: <% Boolean.not({context.foo} && {context.bar}) %>",
+        "custom_24": "Boolean NOT Test3: <% Boolean.not({context.fooStr}) %>",
+        "custom_25": "Boolean NOT Test4: <% Boolean.not({context.barStr}) %>",
+        "custom_26": "Boolean NOT Test5: <% Boolean.not({context.fooInt}) %>",
+        "custom_27": "Boolean NOT Test6: <% Boolean.not({context.barInt}) %>",
+        "custom_28": "Boolean NOT Test7: <% Boolean.not({context.failInt}) %>",
+        "custom_29": "Boolean NOT Test8: <% Boolean.not({context.failStr}) %>",
+        "custom_30": "Boolean NOT Test9: <% Boolean.not({context.noValue}) %>",
+        "custom_31": "<% Boolean.not({context.foo}) %> ? {context.appName} : {context.appVersion}",
+        "custom_32": "<% Boolean.not({context.barStr}) %> ? {context.appName} : {context.appVersion}",
+        "custom_33": "<% Boolean.not({context.fooInt}) %> ? {context.appName} : {context.appVersion}"
       },
       "dataType": {
         "sendUndefined": "boolean",
@@ -947,6 +950,1821 @@
       "dataType": {
         "sendUndefined": "boolean",
         "isDtvr": "boolean"
+      }
+    }
+  },
+  "Orion": {
+    "enabled": "{context.enableOrion}",
+    "category": "app",
+    "params": {
+      "trackerCommands": {
+        "debugLogging": "true",
+        "sendUndefined": "false"
+      },
+      "settings": {
+        "endPointHost": "https://orion-dev.paramountplus.com/o",
+        "pingInterval": "10",
+        "maxBatchSize": "1",
+        "batchFlushInterval": "10.0"
+      },
+      "eventRules": [
+        {
+          "when": "DENY",
+          "eventList": "carouselView"
+        }
+      ],
+      "dataMappings": {
+        "trackMarqueeView": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "trackMarqueeView",
+          "timestamp": "<% Date.toISOString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.appInfo.appName}",
+            "clientRegion": "{dataHub.app.appInfo.clientRegion}",
+            "version": "{dataHub.app.appInfo.version}",
+            "sessionId": "{dataHub.app.appInfo.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "packageStatus": "{dataHub.app.user.packageStatus}",
+            "packageSource": "{dataHub.app.user.packageSource}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {
+            "pageName": "{dataHub.app.pageName}",
+            "pageUrl": "{dataHub.app.pageUrl}",
+            "pageType": "{dataHub.app.pageType}",
+            "movieGenre": "{dataHub.app.movieGenre}",
+            "movieId": "{dataHub.app.movieId}",
+            "movieTitle": "{dataHub.app.movieTitle}",
+            "optimizelyExp": "{dataHub.app.optimizelyExp}",
+            "pageViewGuid": "{dataHub.app.pageViewGuid}",
+            "slideCTA": "{dataHub.app.slideCTA}",
+            "slideCycle": "{dataHub.app.slideCycle}",
+            "slideId": "{dataHub.app.slideId}",
+            "slideLink": "{dataHub.app.slideLink}",
+            "slideTarget": "{dataHub.app.slideTarget}",
+            "slideTitle": "{dataHub.app.slideTitle}",
+            "slideType": "{dataHub.app.slideType}"
+          }
+        },
+        "resourcestart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.sessionStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            }
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "packageStatus": "{dataHub.app.user.packageStatus}",
+            "packageSource": "{dataHub.app.user.packageSource}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {
+            "mediaContentType": "{dataHub.playback_content.resource.metadata.mediaContentType}",
+            "pageName": "{dataHub.playback_content.resource.metadata.pageName}",
+            "pageType": "{dataHub.playback_content.resource.metadata.video}",
+            "pageUrl": "{dataHub.playback_content.resource.metadata.pageUrl}",
+            "pageViewGuid": "{dataHub.playback_content.resource.metadata.pageViewGuid}",
+            "screenName": "{dataHub.playback_content.resource.metadata.screenName}",
+            "showEpisodeId": "{dataHub.playback_content.resource.metadata.showEpisodeId}",
+            "showEpisodeNumber": "{dataHub.playback_content.resource.metadata.episodeNumber}",
+            "showEpisodeTitle": "{dataHub.playback_content.resource.metadata.contentVideoTitle}",
+            "showGenre": "{dataHub.playback_content.resource.metadata.showGenre}",
+            "showSeasonNumber": "{dataHub.playback_content.resource.metadata.showSeasonNumber}",
+            "showSeriesId": "{dataHub.playback_content.resource.metadata.showSeriesId}",
+            "showSeriesTitle": "{dataHub.playback_content.resource.metadata.contentVideoTitle}"
+          }
+        },
+        "resourceend": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.sessionEnd",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "contentstart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.contentStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "contentplaying": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.play",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "contentprogress": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.ping",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "heartbeat": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.heartbeat",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "keepalive": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.keepalive",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "",
+            "profileId": "",
+            "profileCategory": "",
+            "profileMaster": "",
+            "profilePic": "",
+            "status": "",
+            "type": "",
+            "isAuthenticated": "false"
+          },
+          "context": {}
+        },
+        "contentbufferingstarted": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.bufferStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "contentbufferingended": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.play",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "seekstart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.seekStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "seekcomplete": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.play",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          }
+        },
+        "contentend": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.contentComplete",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "contentcomplete": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.contentComplete",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "contentpaused": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.pauseStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adbreakstart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adBreakStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adstart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adplaying": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adPlay",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}"
+            },
+            "playhead": "{dataHub.playback_ads.adInfo.adPlayHead}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adpaused": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adPauseStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}"
+            },
+            "playhead": "{dataHub.playback_ads.adInfo.adPlayHead}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adbufferingstarted": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adBufferStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}"
+            },
+            "playhead": "{dataHub.playback_ads.adInfo.adPlayHead}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adbufferingended": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adPlay",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}"
+            },
+            "playhead": "{dataHub.playback_ads.adInfo.adPlayHead}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adfirstquartile": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adQuartile",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}",
+              "progress": 25
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "admidpoint": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adQuartile",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}",
+              "progress": 50
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adthirdquartile": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adQuartile",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}",
+              "progress": 75
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adcomplete": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adComplete",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}",
+              "progress": 100
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adskipped": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adSkip",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}",
+              "progress": 100
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adbreakcomplete": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adBreakComplete",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "aderror,contenterror,resourceendwitherror": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.error",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}",
+            "errorDetail": {
+              "errorCode": "{event.detail.uvpCode}",
+              "isFatal": "{event.detail.isFatal}",
+              "errorMessage": "{event.detail.errorMsg}"
+            }
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "contentsegmentstart": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.segmentStart",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "segmentDetails": {
+              "contentType": "{dataHub.playback_content.resource.metadata.contentType}",
+              "showId": "{dataHub.playback_content.resource.metadata.showId}",
+              "episodeTitle": "{dataHub.playback_content.resource.metadata.episodeTitle}",
+              "ptvEpisodeId": "{dataHub.playback_content.resource.metadata.ptvEpisodeId}",
+              "ptvClipId": "{dataHub.playback_content.resource.metadata.ptvClipId}",
+              "episodeNumber": "{dataHub.playback_content.resource.metadata.episodeNumber}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "contentsegmentend": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.segmentEnd",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "segmentDetails": {
+              "contentType": "{dataHub.playback_content.resource.metadata.contentType}",
+              "showId": "{dataHub.playback_content.resource.metadata.showId}",
+              "episodeTitle": "{dataHub.playback_content.resource.metadata.episodeTitle}",
+              "ptvEpisodeId": "{dataHub.playback_content.resource.metadata.ptvEpisodeId}",
+              "ptvClipId": "{dataHub.playback_content.resource.metadata.ptvClipId}",
+              "episodeNumber": "{dataHub.playback_content.resource.metadata.episodeNumber}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        },
+        "adpauseend": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.adPauseEnd",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "adBreakDetails": {
+              "position": "{dataHub.playback_ads.adBreakInfo.adBreakPosition}",
+              "offset": "{dataHub.playback_ads.adBreakInfo.podStartPos}",
+              "type": "{dataHub.playback_ads.adBreakInfo.type}"
+            },
+            "adDetails": {
+              "id": "{dataHub.playback_ads.adInfo.adId}",
+              "name": "{dataHub.playback_ads.adInfo.adTitle}",
+              "length": "{dataHub.playback_ads.adInfo.adDuration}",
+              "position": "{dataHub.playback_ads.adInfo.adPosition}"
+            },
+            "playhead": "{dataHub.playback_ads.adInfo.adPlayHead}"
+          }
+        },
+        "pauseend": {
+          "id": "<% UUID.random() %>",
+          "hitId": "<% Counter.next() %>",
+          "type": "media.pauseend",
+          "timestamp": "<% Date.toIsoString() %>",
+          "emittedTimestamp": "<% Date.toIsoString() %>",
+          "visitId": "{dataHub.app.visitId}",
+          "app": {
+            "name": "{dataHub.app.name}",
+            "clientRegion": "{dataHub.app.clientRegion}",
+            "version": "{dataHub.app.version}",
+            "sessionId": "{dataHub.app.sessionId}"
+          },
+          "identity": {
+            "fpid": {
+              "id": "{dataHub.app.identity.fpid}"
+            },
+            "ecid": {
+              "id": "{dataHub.app.identity.ecid}"
+            }
+          },
+          "media": {
+            "sessionId": "{dataHub.playback_content.resource.sessionId}",
+            "mediaDetails": {
+              "id": "{dataHub.playback_content.resource.metadata.videoId}",
+              "name": "{dataHub.playback_content.resource.metadata.title}",
+              "type": "{dataHub.playback_content.resource.metadata.live} ? Live : VOD",
+              "length": "{dataHub.playback_content.resource.metadata.live} ? 86400 : {dataHub.playback_content.resource.metadata.mediaDuration}"
+            },
+            "stateDetails": {
+              "timeShiftedView": "false",
+              "fullScreen": "false",
+              "subTitleTrack": "off",
+              "pictureInPicture": "false",
+              "audioMuted": "false",
+              "audioTrack": "en-us"
+            },
+            "playhead": "{dataHub.playback_content.position}"
+          },
+          "user": {
+            "accountId": "{dataHub.app.user.accountId}",
+            "profileId": "{dataHub.app.user.profileId}",
+            "profileCategory": "{dataHub.app.user.profileCategory}",
+            "profileMaster": "{dataHub.app.user.profileMaster}",
+            "profilePic": "{dataHub.app.user.profilePic}",
+            "status": "{dataHub.app.user.status}",
+            "type": "{dataHub.app.user.type}",
+            "isAuthenticated": "{dataHub.app.user.isAuthenticated}"
+          },
+          "context": {}
+        }
+      },
+      "dataType": {
+        "debugLogging": "boolean",
+        "sendUndefined": "boolean",
+        "playhead": "int",
+        "isAuthenticated": "boolean",
+        "pingInterval": "int",
+        "maxBatchSize": "int",
+        "batchFlushInterval": "float",
+        "length": "int",
+        "timeShiftedView": "int",
+        "pictureInPicture": "int",
+        "audioMuted": "int",
+        "fullScreen": "int"
       }
     }
   },
@@ -1237,6 +3055,16 @@
         "sessionInterval": "int",
         "sessionTimeout": "int"
       }
+    }
+  },
+  "VisitSessionIdProvider": {
+    "enabled": "{context.enableVisitSessionIdProvider}",
+    "type": "preprocessor",
+    "params": {
+      "visitSessionId": "<% UUID.session() %>",
+      "expirationMinutes": 30,
+      "excludeCategories": [],
+      "providerURL": "//example.com/sessionid"
     }
   }
 }
