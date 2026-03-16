@@ -694,6 +694,9 @@
       "fpid": "1fd662ce-6a48-41fa-9929-df4b05e366df",
       "ecid": "89402930368806434151785186497125723346"
     },
+    "context": {
+      "showSeriesId": "123-show-45-series-67-id"
+    },
     "user": {
       "accountId": "24391455",
       "profileId": "145643",
