@@ -1,0 +1,54 @@
+[
+  {
+    "id": "theagency-1",
+    "time": 15,
+    "type": "Cast Fact",
+    "icon": "camera",
+    "text": "Harriet Sansom Harris, who plays Dr. Rachel Blake, is best known as the iconic agent Bebe Glazer on 'Frasier'.",
+    "poster": "frasierPoster.png",
+    "cta": {
+      "label": "My List",
+      "icon": "plus"
+    }
+  },
+  {
+    "id": "theagency-2",
+    "time": 50,
+    "type": "Real World Factoid",
+    "icon": "globe",
+    "text": "The analysts quickly pulling Alexei's flight data and medical history are known as Targeting Officers. They specialize in building a 'Target Package' to uncover a foreign national's vulnerabilities for potential recruitment."
+  },
+  {
+    "id": "theagency-3",
+    "time": 70,
+    "type": "Real World Factoid",
+    "icon": "globe",
+    "text": "The FSB, or Federal Security Service, is the principal security agency of Russia. Headquartered in Moscow, it serves as the primary successor to the infamous Soviet-era KGB."
+  },
+  {
+    "id": "theagency-4",
+    "time": 112,
+    "type": "Story Insight",
+    "icon": "book",
+    "text": "When Martian says Vilnius is 'OBE', he's using intelligence slang for 'Overtaken By Events.' It means a planned operation or piece of intel is no longer relevant due to changing circumstances."
+  },
+  {
+    "id": "theagency-5",
+    "time": 145,
+    "type": "Real World Factoid",
+    "icon": "globe",
+    "text": "Gdańsk is Poland's principal seaport on the Baltic coast. The historic city played a pivotal role in the 1980s collapse of the Eastern Bloc as the birthplace of the Solidarity movement."
+  },
+  {
+    "id": "theagency-6",
+    "time": 175,
+    "type": "Cast Fact",
+    "icon": "camera",
+    "text": "John Magaro plays CIA case officer Owen. He is no stranger to high-stakes missions, having played the tough-talking soldier Tibbet in the WWII action-horror thriller 'Overlord'.",
+    "poster": "overlordPoster.png",
+    "cta": {
+      "label": "My List",
+      "icon": "plus"
+    }
+  }
+]
