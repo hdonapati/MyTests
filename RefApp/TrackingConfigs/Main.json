@@ -973,7 +973,7 @@
           "eventList": "carouselView"
         }
       ],
-      "dataMappings": {
+      "eventList": {
         "trackMarqueeView": {
           "id": "<% UUID.random() %>",
           "hitId": "<% Counter.next() %>",
