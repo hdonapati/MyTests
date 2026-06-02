@@ -18,7 +18,9 @@
                 "event21": "{context.isDev} ? dataStreamId2-Dev : dataStreamId2",
                 "event22": "{context.isDev} ? dataStreamId3-Dev : dataStreamId3",
                 "event31": "{context.isDev} ? dataStreamId3-Dev : dataStreamId3",
-                "event32": "{context.isDev} ? dataStreamId3-Dev : dataStreamId3"
+                "event32": "{context.isDev} ? dataStreamId3-Dev : dataStreamId3",
+                "^(?!carousel(View|Select)|searchResult(View|Select|sSelect)$).*$": "100",
+                "trackCTA": "200" 
             },
             "eventRules": [
                 {
