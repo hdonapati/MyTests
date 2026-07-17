@@ -28,6 +28,18 @@
     },
     "isCLID3": true
   },
+  "URL | MultiView": {
+    "live": true,
+    "provider": "URL",
+    "isMultiView": true,
+    "contentUrl": "https://origin-irp-paramountmv-poc-01.vos360.video/Content/HLS_HLS/Live/channel(53117f26-232d-5448-702b-abc5ee7656b3)/master.m3u8",
+    "views": [
+      { "label": "1", "uri": "https://propeb0cgefc.airspace-cdn.cbsivideo.com/out/v1/4803be2837a945049501cc21e1483a47/manifest.m3u8" },
+      { "label": "2", "uri": "https://propea356135.airspace-cdn.cbsivideo.com/out/v1/79474b4a43074cefa135e44ea9b8c366/manifest.m3u8" },
+      { "label": "3", "uri": "https://prope58d7cg8.airspace-cdn.cbsivideo.com/out/v1/dd2cf563a5c14428aa29b0ccc9b26d69/manifest.m3u8" },
+      { "label": "4", "uri": "https://prope165ff67.airspace-cdn.cbsivideo.com/out/v1/eebf519ab3be4d3b99ac63c15fb6831f/manifest.m3u8" }
+    ]
+  },
   "DAI - Live CLIDE Squeezeback Ads": {
     "live": true,
     "partnerId": "cbs",
