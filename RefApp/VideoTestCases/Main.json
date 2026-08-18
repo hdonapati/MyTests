@@ -1,17 +1,4 @@
 {
-  "DAI | Live+DVR | HLS Clear": {
-    "adExit": true,
-    "adHoliday": false,
-    "dvr": true,
-    "live": true,
-    "partnerId": "cbs",
-    "provider": "DAI",
-    "title": "DAI - Live+DVR | HLS Clear",
-    "daiId": "HdjmKUTQRkexxeXSRa2Txw",
-    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-    "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
-    "adParameters": "cust_params=recommended_show%3D106%2C6087%2C61457217%2C61456196%2C393%2C21028%2C61456636%2C42505&imafw__fw_coppa=0&imafw__fw_did=rida%3Aefa37e1e-6a94-5563-bd90-284fbb37a1c5&imafw__fw_is_lat=1&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&imafw_csid=streaming_paramountplus_ctv_roku_live&imafw_esb=14&imafw_fms_emailhash=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&imafw_fms_ruleid=10003%2C10004&imafw_fms_subscriberid=100001470&imafw_fms_userid=e5017518-cc19-58b9-bdfb-e763f2ffc194&imafw_fms_vcid2type=emailhash&imafw_ge=1&imafw_gr=3&imafw_ima_sdkv=3.x&imafw_packageSource=recurly&imafw_roku_ad_query_id=7138598886194010242&imafw_sb=6&imafw_session=b&imafw_sub=100001470&imafw_subses=1&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=b31baff7-df8c-43b9-8c01-717e5e2ca529&tfcd=0"
-  },
   "DAI - Live | FSMulti-SqueezeBack": {
     "live": true,
     "dvr": true,
@@ -28,30 +15,6 @@
     },
     "isCLID3": true
   },
-  "URL | MultiView": {
-    "live": true,
-    "provider": "URL",
-    "isMultiView": true,
-    "contentUrl": "https://origin-irp-paramountmv-poc-01.vos360.video/Content/HLS_HLS/Live/channel(53117f26-232d-5448-702b-abc5ee7656b3)/master.m3u8",
-    "views": [
-      { "label": "1", "uri": "https://propeb0cgefc.airspace-cdn.cbsivideo.com/out/v1/4803be2837a945049501cc21e1483a47/manifest.m3u8" },
-      { "label": "2", "uri": "https://propea356135.airspace-cdn.cbsivideo.com/out/v1/79474b4a43074cefa135e44ea9b8c366/manifest.m3u8" },
-      { "label": "3", "uri": "https://prope165ff67.airspace-cdn.cbsivideo.com/out/v1/eebf519ab3be4d3b99ac63c15fb6831f/manifest.m3u8" },
-      { "label": "4", "uri": "https://prope58d7cg8.airspace-cdn.cbsivideo.com/out/v1/dd2cf563a5c14428aa29b0ccc9b26d69/manifest.m3u8" }
-    ]
-  },
-  "DAI - Live CLIDE Squeezeback Ads": {
-    "live": true,
-    "partnerId": "cbs",
-    "provider": "DAI",
-    "daiId": "vFC4Rb0eSfW8emit-rp9-A",
-    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-    "CLID3Config": {
-      "id3Owner": "com.paramount.vtg",
-      "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?prof=520311%3Ahylda&nw=520311&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&asnw=520311&vrdu=[DUR]&vprn=[RANDOM]&resp=vmap1%2Bvast4&vdty=VARIABLE&csid=streaming_paramountplus_us_ctv_appletv_live&caid=[CAID]&pvrn=[RANDOM]&ssnw=520311&metr=1023&mode=LIVE;fms_idfv=00F91CD0-0F9B-4760-8FD0-91378C717221&fms_vcid2type=emailhash&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_vcid2=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_height=1080&_fw_coppa=0&fms_emailhash=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_width=1920&fms_userid=%242a%2404%24Jmq6K4YgOwS38dusyZE3KOajyyot0HmP6leOXmFQtCUxQ7P9P.fd.&_fw_hylda=acid%3DPplus%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_us_privacy=1YNN&vguid=82CC0A5F-3008-411E-A4FD-4E211C2285B9&session=b&sb=14&subses=2&packageSource=recurly&gr=null&sz=640x480&ge=2&tfcd=0&user=ADULT;ptgt=a&slau=[SLAU]&cpsq=1&mind=[DUR]&tpos=0&tpcl=MIDROLL&maxd=[DUR];slid=companion&slau=companion&w=1920&h=375&flag=%2Bcmpn&prct=application%2Fjson%2Ctext%2Fhtml_doc_ref&ptgt=p"
-    },
-    "isCLID3": true
-  },
   "DAI | VoD | Big-Brother-Ep50": {
     "title": "DAI - Big-Brother-Ep50",
     "provider": "DAI",
@@ -64,19 +27,6 @@
     "live": false,
     "drmType": "widevine",
     "fetchLicense": true
-  },
-  "DAI | Live+DVR with Resume | HLS Clear": {
-    "adExit": true,
-    "adHoliday": false,
-    "dvr": true,
-    "live": true,
-    "partnerId": "cbs",
-    "provider": "DAI",
-    "resumePosition": 690,
-    "daiId": "HdjmKUTQRkexxeXSRa2Txw",
-    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-    "tokenAuthServiceUrlTemplate": "https://tokens.airspace-cdn.cbsivideo.com?hostname=$HOST&path=$PATH&auth=$TOKEN",
-    "adParameters": "cust_params=recommended_show%3D106%2C6087%2C61457217%2C61456196%2C393%2C21028%2C61456636%2C42505&imafw__fw_coppa=0&imafw__fw_did=rida%3Aefa37e1e-6a94-5563-bd90-284fbb37a1c5&imafw__fw_is_lat=1&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&imafw_csid=streaming_paramountplus_ctv_roku_live&imafw_esb=14&imafw_fms_emailhash=56eb96e30e22d0588fd663edf073b3abbce7519c94864af17b1c1ba50d87775a&imafw_fms_ruleid=10003%2C10004&imafw_fms_subscriberid=100001470&imafw_fms_userid=e5017518-cc19-58b9-bdfb-e763f2ffc194&imafw_fms_vcid2type=emailhash&imafw_ge=1&imafw_gr=3&imafw_ima_sdkv=3.x&imafw_packageSource=recurly&imafw_roku_ad_query_id=7138598886194010242&imafw_sb=6&imafw_session=b&imafw_sub=100001470&imafw_subses=1&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=b31baff7-df8c-43b9-8c01-717e5e2ca529&tfcd=0"
   },
   "DAI | VoD | Skip Promo": {
     "title": "DAI - Skip Promo",
@@ -91,40 +41,6 @@
     "drmType": "widevine",
     "fetchLicense": true
   },
-  "FB | Everybody Hates Chris": {
-    "provider": "DAI",
-    "daiSourceId": "2497752",
-    "daiId": "SVAFIkFxj21y4Wk3bqj9pPNsnjzbVKKO",
-    "adParams": {
-      "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
-      "imafw_ge": "3",
-      "imafw_gr": "5",
-      "sb": "22",
-      "imafw_sb": "22"
-    },
-    "type": "VOD",
-    "drmType": "widevine",
-    "usePodServing": true,
-    "podServingNetworkCode": "8264",
-    "fetchLicense": true
-  },
-  "FB | uyaKMtb7vp5JPTHbjK0jHsa224BYxoMZ": {
-    "provider": "DAI",
-    "daiSourceId": "2497752",
-    "daiId": "uyaKMtb7vp5JPTHbjK0jHsa224BYxoMZ",
-    "adParams": {
-      "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
-      "imafw_ge": "3",
-      "imafw_gr": "5",
-      "sb": "22",
-      "imafw_sb": "22"
-    },
-    "type": "VOD",
-    "drmType": "widevine",
-    "usePodServing": true,
-    "podServingNetworkCode": "8264",
-    "fetchLicense": true
-  },
   "RAF | VoD | VTT Thumbs | No Ads": {
     "provider": "RAF",
     "title": "RAF - VoD (VTT Thumbs)  | No Ads",
@@ -137,25 +53,17 @@
     "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator={RANDOM}",
     "contentUrl": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8"
   },
-  "URL | Live+DVR | Syncback": {
-    "dvr": true,
+  "URL | MultiView": {
     "live": true,
     "provider": "URL",
-    "isLtsRestricted": true,
-    "title": "URL - Live+DVR | HLS Syncback",
-    "contentUrl": "https://dai2-playlistserver.aws.syncbak.com/cpl/12733/cbsnfl/2.0/7b226361706162696c6974696573223a207b20223630667073223a2074727565207d7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjIwMTYwNDAxIiwidHlwIjoiSldUIn0.eyJjaWQiOiIxMjcxMCIsImNzYiI6ZmFsc2UsImRldmljZVR5cGUiOiI4IiwiZXhwIjoxNzEyNzAyOTgzLCJpc3MiOiJnZXRobHMiLCJtZDUiOiI3MWQ3Y2ViYzI3ZjBhNGNjYzhiOGE1MDBiMWQ2Mjk2MiIsIm1pZCI6IjEyNzMzIiwic2lkIjoiOTEiLCJzdWIiOiIwNjMzYWQ5ZWQ1NjE2ZjNlNWUxYmU5YWE4MjA0MWZiMiJ9.UuMbkTDwQeOTfQ1G_q4fgSTTKoBhObmcJV-dU2_RyZo"
-  },
-  "URL | VoD | VTT Thumbs": {
-    "adExit": true,
-    "adHoliday": false,
-    "dvr": false,
-    "live": false,
-    "partnerId": "cbs",
-    "provider": "URL",
-    "title": "URL - VoD (VTT Thumbs/Side CC)",
-    "thumbnailUrl": "https://news.play.cbsi.video/h/1.1cv0ssAys3rO8nlNqNDgILjpQCQaOvK3c0r8hJTnlfEz44sYLtm9KqyZR5Xpo0aA4c2zCxaInC8Pvi4hIyMQcLDiPkYwN5x62HKGlo742W8epdSfOjm7cflm4zYoq5ujmH8E0IbE7Bp1NQCikyBKODMMPaNBm21sE0tWTu2BZuuceoZdQSIM83EynkYBlkZMZBYKsbacs/thumbs.vtt",
-    "closedCaptionUrl": "https://cbsnews3.cbsistatic.com/hub/i/captions/GX8bakErI5LjHACcLpmwEF_kYGUOVC40.adb_xml",
-    "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/02/15/2003334211945/906291_hls/master.m3u8"
+    "isMultiView": true,
+    "contentUrl": "https://origin-irp-paramountmv-poc-01.vos360.video/Content/HLS_HLS/Live/channel(53117f26-232d-5448-702b-abc5ee7656b3)/master.m3u8",
+    "views": [
+      { "label": "1", "uri": "https://propeb0cgefc.airspace-cdn.cbsivideo.com/out/v1/4803be2837a945049501cc21e1483a47/manifest.m3u8" },
+      { "label": "2", "uri": "https://propea356135.airspace-cdn.cbsivideo.com/out/v1/79474b4a43074cefa135e44ea9b8c366/manifest.m3u8" },
+      { "label": "3", "uri": "https://prope165ff67.airspace-cdn.cbsivideo.com/out/v1/eebf519ab3be4d3b99ac63c15fb6831f/manifest.m3u8" },
+      { "label": "4", "uri": "https://prope58d7cg8.airspace-cdn.cbsivideo.com/out/v1/dd2cf563a5c14428aa29b0ccc9b26d69/manifest.m3u8" }
+    ]
   },
   "RAF | VoD | VTT Thumbs": {
     "adExit": true,
@@ -168,20 +76,6 @@
     "thumbnailUrl": "https://news.play.cbsi.video/h/1.LWdas2uVWKafMzKr3fhkvf74th6VUX6NnqNJtBteI3oB8WLyNvwnWyw3UmmW41boCwUnS1L6nMsaK1ZcKA2p16EHChfbxSaYJqrBmECpwjxspzTpeybMHyFq4TMyXbOZvNTE7xCPfXN4vkIvxgdLetHlTrFWKq88nO6KsdefZCQK1FAkHbtYk5M6u5C18jZI7aS/thumbs.vtt",
     "adUrl": "https://7f077.v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_ctv_roku_vod&asnw=520311&caid=Qh650aFubj9aURvIzPX2BFNYMXFX5GI_&flag=%2Bamcb%2Bemcr%2Bsltp%2Bslcb%2Bqtcb%2Bvicb%2Bfbad%2Bsync%2Bnucr%2Baeti&metr=1023&nw=520311&prof=520311%3AGoogleDAICSAI_NoVPAID&pvrn=ROKU_ADS_CACHE_BUSTER&resp=vmap1%2Bvast4&ssnw=520311&vprn=ROKU_ADS_CACHE_BUSTER;_fw_h_referer=CBS%20News%205.12.10&_fw_app_bundle=CBS%20News%205.12.10&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&description_url=https%3A%2F%2Fwww.cbsnews.com&vguid=c2f29f22-0f06-45eb-9ae3-ece200e53e3d&sz=640x480&_fw_vcid2=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_hh_ramp_id=UNMATCHED&fms_ifa=6e9b98f8-2e05-5a15-83c6-c974aba06e2c&fms_ramp_id=Xi6395-dFvHwmrfzQ4b9DtzQDRAGb065j3ueuEBVeiFqKN0mOZp8pf24P9LcRYcXPS5IMh&fms_vcid2type=liveramp&",
     "contentUrl": "https://prod.vodvideo.cbsnews.com/cbsnews/vr/hls/2022/01/07/1990687811625/873333_hls/master.m3u8"
-  },
-  "DAI | VoD | DRM": {
-    "adExit": true,
-    "adHoliday": false,
-    "daiId": "bmXIGcQ6d1xnZvJfMFEjyGR5FkzDLIbn",
-    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-    "daiSourceId": "2497752",
-    "drmType": "widevine",
-    "dvr": false,
-    "live": false,
-    "partnerId": "cbs",
-    "provider": "DAI",
-    "title": "DAI - VoD (DRM)",
-    "fetchLicense": true
   },
   "DAI | Live": {
     "adExit": true,
@@ -222,33 +116,6 @@
     "title": "DAI - VoD (DRM) (DASH Thumbs) w/Promo",
     "fetchLicense": true
   },
-  "DAI | VoD | DRM | DASH Thumbs | Innovid": {
-    "adExit": true,
-    "adHoliday": false,
-    "daiId": "wvJd26vLxpwJ1YPf202Hx31mpFghc50F",
-    "daiSourceId": "2497752",
-    "drmType": "widevine",
-    "dvr": false,
-    "live": false,
-    "partnerId": "cbs",
-    "adParams": {
-      "imafw_csid": "streaming_paramountplus_us_ctv_roku_vod",
-      "imafw_sb": "22"
-    },
-    "provider": "DAI",
-    "title": "DAI - Innovid | The Price is Right - 09/26/2023 ",
-    "fetchLicense": true
-  },
-  "DAI - BrightLine 2": {
-    "adParameters": "cust_params=recommended_show%3D61456636%2C6087%2C61456321%2C393%2C61456196%2C61456195%2C42505%2C61456386%2C5692%2C61456496&imafw__fw_content_language=en&imafw__fw_continuous_play=0&imafw__fw_coppa=0&imafw__fw_did=rida%3A876a043c-86df-5f8f-8fde-d690ed80c9be&imafw__fw_h_x_country=us&imafw__fw_is_lat=1&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=c8b268d41bda08ecf77ccd1135a0fc19c26b32290b01a2793202c4da27205ed1&imafw_build=sideload&imafw_cpPre=0&imafw_cpSession=0&imafw_csid=streaming_paramountplus_us_desktop_web_vod&imafw_device_region_language=en&imafw_endcard=false&imafw_env=production&imafw_fms_emailhash=c8b268d41bda08ecf77ccd1135a0fc19c26b32290b01a2793202c4da27205ed1&imafw_fms_ruleid=10003%2C10004&imafw_fms_subscriberid=70274630&imafw_fms_userid=cefd01e6-e0d9-5ce8-be3d-4c6597c2fc46&imafw_fms_vcid2type=emailhash&imafw_ge=1&imafw_gr=4&imafw_ima_sdkv=3.x&imafw_language_selection=en&imafw_packageSource=cbscomp&imafw_ptype=video&imafw_region=us&imafw_sb=22&imafw_session=b&imafw_showSection=home&imafw_source=show_hero&imafw_sub=70274630&imafw_sublife=g&imafw_subses=1&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=8555714e-93ed-41f0-b23e-186b5c4d3852&is_lat=1&tfcd=0",
-    "contentUrl": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2023/09/19/2265011267517/2367632_cenc_precon_dash/stream.mpd",
-    "daiId": "YAxteZGi9KXBFui9JAtKjMb4qNJQWO_y",
-    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-    "daiSourceId": "2497752",
-    "drmType": "widevine",
-    "provider": "DAI",
-    "fetchLicense": true
-  },
   "DAI - BrightLine Ad Selector": {
     "adParameters": "cust_params=recommended_show%3D61459165%2C941410057%2C61465429%2C61460200%2C6087%2C61456188%2C61466455%2C61457230%2C61456289%2C25339&imafw__fw_3P_UID=IDL%3AAiIfabTNTEb4eRXowDKd3xp0WFcOlFloCiT6bsA6KSHyT_Docnxg6kUe6o8p_MQfMu0bZWsF07r9WzYZ-NArOt2xXiDtZN1Q8ShTHhpgxug4mhfC_pCmoZCRI10Mk3xwDgUsNtFJXsh6zrsqVgpJCNs_lndFVdi5FVGZrO3Q9OZt_T174rMG-bsWtYhuNaWQtvPRMEBu%2CPAIRID%3AWyJBMlljTU50ZElVMkZiQmQxZ0c2N1I0VnVmejhHc0diQTNQd3FkczZtZVBXbiJd%2Cconnectid%3A7wHCl3lXCFvUDDeamPzVF2DAJBZAEZQkKCcXLMYNI0JiotIb1jVB9MkhLS3KftnbqZMPId2-Tu_EKqJnDMWSEA%2CUID2%3AAgAADlJs4H52O8o4PK9qDaqM%2B8QXfEkBue7Iqv0ZlNThTO0ROHAplT4FWNQo7lQX2GLKS1Y8Y1sUrpPM8%2FsvEg5IfXTsOroiyS5IlFF2%2FmhUONGdyuWF9zvPsRNT9vezy3EOcbryjGxHjFIB1AKItg0XCvGG7GsBcgp1S6LltEDd3DewUg%3D%3D%2CVIANTP%3A4834655f6162127227b2dee464268e478b601cd5a47b03129496234ade2054d2&imafw__fw_content_language=en&imafw__fw_continuous_play=0&imafw__fw_coppa=0&imafw__fw_did=rida%3Add8deb46-4d5a-543d-85ac-d4b8284b2415&imafw__fw_h_x_country=us&imafw__fw_is_lat=0&imafw__fw_us_privacy=1YNN&imafw__fw_vcid2=Xi6395Nz2eaAJuK0Z2ePVKFRG-gCg-K-MWFFYY6yQ0kc14Lp2M0hj0CwsCjF0RkLnNdYX_&imafw_build=sideload&imafw_cpPre=0&imafw_cpSession=0&imafw_csid=streaming_paramountplus_us_desktop_web_vod&imafw_device_region_language=en&imafw_endcard=false&imafw_env=production&imafw_fms_bididtype=1040%2C1050%2C1030%2C1010%2C1070&imafw_fms_connectid=7wHCl3lXCFvUDDeamPzVF2DAJBZAEZQkKCcXLMYNI0JiotIb1jVB9MkhLS3KftnbqZMPId2-Tu_EKqJnDMWSEA&imafw_fms_emailhash=23182197257bcc7026ec2b4fa9b41deff2fa56c84d0a8d8c1eac0f52f6b2c566&imafw_fms_hh_ramp_id=UNMATCHED&imafw_fms_ifa=dd8deb46-4d5a-543d-85ac-d4b8284b2415&imafw_fms_pair=WyJBMlljTU50ZElVMkZiQmQxZ0c2N1I0VnVmejhHc0diQTNQd3FkczZtZVBXbiJd&imafw_fms_ramp_envelope=AiIfabTNTEb4eRXowDKd3xp0WFcOlFloCiT6bsA6KSHyT_Docnxg6kUe6o8p_MQfMu0bZWsF07r9WzYZ-NArOt2xXiDtZN1Q8ShTHhpgxug4mhfC_pCmoZCRI10Mk3xwDgUsNtFJXsh6zrsqVgpJCNs_lndFVdi5FVGZrO3Q9OZt_T174rMG-bsWtYhuNaWQtvPRMEBu&imafw_fms_ramp_id=Xi6395Nz2eaAJuK0Z2ePVKFRG-gCg-K-MWFFYY6yQ0kc14Lp2M0hj0CwsCjF0RkLnNdYX_&imafw_fms_ruleid=10000&imafw_fms_subscriberid=55432122&imafw_fms_uid2=AgAADlJs4H52O8o4PK9qDaqM%2B8QXfEkBue7Iqv0ZlNThTO0ROHAplT4FWNQo7lQX2GLKS1Y8Y1sUrpPM8%2FsvEg5IfXTsOroiyS5IlFF2%2FmhUONGdyuWF9zvPsRNT9vezy3EOcbryjGxHjFIB1AKItg0XCvGG7GsBcgp1S6LltEDd3DewUg%3D%3D&imafw_fms_userid=ab4f3743-c2c1-5859-80da-d3002ada46b2&imafw_fms_vcid2type=liveramp&imafw_ge=3&imafw_gpp=DBABzw~1YNN~BVQqAAAAAgA&imafw_gpp_sid=6_7&imafw_gr=3&imafw_ima_sdkv=3.x&imafw_language_selection=en&imafw_packageSource=cbscomp&imafw_ptype=video&imafw_region=us&imafw_sb=22&imafw_session=d&imafw_showSection=episodes%3Aseason_1&imafw_source=show_content_episodes%3Aseason_1&imafw_sub=55432122&imafw_sublife=g&imafw_subses=2&imafw_sz=640x480&imafw_tfcd=0&imafw_user=ADULT&imafw_vguid=726472ed-f24b-4c0b-9cd6-46d8131ccfb0&is_lat=0&rdp=0&tfcd=0&dai-excl=codec:ac-3,codec:aac&imafw_playername_version=avia-roku_4.39.0&imafw_ima_sdkv=3.1313",
     "daiId": "162AB953-B28B-56D0-E83D-0D5FC510524A",
@@ -275,40 +142,6 @@
     "provider": "DAI",
     "title": "DAI - BrightLine",
     "fetchLicense": true
-  },
-  "DAI | VoD | DRM | DASH Thumbs | BrightLine 2": {
-    "daiId": "Ts75oalhHwgeS5tVQlqgEr1QMCH_5vZ_",
-    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-    "daiSourceId": "2497752",
-    "drmType": "widevine",
-    "partnerId": "cbs",
-    "adParams": {
-      "csid": "streaming_paramountplus_us_desktop_web_vod",
-      "sb": "22",
-      "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
-      "imafw_sb": "22"
-    },
-    "provider": "DAI",
-    "title": "DAI - BrightLine Video Gallery",
-    "resumePosition": 690,
-    "fetchLicense": true
-  },
-  "DAI | VoD | DRM | DASH Thumbs | BrightLine1": {
-    "daiId": "2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
-    "daiKey": "7j3n273bfj7jcnvf22d713a51f",
-    "daiSourceId": "2560022",
-    "partnerId": "cbs",
-    "adParams": {
-      "imafw_caid": "2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
-      "caid": "2tH34L6dqaX9bx11ot_pPwjy6zehrtB4",
-      "imafw_csid": "streaming_paramountplus_us_desktop_web_vod",
-      "csid": "streaming_paramountplus_us_desktop_web_vod",
-      "imafw_sb": "22",
-      "sb": "22"
-    },
-    "resumePosition": 1320,
-    "provider": "DAI",
-    "title": "DAI - BrightLine 1"
   },
   "DAI | VoD | DRM | DASH Thumbs | W/Promo | w/Resume": {
     "adExit": true,
@@ -381,30 +214,6 @@
     },
     "isCLID3": true
   },
-  "URL | MultiView HLS": {
-    "live": true,
-    "provider": "URL",
-    "title": "URL - MultiView HLS",
-    "contentUrl": "https://origin-irp-paramountmv-poc-01.vos360.video/Content/Channel/service2/HLS/master.m3u8"
-  },
-  "URL | MultiView DASH": {
-    "live": true,
-    "provider": "URL",
-    "title": "URL - MultiView DASH",
-    "contentUrl": "https://origin-irp-paramountmv-poc-01.vos360.video/Content/DASH_DASH/Live/channel(service2)/master.mpd"
-  },
-  "URL | Propellor Workflow | CLIDE": {
-    "title": "UFC CLIDE | Propellor WorkFlow",
-    "provider": "URL",
-    "contentUrl": "https://prope3783egc.airspace-cdn.cbsivideo.com/expire-1/vtgufcsfotest/vtgqaee3d/master-vtgqaee3d-hls-f3805e.m3u8",
-    "live": true,
-    "dvr": true,
-    "CLID3Config": {
-      "id3Owner": "com.paramount.vtg",
-      "adCallTemplate": "https://7f077.v.fwmrm.net/ad/g/1?prof=520311%3Ahylda&nw=520311&flag=%2Bamcb%2Bemcr%2Bdtrd%2Bsltp%2Bslcb%2Bexvt%2Bfbad%2Bsync%2Bnucr%2Baeti&asnw=520311&vrdu=[DUR]&vprn=[RANDOM]&resp=vmap1%2Bvast4&vdty=VARIABLE&csid=streaming_paramountplus_us_ctv_appletv_live&caid=[CAID]&pvrn=[RANDOM]&ssnw=520311&metr=1023&mode=LIVE;fms_idfv=00F91CD0-0F9B-4760-8FD0-91378C717221&fms_vcid2type=emailhash&_fw_nielsen_app_id=P0C0C37AD-20C4-4EF7-AF25-BEBCB16DF85E&_fw_vcid2=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_height=1080&_fw_coppa=0&fms_emailhash=9fa94bd18f3c4864a96e4b0eac3d3d14d4d1b6accae143d024d7e0daaa3f4f92&_fw_player_width=1920&fms_userid=%242a%2404%24Jmq6K4YgOwS38dusyZE3KOajyyot0HmP6leOXmFQtCUxQ7P9P.fd.&_fw_hylda=acid%3DPplus%26aiid%3D[AIID]%26abid%3Dbreak%3A%2F%2F[AIID]%2F[ABID]&_fw_us_privacy=1YNN&vguid=82CC0A5F-3008-411E-A4FD-4E211C2285B9&session=b&sb=14&subses=2&packageSource=recurly&gr=null&sz=640x480&ge=2&tfcd=0&user=ADULT;ptgt=a&slau=[SLAU]&cpsq=1&mind=[DUR]&tpos=0&tpcl=MIDROLL&maxd=[DUR];slid=companion&slau=companion&w=1920&h=375&flag=%2Bcmpn&prct=application%2Fjson%2Ctext%2Fhtml_doc_ref&ptgt=p"
-    },
-    "isCLID3": true
-  },
   "URL | VoD | Multiple Audio Tracks": {
     "provider": "URL",
     "type": "VOD",
@@ -417,22 +226,6 @@
     "type": "VOD",
     "contentURL": "https://vod-gcs-cedexis.cbsaavideo.com/intl_vms/2022/10/26/2091444291941/2510383_cenc_fmp4_dash/stream.mpd",
     "fetchLicense": true
-  },
-  "URL | SyncBack | LiveDVR HLS Thumbs": {
-    "provider": "URL",
-    "drmType": "widevine",
-    "live": true,
-    "dvr": true,
-    "contentURL": "https://qa-cbsplaylistserver.aws.syncbak.com/cpl/-1608041354/cbslts/2.0/7b226361706162696c6974696573223a207b20223630667073223a2074727565207d7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjIwMTYwNDAxIiwidHlwIjoiSldUIn0.eyJjaWQiOiIxMjcxMCIsImNzYiI6ZmFsc2UsImRldmljZVR5cGUiOiI4IiwiZXhwIjoxNzQwNjIwNzMxLCJpc3MiOiJnZXRobHMiLCJtZDUiOiJhZjMwNzYzNWE3MmFmODNiNmFkNGY1MDA0ODkyMzRhZiIsIm1pZCI6Ii0xNjA4MDQxMzU0Iiwic2lkIjoiOTEiLCJzdWIiOiIxZDZiYTg1NDIzYmQ0YWMxNmJmM2U5NGI0NTAyZGVmZiJ9.pcJq3ttzSqggLSt8XRNtreJKDi34so_ACVNbDtLadsc"
-  },
-  "URL | LTS | DASH+DRM": {
-    "provider": "URL",
-    "live": true,
-    "dvr": true,
-    "drmType": "widevine",
-    "contentID": "41e216ac-19f6-462a-9df2-3f8b7cd2122b",
-    "useStagingForDRMLicense": true,
-    "contentURL": "https://prope238agh5.airspace-cdn.cbsivideo.com/out/v1/b79778c9abaa4cc5bd49bae5900e2fb5/manifest.mpd"
   },
   "CUSTOM | VoD ": {
     "title": "CUSTOM | VoD",
