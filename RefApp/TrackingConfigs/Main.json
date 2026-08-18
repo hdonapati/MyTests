@@ -17,7 +17,8 @@
       "playerStates": {
         "timeShifted": true,
         "streamingFormatVideoColorRange": true,
-        "squeezebackAd": true
+        "squeezebackAd": true,
+        "multiViewTileChanged": true
       },
       "eventList": {
         "Play": {
@@ -554,7 +555,8 @@
       "playerStates": {
         "timeShifted": true,
         "streamingFormatVideoColorRange": true,
-        "squeezebackAd": true
+        "squeezebackAd": true,
+        "multiViewTileChanged": true
       },
       "dataType": {
         "analytics.enableSSL": "boolean",
